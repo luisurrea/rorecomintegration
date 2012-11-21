@@ -1,0 +1,8 @@
+<h3>Editar metodo de envio </h3>
+
+<%= form_for(@shipping_method, :url => admin_config_shipping_method_path(@shipping_method)) do |f| %>
+  <%= render :partial => 'form', :locals => {:f => f} %>
+<% end %>
+
+<%= link_to "Atras", admin_config_shipping_methods_path, :class => 'button' %>
+

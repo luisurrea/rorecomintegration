@@ -1,0 +1,10 @@
+<h3>Nuevo metodo de envio</h3>
+
+<p>Un ejemplo de metodo de envio es Coordinadora<p>
+
+<%= form_for(@shipping_method, :url => admin_config_shipping_methods_path) do |f| %>
+  <%= render :partial => 'form', :locals => {:f => f} %>
+<% end %>
+
+<%= link_to 'Atras', admin_config_shipping_methods_path, :class => "button" %>
+

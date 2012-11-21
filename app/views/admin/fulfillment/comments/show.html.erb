@@ -1,0 +1,13 @@
+<h1> Comentario </h1>
+
+<p>
+  <strong>Nota:</strong>
+  <%= @comment.note %>
+</p>
+
+<p>
+  <%= link_to "Editar", edit_admin_fulfillment_order_comment_path(order, @comment), :class => 'button' %> |
+  <%= link_to "Borrar", admin_fulfillment_order_comment_path(order, @comment), :data => {:confirm => 'Esta seguro?'}, :method => :delete, :class => 'button' %> |
+  <%= link_to "Ver todo", admin_fulfillment_order_comments_path(order), :class => 'button' %>
+</p>
+

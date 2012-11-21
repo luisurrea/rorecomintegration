@@ -1,0 +1,37 @@
+<div class="admin_title_header">
+  <h3>Tarifas de impuestos</h3>
+  <%= link_to 'Nueva tarifa', new_admin_config_tax_rate_path, :class => 'button' %>
+</div>
+
+<div class="admin_tax_rates">
+  <table>
+    <thead>
+    <tr class='odd'>
+      <th class='column1_header'>Porcentaje</th>
+      <th>Tipo de producto</th>
+      <th>Estado</th>
+      <th>Fecha inicio</th>
+      <th>Fecha fin</th>
+      <th>Activa</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+    </thead>
+
+  <% @tax_rates.each do |tax_rate| %>
+    <tr class='<%= cycle("odd", "")%>'>
+      <td><%= tax_rate.percentage %></td>
+      <td><%= tax_rate.tax_category.name %></td>
+      <td><%= tax_rate.state.name %></td>
+      <td><%= tax_rate.start_date %></td>
+      <td><%= tax_rate.end_date %></td>
+      <td><%= tax_rate.active.to_s %></td>
+      <td><%= link_to 'Mostrar', admin_config_tax_rate_path(tax_rate) %></td>
+      <td><%= link_to 'Editar', edit_admin_config_tax_rate_path(tax_rate) %></td>
+      <td><%= link_to 'Eliminar', admin_config_tax_rate_path(tax_rate), :confirm => 'Esta seguro?', :method => :delete %></td>
+    </tr>
+  <% end %>
+  </table>
+</div>
+

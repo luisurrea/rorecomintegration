@@ -1,0 +1,9 @@
+<h3>Editar tarifa de envio</h3>
+
+<%= form_for(@shipping_rate, :url => admin_config_shipping_rate_path(@shipping_rate)) do |f| %>
+  <%= render :partial =>  'form', :locals => {:f => f} %>
+<% end %>
+
+<%= link_to 'Mostrar', admin_config_shipping_rate_path(@shipping_rate), :class => 'button' %>
+<%= link_to 'Atras', admin_config_shipping_rates_path, :class => 'button' %>
+

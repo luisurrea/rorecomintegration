@@ -1,0 +1,9 @@
+<h3>Editar Categoria Envio <%= @shipping_category.name %> </h3>
+
+<%= form_for(@shipping_category, :url => admin_config_shipping_category_path(@shipping_category)) do |f| %>
+  <%= render :partial => 'form', :locals => {:f => f} %>
+<% end %>
+
+<%= link_to 'Mostrar', admin_config_shipping_category_path(@shipping_category), :class => 'button' %>
+<%= link_to 'Atras', admin_config_shipping_categories_path, :class => 'button' %>
+

@@ -1,0 +1,31 @@
+<% if @shipping_rate.errors.any? %>
+  <div id="error_explanation">
+    <h2><%= pluralize(@shipping_rate.errors.count, "error") %> problema al guardar la tarifa de envio:</h2>
+
+    <ul>
+    <% @shipping_rate.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+    </ul>
+  </div>
+<% end %>
+
+<fieldset>
+  <label>Metodo de envio</label>
+  <%= f.select :shipping_method_id, @shipping_methods %>
+
+  <label>Tarifa</label>
+  <%= f.text_field :rate %>
+
+  <label>Cargo minimo</label>
+  <%= f.text_field :minimum_charge %>
+
+  <label>Tipo de tarifa de envio</label>
+  <%= f.select :shipping_rate_type_id, @shipping_rate_types %>
+
+  <label>Categoria de envio</label>
+  <%= f.select :shipping_category_id, @shipping_categories %>
+</fieldset>
+
+<%= f.submit "Crear", :class => "button" %>
+

@@ -1,0 +1,8 @@
+<h3>Nueva Categoria de impuestos</h3>
+
+<%= form_for(@tax_category, :url => admin_config_tax_categories_path) do |f| %>
+  <%= render :partial => 'form', :locals => {:f => f} %>
+<% end %>
+
+<%= link_to 'Atras', admin_config_tax_categories_path, :class => 'button' %>
+

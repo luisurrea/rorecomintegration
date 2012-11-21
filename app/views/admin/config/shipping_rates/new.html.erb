@@ -1,0 +1,8 @@
+<h3>Nueva tarifa de envio</h3>
+
+<%= form_for(@shipping_rate, :url => admin_config_shipping_rates_path) do |f| %>
+  <%= render :partial => 'form', :locals => {:f => f} %>
+<% end %>
+
+<%= link_to "Atras", admin_config_shipping_rates_path, :class => "button" %>
+

@@ -1,0 +1,8 @@
+<h1> Comentario sobre la Orden (<%= order.number %>)</h1>
+
+<%= form_for(@comment, :url => admin_fulfillment_order_comments_path(order, @comment)) do |f| %>
+  <%= render :partial => 'form', :locals => {:f => f} %>
+<% end %>
+
+  <%= link_to 'Volver al listado', admin_fulfillment_order_comments_path(order), :class => 'button' %>
+

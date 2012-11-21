@@ -1,0 +1,12 @@
+
+<h1>Nueva categoria de envio</h1>
+
+<%= form_for(@shipping_category, :url => admin_config_shipping_categories_path) do |f| %>
+  <%= render :partial => 'form', :locals => {:f => f} %>
+<% end %>
+<%= link_to 'Atras', admin_config_shipping_categories_path, :class => 'button' %>
+
+<p> 
+Un ejemplo de categoria de envio puede ser productos grandes, los cuales requieren un medio de transporte de mayor capacidad, los productos pequeños pueden ser entregados en motocicleta
+</p>
+

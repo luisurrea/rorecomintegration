@@ -1,0 +1,8 @@
+<h3>Editar categoria de impuesto</h3>
+
+<%= form_for(@tax_category, :url => admin_config_tax_category_path(@tax_category)) do |f| %>
+  <%= render :partial =>  'form', :locals => {:f => f} %>
+<% end %>
+
+<%= link_to 'Atras', admin_config_tax_categories_path, :class => "button" %>
+

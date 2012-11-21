@@ -1,0 +1,23 @@
+<div class="admin_title_header">
+  <h3>Categorias de impuestos</h3>
+  <%= link_to 'Nueva Categoria', new_admin_config_tax_category_path, :class => "button" %>
+</div>
+
+<div class="admin_tax_categories">
+  <table>
+    <thead>
+    <tr class='odd'>
+      <th class='column1_header'>Nombre</th>
+      <th></th>
+    </tr>
+    </thead>
+
+  <% @tax_categories.each do |tax_category| %>
+    <tr class='<%= cycle("odd", "")%>'>
+      <td><%= link_to tax_category.name, edit_admin_config_tax_category_path(tax_category) %></td>
+      <td><%= link_to "Borrar", admin_config_tax_category_path(tax_category), :data => { :confirm => 'Text' }, :method => :delete %></td>
+    </tr>
+  <% end %>
+  </table>
+</div>
+
