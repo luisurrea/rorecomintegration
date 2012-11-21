@@ -1,17 +1,17 @@
 <% if @order %>
-  <h3>Shipments for Order # <%= @order.number %></h3>
+  <h3>Cargamentos para Orden # <%= @order.number %></h3>
 <% else %>
-  <h3>Shipments</h3>
+  <h3>Cargamentos</h3>
 <% end %>
 
 <table>
   <thead>
   <tr class='odd'>
-    <th class='column1_header'>Number</th>
-    <th>Order #</th>
-    <th>Shipped at</th>
-    <th>Tracking</th>
-    <th>State</th>
+    <th class='column1_header'>Numero</th>
+    <th>Orden #</th>
+    <th>Cargada en</th>
+    <th>Seguimiento</th>
+    <th>Estado</th>
     <th>Items</th>
     <th></th>
     <th></th>
@@ -31,13 +31,13 @@
           <%= raw shipment.order_items.collect {|item| item.variant.product_name }.join('<br/>')  %>
 
         </td>
-        <td><%= link_to 'Show', admin_fulfillment_shipment_path(shipment) %></td>
-        <td><%= link_to 'Edit', edit_admin_fulfillment_shipment_path(shipment) %></td>
+        <td><%= link_to 'Mostrar', admin_fulfillment_shipment_path(shipment) %></td>
+        <td><%= link_to 'Editar', edit_admin_fulfillment_shipment_path(shipment) %></td>
         <td>
           <% unless shipment.shipped? %>
-            <%= button_to 'Mark Shipped',
+            <%= button_to 'Marcar como enviado',
                           ship_admin_fulfillment_shipment_path(shipment, :order_id => shipment.order.number),
-                          :confirm => "Are you sure?",
+                          :confirm => "Esta seguro?",
                           :method => :put %>
           <% end %>
         </td>

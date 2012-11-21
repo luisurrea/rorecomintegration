@@ -3,12 +3,12 @@
     <%= form_tag admin_fulfillment_orders_path, :method => 'get', :id => "orders_search" do %>
       <p>
         <ul class=' search_boxes'>
-          <li><%= label_tag 'Number' %> <%= text_field_tag :number, params[:number] %></li>
+          <li><%= label_tag 'Numero' %> <%= text_field_tag :number, params[:number] %></li>
           <li><%= label_tag 'Email' %>  <%= text_field_tag :email, params[:email] %></li>
-          <li><%= label_tag 'shipped' %>  <%= check_box_tag :shipped, 'true', params[:shipped] == 'true' %></li>
+          <li><%= label_tag 'Enviada' %>  <%= check_box_tag :shipped, 'true', params[:shipped] == 'true' %></li>
         </ul>
         <div style='text-align:center'>
-        <%= submit_tag "Search", :name => nil, :class => 'button red-button' %>
+        <%= submit_tag "buscar", :name => nil, :class => 'button red-button' %>
         </div>
       </p>
       <div id="order_hidden">
@@ -20,18 +20,18 @@
   </div>
 <% end %>
 
-<h3>Shipping Orders</h3>
+<h3>Ordenes de Envio</h3>
 
 <div id="admin_fulfillment_orders_page_wrapper">
   <div id="admin_fulfillment_orders_grid_wrapper" class='column pretty_table'>
       <table>
         <thead>
         <tr class='odd'>
-          <th class='column1_header'><%= sortable "number" %></th>
+          <th class='column1_header'><%= sortable "numero" %></th>
           <th><%= sortable "email" %></th>
-          <th><%= "Name" %></th>
+          <th><%= "Nombre" %></th>
           <th>Status</th>
-          <th><%= 'Shipped' %></th>
+          <th><%= 'Enviada' %></th>
         </tr>
         </thead>
         <% @orders.each do |order| %>

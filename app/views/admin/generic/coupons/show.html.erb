@@ -1,47 +1,47 @@
 
-<h1> Coupon </h1>
+<h1> Cupon </h1>
 
 <p>
-  <strong>Code:</strong>
+  <strong>Codigo:</strong>
   <%= @coupon.code %>
 </p>
 
 <p>
-  <strong>Amount:</strong>
+  <strong>Valor:</strong>
   <%= @coupon.amount %>
 </p>
 
 <p>
-  <strong>Minimum Value:</strong>
+  <strong>Valor minimo:</strong>
   <%= @coupon.minimum_value %>
 </p>
 
 <p>
-  <strong>Percent:</strong>
+  <strong>Porcentaje:</strong>
   <%= @coupon.percent %>
 </p>
 
 <p>
-  <strong>Description:</strong>
+  <strong>Descripcion:</strong>
   <%= @coupon.description %>
 </p>
 
 <p>
-  <strong>combine:</strong>
+  <strong>combinar:</strong>
   <%= @coupon.combine.to_s %>
 </p>
 
 <p>
-  <strong>Starts at:</strong>
+  <strong>Comienza en:</strong>
   <%= @coupon.display_start_time %>
 </p>
 
 <p>
-  <strong>Expires at:</strong>
+  <strong>Expira:</strong>
   <%= @coupon.display_expires_time %>
 </p>
 
 <p>
-  <%= link_to "Edit", edit_admin_generic_coupon_path(@coupon), :class => 'button' %> |
-  <%= link_to "View All", admin_generic_coupons_path, :class => 'button' %>
+  <%= link_to "Editar", edit_admin_generic_coupon_path(@coupon), :class => 'button' %> |
+  <%= link_to "Ver todo", admin_generic_coupons_path, :class => 'button' %>
 </p>

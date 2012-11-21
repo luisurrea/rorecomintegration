@@ -1,5 +1,5 @@
 
-<h1> Inventory Adjustment  for <%= @variant.product_name %> </h1>
+<h1> Ajuste de inventario <%= @variant.product_name %> </h1>
 
 <%= form_for(@variant, :url => admin_inventory_adjustment_path(@variant)) do |f| %>
   <%= render :partial => 'form', :locals => {:f => f} %>
@@ -16,9 +16,9 @@
   <thead>
     <tr>
       <th>SKU</th>
-      <th>count on hand</th>
-      <th>pending to customer</th>
-      <th>count pending from supplier</th>
+      <th>cuenta en mano</th>
+      <th>Pendiente para el cliente</th>
+      <th>Pendiente del proveedor</th>
       <th></th>
     </tr>
   </thead>
@@ -32,6 +32,6 @@
 
 
 <p>
-  <%= link_to "Show #{@variant.product_name}" , admin_inventory_adjustment_path( @variant.product ), :class => 'button' %> |
-  <%= link_to 'View Products', admin_inventory_adjustments_path, :class => 'button' %>
+  <%= link_to "Mostrar #{@variant.product_name}" , admin_inventory_adjustment_path( @variant.product ), :class => 'button' %> |
+  <%= link_to 'Ver productos', admin_inventory_adjustments_path, :class => 'button' %>
 </p>

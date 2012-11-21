@@ -1,22 +1,22 @@
 <%= f.error_messages %>
 
 <fieldset>
-  <label>Buy Quantity</label>
+  <label>Cantidad de compra</label>
   <%= f.number_field :buy_quantity %>
 
-  <label>Get Percentage</label>
+  <label>Obtener porcentaje</label>
   <%= f.number_field :get_percentage %>
 
-  <label>Deal Type</label>
+  <label>Tipo de oferta</label>
   <%= f.number_field :deal_type_id %>
 
-  <label>Product Type</label>
+  <label>Tipo de producto</label>
   <%= f.number_field :product_type_id %>
 
-  <label>Get Amount</label>
+  <label>Obtener valor</label>
   <%= f.number_field :get_amount %>
 
-  <label>Deleted at</label>
+  <label>Borrado en</label>
   <div class='date-select'>
     <%= f.datetime_select :deleted_at %>
   </div>

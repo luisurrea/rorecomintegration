@@ -1,13 +1,13 @@
 <p id="notice"><%= notice %></p>
 <div class=' span-16 column'>
-  <b>Order Information:</b>
+  <b>Informacion de la orden:</b>
   <div  id='order-items'
         class='rounded-10 line_item_blue float-left'>
-            Order Number: <%= @order.number %><br/>
-            Customer:     <%= @order.name %><br/>
+            Order numero: <%= @order.number %><br/>
+            Cliente:     <%= @order.name %><br/>
             Email:        <%= @order.email %><br/>
-            Completed at: <%= @order.completed_at ? I18n.localize(@order.completed_at, :format => :us_time) : '' %><br/>
-            Shipped:      <%= @order.has_shipment? ? 'Yes' : 'No' %><br/>
+            Completa en: <%= @order.completed_at ? I18n.localize(@order.completed_at, :format => :us_time) : '' %><br/>
+            Enviada:      <%= @order.has_shipment? ? 'Yes' : 'No' %><br/>
   </div>
 </div>
 
@@ -26,43 +26,43 @@
 
 <% end %>
 <div class=' span-8 column'>
-  <b>Shipping Address</b>
+  <b>Direccion de envio</b>
   <div  id='order-address'
         class='rounded-10 line_item_green '>
             <%= render :partial => '/shared/compact_address', :locals => {:shopping_address => @order.ship_address} %>
             <br>
-            <p><%= link_to 'Change Address', admin_history_order_addresses_path(@order), :class => 'button green' %> <br>
+            <p><%= link_to 'Cambiar direccion', admin_history_order_addresses_path(@order), :class => 'button green' %> <br>
             (This will not change the shipments that have already been placed)</p>
   </div>
 </div>
 
 <div class=' span-7 column '>
-  <b>Shipments:</b>
+  <b>Cargamentos:</b>
   <% @order.shipments.each do |shipment| %>
       <div  id='order-shipment-items'
             class=' rounded-10 line_item_yellow last'>
-          State: <%= shipment.state.humanize %> <br/>
-          Shipping Method: <%= shipment.shipping_method.name %> <br/>
-          Shipping #: <%= shipment.number %> Tracking:<%= shipment.tracking %>
+          Estado: <%= shipment.state.humanize %> <br/>
+          Metodo de envio: <%= shipment.shipping_method.name %> <br/>
+          Envio #: <%= shipment.number %> Seguimiento:<%= shipment.tracking %>
       </div>
   <% end %>
   <% if @order.shipments.empty? %>
     <div  id='order-shipment-items'
           class=' rounded-10 line_item_yellow last'>
-      No Shipments have been made for this Order.
+      Esta orden no tiene cargamentos.
     </div>
   <% end %>
 </div>
 
 
 <div class=' span-7 float-left'>
-  <b>Invoices:</b>
+  <b>Facturas:</b>
   <% @order.invoices.each do |invoice| %>
       <div  id='order-invoices'
             class=' rounded-10 line_item_gray'>
-          Number: <%= invoice.number %> <br/>
-          State: <%= invoice.state %> at: <%= I18n.localize(invoice.updated_at, :format => :us_time)%><br/>
-          Amount: <%= number_to_currency invoice.amount %>
+          Numero: <%= invoice.number %> <br/>
+          Estado: <%= invoice.state %> at: <%= I18n.localize(invoice.updated_at, :format => :us_time)%><br/>
+          Valor: <%= number_to_currency invoice.amount %>
       </div>
   <% end %>
 </div>
@@ -71,11 +71,11 @@
   <b>RMA:</b>
   <div class=' rounded-10 line_item_gray'>
     <% if @order.return_authorizations.size > 0 %>
-       <%= link_to 'View RMAs', admin_rma_order_return_authorizations_path(@order),
+       <%= link_to 'Ver RMAs', admin_rma_order_return_authorizations_path(@order),
                                 :class => 'button ' %>
        <br/><br/>
     <% else %>
-      <%= link_to 'Create RMA', new_admin_rma_order_return_authorization_path(@order),
+      <%= link_to 'Crear RMA', new_admin_rma_order_return_authorization_path(@order),
                                 :class => 'button ' %>
     <% end %>
   </div>

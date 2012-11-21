@@ -1,6 +1,6 @@
 <div class="admin_title_header clearfix">
-  <h3>Deals</h3>
-  <%= link_to "New Deal", new_admin_generic_deal_path, :class => "button" %>
+  <h3>Ofertas</h3>
+  <%= link_to "Nueva oferta", new_admin_generic_deal_path, :class => "button" %>
 </div>
 
 <div class="admin_deals">
@@ -8,11 +8,11 @@
     <thead>
     <tr class='odd'>
       <th  class='column1_header'><%= sortable 'buy_quantity', 'Buy Quantity' %></th>
-      <th>Get Percentage</th>
-      <th>Deal Type</th>
-      <th>Product Type</th>
-      <th>Get Amount</th>
-      <th>Deleted At</th>
+      <th>Obtener porcentaje</th>
+      <th>Tipo de oferta</th>
+      <th>Tipo de producto</th>
+      <th>Obtener valor</th>
+      <th>Borrado en</th>
       <th></th>
       <th></th>
     </tr>
@@ -30,7 +30,7 @@
         <td>
         <%#  YOU SHOULD NOT EDIT THIS..  OLD ORDERS WILL NO LONGER CALCULATE CORRECTLY.  set Deleted_at and create a new promotion %>
         <%#= link_to "", edit_admin_generic_deal_path(deal), :class => 'ss_sprite ss_application_edit' %></td>
-        <td><%= link_to "", [:admin, :generic, deal], :data => {:confirm => 'Are you sure?'}, :method => :delete, :class => 'ss_sprite ss_cross' %></td>
+        <td><%= link_to "", [:admin, :generic, deal], :data => {:confirm => 'Esta seguro?'}, :method => :delete, :class => 'ss_sprite ss_cross' %></td>
       </tr>
     <% end %>
     </tbody>

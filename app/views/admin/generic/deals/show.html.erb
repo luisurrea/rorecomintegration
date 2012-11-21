@@ -2,33 +2,33 @@
 
 <ul>
   <li>
-    <label>Buy Quantity:</label>
+    <label>Cantidad de compras:</label>
     <%= @deal.buy_quantity %>
   </li>
   <li>
-    <label>Get Percentage:</label>
+    <label>Obtener porcentaje:</label>
     <%= @deal.get_percentage %>
   </li>
   <li>
-    <label>Deal Type:</label>
+    <label>Tipo de oferta:</label>
     <%= @deal.deal_type.name %>
   </li>
   <li>
-    <label>Product Type:</label>
+    <label>Tipo de producto:</label>
     <%= @deal.product_type.name %>
   </li>
   <li>
-    <label>Get Amount:</label>
+    <label>Obtener valor:</label>
     <%= @deal.get_amount %>
   </li>
   <li>
-    <label>Deleted At:</label>
+    <label>Borrada en:</label>
     <%= @deal.deleted_at %>
   </li>
 </ul>
 <p>
   <%#  YOU SHOULD NOT EDIT THIS..  OLD ORDERS WILL NO LONGER CALCULATE CORRECTLY.  set Deleted_at and create a new promotion %>
   <%#= link_to "Edit", edit_admin_generic_deal_path(@deal), :class => 'button' %> |
-  <%= link_to "Destroy", [:admin, :generic, @deal], :data => {:confirm => 'Are you sure?'}, :method => :delete, :class => 'button' %> |
-  <%= link_to "View All", admin_generic_deals_path, :class => 'button' %>
+  <%= link_to "Borrar", [:admin, :generic, @deal], :data => {:confirm => 'Esta seguro?'}, :method => :delete, :class => 'button' %> |
+  <%= link_to "Ver todo", admin_generic_deals_path, :class => 'button' %>
 </p>

@@ -1,14 +1,14 @@
-<h1><%= @order.user.name %>'s  Addresses</h1>
-<p>Select the Address to change the shipment to or Create a new address.</p>
+<h1>Direcciones de <%= @order.user.name %></h1>
+<p>Seleccione la direccion de envio o cree una nueva.</p>
 <table>
   <tr class='odd'>
-    <th class='column1_header'>First name</th>
-    <th>Last name</th>
-    <th>Address1</th>
-    <th>Address2</th>
-    <th>City</th>
-    <th>State</th>
-    <th>Zip code</th>
+    <th class='column1_header'>Nombre</th>
+    <th>Apellido</th>
+    <th>Direccion</th>
+    <th>Direccion2</th>
+    <th>Ciudad</th>
+    <th>Estado</th>
+    <th>Codigo zip</th>
     <th></th>
     <th></th>
   </tr>
@@ -31,4 +31,4 @@
 
 <br />
 
-<%= link_to 'New Address', new_admin_history_order_address_path(@order) %>
+<%= link_to 'Nueva Direccion', new_admin_history_order_address_path(@order) %>

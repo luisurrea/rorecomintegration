@@ -1,6 +1,6 @@
 <% if @coupon.errors.any? %>
   <div id="error_explanation">
-    <h2><%= pluralize(@coupon.errors.count, "error") %> prohibited this coupon from being saved:</h2>
+    <h2><%= pluralize(@coupon.errors.count, "error") %> Problema al guardar el cupon:</h2>
 
     <ul>
     <% @coupon.errors.full_messages.each do |msg| %>
@@ -11,38 +11,38 @@
 <% end %>
 
 <fieldset>
-  <label>Code</label>
+  <label>Codigo</label>
   <%= f.text_field :code %>
 
   <% unless @coupon.id %>
-    <label>Type</label>
+    <label>Tipo</label>
     <%= f.select :type, @coupon_types, { :include_blank => true } %>
   <% end %>
 
-  <label>Amount</label>
+  <label>Valor</label>
   <%= f.text_field :amount %>
 
-  <label>Minimum Value</label>
+  <label>Valor minimo</label>
   <%= f.text_field :minimum_value %>
 
-  <label>Percent</label>
+  <label>Porcentaje</label>
   <%= f.text_field :percent %>
 
-  <label>Description</label>
+  <label>Descripcion</label>
   <%= f.text_area :description %>
 
-  <label>Combine</label>
+  <label>Combinar</label>
   <%= f.check_box :combine %>
 
-  <label>Starts at</label>
+  <label>Comienza</label>
   <div class='date-select'>
     <%= f.date_select :starts_at %>
   </div>
 
-  <label>Expires at</label>
+  <label>Expira</label>
   <div class='date-select'>
     <%= f.date_select :expires_at %>
   </div>
 </fieldset>
 
-<%= f.submit "Create", :class => "button" %>
+<%= f.submit "Crear", :class => "button" %>

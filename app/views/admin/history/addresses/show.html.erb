@@ -1,40 +1,40 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <b>First name:</b>
+  <b>Nombre:</b>
   <%= @address.first_name %>
 </p>
 
 <p>
-  <b>Last name:</b>
+  <b>Apellido:</b>
   <%= @address.last_name %>
 </p>
 
 <p>
-  <b>Address1:</b>
+  <b>Direccion:</b>
   <%= @address.address1 %>
 </p>
 
 <p>
-  <b>Address2:</b>
+  <b>Direccion2:</b>
   <%= @address.address2 %>
 </p>
 
 <p>
-  <b>City:</b>
+  <b>Ciudad:</b>
   <%= @address.city %>
 </p>
 
 <p>
-  <b>State:</b>
+  <b>Estado:</b>
   <%= @address.state_id %>
 </p>
 
 <p>
-  <b>Zip code:</b>
+  <b>Codigo zip:</b>
   <%= @address.zip_code %>
 </p>
 
 
-<%= link_to 'Edit', edit_admin_history_order_address_path(@order, @address) %> |
-<%= link_to 'Back', admin_history_order_addresses_path(@order) %>
+<%= link_to 'Editar', edit_admin_history_order_address_path(@order, @address) %> |
+<%= link_to 'Volver', admin_history_order_addresses_path(@order) %>

@@ -1,8 +1,8 @@
-<h3>New Deal</h3>
+<h3>Nueva oferta</h3>
 
 <%= form_for @deal, :url => admin_generic_deals_path(@deal) do |f| %>
   <%=  render :partial => 'form', :locals => {:f => f} %>
   <div class="actions"><%= f.submit 'Create' , :class => "button" %></div>
 <% end %>
 
-<p><%= link_to "Back to List", admin_generic_deals_path, :class => "button" %></p>
+<p><%= link_to "Volver a la lista", admin_generic_deals_path, :class => "button" %></p>
