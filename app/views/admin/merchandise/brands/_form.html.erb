@@ -1,6 +1,6 @@
 <% if @brand.errors.any? %>
   <div id="error_explanation">
-    <h2><%= pluralize(@brand.errors.count, "error") %> prohibited this brand from being saved:</h2>
+    <h2><%= pluralize(@brand.errors.count, "error") %> Problema al guardar la marca:</h2>
 
     <ul>
     <% @brand.errors.full_messages.each do |msg| %>
@@ -10,5 +10,5 @@
   </div>
 <% end %>
 
-<label>Name</label>
+<label>Nombre</label>
 <%= f.text_field :name %>

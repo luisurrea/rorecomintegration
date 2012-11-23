@@ -4,14 +4,14 @@
       <%= hidden_field_tag :direction, params[:direction] %>
       <%= hidden_field_tag :sort, params[:sort] %>
 
-      <label>Name</label>
+      <label>Nombre</label>
       <%= text_field_tag :name, params[:name] %>
 
       <label>Email</label>
       <%= text_field_tag :email, params[:email] %>
 
       <div style='text-align:center'>
-        <%= submit_tag "Search", :name => nil, :class => 'button red-button' %>
+        <%= submit_tag "Buscar", :name => nil, :class => 'button red-button' %>
       </div>
     <% end %>
   </div>
@@ -19,7 +19,7 @@
 
 <div class="admin_title_header">
   <h3>Suppliers</h3>
-  <%= link_to "New Supplier", new_admin_inventory_supplier_path, :class => "button" %>
+  <%= link_to "Nuevo proveedor", new_admin_inventory_supplier_path, :class => "button" %>
 </div>
 
 <div class="admin_suppliers">

@@ -2,7 +2,7 @@
   <div style='float:right;'>
     <%= remove_child_link('remove', po_form) %>
   </div>
-  <label>Variant</label>
+  <label>Variante</label>
   <% if po_form.object.id %>
     <%= po_form.select :variant_id, @select_variants, { :include_blank => true }, :class => "chzn-select select_variants ten columns" %>
   <% else %>
@@ -10,11 +10,11 @@
   <% end %>
 
   <div class="six columns">
-    <label>Quantity</label>
+    <label>Cantidad</label>
     <%= po_form.text_field :quantity %>
   </div>
   <div class="six columns">
-    <label>Cost</label>
+    <label>Costo</label>
     <%= po_form.text_field :cost %>
   </div>
 </fieldset>

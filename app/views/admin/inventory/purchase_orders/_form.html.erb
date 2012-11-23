@@ -1,6 +1,6 @@
 <% if @purchase_order.errors.any? %>
   <div id="error_explanation">
-    <h2><%= pluralize(@purchase_order.errors.count, "error") %> prohibited this purchase_order from being saved:</h2>
+    <h2><%= pluralize(@purchase_order.errors.count, "error") %> Problema al guardar esta orden de compra:</h2>
 
     <ul>
     <% @purchase_order.errors.full_messages.each do |msg| %>
@@ -11,27 +11,27 @@
 <% end %>
 <fieldset>
   <div class="six columns">
-    <label>Supplier</label>
+    <label>Proveedor</label>
     <%= form.select :supplier_id, @select_suppliers, { :include_blank => true }, :class => "chzn-select ten columns" %>
 
-    <label>Invoice Number</label>
+    <label>Numero de factura</label>
     <%= form.text_field :invoice_number %>
 
-    <label>Total Cost</label>
+    <label>Costo total</label>
     <%= form.text_field :total_cost %>
 
-    <label>Tracking Number</label>
+    <label>Numero de seguimiento</label>
     <%= form.text_field :tracking_number %>
 
-    <label>Notes</label>
+    <label>Notas</label>
     <%= form.text_field :notes %>
 
-    <label>Ordered At</label>
+    <label>Ordenada en</label>
     <div class='date-select'>
       <%= form.datetime_select :ordered_at %>
     </div>
 
-    <label>Estimated Arrival on</label>
+    <label>Entrega estimada</label>
     <div class='date-select'>
       <%= form.date_select :estimated_arrival_on %>
     </div>
@@ -41,7 +41,7 @@
     <%= form.fields_for :purchase_order_variants,  @purchase_order.purchase_order_variants do |po_variant_form| %>
       <%= render :partial => 'purchase_order_variant', :locals => { :po_form => po_variant_form } %>
     <% end %>
-    <p><%= link_to "New Variant", '#add_variant', :class => 'add_variant', 'data-association' => "purchase_order_variants" %></p>
+    <p><%= link_to "Nueva variante", '#add_variant', :class => 'add_variant', 'data-association' => "purchase_order_variants" %></p>
     <%= new_child_fields_template form, :purchase_order_variants, :form_builder_local => :po_form %>
     </div>
 </fieldset>

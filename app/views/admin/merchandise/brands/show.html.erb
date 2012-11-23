@@ -1,15 +1,15 @@
 <%= render :partial => '/admin/merchandise/sub_header'%>
 
-<h3>Brand - <%= @brand.name %></h3>
+<h3>Marca - <%= @brand.name %></h3>
 
 <p>
-  <strong>Name:</strong>
+  <strong>Nombre:</strong>
   <%= @brand.name %>
 </p>
 
 <p>
-  <%= link_to "Edit", edit_admin_merchandise_brand_path(@brand), :class => 'button' %>
-  <%= link_to "Delete", admin_merchandise_brand_path(@brand), :data => {:confirm => 'Are you sure?'}, :method => :delete, :class => 'button' %>
-  <%= link_to "New Brand", new_admin_merchandise_brand_path, :class => 'button' %>
-  <%= link_to "View All", admin_merchandise_brands_path, :class => 'button' %>
+  <%= link_to "Editar", edit_admin_merchandise_brand_path(@brand), :class => 'button' %>
+  <%= link_to "Borrar", admin_merchandise_brand_path(@brand), :data => {:confirm => 'Esta seguro?'}, :method => :delete, :class => 'button' %>
+  <%= link_to "Nueva marca", new_admin_merchandise_brand_path, :class => 'button' %>
+  <%= link_to "Ver todo", admin_merchandise_brands_path, :class => 'button' %>
 </p>

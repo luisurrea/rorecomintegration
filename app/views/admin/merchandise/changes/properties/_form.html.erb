@@ -1,7 +1,7 @@
 
 <% if @product.errors.any? %>
   <div id="error_explanation">
-    <h2><%= pluralize(@product.errors.count, "error") %> prohibited this purchase_order from being saved:</h2>
+    <h2><%= pluralize(@product.errors.count, "error") %> Problemas al guardar esta orden de compra:</h2>
 
     <ul>
     <% @product.errors.full_messages.each do |msg| %>
@@ -13,7 +13,7 @@
 
 
 <fieldset id="admin-product-properties" class='span-14' style='padding-bottom:10px;'>
-  <legend>Properties</legend>
+  <legend>Propiedades</legend>
 
   <div id="product_properties" class='span-14'>
     <% @product.product_properties.each do |product_property| %>
@@ -29,6 +29,6 @@
 </fieldset>
 
 <div class='span-14' style='margin-top:20px;'>
-  <%= add_child_button "New Property", :product_properties %>
+  <%= add_child_button "Nueva propiedad", :product_properties %>
   <%= new_child_fields_template f, :product_properties, :form_builder_local => :product_property_form %>
 </div>

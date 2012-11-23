@@ -7,10 +7,10 @@
       <%= hidden_field_tag :direction, params[:direction] %>
       <%= hidden_field_tag :sort, params[:sort] %>
 
-      <label>Name</label>
+      <label>Nombre</label>
       <%= text_field_tag :name, params[:name] %>
       <div style='text-align:center'>
-        <%= submit_tag "Search", :name => nil, :class => 'button red-button' %>
+        <%= submit_tag "Buscar", :name => nil, :class => 'button red-button' %>
       </div>
     <% end %>
     <div class='clearfix'></div>
@@ -18,8 +18,8 @@
 <% end %>
 
 <div class='admin_title_header'>
-  <h3>Product Types</h3>
-  <%= link_to "New Type", new_admin_merchandise_product_type_path, :class => "button" %>
+  <h3>Tipos de productos</h3>
+  <%= link_to "Nuevo tipo", new_admin_merchandise_product_type_path, :class => "button" %>
 </div>
 
 <div class="admin_product_types">

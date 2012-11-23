@@ -4,14 +4,14 @@
 
   <div class='admin_filters'>
     <%= form_tag admin_merchandise_products_path, :method => 'get', :id => "products_search" do %>
-      <label>Name</label>
+      <label>Nombre</label>
       <%= text_field_tag :name, params[:name] %>
 
-      <label>Product Type</label>
+      <label>Tipo de Producto</label>
       <%= select_tag "product_type_id", options_from_collection_for_select(product_types, "id", "name"), :include_blank => true %>
 
       <div style="text-align:center; margin-top: 15px">
-        <%= submit_tag "Search", :name => nil, :class => 'button red-button' %>
+        <%= submit_tag "Buscar", :name => nil, :class => 'button red-button' %>
       </div>
       </p>
       <div id="order_hidden">
@@ -24,9 +24,9 @@
 <% end %>
 
 <div class='admin_title_header'>
-  <h3>Products</h3>
-  <%= link_to "New Product", new_admin_merchandise_product_path, :class => "button", :id => "new_product_button" %>
-  <%= link_to "New Product Wizard", admin_merchandise_wizards_brands_path, :class => "button", :id => "new_product_wizard_button" %>
+  <h3>Productos</h3>
+  <%= link_to "Nuevo producto", new_admin_merchandise_product_path, :class => "button", :id => "new_product_button" %>
+  <%= link_to "Creador de productos", admin_merchandise_wizards_brands_path, :class => "button", :id => "new_product_wizard_button" %>
 </div>
 <div class="admin_products">
   <table>
@@ -34,7 +34,7 @@
     <tr class='odd'>
         <th class='column1_header'><%= sortable "name" %></th>
         <th>Active</th>
-        <th><%= 'Product Type' %></th>
+        <th><%= 'Tipo de producto' %></th>
         <th></th>
         <th></th>
     </tr>
@@ -44,8 +44,8 @@
         <td><%= link_to product.name, edit_admin_merchandise_product_path(product) %></td>
         <td><%=  product.available? ? 'Yes' : 'No' %></td>
         <td><%=  product.product_type.name %></td>
-        <td><%= link_to "Edit Variants",  edit_admin_merchandise_multi_product_variant_path(product) %></td>
-        <td><%= link_to "Show",  admin_merchandise_product_path(product) %></td>
+        <td><%= link_to "Editar Variantes",  edit_admin_merchandise_multi_product_variant_path(product) %></td>
+        <td><%= link_to "Mostrar",  admin_merchandise_product_path(product) %></td>
       </tr>
     <% end %>
   </table>

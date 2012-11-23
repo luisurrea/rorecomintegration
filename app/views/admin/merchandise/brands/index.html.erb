@@ -1,8 +1,8 @@
 <%= render :partial => '/admin/merchandise/sub_header'%>
 
 <div class='admin_title_header'>
-  <h3>Brands</h3>
-  <%= link_to "New Brand", new_admin_merchandise_brand_path, :class => 'button' %>
+  <h3>Marcas</h3>
+  <%= link_to "Nueva marca", new_admin_merchandise_brand_path, :class => 'button' %>
 </div>
 
 <div class="admin_brands">
@@ -15,8 +15,8 @@
     <% for brand in @brands %>
       <tr class='<%= cycle("odd", "")%>'>
         <td><%= link_to brand.name, admin_merchandise_brand_path(brand) %></td>
-        <td><%= link_to "Edit", edit_admin_merchandise_brand_path(brand) %></td>
-        <td><%= link_to "Delete", admin_merchandise_brand_path(brand), confirm: 'Are you sure?', method: :delete %></td>
+        <td><%= link_to "Editar", edit_admin_merchandise_brand_path(brand) %></td>
+        <td><%= link_to "Borrar", admin_merchandise_brand_path(brand), confirm: 'Esta seguro?', method: :delete %></td>
       </tr>
     <% end %>
   </table>

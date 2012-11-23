@@ -1,6 +1,6 @@
 <% if @product.errors.any? %>
   <div id="error_explanation">
-    <h2><%= pluralize(@product.errors.count, "error") %> prohibited this purchase_order from being saved:</h2>
+    <h2><%= pluralize(@product.errors.count, "error") %> Problema al guardar esta orden de compra:</h2>
     <ul>
     <% @product.errors.full_messages.each do |msg| %>
       <li><%= msg %></li>
@@ -10,7 +10,7 @@
 <% end %>
 
 <fieldset>
-  <legend>Images - <%= add_child_link "New Image", :images %></legend>
+  <legend>Imagenes - <%= add_child_link "New Image", :images %></legend>
 
   <%= new_child_fields_template form, :images, :form_builder_local => :image_form %>
 
