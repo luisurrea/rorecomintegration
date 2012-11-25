@@ -5,10 +5,11 @@ class Country < ActiveRecord::Base
   validates :name,  :presence => true,       :length => { :maximum => 200 }
   validates :abbreviation,  :presence => true,       :length => { :maximum => 10 }
 
-  USA_ID    = 214
-  CANADA_ID = 35
-
-  ACTIVE_COUNTRY_IDS = [CANADA_ID, USA_ID]
+  #USA_ID    = 214
+  #CANADA_ID = 35
+  COLOMBIA_ID = 42
+  #ACTIVE_COUNTRY_IDS = [CANADA_ID, USA_ID]
+  ACTIVE_COUNTRY_IDS = [COLOMBIA_ID]
 
   # Call this method to display the country_abbreviation - country with and appending name
   #
