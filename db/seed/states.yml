@@ -114,3 +114,192 @@ m:
     described_as: State
     id: "13"
 
+n:
+  attributes:
+    name: Cundinamarca
+    abbreviation: CU
+    country_id: 42
+    shipping_zone_id: 1
+    described_as: State
+    id: "14"
+
+o:
+  attributes:
+    name: Distrito Capital
+    abbreviation: DC
+    country_id: 42
+    shipping_zone_id: 1
+    described_as: State
+    id: "15"
+
+p:
+  attributes:
+    name: Guainía
+    abbreviation: GN
+    country_id: 42
+    shipping_zone_id: 1
+    described_as: State
+    id: "16"
+
+q:
+  attributes:
+    name: Guaviare
+    abbreviation: GV
+    country_id: 42
+    shipping_zone_id: 1
+    described_as: State
+    id: "17"
+
+r:
+  attributes:
+    name: Huila
+    abbreviation: HU
+    country_id: 42
+    shipping_zone_id: 1
+    described_as: State
+    id: "18"
+
+s:
+  attributes:
+    name: La Guajira
+    abbreviation: LG
+    country_id: 42
+    shipping_zone_id: 1
+    described_as: State
+    id: "19"
+
+t:
+  attributes:
+    name: Magdalena
+    abbreviation: MA
+    country_id: 42
+    shipping_zone_id: 1
+    described_as: State
+    id: "20"
+
+u:
+  attributes:
+    name: Meta
+    abbreviation: ME
+    country_id: 42
+    shipping_zone_id: 1
+    described_as: State
+    id: "21"
+
+v:
+  attributes:
+    name: Nariño
+    abbreviation: NA
+    country_id: 42
+    shipping_zone_id: 1
+    described_as: State
+    id: "22"
+
+w:
+  attributes:
+    name: Norte de Santander
+    abbreviation: NS
+    country_id: 42
+    shipping_zone_id: 1
+    described_as: State
+    id: "23"
+
+x:
+  attributes:
+    name: Maine
+    abbreviation: ME
+    country_id: 42
+    shipping_zone_id: 1
+    described_as: State
+    id: "24"
+
+y:
+  attributes:
+    name: Putumayo
+    abbreviation: PU
+    country_id: 42
+    shipping_zone_id: 1
+    described_as: State
+    id: "25"
+
+z:
+  attributes:
+    name: Quindío
+    abbreviation: QD
+    country_id: 42
+    shipping_zone_id: 1
+    described_as: State
+    id: "26"
+
+a1:
+  attributes:
+    name: Risaralda
+    abbreviation: RI
+    country_id: 42
+    shipping_zone_id: 1
+    described_as: State
+    id: "27"
+
+b1:
+  attributes:
+    name: San Andrés y Providencia
+    abbreviation: SA
+    country_id: 42
+    shipping_zone_id: 4
+    described_as: Territory
+    id: "28"
+
+c1:
+  attributes:
+    name: Santander
+    abbreviation: ST
+    country_id: 42
+    shipping_zone_id: 1
+    described_as: State
+    id: "29"
+
+d1:
+  attributes:
+    name: Sucre
+    abbreviation: SU
+    country_id: 42
+    shipping_zone_id: 1
+    described_as: State
+    id: "30"
+
+e1:
+  attributes:
+    name: Tolima
+    abbreviation: TO
+    country_id: 42
+    shipping_zone_id: 1
+    described_as: State
+    id: "31"
+
+f1:
+  attributes:
+    name: Valle del Cauca
+    abbreviation: VC
+    country_id: 42
+    shipping_zone_id: 1
+    described_as: State
+    id: "32"
+
+g1:
+  attributes:
+    name: Vaupés
+    abbreviation: VD
+    country_id: 42
+    shipping_zone_id: 1
+    described_as: State
+    id: "33"
+
+h1:
+  attributes:
+    name: Vichada
+    abbreviation: VD
+    country_id: 42
+    shipping_zone_id: 1
+    described_as: State
+    id: "34"
+
