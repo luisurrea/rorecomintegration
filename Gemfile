@@ -15,7 +15,10 @@ gem 'bluecloth',     '~> 2.1.0'
 gem 'cancan', '~> 1.6.7'
 gem 'compass', '~> 0.12.rc.0'
 gem 'compass-rails'
-gem 'bootstrap-sass', '2.1'
+gem "therubyracer"
+gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem "twitter-bootstrap-rails"
+
 # gem 'compass_twitter_bootstrap'
 #  gem 'dalli', '~> 1.0.2'
 

@@ -1,8 +1,8 @@
-<li class="active"><%#=  link_to site_name, :root %></li>
+<li class="brand"><%=  link_to site_name, :root %></li>
 
 <li><%= link_to 'Historial', admin_history_orders_path %></li>
 <li><%= link_to 'Ordenes', admin_shopping_carts_path %></li>
-<li class="has-flyout">
+<li class="dropdown">
   <%= link_to 'Mercancia', admin_merchandise_products_path %>
   <a href="#" class="flyout-toggle"><span></span></a>
   <ul class="flyout">
@@ -13,7 +13,7 @@
     <li><%= link_to 'Marcas', admin_merchandise_brands_path %></li>
   </ul>
 </li>
-<li class="has-flyout">
+<li class="dropdown">
   <%= link_to "Inventario", admin_inventory_overviews_path %>
   <a href="#" class="flyout-toggle"><span></span></a>
   <ul class="flyout">
@@ -25,7 +25,7 @@
   </ul>
 </li>
 <li><%= link_to "Usuarios", admin_users_path %></li>
-<li class="has-flyout">
+<li class="dropdown">
   <%= link_to "Configuracion", admin_config_accounts_path %>
   <a href="#" class="flyout-toggle"><span></span></a>
   <ul class="flyout">
@@ -38,7 +38,7 @@
     <li><%= link_to 'Categorias de envio',  admin_config_shipping_categories_path %></li>
   </ul>
 </li>
-<li class="has-flyout">
+<li class="dropdown">
   <%= link_to "Cupones/Ofertas", admin_generic_coupons_path %>
   <a href="#" class="flyout-toggle"><span></span></a>
   <ul class="flyout">
@@ -46,7 +46,7 @@
     <li><%= link_to 'Ofertas', admin_generic_deals_path %></li>
   </ul>
 </li>
-<li class="has-flyout">
+<li class="dropdown">
   <%= link_to "Cumplimiento", admin_fulfillment_orders_path %>
   <a href="#" class="flyout-toggle"><span></span></a>
   <ul class="flyout">
