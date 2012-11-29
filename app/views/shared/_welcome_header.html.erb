@@ -28,7 +28,7 @@
               <span><%= link_to 'Sign up', signup_path %></span>
             <% else %>
               <strong>Hi <%= current_user.first_name %></strong>
-              <span>(<%= link_to 'not you?', logout_path %>)</span>
+              <span>(<%= link_to 'Salir', logout_path %>)</span>
             <% end %>
           </div>
         </li>

@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!--  Place in <head> to set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title><%= site_name %></title>
 
   <%= stylesheet_link_tag "admin/foundation" %>
@@ -22,12 +24,14 @@
   <%= yield :head %>
 </head>
 <body class="bp">
+	admin.html
   <div class="container">
     <div class="row">
-      <div class="flash_messages">
+    	
+      <!--div class="flash_messages">
         <%= raw "<div class='alert-box warning'> #{notice} <a href='' class='close'>&times;</a>"  if notice %>
         <%= raw "<div class='alert-box error'> #{alert} <a href='' class='close'>&times;</a>"  if alert %>
-      </div>
+      </div-->
 
       <%= render :partial => "shared/admin/header_bar" %>
 
