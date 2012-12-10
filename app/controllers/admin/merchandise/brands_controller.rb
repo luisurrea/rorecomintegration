@@ -15,7 +15,7 @@ class Admin::Merchandise::BrandsController < Admin::BaseController
   def create
     @brand = Brand.new(params[:brand])
     if @brand.save
-      flash[:notice] = "Successfully created brand."
+      flash[:notice] = "Marca creada exitosamente."
       redirect_to admin_merchandise_brand_url(@brand)
     else
       form_info
@@ -31,7 +31,7 @@ class Admin::Merchandise::BrandsController < Admin::BaseController
   def update
     @brand = Brand.find(params[:id])
     if @brand.update_attributes(params[:brand])
-      flash[:notice] = "Successfully updated brand."
+      flash[:notice] = "Marca actualizada exitosamente."
       redirect_to admin_merchandise_brand_url(@brand)
     else
       form_info
@@ -45,7 +45,7 @@ class Admin::Merchandise::BrandsController < Admin::BaseController
     if @brand.products.empty?
       @brand.destroy
     else
-      flash[:alert] = "Sorry this brand is already associated with a product.  You can not delete this brand."
+      flash[:alert] = "Lo sentimos, esta marca esta asociada a un producto, no es posible borrarla."
     end
 
     redirect_to admin_merchandise_brands_url

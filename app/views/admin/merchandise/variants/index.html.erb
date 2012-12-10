@@ -30,7 +30,7 @@
   </div>
 <% end %>
 
-<h2> <%= @product.name %> Variants</h2>
+<h3>Variantes de: <%= @product.name %> </h3>
 
 <div id="admin_variants_page_wrapper">
   <div id="admin_variants_grid_wrapper" class='pretty_table'>
@@ -39,9 +39,9 @@
       <table>
         <thead>
         <tr>
-              <th><%= "product_name" %></th>
+              <th><%= "Nombre del producto" %></th>
                   <th><%= sortable "sku" %></th>
-                   <th><%= "price" %></th>
+                   <th><%= "Precio" %></th>
         </tr>
         </thead>
         <% @variants.each do |variant| %>
@@ -58,14 +58,12 @@
   </div>
 
   <div id="admin_new_variant_button" class="admin_new_button last">
-    <%= link_to "New Variant", new_admin_merchandise_product_variant_path(@product),
-                                :class  => "button green",
+    <%= link_to "Nueva Variante", new_admin_merchandise_product_variant_path(@product),
+                                :class  => "button",
                                 :id     => "new_product_button" %>
-  </div>
-
-  <div id="admin_product_button" class="admin_product_button last">
-    <%= link_to "View Product", admin_merchandise_product_path(@product),
-                                :class  => "button spade",
+  
+    <%= link_to "Ver producto", admin_merchandise_product_path(@product),
+                                :class  => "button",
                                 :id     => "new_product_button" %>
   </div>
 

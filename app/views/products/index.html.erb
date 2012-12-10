@@ -2,9 +2,10 @@
   <%= stylesheet_link_tag 'products_page.css' %>
 <% end %>
 <div id="containerrightcont">	
+Nombre categoria <%= @products.name %>
 	<div id='featured_item' class='span-18'>
  	 <div id='interesting_items' class='span-18'>
- 	   <ol id='interesting_items-list'>
+ 	    <ul id='interesting_items-list'>
       <% @products.each_with_index do |product, i| %>
         <li id='interesting_product_<%= i %>' class='left-text padding-5'>
           <div class='interesting_items-image'>
@@ -18,7 +19,7 @@
           </div>
         </li>
       <% end %>
-    </ol>
+    </ul>
  	 </div>
 	</div>
 </div>

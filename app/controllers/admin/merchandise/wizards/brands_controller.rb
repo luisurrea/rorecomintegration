@@ -10,7 +10,7 @@ class Admin::Merchandise::Wizards::BrandsController < Admin::Merchandise::Wizard
     if @brand.save
       session[:product_wizard] ||= {}
       session[:product_wizard][:brand_id] = @brand.id
-      flash[:notice] = "Successfully created brand."
+      flash[:notice] = "Marca creada exitosamente."
       redirect_to next_form
     else
       form_info
@@ -23,7 +23,7 @@ class Admin::Merchandise::Wizards::BrandsController < Admin::Merchandise::Wizard
     if @brand
       session[:product_wizard] ||= {}
       session[:product_wizard][:brand_id] = @brand.id
-      flash[:notice] = "Successfully added brand."
+      flash[:notice] = "Marca agregada exitosamente."
       redirect_to next_form
     else
       form_info

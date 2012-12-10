@@ -12,7 +12,7 @@ class Admin::Merchandise::PrototypesController < Admin::BaseController
   def new
     @all_properties = Property.all
     if @all_properties.empty?
-      flash[:notice] = "You must create a property before you create a prototype."
+      flash[:notice] = "Debe crear una propiedad antes de crear un prototipo."
       redirect_to new_admin_merchandise_property_path
     else
       @prototype      = Prototype.new(:active => true)
@@ -27,7 +27,7 @@ class Admin::Merchandise::PrototypesController < Admin::BaseController
       redirect_to :action => :index
     else
       @all_properties = Property.all
-      flash[:error] = "The prototype property could not be saved"
+      flash[:error] = "La propiedad del prototipo no pudo ser guardada"
       render :action => :new
     end
   end

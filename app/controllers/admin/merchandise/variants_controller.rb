@@ -31,7 +31,7 @@ class Admin::Merchandise::VariantsController < Admin::BaseController
       redirect_to admin_merchandise_product_variants_url(@product)
     else
       form_info
-      flash[:error] = "The variant could not be saved"
+      flash[:error] = "La variante no pudo ser guardada"
       render :action => :new
     end
   end

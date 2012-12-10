@@ -20,7 +20,7 @@ class Admin::Merchandise::ProductsController < Admin::BaseController
   def new
     form_info
     if @prototypes.empty?
-      flash[:notice] = "You must create a prototype before you create a product."
+      flash[:notice] = "Debe crear un prototipo antes de crear un producto."
       redirect_to new_admin_merchandise_prototype_url
     else
       @product            = Product.new
@@ -32,11 +32,11 @@ class Admin::Merchandise::ProductsController < Admin::BaseController
     @product = Product.new(params[:product])
 
     if @product.save
-      flash[:notice] = "Success, You should create a variant for the product."
+      flash[:notice] = "Hecho, deberia crear una variante para el producto."
       redirect_to edit_admin_merchandise_products_description_url(@product)
     else
       form_info
-      flash[:error] = "The product could not be saved"
+      flash[:error] = "El producto no pudo ser guardado"
       render :action => :new
     end
   rescue
@@ -86,7 +86,7 @@ class Admin::Merchandise::ProductsController < Admin::BaseController
     if @product.save
       redirect_to admin_merchandise_product_url(@product)
     else
-      flash[:alert] = "Please add a description before Activating."
+      flash[:alert] = "Por favor agregue una descripcion antes de activarlo."
       redirect_to edit_admin_merchandise_products_description_url(@product)
     end
   end

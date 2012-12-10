@@ -5,7 +5,7 @@ class Admin::Merchandise::Wizards::PropertiesController < Admin::Merchandise::Wi
 
   def create
     property = Property.new(params[:property])
-    flash[:notice] = "Successfully created property." if property.save
+    flash[:notice] = "Propiedad creada satisfactoriamente." if property.save
     form_info
     render :action => 'index'
   end
@@ -14,10 +14,10 @@ class Admin::Merchandise::Wizards::PropertiesController < Admin::Merchandise::Wi
     if params[:property] &&  valid_property_ids
       session[:product_wizard] ||= {}
       session[:product_wizard][:property_ids] = params[:property][:ids].map(&:to_i)
-      flash[:notice] = "Successfully added properties."
+      flash[:notice] = "Propiedades agregadas satisfactoriamente."
       redirect_to next_form
     else
-      flash[:notice] = "Please select at least one property."
+      flash[:notice] = "Por favor seleccione al menos una propiedad."
       form_info
       render :action => 'index'
     end

@@ -6,26 +6,26 @@
       <%= hidden_field_tag :direction, params[:direction] %>
       <%= hidden_field_tag :sort, params[:sort] %>
 
-      <label>Name</label>
+      <label>Nombre</label>
       <%= text_field_tag :name, params[:name] %>
       <div style="text-align:center">
-        <%= submit_tag "Search", :name => nil, :class => 'button red-button' %>
+        <%= submit_tag "Buscar", :name => nil, :class => 'button red-button' %>
       </div>
     <% end %>
   </div>
 <% end %>
 
 <div class='admin_title_header'>
-  <h3>Prototypes</h3>
-  <%= link_to "New Prototype", new_admin_merchandise_prototype_path, :class  => "button"%>
+  <h3>Prototipos</h3>
+  <%= link_to "Nuevo prototipo", new_admin_merchandise_prototype_path, :class  => "button"%>
 </div>
 
 <div class="admin_prototypes">
   <table>
     <thead>
     <tr class='odd'>
-      <th class='column1_header'><%= sortable "name" %></th>
-      <th>Active</th>
+      <th class='column1_header'><%= sortable "Nombre" %></th>
+      <th>Activo</th>
     </tr>
     </thead>
     <% @prototypes.each do |prototype| %>

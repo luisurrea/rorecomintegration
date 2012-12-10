@@ -19,7 +19,7 @@ class Admin::Merchandise::PropertiesController < Admin::BaseController
     if @property.save
       redirect_to :action => :index
     else
-      flash[:error] = "The property could not be saved"
+      flash[:error] = "La propiedad no pudo ser guardada"
       render :action => :new
     end
   end

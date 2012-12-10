@@ -3,7 +3,7 @@ class Admin::Merchandise::Wizards::PrototypesController < Admin::Merchandise::Wi
     if @prototype = Prototype.find_by_id(params[:id])
       session[:product_wizard] ||= {}
       session[:product_wizard][:property_ids] = @prototype.property_ids
-      flash[:notice] = "Successfully added."
+      flash[:notice] = "Prototipo agregado satisfactoriamente."
     end
     redirect_to next_form
   end

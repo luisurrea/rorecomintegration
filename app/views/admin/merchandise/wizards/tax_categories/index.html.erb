@@ -2,16 +2,20 @@
 <% if  @tax_categories.empty? %>
   <h3>Nuevo estado de impuesto</h3>
 <% else %>
-  <h3>Seleccione un estado de impuesto</h3>
+  <h3>Seleccione una categoria de impuesto</h3>
 <% end %>
 
 <% @tax_categories.each do |tax_category| %>
-  <div class='span-8 box <%= cycle( '', 'last') %> <%= 'selected' if selected?(tax_category.id) %> '>
-    <label><%= tax_category.name %></label><br/>
-    <%= button_to 'Use', admin_merchandise_wizards_tax_category_path(tax_category),
-                  :class => "button spade inline-block ",
+<div class="row">
+  <div class='two columns'>
+    <label><%= tax_category.name %></label>
+  </div>
+  <div class="ten columns">  
+    <%= button_to 'Usar', admin_merchandise_wizards_tax_category_path(tax_category),
+                  :class => "small button inline left",
                   :method => :put %>
   </div>
+</div>
 <% end %>
 
 <%= form_for @tax_category, :url => admin_merchandise_wizards_tax_categories_path do |tax_category_form| %>

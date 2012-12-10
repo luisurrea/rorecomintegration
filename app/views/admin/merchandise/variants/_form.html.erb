@@ -23,14 +23,14 @@
 
 <div class='clear'></div>
   <div class='span-3'>
-    <%= form.label :price %>
+    <%= form.label :price, 'Precio' %>
   </div>
   <div class='span-6 last'>
     <%= form.text_field :price %>
   </div>
 <div class='clear'></div>
   <div class='span-3'>
-    <%= form.label :cost %>
+    <%= form.label :cost, 'Costo' %>
   </div>
   <div class='span-6 last'>
     <%= form.text_field :cost %>
@@ -46,7 +46,7 @@
 
 <div class='clear'></div>
   <div class='span-3'>
-    <%= form.label :brand_id %>
+    <%= form.label :brand_id, 'Marca' %>
   </div>
   <div class='span-6 last'>
     <%= form.select :brand_id, @brands, { :include_blank => true } %>
@@ -54,7 +54,7 @@
 </fieldset>
 
 <fieldset id="admin-product-properties" class='span-12'>
-  <legend>Properties</legend>
+  <legend>Propiedades</legend>
 
   <div id="variant_properties" class='span-12 last'>
     <% @product.properties.each do |property| %>
@@ -62,12 +62,15 @@
             class="variant_form left span-12 last">
         <%= form.fields_for :variant_properties,
                             property.variant_properties.find_or_initialize_by_variant_id(@variant.id) do |variant_property_form|%>
-          <div class='span-4 left'>
-            <%= property.display_name %>:
+          <div class="row">
+          <div class="inline left">
+            <strong>* <%= property.display_name %></strong>
           </div>
-          Primary?: <%= variant_property_form.check_box  :primary %> <br/>
+          <div class="inline right"> Primary <%= variant_property_form.check_box  :primary %></div>
+          </div> 
           <%= variant_property_form.hidden_field  :property_id %>
-          Description: <%= variant_property_form.text_field    :description %><br/>
+          <label>Descripcion:</label> 
+          <%= variant_property_form.text_field    :description %>
         <% end %>
       </div>
     <% end %>

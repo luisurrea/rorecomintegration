@@ -10,7 +10,7 @@
 
 <%= error_messages_for 'product' %>
 
-<label>Name</label>
+<label>Nombre</label>
 <%= form.text_field :name %>
 
 <label>Permalink</label>
@@ -25,20 +25,20 @@
 <label>Meta Description</label>
 <%= form.text_field :meta_description %>
 
-<label>Product Type</label>
+<label>Tipo de producto</label>
 <%= form.select :product_type_id, @select_product_types %>
 
-<label>Shipping Category</label>
+<label>Categoria de envio</label>
 <%= form.select :shipping_category_id, @select_shipping_category %>
 
-<label>Tax Category</label>
+<label>Categoria de impuesto</label>
 <%= form.select :tax_category_id, @select_tax_category %>
 
-<label>Brand</label>
+<label>Marca</label>
 <%= form.select :brand_id, @brands %>
 
 <fieldset>
-  <legend>Properties</legend>
+  <legend>Propiedades</legend>
 
   <div id="product_properties" class='span-11 '>
     <% @all_properties.each do |property| %>
