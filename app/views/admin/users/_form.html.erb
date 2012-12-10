@@ -1,23 +1,23 @@
 <fieldset>
-  <legend>New User</legend>
+  <legend>Datos del usuario</legend>
 
   <div class="row">
     <div class="six columns">
-      <label>First Name</label>
+      <label>Nombre</label>
       <%= form.text_field :first_name %>
 
-      <label>Email Address</label>
+      <label>Email</label>
       <%= form.text_field :email %>
 
-      <label>State</label>
+      <label>Estado</label>
       <%= form.select :state, @states %>
     </div>
 
     <div class="six columns">
-      <label>Last Name</label>
+      <label>Apellido</label>
       <%= form.text_field :last_name %>
 
-      <label>Birthday</label>
+      <label>Cumpleaños</label>
       <%= form.text_field :form_birth_date, :class => "eleven columns ui-yearpicker" %>
     </div>
   </div>
@@ -25,21 +25,21 @@
 
 <% if current_user.super_admin? %>
   <fieldset id="admin-password" class='span-12'>
-    <p>Leave blank if you don't want to change the password.</p>
+    <p>Deje esto en blanco si no quiere cambiar la contraseña.</p>
     <ul>
       <li>
-        <%= form.label :password %>
+        <%= form.label :password, 'Contraseña' %>
         <%= form.password_field :password %>
       </li>
       <li>
-        <%= form.label :password_confirmation %>
+        <%= form.label :password_confirmation, 'Confirme la contraseña' %>
         <%= form.password_field :password_confirmation %>
       </li>
     </ul>
   </fieldset>
 <% end %>
 <fieldset>
-  <legend>User Roles</legend>
+  <legend>Roles de Usuario</legend>
   <% @all_roles.each do |role| %>
     <div class="property_form left span-9 last">
       <% checked = @user.id && @user.roles.include?(role)%>

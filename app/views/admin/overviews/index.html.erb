@@ -1,4 +1,4 @@
-<h2 style="text-align:center">Welcome to RoR Ecommerce!</h2>
+<h2 style="text-align:center">Bienvenido a la administracion de la tienda</h2>
 
 <% if @password %>
   <p> Welcome, You are the Super Admin user. </p>
@@ -13,17 +13,16 @@
   </p>
 <% else %>
   <ol>
-    <li>It would be best to go to <%= link_to 'Admin Users', admin_users_path, 'data-popup' => true %> and change your password and email to something more personal.</li>
-    <li>Go to <%= link_to 'Config', admin_config_overviews_path, 'data-popup' => true %> and click on every option in the sub-header.</li>
-    <li>Then create <%= link_to 'Properties', admin_merchandise_properties_path, 'data-popup' => true %>.  A property is just a characteristic that your products have.</li>
-    <li>Add <%= link_to 'Product Type', admin_merchandise_product_types_path, 'data-popup' => true %></li>
-    <li>Next create a <%= link_to 'Prototype', admin_merchandise_prototypes_path, 'data-popup' => true %>.  A prototype is the building block of a product.  The prototype is used to inherit the types of properties that your products will have.</li>
-    <li>You should create a shipping category by going to <%= link_to 'Shipping Categories', admin_config_shipping_categories_path, 'data-popup' => true %>.</li>
-    <li>Next create a <%= link_to 'Product', admin_merchandise_products_path, 'data-popup' => true %></li>
-    <li>Next create a Variant.  A variant is a specific type of product.  If Diet Gatorade is your product, Fruit Punch Gatorage might be your variant. To
-      do this click to edit your product and then click add variant.</li>
-    <li>Next you need to upload Images.  To do this click to edit your product and then click add image.</li>
-    <li>You need inventory .  To do this click <%= link_to 'Inventory', admin_inventory_overviews_path, 'data-popup' => true %>.  Then click purchase order and follow the step to create a purchase order.  Once the purchase order is complete, you need to click receive for the inventory to be in stock.
+    <li>Para administrar usuarios vaya a <%= link_to 'Usuarios', admin_users_path, 'data-popup' => true %>.</li>
+    <li>Vaya a <%= link_to 'Configuracion', admin_config_overviews_path, 'data-popup' => true %> y ajuste los parametros de impuestos y envios.</li>
+    <li>Luego cree <%= link_to 'Propiedades', admin_merchandise_properties_path, 'data-popup' => true %>.  Una propiedad es una caracteristica que tienen los productos.</li>
+    <li>Agregue un <%= link_to 'tipo de producto', admin_merchandise_product_types_path, 'data-popup' => true %> para categorizar los productos</li>
+    <li>Luego cree un <%= link_to 'prototipo', admin_merchandise_prototypes_path, 'data-popup' => true %>. Un prototipo es la construccion total de un producto.  Los prototipos son usados para heredar los tipos de propiedades que sus productos van a tener.</li>
+    <li>Para crear categorias de envio vaya a <%= link_to 'categorias de envio', admin_config_shipping_categories_path, 'data-popup' => true %>.</li>
+    <li>Luego cree un <%= link_to 'Producto', admin_merchandise_products_path, 'data-popup' => true %></li>
+    <li>Luego, cree una variante. Una variante es un tipo especifico de producto.  Si el producto es atornillador, un atornillador phillips puede ser la variante. para hacer esto haga clic en editar producto y luego clic en agregar variante.</li>
+    <li>Luego, necesitara subir imagenes, para esto haga clic en editar producto y luego clic en agregar imagen.</li>
+    <li>Necesitará <%= link_to 'Inventario', admin_inventory_overviews_path, 'data-popup' => true %>.  haga clic en orden de compra y siga los pasos para crear una, cuando esté completa, haga clic en recibir para agregar el inventario al stock.
     </li>
   </ol>
 <% end %>

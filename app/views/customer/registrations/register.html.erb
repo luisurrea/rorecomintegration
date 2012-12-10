@@ -1,0 +1,41 @@
+<% content_for :head do -%>
+  <%= stylesheet_link_tag 'signup.css' %>
+<% end %>
+<% content_for :bottom do -%>
+  <%= javascript_include_tag 'jquery.datePicker-2.1.2', 'datePickerInitialize' %>
+<% end %>
+<% if @user.errors.any? %>
+  <div id="error_explanation" class='alert-box alert'>
+    <ul>
+    <% @user.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+    </ul>
+    <a href="" class="close">&times;</a>
+  </div>
+<% end %>
+<div id="signupform">
+  <h3>Nuevo en la tienda?</h3>
+	<p>Es necesario crear una cuenta para poder comprar. </p>
+	<div id="signup" class='six columns centered'>
+    <%= form_for @user, :url => customer_registrations_path(@user)  do |form| %>
+      <fieldset>
+         <%=form.label :first_name, 'Nombre*' %>
+         <%= form.text_field :first_name %>
+         <%=form.label :last_name, 'Apellido' %>
+         <%= form.text_field :last_name %>
+         <%=form.label :email, 'Email*' %>
+         <%= form.email_field :email, :autocomplete => 'off', :autocapitalize => 'off'  %>
+         <%=form.label :birth_date, 'Fecha de nacimiento' %>
+         <%= form.text_field :birth_date, :class => 'eleven columns ui-yearpicker' %>
+         <%=form.label :password, 'Contraseña' %>
+         <%= form.password_field :password, :autocomplete => 'off', :autocapitalize => 'off'  %>
+         <%=form.label :password_confirmation, 'Confirmar contraseña' %>
+         <%= form.password_field :password_confirmation, :autocomplete => 'off', :autocapitalize => 'off'  %>
+         <%#= form.buttons do %>
+         <%= form.submit "Registrese", :class => 'small button' %>
+      <%# end %>
+      </fieldset>
+    <% end %>
+  </div>
+</div>

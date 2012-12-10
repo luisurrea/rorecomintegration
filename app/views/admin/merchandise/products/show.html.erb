@@ -6,12 +6,12 @@
   <% if @product.available? %>
     <%= link_to 'Activo', admin_merchandise_product_path(@product),
                           :method => :delete,
-                          :data => {:confirm => "This will inactivate the product,  Are you sure?"},
+                          :data => {:confirm => "Va a desactivar el producto, Esta seguro?"},
                           :class => 'button green-button' %>
   <% else %>
-    <%= link_to 'No Activo', activate_admin_merchandise_product_path(@product),
+    <%= link_to 'inactivo', activate_admin_merchandise_product_path(@product),
                               :method => 'PUT',
-                              :data => {:confirm => "This will activate the product,  Are you sure?"},
+                              :data => {:confirm => "Va a activar el producto,  Esta seguro?"},
                               :class => 'button red-button' %>
   <% end %>
 </span>
@@ -20,7 +20,7 @@
   <label>Nombre</label>
   <p><%= @product.name %></p>
 
-  <label>Descripcion (<%= link_to 'edit', edit_admin_merchandise_products_description_path(@product) %>)</label>
+  <label>Descripcion (<%= link_to 'editar', edit_admin_merchandise_products_description_path(@product) %>)</label>
   <p><%= raw @product.description %></p>
 
   <label>Meta Keywords</label>
@@ -74,7 +74,7 @@
 </fieldset>
 
 <fieldset>
-  <legend>Imagenes (<%= link_to 'edit', edit_admin_merchandise_images_product_path(@product) %>)</legend>
+  <legend>Imagenes (<%= link_to 'editar', edit_admin_merchandise_images_product_path(@product) %>)</legend>
 
   <% @product.images.each do |image| %>
     <label><%= image.photo_file_name %></label>

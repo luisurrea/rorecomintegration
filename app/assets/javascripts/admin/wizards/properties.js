@@ -12,7 +12,7 @@ if (typeof Hadean.Admin.properties == "undefined") {
         //test    : null,
         initialize      : function( ) {
           // jQuery(".chzn-select").chosen();
-          jQuery(".chzn-select").data("placeholder","Select Properties...").chosen();
+          jQuery(".chzn-select").data("placeholder","Seleccionar propiedades...").chosen();
         }
     };
 

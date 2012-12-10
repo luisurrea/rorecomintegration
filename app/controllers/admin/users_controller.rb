@@ -59,7 +59,7 @@ class Admin::UsersController < Admin::BaseController
     attribs.delete(:state)
     attribs.delete(:birth_date)
     if @user.save && @user.update_attributes(attribs)
-      flash[:notice] = "#{@user.name} has been updated."
+      flash[:notice] = "#{@user.name} Ha sido actualizado."
       redirect_to admin_users_url
     else
       form_info

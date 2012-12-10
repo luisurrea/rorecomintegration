@@ -1,22 +1,22 @@
-<h3>Users</h3>
+<h3>Usuarios</h3>
 
 <% content_for :sidemenu do %>
-  <div style="text-align:right">
-    <%= link_to "New User", new_admin_user_path, :class => "button", :id => "new_user_button" %>
+  <div style="text-align:center">
+    <%= link_to "Nuevo usuario", new_admin_user_path, :class => "button", :id => "new_user_button" %>
   </div>
   <div class="admin_filters">
     <%= form_tag admin_users_path, :method => 'get', :id => "users_search" do %>
-      <label>First Name</label>
+      <label>Nombre</label>
       <%= text_field_tag :first_name, params[:first_name] %>
 
-      <label>Last Name</label>
+      <label>Apellido</label>
       <%= text_field_tag :last_name, params[:last_name] %>
 
       <label>Email</label>
       <%= text_field_tag :email, params[:email] %>
 
       <div style='text-align:center'>
-        <%= submit_tag "Search", :name => nil, :class => "button" %>
+        <%= submit_tag "Buscar", :name => nil, :class => "small button" %>
       </div>
       <div id="users">
         <%= render 'users' %>
@@ -30,10 +30,10 @@
   <table>
     <thead>
     <tr class='odd'>
-      <th  class='column1_header'><%= sortable "first_name" %></th>
-      <th><%= sortable "last_name" %></th>
+      <th  class='column1_header'><%= sortable "Nombre" %></th>
+      <th><%= sortable "Apellido" %></th>
       <th><%= sortable "email" %></th>
-      <th>Status</th>
+      <th>Estado</th>
     </tr>
     </thead>
     <% @users.each do |user| %>

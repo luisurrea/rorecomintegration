@@ -3,7 +3,7 @@ class Customer::RegistrationsController < ApplicationController
     @registration = true
     @user         = User.new
     @user_session = UserSession.new
-    render :template => 'user_sessions/new'
+    render :template => 'customer/registrations/register'
   end
 
   def create
@@ -20,7 +20,7 @@ class Customer::RegistrationsController < ApplicationController
     else
       @registration = true
       @user_session = UserSession.new
-      render :template => 'user_sessions/new'
+      render :template => 'customer/registrations/register'
     end
   end
 

@@ -15,7 +15,7 @@ class Customer::PasswordResetsController < ApplicationController
           render :template => '/customer/password_resets/confirmation'
         else
           @user = User.new
-          flash[:notice] = 'No user was found with that email address'
+          flash[:notice] = I18n.t('No_user_was_found_with_that_email_address')
           render :action => 'new'
         end
     end

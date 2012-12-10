@@ -1,0 +1,77 @@
+<div id="header">
+  <div id="toolbar">
+  	<div id="topleftlinks"> 
+        <ul class="left_links">
+          <li><%= link_to "Empresa",    empresa_path %></li>
+          <li><%= link_to "Conozca Tramontina", '#' %></li>
+          <li><%= link_to "Medio Ambiente", '#' %></li>
+          <li><%= link_to "Contacto", '#' %></li>
+        </ul>
+    	<div id="logotram">
+		<span >Distribuidor:</span>
+		</div>
+    </div>
+    <div id="cartitems">
+    	( <strong>0</strong> items )
+    </div>
+    <div id="cart">
+    <%= link_to "Cart", shopping_cart_items_path, :id => "menu-main-cart"  %>
+    </div>
+    <div id="logbtns">
+    <ul class="left_links">
+    	
+    	<% unless current_user %>
+             <li><%= link_to "Ingresar", login_path %></li>
+             <li><%= link_to "Registrarse", signup_path %></li>
+            <% else %>
+              <li>Hola <%= current_user.first_name %> | <%= link_to 'Salir', logout_path %></li>
+            <% end %>
+         
+    </ul>	
+    </div>		
+  </div>
+  <!--nav content -->
+  <div class="row">
+  	<div id ="logo">
+          <div class="panel">
+            <p>Logo</p>
+          </div>
+        </div>
+        <div id="navbar">
+  <ul class="nav-bar">
+  	<li ><%= link_to "Home",    root_path %>
+  	<li class="has-flyout"><a href="/products">Productos</a>
+  	
+  	
+  	
+  	<a href="#" class="flyout-toggle"><span> </span></a>
+    <ul class="flyout">
+    <% product_types.each do |pt_tab| %>
+    <li><%= link_to_unless_current pt_tab.name, products_path(:product_type_id => pt_tab.id) %> </li>
+  	<% end %>
+    </ul>
+  	</li>
+  	
+  	
+  	
+  	
+  	
+  	
+  	<li ><a href="#">Mi Pedido</a></li>
+  	<li ><a href="#">Registrarme</a></li>
+  	<% unless current_user %>
+  	 <% else %>
+  	<li > <%= link_to_unless_current 'Mi Cuenta', myaccount_overview_path if most_likely_user %> </li>
+  	<%end%>
+  </ul>
+  </div>
+  </div>
+  <!--end nav content -->
+  <div class="row">
+  <div id="featured">
+  	<%= image_tag("slider1.jpg", :alt => "logotramontina") %>
+  	<%= image_tag("slider2.jpg", :alt => "logotramontina") %>
+  	<%= image_tag("slider3.jpg", :alt => "logotramontina") %>
+  </div>
+	</div>
+</div>

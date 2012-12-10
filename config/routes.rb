@@ -12,7 +12,7 @@ Hadean::Application.routes.draw do
   resources :wish_items,  :only => [:index, :destroy]
   resources :states,      :only => [:index]
   resource :about,        :only => [:show]
-  resources :terms,       :only => [:index]
+#  resources :terms,       :only => [:index]
 
   root :to => "welcome#index"
 
@@ -126,6 +126,7 @@ Hadean::Application.routes.draw do
     namespace :generic do
       resources :coupons
       resources :deals
+      resources :sales
     end
     namespace :inventory do
       resources :suppliers
@@ -181,5 +182,9 @@ Hadean::Application.routes.draw do
       resources :invoices
     end
   end
-
+  match '/empresa', to: 'staticpages#empresa'
+  match '/terms', to: 'staticpages#terms'
+  match '/contacto', to: 'forms_pages#new', :as => 'contactmsgs', :via => :get
+  match '/contacto', to: 'forms_pages#create', :as => 'contactmsgs', :via => :post
+ 
 end

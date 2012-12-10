@@ -122,10 +122,10 @@ class User < ActiveRecord::Base
   has_many    :return_authorizations
   has_many    :authored_return_authorizations, :class_name => 'ReturnAuthorization', :foreign_key => 'author_id'
 
-  validates :first_name,  :presence => true, :if => :registered_user?,
+  validates :first_name,  :presence => true, 
                           :format   => { :with => CustomValidators::Names.name_validator },
                           :length => { :maximum => 30 }
-  validates :last_name,   :presence => true, :if => :registered_user?,
+  validates :last_name,   :presence => true, 
                           :format   => { :with => CustomValidators::Names.name_validator },
                           :length => { :maximum => 35 }
   validates :email,       :presence => true,

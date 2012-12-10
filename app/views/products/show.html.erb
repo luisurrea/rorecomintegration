@@ -1,11 +1,10 @@
-
 <% content_for :head do -%>
   <%= stylesheet_link_tag 'product_page.css' %>
 <% end %>
 <% content_for :bottom do -%>
   <%= javascript_include_tag "shopping/cart" %>
 <% end %>
-
+<div id="containerrightcont">
 <div id='product'>
 
   <div class='span-1<%=@product.variants.empty? ? '9' : '8' %> float-left last'>
@@ -65,6 +64,11 @@
       <% end %>
     <% end %>
   </div>
+</div>
+</div>
+<div id="containerleftcont">
+	<h4>Categorias</h4>
+	<%= render 'shared/main_product_tabs' %>
 </div>
 
 

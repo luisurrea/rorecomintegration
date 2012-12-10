@@ -1,7 +1,6 @@
 <% if @brand.errors.any? %>
   <div id="error_explanation">
     <h2><%= pluralize(@brand.errors.count, "error") %> prohibited this brand from being saved:</h2>
-
     <ul>
     <% @brand.errors.full_messages.each do |msg| %>
       <li><%= msg %></li>
@@ -9,10 +8,10 @@
     </ul>
   </div>
 <% end %>
-
 <div class="field">
-  <%= f.label :name %><br />
+  <%= f.label :name, 'Nombre' %><br />
   <%= f.text_field :name %>
 </div>
-
-<%= submit_tag "Create Brand", :class => "button" %>
+<div class="row">
+	<%= submit_tag "Crear marca", :class => "small button inline right" %>
+</div>
