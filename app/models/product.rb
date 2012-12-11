@@ -182,8 +182,8 @@ class Product < ActiveRecord::Base
   # @param [none]
   # @return [ Product ]
   def self.featured
-    product = where({ :products => {:featured => true} } ).includes(:images).first
-    product ? product : includes(:images).where(['products.deleted_at IS NULL']).first
+    product = where({ :products => {:featured => true} } )
+    #product ? product : includes(:images).where(['products.deleted_at IS NULL']).first
   end
 
   def self.active

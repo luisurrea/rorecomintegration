@@ -2,12 +2,23 @@
   <%= stylesheet_link_tag 'home_page.css' %>
 <% end %>
 
-
-<div id='left_side_panel' class='span-6 last'>
-&nbsp;
+<div id='containerrightcont'>
+  <% @featured_product.each do |pro, i| %>
+       <li id='interesting_product_<%= i %>' class='left-text padding-5'>
+          <div class='interesting_items-image'>
+            <%= link_to image_tag(pro.featured_image(:small)), product_path(pro), title: pro.name %>
+          </div>
+          <div class='interesting_items-details'><%= pro.name %><br/>
+	          ( <%= number_to_currency pro.price_range.first %>
+  	          <% if pro.price_range? %>
+    	            to <%= number_to_currency pro.price_range.last %>
+      	      <% end %>)
+          </div>
+        </li>
+      <% end %>
 </div>
 
-<div id='featured_item' class='span-18 last'>
-  <%= image_tag 'home.png' %>
+<div id="containerleftcont">
+	<h4>Categorias</h4>
+	<%= render 'shared/main_product_tabs' %>
 </div>
-
