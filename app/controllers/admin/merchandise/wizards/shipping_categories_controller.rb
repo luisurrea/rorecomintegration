@@ -9,7 +9,7 @@ class Admin::Merchandise::Wizards::ShippingCategoriesController < Admin::Merchan
     if @shipping_category.save
       session[:product_wizard] ||= {}
       session[:product_wizard][:shipping_category_id] = @shipping_category.id
-      flash[:notice] = "Successfully created shipping category."
+      flash[:notice] = "Categoria de envio creada satisfactoriamente."
       redirect_to next_form
     else
       form_info
@@ -22,7 +22,7 @@ class Admin::Merchandise::Wizards::ShippingCategoriesController < Admin::Merchan
     if @shipping_category
       session[:product_wizard] ||= {}
       session[:product_wizard][:shipping_category_id] = @shipping_category.id
-      flash[:notice] = "Successfully updated shipping category."
+      flash[:notice] = "Categoria de envio actualizada satisfactoriamente."
       redirect_to next_form
     else
       form_info

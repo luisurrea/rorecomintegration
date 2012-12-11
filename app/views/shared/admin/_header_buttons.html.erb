@@ -1,4 +1,4 @@
-<li class="active"><%#=  link_to site_name, :root %></li>
+<!--<li class="name"><h1><%=  link_to site_name, :root %></h1></li>-->
 
 <li><%= link_to 'Historial', admin_history_orders_path %></li>
 <li><%= link_to 'Ordenes', admin_shopping_carts_path %></li>
@@ -38,6 +38,15 @@
     <li><%= link_to 'Categorias de envio',  admin_config_shipping_categories_path %></li>
   </ul>
 </li>
+<!--<li class="has-flyout">
+  <%= link_to "Cumplimiento", admin_fulfillment_orders_path %>
+  <a href="#" class="flyout-toggle"><span></span></a>
+  <ul class="flyout">
+    <li><%= link_to 'Facturas', admin_document_invoices_path %></li>
+    <li><%= link_to 'Ordenes', admin_fulfillment_orders_path %></li>
+    <li><%= link_to 'Cargamentos', admin_fulfillment_shipments_path %></li>
+  </ul>
+</li>
 <li class="has-flyout">
   <%= link_to "Cupones/Ofertas", admin_generic_coupons_path %>
   <a href="#" class="flyout-toggle"><span></span></a>
@@ -47,15 +56,6 @@
   </ul>
 </li>
 <li class="has-flyout">
-  <%= link_to "Cumplimiento", admin_fulfillment_orders_path %>
-  <a href="#" class="flyout-toggle"><span></span></a>
-  <ul class="flyout">
-    <li><%= link_to 'Facturas', admin_document_invoices_path %></li>
-    <li><%= link_to 'Ordenes', admin_fulfillment_orders_path %></li>
-    <li><%= link_to 'Cargamentos', admin_fulfillment_shipments_path %></li>
-  </ul>
-</li>
-<!--<li class="has-flyout">
   <%= link_to "Help", admin_help_path %>
   <a href="#" class="flyout-toggle"><span></span></a>
   <ul class="flyout">

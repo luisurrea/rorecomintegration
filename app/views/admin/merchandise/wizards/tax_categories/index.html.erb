@@ -7,14 +7,15 @@
 
 <% @tax_categories.each do |tax_category| %>
 <div class="row">
-  <div class='two columns'>
+  <div class='three columns'>
     <label><%= tax_category.name %></label>
   </div>
-  <div class="ten columns">  
+  <div class="nine columns">  
     <%= button_to 'Usar', admin_merchandise_wizards_tax_category_path(tax_category),
                   :class => "small button inline left",
+                  :style => "margin-bottom: 10px",
                   :method => :put %>
-  </div>
+   </div>
 </div>
 <% end %>
 

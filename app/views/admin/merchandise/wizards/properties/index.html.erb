@@ -28,7 +28,7 @@
 <fieldset>
 <% unless  @properties.empty? %>
   <legend><h4>Nueva Propiedad</h4></legend>
-  <p>Si alguna de las propiedades requeridas no existe, creela.</p>
+  <p>Si alguna de las propiedades requeridas no existe, creela aqui:</p>
 <% end %>
 <%= form_for @property, :url => admin_merchandise_wizards_properties_path do |property_form| %>
   <%= render :partial =>  'form', :locals => {:form => property_form}  %>
