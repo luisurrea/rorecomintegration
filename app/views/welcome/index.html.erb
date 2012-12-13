@@ -3,8 +3,11 @@
 <% end %>
 
 <div id='containerrightcont'>
+	<div class="eleven columns centered">
+	<div class="panel"><h5>Productos Destacados</h5></div>
+	<ol id='interesting_items-list'>
   <% @featured_product.each do |pro, i| %>
-       <li id='interesting_product_<%= i %>' class='left-text padding-5'>
+       <li class='four columns'>
           <div class='interesting_items-image'>
             <%= link_to image_tag(pro.featured_image(:small)), product_path(pro), title: pro.name %>
           </div>
@@ -16,9 +19,14 @@
           </div>
         </li>
       <% end %>
+      </ol>
+      </div>
 </div>
 
 <div id="containerleftcont">
-	<h4>Categorias</h4>
 	<%= render 'shared/main_product_tabs' %>
+	<div class="panel"><h5>Video</h5></div>
+	<div class="flex-video widescreen vimeo">
+  <iframe src="http://player.vimeo.com/video/31570696?title=0&amp;byline=0&amp;portrait=0" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
 </div>

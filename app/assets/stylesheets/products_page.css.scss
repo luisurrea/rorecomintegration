@@ -6,7 +6,6 @@ ol#interesting_items-list {
   li {
     padding: 12px;
     display:inline-block;
-    border-right: 1px solid #DFDFDF;
     height:100%;
 
     .interesting_items-details {
@@ -29,4 +28,5 @@ div {
 }
 #featured_image {
   padding-bottom:7px;
+  text-align: center;
 }

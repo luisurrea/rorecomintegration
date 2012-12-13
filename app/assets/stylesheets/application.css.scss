@@ -102,14 +102,18 @@ background:none repeat scroll 0 0 #FFFFFF;
 margin-top: 0 0 10px;
 padding: 20px 20px 4px;
 }
-#containerleftcont{
+div #containerleftcont{
+  
+  
   width: 26%;
   float: left;
   overflow:hidden;
+  
 }
 #containerrightcont{
   width: 74%;
   float: right;
+  margin: 0 0 20px;
 }
 
 #footer{
