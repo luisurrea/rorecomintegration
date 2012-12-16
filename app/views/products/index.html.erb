@@ -1,27 +1,22 @@
 <% content_for :head do -%>
   <%= stylesheet_link_tag 'products_page.css' %>
 <% end %>
-<div id="containerrightcont">	
-Nombre categoria <%= @products.parent.name %>
-	<div id='featured_item' class='span-18'>
- 	 <div id='interesting_items' class='span-18'>
- 	    <ul id='interesting_items-list'>
-      <% @products.each_with_index do |product, i| %>
-        <li id='interesting_product_<%= i %>' class='left-text padding-5'>
-          <div class='interesting_items-image'>
+<div id="containerrightcont">
+	<div class="eleven columns centered">	
+		<div class="panel"><h5>Productos Nombre categoria <%= @products.parent.name %></h5></div>
+	    <% @products.each_with_index do |product, i| %>
+      <div id="product-list">
+          
             <%= link_to image_tag(product.featured_image(:small)), product_path(product), title: product.name %>
-          </div>
-          <div class='interesting_items-details'><%= product.name %><br/>
-	          ( <%= number_to_currency product.price_range.first %>
+          <h3><%= product.name %> <span class="price">( <%= number_to_currency product.price_range.first %>
   	          <% if product.price_range? %>
     	            to <%= number_to_currency product.price_range.last %>
-      	      <% end %>)
-          </div>
-        </li>
+      	      <% end %>)</span></h3> 
+      	      <p><%= raw truncate(strip_tags(product.description), length: 250) %></p>
+         
+      </div>
       <% end %>
-    </ul>
- 	 </div>
-	</div>
+    </div>
 </div>
 
 <div id="containerleftcont">

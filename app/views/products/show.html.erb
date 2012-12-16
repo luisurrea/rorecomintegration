@@ -5,26 +5,49 @@
   <%= javascript_include_tag "shopping/cart" %>
 <% end %>
 <div id="containerrightcont">
+<div class="eleven columns centered">
+	<div class="panel"><h5>Detalles del producto</h5></div>
 <div id='product'>
 
   <div class='span-1<%=@product.variants.empty? ? '9' : '8' %> float-left last'>
-    <div class='span-9 float-left'>
-      <%= image_tag(@product.featured_image(:product)) %><br/>
+    <div class='imageproduct'>
+    	<ul data-clearing>
+       <li><%= link_to image_tag(@product.featured_image(:product)), @product.featured_image(:large) %></li><br/>
+      </ul>
+      
+      <div class='addtocart'>
+    <%= form_for  @cart_item, :as => :cart_item,
+                  :url  => shopping_cart_items_path(@cart_item),
+                  :html => { :id => 'new_cart_item' } do |f| %>
+        <%= f.hidden_field :variant_id, :value => @product.variants.first.try(:id) %>
+      <% unless @product.variants.empty? %>
+          <%= f.label :quantity, 'Cantidad:' %>
+          <%= f.select :quantity, CartItem::QUANTITIES %>
 
-      <div class='product-details'><%= @product.name %>
-      ( <%= number_to_currency @product.price_range.first %>
-        <% if @product.price_range? %>
-            to <%= number_to_currency @product.price_range.last %>
-        <% end %>)
-      </div>
+        <div id='submit_add_to_cart' class="gradientbuttons redtheme ready-to-add-to-cart">
+          <ul>
+            <li><a>Agregar al carrito</a></li>
+          </ul>
+        </div>
+      <% end %>
+    <% end %>
+  </div>
+      
+      
     </div>
     <% if @product.variants.empty? %>
-      <h2><%= @product.name %> </h2>
+      <h3><%= @product.name %> <span class="price">( <%= number_to_currency @product.price_range.first %>
+        <% if @product.price_range? %>
+            to <%= number_to_currency @product.price_range.last %>
+        <% end %>)</span></h3>
       <div id='no-variant-available' class=' span-8  last'>
-        Sorry this product is not currently available.
+        Lo sentimos este producto no se encuentra disponible.
       </div>
     <% else %>
-      <h2><%= @product.name %> </h2>
+      <h3><%= @product.name %><span class="price">( <%= number_to_currency @product.price_range.first %>
+        <% if @product.price_range? %>
+            to <%= number_to_currency @product.price_range.last %>
+        <% end %>)</span> </h3>
       <div id='all-variants' class='dkBlueBox span-8'>
         <div  class='innerBox'>
           <% @product.variants.each_with_index do |variant, i| %>
@@ -41,33 +64,18 @@
           <% end %>
         </div>
       </div>
-      <hr/>
+      
+    <% end %>
+    <hr/>
       <div id='product_description' class='left-text-4'>
         <%= raw @product.description %>
       </div>
-    <% end %>
   </div>
-  <div id='add-to-cart_form-wrapper' class='span-6 float-left last'>
-    <%= form_for  @cart_item, :as => :cart_item,
-                  :url  => shopping_cart_items_path(@cart_item),
-                  :html => { :id => 'new_cart_item' } do |f| %>
-        <%= f.hidden_field :variant_id, :value => @product.variants.first.try(:id) %>
-      <% unless @product.variants.empty? %>
-          <%= f.label :quantity, 'Quantity:' %>
-          <%= f.select :quantity, CartItem::QUANTITIES %>
-
-        <div id='submit_add_to_cart' class="gradientbuttons redtheme ready-to-add-to-cart">
-          <ul>
-            <li><a>Add to Cart</a></li>
-          </ul>
-        </div>
-      <% end %>
-    <% end %>
-  </div>
+  
+</div>
 </div>
 </div>
 <div id="containerleftcont">
-	<h3>Categorias</h3>
 	<%= render 'shared/main_product_tabs' %>
 </div>
 

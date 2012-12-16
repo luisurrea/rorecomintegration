@@ -1,5 +1,29 @@
 @import "css3_buttons";
 @import "app_mixins";
+div#product{
+  
+ .imageproduct{
+  img {
+    width: 50%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    float:left;
+    position: static;
+     }  
+ } 
+  
+  .addtocart{
+    width: 40%;
+    float:right;
+    border:   solid 1px #DD8888;
+  }
+.price {
+    color: #44a;
+    font-weight: bold;
+    margin-right: 3em;
+    }  
+  
+}
 
 #no-variant-available {
   font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
