@@ -1,6 +1,6 @@
 <%= render :partial => '/admin/merchandise/sub_header'%>
 
-<h1> Editar Propiedad</h1>
+<h3> Editar Propiedad</h3>
 
 <%= form_for(@product, :url => admin_merchandise_changes_product_property_path(@product.id)) do |f| %>
   <%= render :partial => 'form', :locals => {:f => f} %>

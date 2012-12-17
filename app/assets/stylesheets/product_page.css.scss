@@ -3,19 +3,22 @@
 div#product{
   
  .imageproduct{
-  img {
-    width: 50%;
+  
+    width: 100%;
     margin-right: 5px;
     margin-bottom: 5px;
     float:left;
     position: static;
-     }  
+    clear:both;
+    
  } 
   
   .addtocart{
+    margin: 10% 0 20px;
     width: 40%;
+    height: inherit;
     float:right;
-    border:   solid 1px #DD8888;
+    
   }
 .price {
     color: #44a;

@@ -8,26 +8,20 @@
   <%= form_for session_cart, :url => shopping_cart_item_path(session_cart), :as => :cart do |cart_form| %>
 
     <% unless @cart_items.blank? %>
-      <div id='update-cart-wrapper' class='span-15'>
+      <div class='row'>
 
-          <div id='update_all_cart' class="small-gradientbuttons small-redtheme update-all-cart">
-            <ul class=' span-7'>
-              <li>
-                <span class="tiny ">Make any changes below?</span>
-              </li>
-              <li>
-                <%= cart_form.submit 'update' %>
-              </li>
-            </ul>
-
+          <div class="panel six columns">
+          	<h5 class="inline left">Realizo algun cambio?</h5> 
+            <%= cart_form.submit 'actualizar', :class => 'small button inline right' %>
           </div>
-
+					<div class='six columns'>
+						<div class="four columns centered">
+        <%= cart_form.submit 'comprar', {:checkout => 1, :class => 'button', :style => 'margin-top: 20px'} %>
+        </div>
       </div>
-      <div class=''>
-        <%= cart_form.submit 'checkout', {:checkout => 1} %>
       </div>
-
       <div class="clear"></div>
+      
     <% end %>
     <table width="100%" cellspacing="0" cellpadding="0" border="0">
       <tbody>
@@ -38,11 +32,11 @@
                         <tbody>
                           <tr valign="top" bgcolor="#ebebe7" width="100%" >
                             <td bgcolor="#ebebe7" colspan="2"  >
-                                <b>Shopping Cart Items--To Buy Now</b>
+                                <b>Articulos en el carrito - Para compra inmediata</b>
                             </td>
-                            <td bgcolor="#ebebe7" class="small"><b>Price:</b></td>
+                            <td bgcolor="#ebebe7" class="small"><b>Precio:</b></td>
 
-                            <td width="8%" bgcolor="#ebebe7" align="middle" class="small "><b>Qty:</b></td>
+                            <td width="8%" bgcolor="#ebebe7" align="middle" class="small "><b>Cantidad</b></td>
                           </tr>
                           <%#= cart_form.fields_for :shopping_cart_items, @cart_items do |cart_items_form| %>
                           <% @cart_items.each_with_index do |item, i| %>
@@ -54,6 +48,8 @@
                       </table>
             </td>
           </tr>
+          <% else %>
+    		<h4>No hay articulos en el carrito.</h4>
         <% end %>
 
         <tr>
@@ -67,8 +63,8 @@
               <table width="100%" cellspacing="0" cellpadding="10">
                 <tbody>
                   <tr valign="top" bgcolor="#eeeecc">
-                      <td bgcolor="#eeeecc" colspan="2"><a name="savedforlater"><b>Saved Items--To Buy Later</b></a></td>
-                      <td bgcolor="#eeeecc" colspan="2" class="small"><b>Price:</b></td>
+                      <td bgcolor="#eeeecc" colspan="2"><a name="savedforlater"><b>Articulos guardados - Para comprar despues</b></a></td>
+                      <td bgcolor="#eeeecc" colspan="2" class="small"><b>Precio:</b></td>
                   </tr>
 
                   <%= render :partial => '/shopping/cart_items/saved_items' unless @saved_cart_items.empty? %>

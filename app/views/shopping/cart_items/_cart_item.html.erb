@@ -1,13 +1,13 @@
 <tr>
   <td width="18%" valign="top" align="right" style='padding:2px;'>
     <div class="tiny">
-      <b name="<%= i %>">Item added on <br/><%= item.created_at.strftime(I18n.translate('time.formats.long_date')) %>  </b>
+      <b name="<%= i %>">Articulo agregado en:<br/><%= item.created_at.strftime(I18n.translate('time.formats.long_date')) %>  </b>
     </div>
 
     <div id='remove_<%= i %>_from_cart' class="small-gradientbuttons small-redtheme ready-to-add-to-cart">
       <ul>
         <li>
-          <%= link_to 'Save for Later',
+          <%= link_to 'Guardar para despues',
                         move_to_shopping_cart_item_path(item, :variant_id => item.variant_id,
                                                         :item_type_id     => ItemType::SAVE_FOR_LATER_ID),
                                                         :method           => 'put' %>
@@ -15,7 +15,7 @@
       </ul>
       <ul>
         <li>
-          <%= link_to 'Delete', shopping_cart_item_path(item, :variant_id => item.variant_id),
+          <%= link_to 'Borrar', shopping_cart_item_path(item, :variant_id => item.variant_id),
                               :method => :delete %>
         </li>
       </ul>
@@ -26,8 +26,7 @@
       <b>
           <%= link_to item.variant.product_name, product_path(item.variant.product) %>
       </b>
-      <%=  item.variant.brand_name.blank? ? '' : ['-', item.variant.brand_name].join(' ') %><br/>
-      <%= item.variant.display_stock_status('', '') %>
+      	<%=  item.variant.display_stock_status('', '') %>
       <br/>
     </div>
   </td>

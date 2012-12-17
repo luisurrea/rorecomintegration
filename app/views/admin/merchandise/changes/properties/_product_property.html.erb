@@ -2,7 +2,7 @@
           class='span-14 <%= product_property_form.object.new_record? ? 'new_fields' : 'fields' %>  '>
   <div class='field six '>
     <div style='float:right;'>
-      <%= remove_child_link('remove', product_property_form) %>
+      <%= remove_child_link('eliminar', product_property_form) %>
     </div>
     Propiedad:     <%= product_property_form.select       :property_id, all_properties %><br/>
     Descripcion:  <%= product_property_form.text_field   :description %><br/>

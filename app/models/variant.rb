@@ -105,8 +105,8 @@ class Variant < ActiveRecord::Base
   # @param [Optional String]
   # @return [String]
   def display_stock_status(start = '(', finish = ')')
-    return "#{start}Sold Out#{finish}"  if sold_out?
-    return "#{start}Low Stock#{finish}" if low_stock?
+    return "#{start}Agotado#{finish}"  if sold_out?
+    return "#{start}Pocas existencias#{finish}" if low_stock?
     ''
   end
 

@@ -3,13 +3,13 @@
   <tr>
     <td width="20%" valign="top" align="right">
       <div class="tiny">
-        <b name="s<%= i %>">Item added on <br/><%= item.created_at.strftime(I18n.translate('time.formats.long_date')) %></b>
+        <b name="s<%= i %>">Articulo agregado en:<br/><%= item.created_at.strftime(I18n.translate('time.formats.long_date')) %></b>
       </div>
 
       <div id='add_<%= i %>_to_cart' class="small-gradientbuttons small-redtheme ready-to-add-to-cart">
         <ul>
           <li>
-            <%= link_to 'Move to Cart',
+            <%= link_to 'Mover al carrito',
                           move_to_shopping_cart_item_path(item, :variant_id => item.variant_id,
                                                           :item_type_id     => ItemType::SHOPPING_CART_ID),
                                                           :method           => 'put' %>
@@ -17,7 +17,7 @@
         </ul>
         <ul>
           <li>
-            <%= link_to 'Delete', shopping_cart_item_path(item, :variant_id => item.variant_id),
+            <%= link_to 'Borrar', shopping_cart_item_path(item, :variant_id => item.variant_id),
                                 :method => :delete %>
           </li>
         </ul>
@@ -29,7 +29,6 @@
         <b>
           <%= link_to item.variant.product_name, product_path(item.variant.product) %>
         </b>
-        <%=  item.variant.brand_name.blank? ? '' : ['-', item.variant.brand_name].join(' ') %><br/>
         <%= item.variant.display_stock_status('', '') %>
         <br/>
       </div>

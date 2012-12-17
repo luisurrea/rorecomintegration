@@ -1,30 +1,9 @@
-
 shipping_methods:
   1: #'Colombia'
     attributes:
       name: 'Transporte propio'
       shipping_zone_id: 1
-#  2: #'USA'
-#    attributes:
-#      name: 'UPS next day'
-#      shipping_zone_id: 1
-#  3: #Alaska and Hawaii
-#    attributes:
-#      name: 'UPS 3-5 day'
-#      shipping_zone_id: 2
-#  4: #Canada
-#    attributes:
-#      name: 'UPS 3-5 day'
-#      shipping_zone_id: 3
-#  5: #Canada
-#    attributes:
-#      name: 'UPS 7-14 day'
-#      shipping_zone_id: 3
-#  6: #USA Territory
-#    attributes:
-#      name: 'UPS 7-14 day'
-#      shipping_zone_id: 4
-#
+
 shipping_categories:
   1:
     attributes:
@@ -43,498 +22,234 @@ shipping_rates:
       minimum_charge: 25.00
       position: 1
       active: true
-  2: #'STANDARD, shipping_rate_type => Order, shipping_category => Pesados'
-    attributes:
-      shipping_method_id: 1
-      rate: 7.00
-      shipping_rate_type_id: 2
-      shipping_category_id: 1
-      minimum_charge: 0.00
-      position: 2
-      active: true
-#  3: #'EXPEDITE, shipping_rate_type => Order, shipping_category => Pesados'
-#    attributes:
-#      shipping_method_id: 2
-#      rate: 15.00
-#      shipping_rate_type_id: 2
-#      shipping_category_id: 1
-#      minimum_charge: 0.00
-#      position: 3
-#      active: true
-#  4: #'STANDARD ALASKA, shipping_rate_type => Order, shipping_category => Clothing'
-#    attributes:
-#      shipping_method_id: 3
-#      rate: 10.00
-#      shipping_rate_type_id: 2
-#      shipping_category_id: 1
-#      minimum_charge: 0.00
-#      position: 1
-#      active: true
-#  5: #'STANDARD CANADA, shipping_rate_type => Order, shipping_category => Clothing'
-#    attributes:
-#      shipping_method_id: 4
-#      rate: 15.00
-#      shipping_rate_type_id: 2
-#      shipping_category_id: 1
-#      minimum_charge: 0.00
-#      position: 1
-#      active: true
-#  6: #'GROUND CANADA, shipping_rate_type => Order, shipping_category => Clothing'
-#    attributes:
-#      shipping_method_id: 5
-#      rate: 10.00
-#      shipping_rate_type_id: 2
-#      shipping_category_id: 1
-#      minimum_charge: 0.00
-#      position: 2
-#      active: true
-#  7: #'GROUND US TERRITORY, shipping_rate_type => Order, shipping_category => Clothing'
-#    attributes:
-#      shipping_method_id: 6
-#      rate: 12.00
-#      shipping_rate_type_id: 2
-#      shipping_category_id: 1
-#      minimum_charge: 0.00
-#      position: 2
-#      active: true
-#  8: #'FREE, shipping_rate_type => Individual, shipping_category => Furnature'
-#    attributes:
-#      shipping_method_id: 1
-#      rate: 0.00
-#      shipping_rate_type_id: 1
-#      shipping_category_id: 2
-#      minimum_charge: 25.00
-#      position: 1
-#      active: true
-#  9: #'STANDARD, shipping_rate_type => Individual, shipping_category => Furnature'
-#    attributes:
-#      shipping_method_id: 1
-#      rate: 7.00
-#      shipping_rate_type_id: 1
-#      shipping_category_id: 2
-#      minimum_charge: 0.00
-#      position: 2
-#      active: true
-#  10: #'EXPEDITE, shipping_rate_type => Individual, shipping_category => Furnature'
-#    attributes:
-#      shipping_method_id: 2
-#      rate: 15.00
-#      shipping_rate_type_id: 1
-#      shipping_category_id: 2
-#      minimum_charge: 0.00
-#      position: 3
-#      active: true
-#  11: #'STANDARD ALASKA, shipping_rate_type => Individual, shipping_category => Furnature'
-#    attributes:
-#      shipping_method_id: 3
-#      rate: 10.00
-#      shipping_rate_type_id: 1
-#      shipping_category_id: 2
-#      minimum_charge: 0.00
-#      position: 1
-#      active: true
-#  12: #'STANDARD CANADA, shipping_rate_type => Individual, shipping_category => Furnature'
-#    attributes:
-#      shipping_method_id: 4
-#      rate: 15.00
-#      shipping_rate_type_id: 1
-#      shipping_category_id: 2
-#      minimum_charge: 0.00
-#      position: 1
-#      active: true
-# # 13: #'GROUND CANADA, shipping_rate_type => Individual, shipping_category => Furnature'
-#    attributes:
-#      shipping_method_id: 5
-#      rate: 10.00
-#      shipping_rate_type_id: 1
-#      shipping_category_id: 2
-#      minimum_charge: 0.00
-#      position: 2
-#      active: true
-#  14: #'GROUND US TERRITORY, shipping_rate_type => Individual, shipping_category => Furnature'
-#    attributes:
-#      shipping_method_id: 6
-#      rate: 12.00
-#      shipping_rate_type_id: 1
-#      shipping_category_id: 2
-#      minimum_charge: 0.00
-#      position: 2
-#      active: true
+  
 
 prototypes:
-  1: #Shirt
+  1: #Destornilladores
     attributes:
-      name: Shirt
+      name: Destornillador
       active: true
-  2: #Pants
+  2: #Alicates
     attributes:
-      name: Pants
+      name: Alicates
       active: true
 
 properties:
-  1: #shirt-color
+  1: #largo del destornillador
     attributes:
-      identifing_name: shirt-color
-      display_name: color
-  2: #shirt-size
+      identifing_name: destornillador-largo
+      display_name: largo
+  2: #ancho del destornillador
     attributes:
-      identifing_name: shirt-size
-      display_name: size
-  3: #shirt-type
+      identifing_name: destornillador-ancho
+      display_name: ancho
+  3: #tipo de destornillador
     attributes:
-      identifing_name: shirt-type
-      display_name: type
-  4: #pant-inseam
-    attributes:
-      identifing_name: pant-inseam
-      display_name: size
-  5: #pant-waist
-    attributes:
-      identifing_name: pant-waist
-      display_name: waist
-  6: #pant-color
-    attributes:
-      identifing_name: pant-color
-      display_name: color
-  7: #'pant-fit  BAGGY, SLIM'
-    attributes:
-      identifing_name: pant-fit
-      display_name: fit
-
+      identifing_name: destornillador-tipo
+      display_name: tipo
+  
 prototype_properties:
-  1: #'shirt-color'
+  1: #'largo del destornillador'
     attributes:
       property_id: 1
       prototype_id: 1
-  2: #'shirt-size'
+  2: #'ancho del destornillador'
     attributes:
       property_id: 2
       prototype_id: 1
-  3: #'shirt-type'
+  3: #'tipo de destornillador'
     attributes:
       property_id: 3
       prototype_id: 1
-  4: #'pant-inseam'
-    attributes:
-      property_id: 4
-      prototype_id: 2
-  5: #'pant-waist'
-    attributes:
-      property_id: 5
-      prototype_id: 2
-  6: #'pant-fit'
-    attributes:
-      property_id: 7
-      prototype_id: 2
-  7: #'pant-color'
-    attributes:
-      property_id: 6
-      prototype_id: 2
+  
 
 product_types:
-  1: #clothes
+  1: #Accesorios
     attributes:
-      name: clothes
+      name: Accesorios
       parent_id:
       active: true
-  2: #shirts
+  2: #Belem y Madeiras
     attributes:
-      name: shirts
+      name: Belem y Madeiras
       parent_id: 1
       active: true
-  3:
+  3: #Cocina Acero Inoxidable
     attributes:
-      name: pants
-      parent_id: 1
+      name: Cocina Acero Inoxidable
+      parent_id: 
       active: true
+  4: #Linea de Lujo
+    attributes:
+      name: Linea de Lujo
+      parent_id: 3
+      active: true      
+  5: #Teec
+    attributes:
+      name: Teec
+      parent_id: 3
+      active: true      
+  6: #Herramientas
+    attributes:
+      name: Herramientas
+      parent_id: 
+      active: true      
+  7: #Master
+    attributes:
+      name: Master
+      parent_id: 6
+      active: true      
+  8: #Pro
+    attributes:
+      name: Pro
+      parent_id: 6
+      active: true      
+  9: #Hogar
+    attributes:
+      name: Hogar
+      parent_id: 
+      active: true      
+  10: #Cutelaria
+    attributes:
+      name: Cutelaria
+      parent_id: 9
+      active: true      
+  11: #Farroupilha
+    attributes:
+      name: Farroupilha
+      parent_id: 9
+      active: true
+  12: #Samovares
+    attributes:
+      name: Samovares
+      parent_id: 9
+      active: true      
+  13: #Jardineria
+    attributes:
+      name: Jardineria
+      parent_id: 
+      active: true
+  14: #Multi
+    attributes:
+      name: Multi
+      parent_id: 13
+      active: true
+  15: #Muebles
+    attributes:
+      name: Muebles
+      parent_id: 
+      active: true
+  16: #Delta
+    attributes:
+      name: Delta
+      parent_id: 15
+      active: true            
 brands:
   1:
     attributes:
-      name: Polo
-  2:
-    attributes:
-      name: Ralph Lauren
-
+      name: Tramontina
 suppliers:
   1:
     attributes:
-      name: Polo Warehouse
-      email: test@test-polo.com
-  2:
-    attributes:
-      name: RL Warehouse
-      email: test@test-rl.com
+      name: Tramontina Colombia
+      email: test@test.com
 
 tax_categories:
-  1:
+  1: #Iva 16 %
     attributes:
-      name: Clothes
-  2:
-    attributes:
-      name: Luxury
+      name: iva-general
 
 tax_rates:
-  1: #Clothes New York
+  1: #General
     attributes:
-      percentage: 7.0
+      percentage: 16
       tax_category_id: 1
       state_id: 1
-      start_date: '2011-11-05 14:30:29'
+      start_date: '2012-01-01 14:30:29'
       active: true
-  2: #Luxury New York
-    attributes:
-      percentage: 8.0
-      tax_category_id: 2
-      state_id: 38
-      start_date: '2011-11-05 14:30:29'
-      active: true
-
+  
 products:
-  1: #Polo Shirt
+  1: #'Destornillador'
     attributes:
-      name: Cute Polo
-      description: '<p>This shirt is made for developers.</p> <hr /> <p>You will love it.</p>'
+      name: Destornillador
+      description: '<p>Destonillador linea master.</p>'
       product_keywords:
-        - polo
-        - shirt
+        - destornillador
       tax_category_id:
       brand_id: 1
-      product_type_id: 2
+      product_type_id: 7
       prototype_id: 1
       shipping_category_id: 1
       tax_category_id: 1
       active: true
-      permalink: cute-polo-shirt
+      permalink: destornillador
       available_at: '2011-11-05 14:30:29'
       deleted_at:
-      meta_keywords: polo shirt
-      meta_description: polo shirt for your wearing pleasure
-      featured: false
-      description_markup: "This shirt is made for developers.\n\n      ----------      \n\n You will love it."
-
-  2: #Polo Pants
-    attributes:
-      name: Cute Pants
-      description: "<p>These pants are Great.  Soft as a baby's bottom.</p> <hr /> <p>You will love them.</p>"
-      product_keywords:
-        - polo
-        - shirt
-      tax_category_id:
-      brand_id: 1
-      product_type_id: 3
-      prototype_id: 2
-      shipping_category_id: 1
-      tax_category_id: 1
-      active: true
-      permalink: cute-polo-pants
-      available_at: '2011-11-05 14:30:29'
-      deleted_at:
-      meta_keywords: polo pants
-      meta_description: polo pants for your wearing pleasure
-      featured: false
-      description_markup: "These pants are Great.  Soft as a baby's bottom.\n\n      ----------      \n\n You will love them."
+      meta_keywords: destornillador
+      meta_description: destornillador profesional
+      featured: true
+      description_markup: "Destornillador Linea Master"
 
 product_properties:
-  1: #'Cute Polo, COLOR'
+  1: #'Destornillador, Largo'
     attributes:
       product_id: 1
       property_id: 1
       position: 1
-      description: 'Red, Green, Purple'
-  2: #'Cute Polo, size'
+      description: '6in, 8in, 10in'
+  2: #'Destornillador, Ancho'
     attributes:
       product_id: 1
       property_id: 2
       position: 2
-      description: 'Small, Medium, Large'
-  3: #'Cute Polo, type'
+      description: '3/16, 1/4, 5/8'
+  3: #'Destornillador, tipo'
     attributes:
       product_id: 1
       property_id: 3
       position: 3
-      description: 'Golf Shirt'
-  4: #'Cute Pants, COLOR'
-    attributes:
-      product_id: 2
-      property_id: 6
-      position: 1
-      description: 'Blue, Black, Grey'
-  5: #'Cute Pants, inseam'
-    attributes:
-      product_id: 2
-      property_id: 4
-      position: 2
-      description: '30in, 32in, 34in'
-  6: #'Cute Pants, waist'
-    attributes:
-      product_id: 2
-      property_id: 5
-      position: 3
-      description: '32in, 34in, 36in'
-  7: #'Cute Pants, fit'
-    attributes:
-      product_id: 2
-      property_id: 7
-      position: 3
-      description: 'Baggy, Slim'
-
+      description: 'Plano, Cruz'
+  
 inventories:
   1:
     attributes:
       count_on_hand: 11
       count_pending_to_customer: 5
       count_pending_from_supplier: 0
-  2:
-    attributes:
-      count_on_hand: 102
-      count_pending_to_customer: 0
-      count_pending_from_supplier: 0
-  3:
-    attributes:
-      count_on_hand: 103
-      count_pending_to_customer: 0
-      count_pending_from_supplier: 0
-  4:
-    attributes:
-      count_on_hand: 104
-      count_pending_to_customer: 0
-      count_pending_from_supplier: 0
-  5:
-    attributes:
-      count_on_hand: 105
-      count_pending_to_customer: 0
-      count_pending_from_supplier: 0
+
 variants:
-  1: #'Polo Shirt 1'
+  1: #'Destornillador 1'
     attributes:
       product_id: 1
       sku: 0000-0000-000001
       name:
-      price: 30.00
-      cost: 10.00
+      price: 3000
+      cost: 1000
       brand_id: 1
       inventory_id: 1
-  2: #'Polo Shirt 2'
+  2: #'Destornillador 2'
     attributes:
       product_id: 1
       sku: 0000-0000-000002
       name:
-      price: 30.00
-      cost: 10.00
+      price: 3000
+      cost: 1000
       brand_id: 1
       inventory_id: 2
-  3: #'Polo Shirt 3'
-    attributes:
-      product_id: 1
-      sku: 0000-0000-000003
-      name:
-      price: 30.00
-      cost: 10.00
-      brand_id: 1
-      inventory_id: 3
-  4: #'Cute Pants 1'
-    attributes:
-      product_id: 2
-      sku: 0000-0001-000001
-      name:
-      price: 30.00
-      cost: 10.00
-      brand_id: 1
-      inventory_id: 4
-  5: #'Cute Pants 2'
-    attributes:
-      product_id: 2
-      sku: 0000-0001-000002
-      name:
-      price: 30.00
-      cost: 10.00
-      brand_id: 1
-      inventory_id: 5
+  
 variant_properties:
-  1: #'Polo Shirt 1'
+  1: #'Destornillador 1'
     attributes:
       variant_id: 1
       property_id: 1
-      description: Red
+      description: 6in
       primary: 1
-  2: #'Polo Shirt 2'
+  2: #'Destornillador 2'
     attributes:
       variant_id: 2
       property_id: 1
-      description: Green
+      description: 8in
       primary: 1
-  3: #'Polo Shirt 1'
-    attributes:
-      variant_id: 1
-      property_id: 2
-      description: Small
-      primary: 0
-  4: #'Polo Shirt 2'
-    attributes:
-      variant_id: 2
-      property_id: 2
-      description: Medium
-      primary: 0
-  5: #'Polo Shirt 3'
-    attributes:
-      variant_id: 3
-      property_id: 2
-      description: Small
-      primary: 0
-  6: #'Polo Shirt 3'
-    attributes:
-      variant_id: 3
-      property_id: 1
-      description: Purple
-      primary: 0
-  7: #'Cute Pants 1'
-    attributes:
-      variant_id: 4
-      property_id: 6
-      description: Blue
-      primary: 1
-  8: #'Cute Pants 1 inseam'
-    attributes:
-      variant_id: 4
-      property_id: 4
-      description: 30in
-      primary: 0
-  9: #'Cute Pants 1 waist'
-    attributes:
-      variant_id: 4
-      property_id: 5
-      description: 34in
-      primary: 0
-  10: #'Cute Pants 1 fit'
-    attributes:
-      variant_id: 4
-      property_id: 7
-      description: Slim
-      primary: 0
-  11: #'Cute Pants 1'
-    attributes:
-      variant_id: 5
-      property_id: 6
-      description: Black
-      primary: 1
-  12: #'Cute Pants 1 inseam'
-    attributes:
-      variant_id: 5
-      property_id: 4
-      description: 32in
-      primary: 0
-  13: #'Cute Pants 1 waist'
-    attributes:
-      variant_id: 5
-      property_id: 5
-      description: 32in
-      primary: 0
-  14: #'Cute Pants 1 fit'
-    attributes:
-      variant_id: 5
-      property_id: 7
-      description: Baggy
-      primary: 0
 
 variant_suppliers:
   1:
@@ -554,31 +269,4 @@ variant_suppliers:
       total_quantity_supplied: 0
       min_quantity: 12
       max_quantity: 1002
-      active: true
-  3:
-    attributes:
-      variant_id: 3
-      supplier_id: 1
-      cost: 10.00
-      total_quantity_supplied: 0
-      min_quantity: 13
-      max_quantity: 1003
-      active: true
-  4:
-    attributes:
-      variant_id: 4
-      supplier_id: 2
-      cost: 15.00
-      total_quantity_supplied: 0
-      min_quantity: 4
-      max_quantity: 400
-      active: true
-  5:
-    attributes:
-      variant_id: 5
-      supplier_id: 2
-      cost: 15.00
-      total_quantity_supplied: 0
-      min_quantity: 5
-      max_quantity: 500
       active: true
