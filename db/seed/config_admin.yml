@@ -189,6 +189,292 @@ products:
       meta_description: destornillador profesional
       featured: true
       description_markup: "Destornillador Linea Master"
+  2: 
+    attributes:
+      name: Tabla para alimentos
+      description: '<p>Tabla para alimentos con mango.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 2
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: true
+      description_markup: "Tabla para alimentos con mango."
+  3: 
+    attributes:
+      name: Bandeja Square en Pino 
+      description: '<p>Bandeja Square en Pino.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 2
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: true
+      description_markup: "Bandeja Square en Pino."
+  4: 
+    attributes:
+      name: Mesa para computador portatil
+      description: '<p>Mesa para computador portatil (Notebook) Estructura en pino macizo</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 2
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: true
+      description_markup: "Mesa para computador portatil (Notebook) Estructura en pino macizo."
+  5: 
+    attributes:
+      name: Mesa de planchar DUO
+      description: '<p>Mesa de planchar DUO Pino macizo</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 2
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: true
+      description_markup: "Mesa de planchar DUO Pino macizo."
+  6: 
+    attributes:
+      name: Lavaplatos 800 x 500 mm 
+      description: '<p>Lavaplatos 800 x 500 mm Poceta izquierda + Escurridor  Pre Pulido. Sin válvula. Estándar Filo 40,</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: true
+      description_markup: "Lavaplatos 800 x 500 mm Poceta izquierda + Escurridor  Pre Pulido. Sin válvula. Estándar Filo 40."
+  7: 
+    attributes:
+      name: Lavaplatos 1.000 x 500 mm
+      description: '<p>Lavaplatos 1.000 x 500 mm Poceta izquierda + Escurridor Pre Pulido. Sin válvula. Estándar Filo 40</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: true
+      description_markup: "Lavaplatos 1.000 x 500 mm Poceta izquierda + Escurridor Pre Pulido. Sin válvula. Estándar Filo 40."            
+  8: 
+    attributes:
+      name: Lavaplatos 800 x 500 mm
+      description: '<p>Lavaplatos 800 x 500 mm Poceta derecha + Escurridor Pre Pulido. Sin válvula. Estándar Filo 40,</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Lavaplatos 800 x 500 mm Poceta derecha + Escurridor Pre Pulido. Sin válvula. Estándar Filo 40."            
+  9: 
+    attributes:
+      name: Lavaplatos 1.000 x 500 mm
+      description: '<p>Lavaplatos 1.000 x 500 mm Poceta derecha + Escurridor Pre Pulido. Sin válvula. Estándar Filo 40</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Lavaplatos 800 x 500 mm Poceta derecha + Escurridor Pre Pulido. Sin válvula. Estándar Filo 40."
+  10: 
+    attributes:
+      name: Lavaplatos 1.200 x 500 mm
+      description: '<p>Lavaplatos 1.200 x 500 mm Poceta central + Escurridores.Pre Pulido. Sin válvula. Estándar Filo 40</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Lavaplatos 1.200 x 500 mm Poceta central + Escurridores.Pre Pulido. Sin válvula. Estándar Filo 40."
+  11: 
+    attributes:
+      name: Fregadero en acero inoxidable
+      description: '<p>Fregadero en acero inoxidable Profundidad 120 mm Acabado Pre-pulido Stándard Beta 40</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Fregadero en acero inoxidable Profundidad 120 mm Acabado Pre-pulido Stándard Beta 40"
+  12: 
+    attributes:
+      name: Lavaplatos 625 x 500 
+      description: '<p>Lavaplatos 625 x 500 mm Doble poceta reversible. Satinada. Sin válvula. Perfecta Vega.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Lavaplatos 625 x 500 mm Doble poceta reversible. Satinada. Sin válvula. Perfecta Vega."
+  13: 
+    attributes:
+      name: Lavaplatos 860 x 500 mm 
+      description: '<p>Lavaplatos 860 x 500 mm Doble cubeta vertical. Satinado. Sin válvula. Perfecta Sigma,</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Lavaplatos 860 x 500 mm Doble cubeta vertical. Satinado. Sin válvula. Perfecta Sigma"
+  14: 
+    attributes:
+      name: Lavaplatos 780 X 435 mm 
+      description: '<p>Lavaplatos 780 X 435 mm Doble cubeta. Satinado. Sin válvula. Perfecta Zeta,</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Lavaplatos 780 X 435 mm Doble cubeta. Satinado. Sin válvula. Perfecta Zeta,"
+  15: 
+    attributes:
+      name: Lavaplatos 1.000 x 500 mm 
+      description: '<p>Lavaplatos 1.000 x 500 mm Doble poceta a la izquierda. Sin válvula. Satinada. Perfecta Vega,</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Lavaplatos 1.000 x 500 mm Doble poceta a la izquierda. Sin válvula. Satinada. Perfecta Vega"
+  16: 
+    attributes:
+      name: Lavaplatos 1.000 x 500 mm 
+      description: '<p>Lavaplatos 1.000 x 500 mm Doble poceta a la derecha. Sin válvula. Satinada. Perfecta Vega,</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Lavaplatos 1.000 x 500 mm Doble poceta a la derecha. Sin válvula. Satinada. Perfecta Vega,"
+            
 
 product_properties:
   1: #'Destornillador, Largo'
