@@ -2,13 +2,19 @@
   <%= stylesheet_link_tag 'products_page.css' %>
 <% end %>
 <div id="containerrightcont">
+	
+	
+	
 	<div class="eleven columns centered">	
-		<div class="panel"><h5>Productos </h5></div>
+		
+		<% if product_types.parent.isroot? %>
+		
+		<div class="panel"><h5>Productos <%= product_types.parent.name %></h5></div>
 	    <% @products.each_with_index do |product, i| %>
       <div id="product-list">
           
             <%= link_to image_tag(product.featured_image(:small)), product_path(product), title: product.name %>
-          <h3><%= product.name %> <span class="price">( <%= number_to_currency product.price_range.first %>
+          <h3><%=link_to product.name, product_path(product) %> <span class="price">( <%= number_to_currency product.price_range.first %>
   	          <% if product.price_range? %>
     	            to <%= number_to_currency product.price_range.last %>
       	      <% end %>)</span></h3> 
@@ -16,7 +22,15 @@
          
       </div>
       <% end %>
+      
+      <% else %>
+    <h1>Aqui irian los links a las subcategorias...</h1>
+    <% end %>
+      
+      
     </div>
+    
+
 </div>
 
 <div id="containerleftcont">

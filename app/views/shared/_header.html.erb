@@ -44,7 +44,7 @@
   	<a href="#" class="flyout-toggle"><span> </span></a>
     <ul class="flyout">
     <% product_types.each do |pt_tab| %>
-    <li ><%= pt_tab.name %>
+    <li ><%=link_to pt_tab.name %>
     <% pt_tab.children.each do |children| %>
 		      <ul class="flyout">
 						<li><%=link_to children.name, products_path(:product_type_id => children.id) %> </li>

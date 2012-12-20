@@ -1,7 +1,8 @@
 div#product-list{
  width: 100%;
+ min-height: 100px;
  overflow: auto;
-  img {
+   img {
     width: 80px;
     margin-right: 5px;
     margin-bottom: 5px;
