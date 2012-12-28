@@ -474,8 +474,2174 @@ products:
       meta_description: 
       featured: false
       description_markup: "Lavaplatos 1.000 x 500 mm Doble poceta a la derecha. Sin válvula. Satinada. Perfecta Vega,"
-            
-
+  17: 
+    attributes:
+      name: Lavaplatos 860 x 500 mm Doble cubeta cuadradas Satinado. Sin válvula Perfecta Kappa, 
+      description: '<p>Lavaplatos 860 x 500 mm Doble cubeta cuadradas Satinado. Sin válvula Perfecta Kappa,</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Lavaplatos 860 x 500 mm Doble cubeta cuadradas Satinado. Sin válvula Perfecta Kappa,"
+  18: 
+    attributes:
+      name: Cubeta 380 x 170 mm Satinada. Sin Válvula. Prime Redonda, 
+      description: '<p>Cubeta 380 x 170 mm Satinada. Sin Válvula. Prime Redonda,</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Cubeta 380 x 170 mm Satinada. Sin Válvula. Prime Redonda,"
+  19: 
+    attributes:
+      name: Cubeta 380 x 170 mm Alto Brillo. Sin Válvula. Prime Redonda, 
+      description: '<p>Cubeta 380 x 170 mm Alto Brillo. Sin Válvula. Prime Redonda,</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Cubeta 380 x 170 mm Alto Brillo. Sin Válvula. Prime Redonda,"
+  20: 
+    attributes:
+      name: Cubeta 380 x 140 mm  Pulido. Sin Válvula. Perfecta Redonda, 
+      description: '<p>Cubeta 380 x 140 mm  Pulido. Sin Válvula. Perfecta Redonda,</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Cubeta 380 x 140 mm  Pulido. Sin Válvula. Perfecta Redonda,"
+  21: 
+    attributes:
+      name: Cubeta 560 x 340 x 170 mm Satinada. Sin válvula Prime Rectangular, 
+      description: '<p>Cubeta 560 x 340 x 170 mm Satinada. Sin válvula Prime Rectangular,</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Cubeta 560 x 340 x 170 mm Satinada. Sin válvula Prime Rectangular,"
+  22: 
+    attributes:
+      name: Cubeta 560 x 340 x 170 mm Alto Brillo. Sin válvula Prime Rectangular 
+      description: '<p>Cubeta 560 x 340 x 170 mm Alto Brillo. Sin válvula Prime Rectangular</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Cubeta 560 x 340 x 170 mm Alto Brillo. Sin válvula Prime Rectangular"
+  23: 
+    attributes:
+      name: Cubeta 560 x 340 x 140 mm Pulido. Sin Válvula. Estándar Rectangular, 
+      description: '<p>Cubeta 560 x 340 x 140 mm Pulido. Sin Válvula. Estándar Rectangular,</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Cubeta 560 x 340 x 140 mm Pulido. Sin Válvula. Estándar Rectangular,"
+  24: 
+    attributes:
+      name: Cubeta 685 x 485 mr. Satinado.  Incluye Válvula  Prime Morgana. 
+      description: '<p>Cubeta 685 x 485 mr. Satinado.  Incluye Válvula  Prime Morgana.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Cubeta 685 x 485 mr. Satinado.  Incluye Válvula  Prime Morgana."
+  25: 
+    attributes:
+      name: Cubeta 768 x 446 mm Doble rectangular vertical. Satinado. Sin Válvula. Prime Rectangular. 
+      description: '<p>Cubeta 768 x 446 mm Doble rectangular vertical. Satinado. Sin Válvula. Prime Rectangular.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Cubeta 768 x 446 mm Doble rectangular vertical. Satinado. Sin Válvula. Prime Rectangular."
+  26: 
+    attributes:
+      name: Cubeta 768 x 446 mm Doble rectangular vertical. Alto Brillo. Sin Válvula. Prime Rectangular. 
+      description: '<p>Cubeta 768 x 446 mm Doble rectangular vertical. Alto Brillo. Sin Válvula. Prime Rectangular.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Cubeta 768 x 446 mm Doble rectangular vertical. Alto Brillo. Sin Válvula. Prime Rectangular."
+  27: 
+    attributes:
+      name: Cubeta 780 x 398 mm Doble rectangular cuadradas. Empotrar. Alto Brillo. Sin Válvula. Prime Rectangular. 
+      description: '<p>Cubeta 780 x 398 mm Doble rectangular cuadradas. Empotrar. Alto Brillo. Sin Válvula. Prime Rectangular.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Cubeta 780 x 398 mm Doble rectangular cuadradas. Empotrar. Alto Brillo. Sin Válvula. Prime Rectangular."
+  28: 
+    attributes:
+      name: Cubeta 846 x 442 mm Doble cubeta redonda. Alto Brillo. Sin Válvula. Prime Redonda. 
+      description: '<p>Cubeta 846 x 442 mm Doble cubeta redonda. Alto Brillo. Sin Válvula. Prime Redonda.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Cubeta 846 x 442 mm Doble cubeta redonda. Alto Brillo. Sin Válvula. Prime Redonda."
+  29: 
+    attributes:
+      name: Cubeta 846 x 442 mm Doble cubeta redonda. Satinado. Sin Válvula. Prime Redonda. 
+      description: '<p>Cubeta 846 x 442 mm Doble cubeta redonda. Satinado. Sin Válvula. Prime Redonda.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Cubeta 846 x 442 mm Doble cubeta redonda. Satinado. Sin Válvula. Prime Redonda."
+  30: 
+    attributes:
+      name: Fregadero 15 FX California Externo 381 x 381 x 140 mm Volumen 2,11 gal - 8 litros Satinado - Dos Huecos para Grifería Perfecta California 
+      description: '<p>Fregadero 15 FX California Externo 381 x 381 x 140 mm Volumen 2,11 gal - 8 litros Satinado - Dos Huecos para Grifería Perfecta California</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Fregadero 15 FX California Externo 381 x 381 x 140 mm Volumen 2,11 gal - 8 litros Satinado - Dos Huecos para Grifería Perfecta California"
+  31: 
+    attributes:
+      name: Fregadero 21 FX California Externo 533 x 508 x 165 mm Volumen 4,34 gal - 16,5 litros Satinado - Tres Huecos para Grifería Perfecta California. 
+      description: '<p>Fregadero 21 FX California Externo 533 x 508 x 165 mm Volumen 4,34 gal - 16,5 litros Satinado - Tres Huecos para Grifería Perfecta California.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Fregadero 21 FX California Externo 533 x 508 x 165 mm Volumen 4,34 gal - 16,5 litros Satinado - Tres Huecos para Grifería Perfecta California."
+  32: 
+    attributes:
+      name: Fregadero 25 FX California Externo 635 x 560 x 165 mm Volumen 7,26 gal - 27,5 litros Satinado - Tres Huecos para Grifería Perfecta California. 
+      description: '<p>Fregadero 25 FX California Externo 635 x 560 x 165 mm Volumen 7,26 gal - 27,5 litros Satinado - Tres Huecos para Grifería Perfecta California.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Fregadero 25 FX California Externo 635 x 560 x 165 mm Volumen 7,26 gal - 27,5 litros Satinado - Tres Huecos para Grifería Perfecta California."
+  33: 
+    attributes:
+      name: Fregadero 2C 33 FX California Externo 840 x 438 x 152 mm Volumen 2 x 3,3 gal - 2 x 12,5 Litros - Satinado - Tres Huecos para Grifería Perfecta California. 
+      description: '<p>Fregadero 2C 33 FX California Externo 840 x 438 x 152 mm Volumen 2 x 3,3 gal - 2 x 12,5 Litros - Satinado - Tres Huecos para Grifería Perfecta California.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Fregadero 2C 33 FX California Externo 840 x 438 x 152 mm Volumen 2 x 3,3 gal - 2 x 12,5 Litros - Satinado - Tres Huecos para Grifería Perfecta California."
+  34: 
+    attributes:
+      name: Fregadero 2C 33 Plus FX California Externo 840 x 560 x 152 mm Volumen 2 x 4 gal - 2 x 15 Litros  Satinado - Tres Huecos para Grifería Perfecta California. 
+      description: '<p>Fregadero 2C 33 Plus FX California Externo 840 x 560 x 152 mm Volumen 2 x 4 gal - 2 x 15 Litros  Satinado - Tres Huecos para Grifería Perfecta California.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Fregadero 2C 33 Plus FX California Externo 840 x 560 x 152 mm Volumen 2 x 4 gal - 2 x 15 Litros  Satinado - Tres Huecos para Grifería Perfecta California."
+  35: 
+    attributes:
+      name: Fregadero 21 FX California Externo 533 x 508 x 165 mm Cubeta 400 x 340 x 150 mm Volumen 4,34 gal - 16,5 litros Satinado Tres Huecos para Grifería Prime California. 
+      description: '<p>Fregadero 21 FX California Externo 533 x 508 x 165 mm Cubeta 400 x 340 x 150 mm Volumen 4,34 gal - 16,5 litros Satinado Tres Huecos para Grifería Prime California.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Fregadero 21 FX California Externo 533 x 508 x 165 mm Cubeta 400 x 340 x 150 mm Volumen 4,34 gal - 16,5 litros Satinado Tres Huecos para Grifería Prime California."
+  36: 
+    attributes:
+      name: Lavamanos 300 x 115 mm Redondo. Alto brillo. Sin Válvula, Agujero de 1 3/4". Prime Redonda. 
+      description: '<p>Lavamanos 300 x 115 mm Redondo. Alto brillo. Sin Válvula, Agujero de 1 3/4". Prime Redonda.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Lavamanos 300 x 115 mm Redondo. Alto brillo. Sin Válvula, Agujero de 1 3/4". Prime Redonda."
+  37: 
+    attributes:
+      name: Lavamanos 340 x 140 mr. Redondo. Satinado. Sin Válvula, Agujero de 1 3/4". Prime Redonda. 
+      description: '<p>Lavamanos 340 x 140 mr. Redondo. Satinado. Sin Válvula, Agujero de 1 3/4". Prime Redonda.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Lavamanos 340 x 140 mr. Redondo. Satinado. Sin Válvula, Agujero de 1 3/4". Prime Redonda."
+  38: 
+    attributes:
+      name: Lavamanos 340 x 140 mr. Redondo. Alto brillo. Sin Válvula, Agujero de 1 3/4".Prime Redonda. 
+      description: '<p>Lavamanos 340 x 140 mr. Redondo. Alto brillo. Sin Válvula, Agujero de 1 3/4".Prime Redonda.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Lavamanos 340 x 140 mr. Redondo. Alto brillo. Sin Válvula, Agujero de 1 3/4".Prime Redonda."
+  39: 
+    attributes:
+      name: Lavamanos 360 x 260 X C 115 mm Ovalado. Alto brillo. Sin Válvula Agujero de 1 3/4". Perfecta Oval.
+      description: '<p>Lavamanos 360 x 260 X C 115 mm Ovalado. Alto brillo. Sin Válvula Agujero de 1 3/4". Perfecta Oval.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Lavamanos 360 x 260 X C 115 mm Ovalado. Alto brillo. Sin Válvula Agujero de 1 3/4". Perfecta Oval."
+  40: 
+    attributes:
+      name: Lavamanos 400 x 275 x C 125 mm Ovalado. Satinado. Sin Válvula Agujero de 1 3/4". Perfecta Oval.
+      description: '<p>Lavamanos 400 x 275 x C 125 mm Ovalado. Satinado. Sin Válvula Agujero de 1 3/4". Perfecta Oval.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Lavamanos 400 x 275 x C 125 mm Ovalado. Satinado. Sin Válvula Agujero de 1 3/4". Perfecta Oval."
+  41: 
+    attributes:
+      name: Lavamanos 400 x 275 x C 125 mm Ovalado. Alto Brillo. Sin Válvula Agujero de 1 3/4". Perfecta Oval.
+      description: '<p>Lavamanos 400 x 275 x C 125 mm Ovalado. Alto Brillo. Sin Válvula Agujero de 1 3/4". Perfecta Oval.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Lavamanos 400 x 275 x C 125 mm Ovalado. Alto Brillo. Sin Válvula Agujero de 1 3/4". Perfecta Oval."
+  42: 
+    attributes:
+      name: Lavamanos 340 x 140Mm. Ovalado. Alto Satinado. Sin Válvula, Agujero de 1 3/4". Perfecta Demi.
+      description: '<p>Lavamanos 340 x 140Mm. Ovalado. Alto Satinado. Sin Válvula, Agujero de 1 3/4". Perfecta Demi.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Lavamanos 340 x 140Mm. Ovalado. Alto Satinado. Sin Válvula, Agujero de 1 3/4". Perfecta Demi."
+  43: 
+    attributes:
+      name: Lavamanos 340 x 140 Mm. Alto Brillo. Alto Brillo. Sin Válvula, Agujero de 1 3/4". Perfecta Demi.
+      description: '<p>Lavamanos 340 x 140 Mm. Alto Brillo. Alto Brillo. Sin Válvula, Agujero de 1 3/4". Perfecta Demi.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Lavamanos 340 x 140 Mm. Alto Brillo. Alto Brillo. Sin Válvula, Agujero de 1 3/4". Perfecta Demi."
+  44: 
+    attributes:
+      name: Válvula 4.1/2 MARCA TRAMONTINA Empaque Bolsa Plástica Modelo 
+      description: '<p>Válvula 4.1/2 MARCA TRAMONTINA Empaque Bolsa Plástica Modelo</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 5
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Válvula 4.1/2 MARCA TRAMONTINA Empaque Bolsa Plástica Modelo"
+  45: 
+    attributes:
+      name: Campana de Pared Vetro 90 127 V Tubo de salida de 150 * 2000 Mm. 
+      description: '<p>Campana de Pared Vetro 90 127 V Tubo de salida de 150 * 2000 Mm.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 4
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Campana de Pared Vetro 90 127 V Tubo de salida de 150 * 2000 Mm."
+  46: 
+    attributes:
+      name: Campana de Pared Dritta 90 127 V Tubo de salida de 150 * 2000 Mm 
+      description: '<p>Campana de Pared Dritta 90 127 V Tubo de salida de 150 * 2000 Mm</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 4
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Campana de Pared Dritta 90 127 V Tubo de salida de 150 * 2000 Mm"
+           
+  47: 
+    attributes:
+      name: Fregadero en vidrio templado Negro reversible. Con un agujero para el grifo 860x500x178 Mm Espesor: 0,7 Mm  Peso Neto: 8,9 Kg Peso Bruto: 11,7 Kg Metros Cúbicos: 0,1539 m³ Prime Vitra. 
+      description: '<p>Fregadero en vidrio templado Negro reversible. Con un agujero para el grifo 860x500x178 Mm Espesor: 0,7 Mm  Peso Neto: 8,9 Kg Peso Bruto: 11,7 Kg Metros Cúbicos: 0,1539 m³ Prime Vitra.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 4
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Fregadero en vidrio templado Negro reversible. Con un agujero para el grifo 860x500x178 Mm Espesor: 0,7 Mm  Peso Neto: 8,9 Kg Peso Bruto: 11,7 Kg Metros Cúbicos: 0,1539 m³ Prime Vitra."
+  48: 
+    attributes:
+      name: Fregadero en vidrio templado Blanco reversible  Con un agujero para el grifo 860x500x178 Mm. Peso Neto: 8,9 Kg Peso Bruto: 11,7 Kg Metros Cúbicos: 0,1539 m³ Prime Vitra. 
+      description: '<p>Fregadero en vidrio templado Blanco reversible  Con un agujero para el grifo 860x500x178 Mm. Peso Neto: 8,9 Kg Peso Bruto: 11,7 Kg Metros Cúbicos: 0,1539 m³ Prime Vitra.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 4
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Fregadero en vidrio templado Blanco reversible  Con un agujero para el grifo 860x500x178 Mm. Peso Neto: 8,9 Kg Peso Bruto: 11,7 Kg Metros Cúbicos: 0,1539 m³ Prime Vitra."
+  49: 
+    attributes:
+      name: Fregadero en vidrio templado Negro reversible Con un agujero para el grifo 1000x500x178 mm Espesor: 0,7 Mm. Peso Neto: 10,2 Kg Peso Bruto: 13,6 Kg Metros Cúbicos: 0,1782 m³ Prime Vitra. 
+      description: '<p>Fregadero en vidrio templado Negro reversible Con un agujero para el grifo 1000x500x178 mm Espesor: 0,7 Mm. Peso Neto: 10,2 Kg Peso Bruto: 13,6 Kg Metros Cúbicos: 0,1782 m³ Prime Vitra.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 4
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Fregadero en vidrio templado Negro reversible Con un agujero para el grifo 1000x500x178 mm Espesor: 0,7 Mm. Peso Neto: 10,2 Kg Peso Bruto: 13,6 Kg Metros Cúbicos: 0,1782 m³ Prime Vitra."
+  50: 
+    attributes:
+      name: Fregadero en vidrio templado Rojo reversible Con un agujero para el grifo  1000x500x178 Mm Peso Neto: 10,2 Kg Peso Bruto: 13,6 Kg Metros Cúbicos: 0,1782 m³ Prime Vitra. 
+      description: '<p>Fregadero en vidrio templado Rojo reversible Con un agujero para el grifo  1000x500x178 Mm Peso Neto: 10,2 Kg Peso Bruto: 13,6 Kg Metros Cúbicos: 0,1782 m³ Prime Vitra.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 4
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Fregadero en vidrio templado Rojo reversible Con un agujero para el grifo  1000x500x178 Mm Peso Neto: 10,2 Kg Peso Bruto: 13,6 Kg Metros Cúbicos: 0,1782 m³ Prime Vitra."
+  51: 
+    attributes:
+      name: Fregadero en vidrio templado Blanco reversible Con un agujero para el grifo 1000x500x178 Mm. Peso Neto: 10,2 Kg Peso Bruto: 13,6 Kg Metros Cúbicos: 0,1782 m³ Prime Vitra. 
+      description: '<p>Fregadero en vidrio templado Blanco reversible Con un agujero para el grifo 1000x500x178 Mm. Peso Neto: 10,2 Kg Peso Bruto: 13,6 Kg Metros Cúbicos: 0,1782 m³ Prime Vitra.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 4
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Fregadero en vidrio templado Blanco reversible Con un agujero para el grifo 1000x500x178 Mm. Peso Neto: 10,2 Kg Peso Bruto: 13,6 Kg Metros Cúbicos: 0,1782 m³ Prime Vitra."
+  52: 
+    attributes:
+      name: Fregadero en vidrio templado Negro reversible. Con un agujero para el grifo 1160x500x178 Mm. Espesor: 0,7 mm Peso Neto: 11,0 Kg Peso Bruto: 14,1 Kg Metros Cúbicos: 0,2025 m³ Prime Vitra. 
+      description: '<p>Fregadero en vidrio templado Negro reversible. Con un agujero para el grifo 1160x500x178 Mm. Espesor: 0,7 mm Peso Neto: 11,0 Kg Peso Bruto: 14,1 Kg Metros Cúbicos: 0,2025 m³ Prime Vitra.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 4
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Fregadero en vidrio templado Negro reversible. Con un agujero para el grifo 1160x500x178 Mm. Espesor: 0,7 mm Peso Neto: 11,0 Kg Peso Bruto: 14,1 Kg Metros Cúbicos: 0,2025 m³ Prime Vitra."
+  53: 
+    attributes:
+      name: Fregadero en vidrio templado Rojo reversible  Con un agujero para el grifo 1160x500x178 Mm Peso Neto: 11,0 Kg Peso Bruto: 14,1 Kg Metros Cúbicos: 0,2025 m³ Prime Vitra. 
+      description: '<p>Fregadero en vidrio templado Rojo reversible  Con un agujero para el grifo 1160x500x178 Mm Peso Neto: 11,0 Kg Peso Bruto: 14,1 Kg Metros Cúbicos: 0,2025 m³ Prime Vitra.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 4
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Fregadero en vidrio templado Rojo reversible  Con un agujero para el grifo 1160x500x178 Mm Peso Neto: 11,0 Kg Peso Bruto: 14,1 Kg Metros Cúbicos: 0,2025 m³ Prime Vitra."
+  54: 
+    attributes:
+      name: Fregadero en vidrio templado Blanco reversible Con un agujero para el grifo 1160x500x178 Mm,  Peso Neto: 11,0 Kg. Peso Bruto: 14,1 Kg Metros Cúbicos: 0,2025 m³ Prime Vitra. 
+      description: '<p>Fregadero en vidrio templado Blanco reversible Con un agujero para el grifo 1160x500x178 Mm,  Peso Neto: 11,0 Kg. Peso Bruto: 14,1 Kg Metros Cúbicos: 0,2025 m³ Prime Vitra.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 4
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Fregadero en vidrio templado Blanco reversible Con un agujero para el grifo 1160x500x178 Mm,  Peso Neto: 11,0 Kg. Peso Bruto: 14,1 Kg Metros Cúbicos: 0,2025 m³ Prime Vitra."
+  55: 
+    attributes:
+      name: Válvula ø 4 1/2“ con rebosadero + tabla + Cesta de Vegetales. Profundidad de las cubetas: 180Mm. 
+      description: '<p>Válvula ø 4 1/2“ con rebosadero + tabla + Cesta de Vegetales. Profundidad de las cubetas: 180Mm.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 4
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Válvula ø 4 1/2“ con rebosadero + tabla + Cesta de Vegetales. Profundidad de las cubetas: 180Mm."
+  56: 
+    attributes:
+      name: Válvula ø 4 1/2“ con rebosadero + tabla. Profundidad de las cubetas: 180Mm. 
+      description: '<p>Válvula ø 4 1/2“ con rebosadero + tabla. Profundidad de las cubetas: 180Mm.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 4
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Válvula ø 4 1/2“ con rebosadero + tabla. Profundidad de las cubetas: 180Mm."
+  57: 
+    attributes:
+      name: Martillo de uña curva Tamaño  18 Mm. 
+      description: '<p>Martillo de uña curva Tamaño  18 Mm.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Martillo de uña curva Tamaño  18 Mm."
+  58: 
+    attributes:
+      name: Martillo de uña Tamaño   120 gr. 
+      description: '<p>Martillo de uña Tamaño   120 gr.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Martillo de uña Tamaño   120 gr."
+  59: 
+    attributes:
+      name: Martillo zapatero Tamaño   350gr.
+      description: '<p>Martillo zapatero Tamaño   350gr.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Martillo zapatero Tamaño   350gr."
+  60: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  61: 
+    attributes:
+      name: Hacha con uña  Tamaño  450g
+      description: '<p>Hacha con uña  Tamaño  450g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Hacha con uña  Tamaño  450g"
+  62: 
+    attributes:
+      name: Hachita 600g
+      description: '<p>Hachita 600g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Hachita 600g"
+  63: 
+    attributes:
+      name: Martillo de goma 225g
+      description: '<p>Martillo de goma 225g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Martillo de goma 225g"
+  64: 
+    attributes:
+      name: Martillo de goma 450g
+      description: '<p>Martillo de goma 450g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Martillo de goma 450g"
+  65: 
+    attributes:
+      name: Martillo de uña 25mm
+      description: '<p>Martillo de uña 25mm</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Martillo de uña 25mm"
+  66: 
+    attributes:
+      name: Martillo de uña 16oz
+      description: '<p>Martillo de uña 16oz</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Martillo de uña 16oz"
+  67: 
+    attributes:
+      name: Martillo de uña 27mm
+      description: '<p>Martillo de uña 27mm</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Martillo de uña 27mm"
+  68: 
+    attributes:
+      name: Martillo de uña 20mm
+      description: '<p>Martillo de uña 20mm</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Martillo de uña 20mm"
+  69: 
+    attributes:
+      name: Martillo de uña 25mm
+      description: '<p>Martillo de uña 25mm</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Martillo de uña 25mm"
+  70: 
+    attributes:
+      name: Martillo de uña 27mm
+      description: '<p>Martillo de uña 27mm</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Martillo de uña 27mm"
+  71: 
+    attributes:
+      name: Martillo de pico para soldadura 290g
+      description: '<p>Martillo de pico para soldadura 290g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Martillo de pico para soldadura 290g"
+  72: 
+    attributes:
+      name: Martillo albañil 500g
+      description: '<p>Martillo albañil 500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Martillo albañil 500g"
+  73: 
+    attributes:
+      name: Martillo albañil 680g
+      description: '<p>Martillo albañil 680g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Martillo albañil 680g"
+  74: 
+    attributes:
+      name: Martillo picador 16oz
+      description: '<p>Martillo picador 16oz</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Martillo picador 16oz"
+  75: 
+    attributes:
+      name: Martillo picador 20oz
+      description: '<p>Martillo picador 20oz</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Martillo picador 20oz"
+  76: 
+    attributes:
+      name: Martillo albañil doble cortes 500g
+      description: '<p>Martillo albañil doble cortes 500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Martillo albañil doble cortes 500g"
+  77: 
+    attributes:
+      name: Maza octogonal 1000g
+      description: '<p>Maza octogonal 1000g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octogonal 1000g"
+  78: 
+    attributes:
+      name: Maza octavada 500g
+      description: '<p>Maza octavada 500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada 500g"
+  79: 
+    attributes:
+      name: Maza octavada 1000g
+      description: '<p>Maza octavada 1000g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada 1000g"
+  80: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  81: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  82: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  83: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  84: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  85: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  86: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  87: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  88: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  89: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  90: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  91: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  92: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  93: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  94: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  95: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  96: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  97: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  98: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  99: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  100: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  101: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  102: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  103: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  104: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  105: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  106: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  107: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  108: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  109: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  110: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  111: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  112: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  113: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  114: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  115: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  116: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  117: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  118: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  119: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  120: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  121: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  122: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  123: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  124: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  125: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  126: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  127: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  128: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  129: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+  130: 
+    attributes:
+      name: Maza octavada  Tamaño  1500g
+      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Maza octavada  Tamaño  1500g"
+ 
 product_properties:
   1: #'Destornillador, Largo'
     attributes:

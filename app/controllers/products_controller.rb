@@ -4,11 +4,29 @@ class ProductsController < ApplicationController
     products = Product.active.includes(:variants)
     
     product_types = nil
-    if params[:product_type_id].present? && product_type = ProductType.find_by_id(params[:product_type_id])
-      product_types = product_type.self_and_descendants.map(&:id)
+    @ptyp = ProductType.where('id = ?',params[:product_type_id]).pluck(:parent_id) 
+    if params[:product_type_id].present?  
+       if @ptyp == [nil]
+         product_types = ProductType.where('parent_id = ?', params[:product_type_id])
+         @ptypes = product_types
+         @products = nil
+         @parenttype = @ptypes[0]
+         @partpname =  ProductType.where('id = ?', params[:product_type_id]).pluck(:name)
+       else
+         @partpname = ProductType.where('id = ?', @ptyp[0]).pluck(:name)
+         @ptname = ProductType.where('id = ?',params[:product_type_id]).pluck(:name)
+         product_type = ProductType.find_by_id(params[:product_type_id]) 
+         product_types = product_type.self_and_descendants.map(&:id)
+         @products = products.where('product_type_id IN (?)', product_types || featured_product_types)
+       end        
+    else
+      @products = nil  
+      product_types = ProductType.where('parent_id is NULL')
+      @ptypes = product_types
+      @parenttype = @ptypes[0]
     end
-
-    @products = products.where('product_type_id IN (?)', product_types || featured_product_types)
+   
+    
   end
 
   def create
