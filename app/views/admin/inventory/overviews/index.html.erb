@@ -1,4 +1,4 @@
-<h3>Generalidades del Producto</h3>
+<h3>Listado de Productos</h3>
 
 <div class="admin_inventory_overviews">
   <% @products.each do |product| %>
@@ -7,7 +7,7 @@
         <tr  class='odd'>
           <th colspan='3' class='column1_header' >
             <%= product.name %></th>
-          <th><%= link_to 'editar', edit_admin_merchandise_product_path(product) %></th>
+          <th><%= link_to 'editar producto', edit_admin_merchandise_product_path(product) %></th>
         </tr>
         <tr>
           <th>SKU</th><th>precio</th><th>Cant</th><th>descripcion</th>

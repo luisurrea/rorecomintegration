@@ -12,10 +12,12 @@
             <%= link_to image_tag(pro.featured_image(:small)), product_path(pro), title: pro.name %>
           </div>
           <div class='interesting_items-details'><%= pro.name %><br/>
-	          ( <%= number_to_currency pro.price_range.first %>
+          	<div class='interesting_items-details-price'>
+	           <%= number_to_currency pro.price_range.first %>
   	          <% if pro.price_range? %>
     	            to <%= number_to_currency pro.price_range.last %>
-      	      <% end %>)
+      	      <% end %>
+      	      </div>
           </div>
         </li>
       <% end %>

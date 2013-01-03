@@ -1,11 +1,11 @@
 
-<h1> Ajuste de inventario <%= @variant.product_name %> </h1>
+<h3> Ajuste de inventario <%= @variant.product_name %> </h3>
 
 <%= form_for(@variant, :url => admin_inventory_adjustment_path(@variant)) do |f| %>
   <%= render :partial => 'form', :locals => {:f => f} %>
 
   <div class=" generic_submit_button">
-    <%= f.submit "Update Inventory",
+    <%= f.submit "Actualizar Inventario",
                     :class  => "button",
                     :id     => "adjust_inventory_button" %>
   </div>
@@ -16,9 +16,9 @@
   <thead>
     <tr>
       <th>SKU</th>
-      <th>cuenta en mano</th>
+      <th>En Stock</th>
       <th>Pendiente para el cliente</th>
-      <th>Pendiente del proveedor</th>
+      <!--<th>Pendiente del proveedor</th>-->
       <th></th>
     </tr>
   </thead>
@@ -26,7 +26,7 @@
       <td><%= @variant.sku %></td>
       <td><%= @variant.inventory.count_on_hand %></td>
       <td><%= @variant.inventory.count_pending_to_customer %></td>
-      <td><%= @variant.inventory.count_pending_from_supplier %></td>
+      <!--<td><%= @variant.inventory.count_pending_from_supplier %></td>-->
     </tr>
 </table>
 

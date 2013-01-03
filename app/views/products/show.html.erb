@@ -32,18 +32,18 @@
       
     </div>
     <% if @product.variants.empty? %>
-      <h3><%= @product.name %> <span class="price"> ( <%= number_to_currency @product.price_range.first %>
+      <h3><%= @product.name %> <span class="price">  <%= number_to_currency @product.price_range.first %>
         <% if @product.price_range? %>
             to <%= number_to_currency @product.price_range.last %>
-        <% end %>)</span></h3>
+        <% end %></span></h3>
       <div id='no-variant-available' class=' span-8  last'>
         Lo sentimos este producto no se encuentra disponible.
       </div>
     <% else %>
-      <h3><%= @product.name %><span class="price">( <%= number_to_currency @product.price_range.first %>
+      <h3><%= @product.name %><span class="price"> <%= number_to_currency @product.price_range.first %>
         <% if @product.price_range? %>
             to <%= number_to_currency @product.price_range.last %>
-        <% end %>)</span> </h3>
+        <% end %></span> </h3>
       <div id='all-variants' class='dkBlueBox span-8'>
         <div  class='innerBox'>
           <% @product.variants.each_with_index do |variant, i| %>

@@ -21,10 +21,10 @@ class Admin::Inventory::AdjustmentsController < Admin::BaseController
     if params[:refund].present? && params[:variant][:qty_to_add].present?
       if params[:refund].to_f > 0.0
         AccountingAdjustment.adjust_stock(@variant.inventory, params[:variant][:qty_to_add].to_i, params[:refund].to_f)
-        flash[:notice] = "Successfully updated the inventory."
+        flash[:notice] = "Inventario actualizado."
         redirect_to admin_inventory_adjustment_url(@variant.product)
       elsif @variant.update_attributes(params[:variant])
-        flash[:notice] = "Successfully updated the inventory."
+        flash[:notice] = "Inventario actualizado."
         redirect_to admin_inventory_adjustment_url(@variant.product)
       else
         form_info
