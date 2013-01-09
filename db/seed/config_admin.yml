@@ -267,7 +267,7 @@ products:
       description_markup: "Mesa de planchar DUO Pino macizo."
   6: 
     attributes:
-      name: Lavaplatos 800 x 500 mm 
+      name: Lavaplatos 800 x 500 mm Poceta izquierda + Escurridor
       description: '<p>Lavaplatos 800 x 500 mm Poceta izquierda + Escurridor  Pre Pulido. Sin válvula. Estándar Filo 40,</p>'
       product_keywords:
       tax_category_id:
@@ -286,7 +286,7 @@ products:
       description_markup: "Lavaplatos 800 x 500 mm Poceta izquierda + Escurridor  Pre Pulido. Sin válvula. Estándar Filo 40."
   7: 
     attributes:
-      name: Lavaplatos 1.000 x 500 mm
+      name: Lavaplatos 1.000 x 500 mm Poceta izquierda + Escurridor
       description: '<p>Lavaplatos 1.000 x 500 mm Poceta izquierda + Escurridor Pre Pulido. Sin válvula. Estándar Filo 40</p>'
       product_keywords:
       tax_category_id:
@@ -305,7 +305,7 @@ products:
       description_markup: "Lavaplatos 1.000 x 500 mm Poceta izquierda + Escurridor Pre Pulido. Sin válvula. Estándar Filo 40."            
   8: 
     attributes:
-      name: Lavaplatos 800 x 500 mm
+      name: Lavaplatos 800 x 500 mm Poceta derecha + Escurridor
       description: '<p>Lavaplatos 800 x 500 mm Poceta derecha + Escurridor Pre Pulido. Sin válvula. Estándar Filo 40,</p>'
       product_keywords:
       tax_category_id:
@@ -324,7 +324,7 @@ products:
       description_markup: "Lavaplatos 800 x 500 mm Poceta derecha + Escurridor Pre Pulido. Sin válvula. Estándar Filo 40."            
   9: 
     attributes:
-      name: Lavaplatos 1.000 x 500 mm
+      name: Lavaplatos 1.000 x 500 mm Poceta derecha + Escurridor
       description: '<p>Lavaplatos 1.000 x 500 mm Poceta derecha + Escurridor Pre Pulido. Sin válvula. Estándar Filo 40</p>'
       product_keywords:
       tax_category_id:
@@ -343,7 +343,7 @@ products:
       description_markup: "Lavaplatos 800 x 500 mm Poceta derecha + Escurridor Pre Pulido. Sin válvula. Estándar Filo 40."
   10: 
     attributes:
-      name: Lavaplatos 1.200 x 500 mm
+      name: Lavaplatos 1.200 x 500 mm Poceta central + Escurridores
       description: '<p>Lavaplatos 1.200 x 500 mm Poceta central + Escurridores.Pre Pulido. Sin válvula. Estándar Filo 40</p>'
       product_keywords:
       tax_category_id:
@@ -362,7 +362,7 @@ products:
       description_markup: "Lavaplatos 1.200 x 500 mm Poceta central + Escurridores.Pre Pulido. Sin válvula. Estándar Filo 40."
   11: 
     attributes:
-      name: Fregadero en acero inoxidable
+      name: Fregadero en acero inoxidable 120 mm
       description: '<p>Fregadero en acero inoxidable Profundidad 120 mm Acabado Pre-pulido Stándard Beta 40</p>'
       product_keywords:
       tax_category_id:
@@ -381,7 +381,7 @@ products:
       description_markup: "Fregadero en acero inoxidable Profundidad 120 mm Acabado Pre-pulido Stándard Beta 40"
   12: 
     attributes:
-      name: Lavaplatos 625 x 500 
+      name: Lavaplatos 625 x 500 Doble poceta reversible
       description: '<p>Lavaplatos 625 x 500 mm Doble poceta reversible. Satinada. Sin válvula. Perfecta Vega.</p>'
       product_keywords:
       tax_category_id:
@@ -400,7 +400,7 @@ products:
       description_markup: "Lavaplatos 625 x 500 mm Doble poceta reversible. Satinada. Sin válvula. Perfecta Vega."
   13: 
     attributes:
-      name: Lavaplatos 860 x 500 mm 
+      name: Lavaplatos 860 x 500 mm Doble cubeta vertical
       description: '<p>Lavaplatos 860 x 500 mm Doble cubeta vertical. Satinado. Sin válvula. Perfecta Sigma,</p>'
       product_keywords:
       tax_category_id:
@@ -419,7 +419,7 @@ products:
       description_markup: "Lavaplatos 860 x 500 mm Doble cubeta vertical. Satinado. Sin válvula. Perfecta Sigma"
   14: 
     attributes:
-      name: Lavaplatos 780 X 435 mm 
+      name: Lavaplatos 780 X 435 mm Doble cubeta
       description: '<p>Lavaplatos 780 X 435 mm Doble cubeta. Satinado. Sin válvula. Perfecta Zeta,</p>'
       product_keywords:
       tax_category_id:
@@ -438,7 +438,7 @@ products:
       description_markup: "Lavaplatos 780 X 435 mm Doble cubeta. Satinado. Sin válvula. Perfecta Zeta,"
   15: 
     attributes:
-      name: Lavaplatos 1.000 x 500 mm 
+      name: Lavaplatos 1.000 x 500 mm Doble poceta a la izquierda
       description: '<p>Lavaplatos 1.000 x 500 mm Doble poceta a la izquierda. Sin válvula. Satinada. Perfecta Vega,</p>'
       product_keywords:
       tax_category_id:
@@ -457,7 +457,7 @@ products:
       description_markup: "Lavaplatos 1.000 x 500 mm Doble poceta a la izquierda. Sin válvula. Satinada. Perfecta Vega"
   16: 
     attributes:
-      name: Lavaplatos 1.000 x 500 mm 
+      name: Lavaplatos 1.000 x 500 mm Doble poceta a la derecha
       description: '<p>Lavaplatos 1.000 x 500 mm Doble poceta a la derecha. Sin válvula. Satinada. Perfecta Vega,</p>'
       product_keywords:
       tax_category_id:
@@ -476,7 +476,7 @@ products:
       description_markup: "Lavaplatos 1.000 x 500 mm Doble poceta a la derecha. Sin válvula. Satinada. Perfecta Vega,"
   17: 
     attributes:
-      name: Lavaplatos 860 x 500 mm Doble cubeta cuadradas Satinado. Sin válvula Perfecta Kappa, 
+      name: Lavaplatos 860 x 500 mm Doble cubeta cuadrada 
       description: '<p>Lavaplatos 860 x 500 mm Doble cubeta cuadradas Satinado. Sin válvula Perfecta Kappa,</p>'
       product_keywords:
       tax_category_id:
@@ -495,7 +495,7 @@ products:
       description_markup: "Lavaplatos 860 x 500 mm Doble cubeta cuadradas Satinado. Sin válvula Perfecta Kappa,"
   18: 
     attributes:
-      name: Cubeta 380 x 170 mm Satinada. Sin Válvula. Prime Redonda, 
+      name: Cubeta 380 x 170 mm Satinada 
       description: '<p>Cubeta 380 x 170 mm Satinada. Sin Válvula. Prime Redonda,</p>'
       product_keywords:
       tax_category_id:
@@ -514,7 +514,7 @@ products:
       description_markup: "Cubeta 380 x 170 mm Satinada. Sin Válvula. Prime Redonda,"
   19: 
     attributes:
-      name: Cubeta 380 x 170 mm Alto Brillo. Sin Válvula. Prime Redonda, 
+      name: Cubeta 380 x 170 mm Alto Brillo 
       description: '<p>Cubeta 380 x 170 mm Alto Brillo. Sin Válvula. Prime Redonda,</p>'
       product_keywords:
       tax_category_id:
@@ -533,7 +533,7 @@ products:
       description_markup: "Cubeta 380 x 170 mm Alto Brillo. Sin Válvula. Prime Redonda,"
   20: 
     attributes:
-      name: Cubeta 380 x 140 mm  Pulido. Sin Válvula. Perfecta Redonda, 
+      name: Cubeta 380 x 140 mm  Pulido 
       description: '<p>Cubeta 380 x 140 mm  Pulido. Sin Válvula. Perfecta Redonda,</p>'
       product_keywords:
       tax_category_id:
@@ -552,7 +552,7 @@ products:
       description_markup: "Cubeta 380 x 140 mm  Pulido. Sin Válvula. Perfecta Redonda,"
   21: 
     attributes:
-      name: Cubeta 560 x 340 x 170 mm Satinada. Sin válvula Prime Rectangular, 
+      name: Cubeta 560 x 340 x 170 mm Satinada 
       description: '<p>Cubeta 560 x 340 x 170 mm Satinada. Sin válvula Prime Rectangular,</p>'
       product_keywords:
       tax_category_id:
@@ -571,7 +571,7 @@ products:
       description_markup: "Cubeta 560 x 340 x 170 mm Satinada. Sin válvula Prime Rectangular,"
   22: 
     attributes:
-      name: Cubeta 560 x 340 x 170 mm Alto Brillo. Sin válvula Prime Rectangular 
+      name: Cubeta 560 x 340 x 170 mm Alto Brillo 
       description: '<p>Cubeta 560 x 340 x 170 mm Alto Brillo. Sin válvula Prime Rectangular</p>'
       product_keywords:
       tax_category_id:
@@ -590,7 +590,7 @@ products:
       description_markup: "Cubeta 560 x 340 x 170 mm Alto Brillo. Sin válvula Prime Rectangular"
   23: 
     attributes:
-      name: Cubeta 560 x 340 x 140 mm Pulido. Sin Válvula. Estándar Rectangular, 
+      name: Cubeta 560 x 340 x 140 mm Pulido 
       description: '<p>Cubeta 560 x 340 x 140 mm Pulido. Sin Válvula. Estándar Rectangular,</p>'
       product_keywords:
       tax_category_id:
@@ -609,7 +609,7 @@ products:
       description_markup: "Cubeta 560 x 340 x 140 mm Pulido. Sin Válvula. Estándar Rectangular,"
   24: 
     attributes:
-      name: Cubeta 685 x 485 mr. Satinado.  Incluye Válvula  Prime Morgana. 
+      name: Cubeta 685 x 485 mm Satinado 
       description: '<p>Cubeta 685 x 485 mr. Satinado.  Incluye Válvula  Prime Morgana.</p>'
       product_keywords:
       tax_category_id:
@@ -628,7 +628,7 @@ products:
       description_markup: "Cubeta 685 x 485 mr. Satinado.  Incluye Válvula  Prime Morgana."
   25: 
     attributes:
-      name: Cubeta 768 x 446 mm Doble rectangular vertical. Satinado. Sin Válvula. Prime Rectangular. 
+      name: Cubeta 768 x 446 mm Doble rectangular vertical Satinado 
       description: '<p>Cubeta 768 x 446 mm Doble rectangular vertical. Satinado. Sin Válvula. Prime Rectangular.</p>'
       product_keywords:
       tax_category_id:
@@ -647,7 +647,7 @@ products:
       description_markup: "Cubeta 768 x 446 mm Doble rectangular vertical. Satinado. Sin Válvula. Prime Rectangular."
   26: 
     attributes:
-      name: Cubeta 768 x 446 mm Doble rectangular vertical. Alto Brillo. Sin Válvula. Prime Rectangular. 
+      name: Cubeta 768 x 446 mm Doble rectangular vertical Alto Brillo 
       description: '<p>Cubeta 768 x 446 mm Doble rectangular vertical. Alto Brillo. Sin Válvula. Prime Rectangular.</p>'
       product_keywords:
       tax_category_id:
@@ -666,7 +666,7 @@ products:
       description_markup: "Cubeta 768 x 446 mm Doble rectangular vertical. Alto Brillo. Sin Válvula. Prime Rectangular."
   27: 
     attributes:
-      name: Cubeta 780 x 398 mm Doble rectangular cuadradas. Empotrar. Alto Brillo. Sin Válvula. Prime Rectangular. 
+      name: Cubeta 780 x 398 mm Doble rectangular cuadradas Empotrar 
       description: '<p>Cubeta 780 x 398 mm Doble rectangular cuadradas. Empotrar. Alto Brillo. Sin Válvula. Prime Rectangular.</p>'
       product_keywords:
       tax_category_id:
@@ -685,7 +685,7 @@ products:
       description_markup: "Cubeta 780 x 398 mm Doble rectangular cuadradas. Empotrar. Alto Brillo. Sin Válvula. Prime Rectangular."
   28: 
     attributes:
-      name: Cubeta 846 x 442 mm Doble cubeta redonda. Alto Brillo. Sin Válvula. Prime Redonda. 
+      name: Cubeta 846 x 442 mm Doble cubeta redonda Alto Brillo 
       description: '<p>Cubeta 846 x 442 mm Doble cubeta redonda. Alto Brillo. Sin Válvula. Prime Redonda.</p>'
       product_keywords:
       tax_category_id:
@@ -704,7 +704,7 @@ products:
       description_markup: "Cubeta 846 x 442 mm Doble cubeta redonda. Alto Brillo. Sin Válvula. Prime Redonda."
   29: 
     attributes:
-      name: Cubeta 846 x 442 mm Doble cubeta redonda. Satinado. Sin Válvula. Prime Redonda. 
+      name: Cubeta 846 x 442 mm Doble cubeta redonda Satinado 
       description: '<p>Cubeta 846 x 442 mm Doble cubeta redonda. Satinado. Sin Válvula. Prime Redonda.</p>'
       product_keywords:
       tax_category_id:
@@ -723,7 +723,7 @@ products:
       description_markup: "Cubeta 846 x 442 mm Doble cubeta redonda. Satinado. Sin Válvula. Prime Redonda."
   30: 
     attributes:
-      name: Fregadero 15 FX California Externo 381 x 381 x 140 mm Volumen 2,11 gal - 8 litros Satinado - Dos Huecos para Grifería Perfecta California 
+      name: Fregadero 15 FX California Externo 381 x 381 x 140 mm  
       description: '<p>Fregadero 15 FX California Externo 381 x 381 x 140 mm Volumen 2,11 gal - 8 litros Satinado - Dos Huecos para Grifería Perfecta California</p>'
       product_keywords:
       tax_category_id:
@@ -742,7 +742,7 @@ products:
       description_markup: "Fregadero 15 FX California Externo 381 x 381 x 140 mm Volumen 2,11 gal - 8 litros Satinado - Dos Huecos para Grifería Perfecta California"
   31: 
     attributes:
-      name: Fregadero 21 FX California Externo 533 x 508 x 165 mm Volumen 4,34 gal - 16,5 litros Satinado - Tres Huecos para Grifería Perfecta California. 
+      name: Fregadero 21 FX California Externo 533 x 508 x 165 mm  
       description: '<p>Fregadero 21 FX California Externo 533 x 508 x 165 mm Volumen 4,34 gal - 16,5 litros Satinado - Tres Huecos para Grifería Perfecta California.</p>'
       product_keywords:
       tax_category_id:
@@ -761,7 +761,7 @@ products:
       description_markup: "Fregadero 21 FX California Externo 533 x 508 x 165 mm Volumen 4,34 gal - 16,5 litros Satinado - Tres Huecos para Grifería Perfecta California."
   32: 
     attributes:
-      name: Fregadero 25 FX California Externo 635 x 560 x 165 mm Volumen 7,26 gal - 27,5 litros Satinado - Tres Huecos para Grifería Perfecta California. 
+      name: Fregadero 25 FX California Externo 635 x 560 x 165 mm 
       description: '<p>Fregadero 25 FX California Externo 635 x 560 x 165 mm Volumen 7,26 gal - 27,5 litros Satinado - Tres Huecos para Grifería Perfecta California.</p>'
       product_keywords:
       tax_category_id:
@@ -780,7 +780,7 @@ products:
       description_markup: "Fregadero 25 FX California Externo 635 x 560 x 165 mm Volumen 7,26 gal - 27,5 litros Satinado - Tres Huecos para Grifería Perfecta California."
   33: 
     attributes:
-      name: Fregadero 2C 33 FX California Externo 840 x 438 x 152 mm Volumen 2 x 3,3 gal - 2 x 12,5 Litros - Satinado - Tres Huecos para Grifería Perfecta California. 
+      name: Fregadero 2C 33 FX California Externo 840 x 438 x 152 mm  
       description: '<p>Fregadero 2C 33 FX California Externo 840 x 438 x 152 mm Volumen 2 x 3,3 gal - 2 x 12,5 Litros - Satinado - Tres Huecos para Grifería Perfecta California.</p>'
       product_keywords:
       tax_category_id:
@@ -799,7 +799,7 @@ products:
       description_markup: "Fregadero 2C 33 FX California Externo 840 x 438 x 152 mm Volumen 2 x 3,3 gal - 2 x 12,5 Litros - Satinado - Tres Huecos para Grifería Perfecta California."
   34: 
     attributes:
-      name: Fregadero 2C 33 Plus FX California Externo 840 x 560 x 152 mm Volumen 2 x 4 gal - 2 x 15 Litros  Satinado - Tres Huecos para Grifería Perfecta California. 
+      name: Fregadero 2C 33 Plus FX California Externo 840 x 560 x 152 mm 
       description: '<p>Fregadero 2C 33 Plus FX California Externo 840 x 560 x 152 mm Volumen 2 x 4 gal - 2 x 15 Litros  Satinado - Tres Huecos para Grifería Perfecta California.</p>'
       product_keywords:
       tax_category_id:
@@ -818,7 +818,7 @@ products:
       description_markup: "Fregadero 2C 33 Plus FX California Externo 840 x 560 x 152 mm Volumen 2 x 4 gal - 2 x 15 Litros  Satinado - Tres Huecos para Grifería Perfecta California."
   35: 
     attributes:
-      name: Fregadero 21 FX California Externo 533 x 508 x 165 mm Cubeta 400 x 340 x 150 mm Volumen 4,34 gal - 16,5 litros Satinado Tres Huecos para Grifería Prime California. 
+      name: Fregadero 21 FX California Externo 533 x 508 x 165 mm  
       description: '<p>Fregadero 21 FX California Externo 533 x 508 x 165 mm Cubeta 400 x 340 x 150 mm Volumen 4,34 gal - 16,5 litros Satinado Tres Huecos para Grifería Prime California.</p>'
       product_keywords:
       tax_category_id:
@@ -837,7 +837,7 @@ products:
       description_markup: "Fregadero 21 FX California Externo 533 x 508 x 165 mm Cubeta 400 x 340 x 150 mm Volumen 4,34 gal - 16,5 litros Satinado Tres Huecos para Grifería Prime California."
   36: 
     attributes:
-      name: Lavamanos 300 x 115 mm Redondo. Alto brillo. Sin Válvula, Agujero de 1 3/4". Prime Redonda. 
+      name: Lavamanos 300 x 115 mm Redondo Alto brillo 
       description: '<p>Lavamanos 300 x 115 mm Redondo. Alto brillo. Sin Válvula, Agujero de 1 3/4". Prime Redonda.</p>'
       product_keywords:
       tax_category_id:
@@ -856,7 +856,7 @@ products:
       description_markup: "Lavamanos 300 x 115 mm Redondo. Alto brillo. Sin Válvula, Agujero de 1 3/4. Prime Redonda."
   37: 
     attributes:
-      name: Lavamanos 340 x 140 mr. Redondo. Satinado. Sin Válvula, Agujero de 1 3/4". Prime Redonda. 
+      name: Lavamanos 340 x 140 mm Redondo Satinado 
       description: '<p>Lavamanos 340 x 140 mr. Redondo. Satinado. Sin Válvula, Agujero de 1 3/4". Prime Redonda.</p>'
       product_keywords:
       tax_category_id:
@@ -875,7 +875,7 @@ products:
       description_markup: "Lavamanos 340 x 140 mr. Redondo. Satinado. Sin Válvula, Agujero de 1 3/4. Prime Redonda."
   38: 
     attributes:
-      name: Lavamanos 340 x 140 mr. Redondo. Alto brillo. Sin Válvula, Agujero de 1 3/4".Prime Redonda. 
+      name: Lavamanos 340 x 140 mm Redondo Alto brillo 
       description: '<p>Lavamanos 340 x 140 mr. Redondo. Alto brillo. Sin Válvula, Agujero de 1 3/4".Prime Redonda.</p>'
       product_keywords:
       tax_category_id:
@@ -894,7 +894,7 @@ products:
       description_markup: "Lavamanos 340 x 140 mr. Redondo. Alto brillo. Sin Válvula, Agujero de 1 3/4.Prime Redonda."
   39: 
     attributes:
-      name: Lavamanos 360 x 260 X C 115 mm Ovalado. Alto brillo. Sin Válvula Agujero de 1 3/4". Perfecta Oval.
+      name: Lavamanos 360 x 260 X C 115 mm Ovalado Alto brillo
       description: '<p>Lavamanos 360 x 260 X C 115 mm Ovalado. Alto brillo. Sin Válvula Agujero de 1 3/4". Perfecta Oval.</p>'
       product_keywords:
       tax_category_id:
@@ -913,7 +913,7 @@ products:
       description_markup: "Lavamanos 360 x 260 X C 115 mm Ovalado. Alto brillo. Sin Válvula Agujero de 1 3/4. Perfecta Oval."
   40: 
     attributes:
-      name: Lavamanos 400 x 275 x C 125 mm Ovalado. Satinado. Sin Válvula Agujero de 1 3/4". Perfecta Oval.
+      name: Lavamanos 400 x 275 x C 125 mm Ovalado Satinado
       description: '<p>Lavamanos 400 x 275 x C 125 mm Ovalado. Satinado. Sin Válvula Agujero de 1 3/4". Perfecta Oval.</p>'
       product_keywords:
       tax_category_id:
@@ -932,7 +932,7 @@ products:
       description_markup: "Lavamanos 400 x 275 x C 125 mm Ovalado. Satinado. Sin Válvula Agujero de 1 3/4. Perfecta Oval."
   41: 
     attributes:
-      name: Lavamanos 400 x 275 x C 125 mm Ovalado. Alto Brillo. Sin Válvula Agujero de 1 3/4". Perfecta Oval.
+      name: Lavamanos 400 x 275 x C 125 mm Ovalado Alto Brillo
       description: '<p>Lavamanos 400 x 275 x C 125 mm Ovalado. Alto Brillo. Sin Válvula Agujero de 1 3/4". Perfecta Oval.</p>'
       product_keywords:
       tax_category_id:
@@ -951,7 +951,7 @@ products:
       description_markup: "Lavamanos 400 x 275 x C 125 mm Ovalado. Alto Brillo. Sin Válvula Agujero de 1 3/4. Perfecta Oval."
   42: 
     attributes:
-      name: Lavamanos 340 x 140Mm. Ovalado. Alto Satinado. Sin Válvula, Agujero de 1 3/4". Perfecta Demi.
+      name: Lavamanos 340 x 140Mm Ovalado Alto Satinado
       description: '<p>Lavamanos 340 x 140Mm. Ovalado. Alto Satinado. Sin Válvula, Agujero de 1 3/4. Perfecta Demi.</p>'
       product_keywords:
       tax_category_id:
@@ -970,7 +970,7 @@ products:
       description_markup: "Lavamanos 340 x 140Mm. Ovalado. Alto Satinado. Sin Válvula, Agujero de 1 3/4. Perfecta Demi."
   43: 
     attributes:
-      name: Lavamanos 340 x 140 Mm. Alto Brillo. Alto Brillo. Sin Válvula, Agujero de 1 3/4". Perfecta Demi.
+      name: Lavamanos 340 x 140 Mm Alto Brillo
       description: '<p>Lavamanos 340 x 140 Mm. Alto Brillo. Alto Brillo. Sin Válvula, Agujero de 1 3/4". Perfecta Demi.</p>'
       product_keywords:
       tax_category_id:
@@ -989,7 +989,7 @@ products:
       description_markup: "Lavamanos 340 x 140 Mm. Alto Brillo. Alto Brillo. Sin Válvula, Agujero de 1 3/4. Perfecta Demi."
   44: 
     attributes:
-      name: Válvula 4.1/2 MARCA TRAMONTINA Empaque Bolsa Plástica Modelo 
+      name: Válvula 4 1/2 MARCA TRAMONTINA 
       description: '<p>Válvula 4.1/2 MARCA TRAMONTINA Empaque Bolsa Plástica Modelo</p>'
       product_keywords:
       tax_category_id:
@@ -1008,7 +1008,7 @@ products:
       description_markup: "Válvula 4.1/2 MARCA TRAMONTINA Empaque Bolsa Plástica Modelo"
   45: 
     attributes:
-      name: Campana de Pared Vetro 90 127 V Tubo de salida de 150 * 2000 Mm. 
+      name: Campana de Pared Vetro 90 127 V  
       description: '<p>Campana de Pared Vetro 90 127 V Tubo de salida de 150 * 2000 Mm.</p>'
       product_keywords:
       tax_category_id:
@@ -1027,7 +1027,7 @@ products:
       description_markup: "Campana de Pared Vetro 90 127 V Tubo de salida de 150 * 2000 Mm."
   46: 
     attributes:
-      name: Campana de Pared Dritta 90 127 V Tubo de salida de 150 * 2000 Mm 
+      name: Campana de Pared Dritta 90 127 V  
       description: '<p>Campana de Pared Dritta 90 127 V Tubo de salida de 150 * 2000 Mm</p>'
       product_keywords:
       tax_category_id:
@@ -1046,7 +1046,7 @@ products:
       description_markup: "Campana de Pared Dritta 90 127 V Tubo de salida de 150 * 2000 Mm"
   47: 
     attributes:
-      name: Fregadero en vidrio templado Negro reversible. 
+      name: Fregadero en vidrio templado Negro reversible 860x500x178 Mm
       description: '<p>Fregadero en vidrio templado Negro reversible. Con un agujero para el grifo 860x500x178 Mm Espesor: 0,7 Mm  Peso Neto: 8,9 Kg Peso Bruto: 11,7 Kg Metros Cúbicos: 0,1539 m³ Prime Vitra.</p>'
       product_keywords:
       tax_category_id:
@@ -1065,7 +1065,7 @@ products:
       description_markup: "Fregadero en vidrio templado Negro reversible. Con un agujero para el grifo 860x500x178 Mm Espesor: 0,7 Mm  Peso Neto: 8,9 Kg Peso Bruto: 11,7 Kg Metros Cúbicos: 0,1539 m³ Prime Vitra."
   48: 
     attributes:
-      name: Fregadero en vidrio templado Blanco reversible Con un agujero para el grifo 860x500x178 Mm. Peso Neto 8,9 Kg Peso Bruto 11,7 Kg Metros Cúbicos 0,1539 m³ Prime Vitra. 
+      name: Fregadero en vidrio templado Blanco reversible 860x500x178 Mm
       description: '<p>Fregadero en vidrio templado Blanco reversible  Con un agujero para el grifo 860x500x178 Mm. Peso Neto: 8,9 Kg Peso Bruto: 11,7 Kg Metros Cúbicos: 0,1539 m³ Prime Vitra.</p>'
       product_keywords:
       tax_category_id:
@@ -1084,7 +1084,7 @@ products:
       description_markup: "Fregadero en vidrio templado Blanco reversible  Con un agujero para el grifo 860x500x178 Mm. Peso Neto: 8,9 Kg Peso Bruto: 11,7 Kg Metros Cúbicos: 0,1539 m³ Prime Vitra."
   49: 
     attributes:
-      name: Fregadero en vidrio templado Negro reversible Con un agujero para el grifo 1000x500x178 mm Espesor 0,7 Mm. Peso Neto 10,2 Kg Peso Bruto 13,6 Kg Metros Cúbicos 0,1782 m³ Prime Vitra. 
+      name: Fregadero en vidrio templado Negro reversible 1000x500x178 mm  
       description: '<p>Fregadero en vidrio templado Negro reversible Con un agujero para el grifo 1000x500x178 mm Espesor: 0,7 Mm. Peso Neto: 10,2 Kg Peso Bruto: 13,6 Kg Metros Cúbicos: 0,1782 m³ Prime Vitra.</p>'
       product_keywords:
       tax_category_id:
@@ -1103,7 +1103,7 @@ products:
       description_markup: "Fregadero en vidrio templado Negro reversible Con un agujero para el grifo 1000x500x178 mm Espesor: 0,7 Mm. Peso Neto: 10,2 Kg Peso Bruto: 13,6 Kg Metros Cúbicos: 0,1782 m³ Prime Vitra."
   50: 
     attributes:
-      name: Fregadero en vidrio templado Rojo reversible Con un agujero para el grifo  1000x500x178 Mm Peso Neto 10,2 Kg Peso Bruto 13,6 Kg Metros Cúbicos 0,1782 m³ Prime Vitra. 
+      name: Fregadero en vidrio templado Rojo reversible 1000x500x178 Mm  
       description: '<p>Fregadero en vidrio templado Rojo reversible Con un agujero para el grifo  1000x500x178 Mm Peso Neto: 10,2 Kg Peso Bruto: 13,6 Kg Metros Cúbicos: 0,1782 m³ Prime Vitra.</p>'
       product_keywords:
       tax_category_id:
@@ -1122,7 +1122,7 @@ products:
       description_markup: "Fregadero en vidrio templado Rojo reversible Con un agujero para el grifo  1000x500x178 Mm Peso Neto: 10,2 Kg Peso Bruto: 13,6 Kg Metros Cúbicos: 0,1782 m³ Prime Vitra."
   51: 
     attributes:
-      name: Fregadero en vidrio templado Blanco reversible Con un agujero para el grifo 1000x500x178 Mm. Peso Neto 10,2 Kg Peso Bruto 13,6 Kg Metros Cúbicos 0,1782 m³ Prime Vitra. 
+      name: Fregadero en vidrio templado Blanco reversible 1000x500x178 Mm 
       description: '<p>Fregadero en vidrio templado Blanco reversible Con un agujero para el grifo 1000x500x178 Mm. Peso Neto: 10,2 Kg Peso Bruto: 13,6 Kg Metros Cúbicos: 0,1782 m³ Prime Vitra.</p>'
       product_keywords:
       tax_category_id:
@@ -1141,7 +1141,7 @@ products:
       description_markup: "Fregadero en vidrio templado Blanco reversible Con un agujero para el grifo 1000x500x178 Mm. Peso Neto: 10,2 Kg Peso Bruto: 13,6 Kg Metros Cúbicos: 0,1782 m³ Prime Vitra."
   52: 
     attributes:
-      name: Fregadero en vidrio templado Negro reversible. Con un agujero para el grifo 1160x500x178 Mm. Espesor 0,7 mm Peso Neto 11,0 Kg Peso Bruto 14,1 Kg Metros Cúbicos 0,2025 m³ Prime Vitra. 
+      name: Fregadero en vidrio templado Negro reversible 1160x500x178 Mm 
       description: '<p>Fregadero en vidrio templado Negro reversible. Con un agujero para el grifo 1160x500x178 Mm. Espesor: 0,7 mm Peso Neto: 11,0 Kg Peso Bruto: 14,1 Kg Metros Cúbicos: 0,2025 m³ Prime Vitra.</p>'
       product_keywords:
       tax_category_id:
@@ -1160,7 +1160,7 @@ products:
       description_markup: "Fregadero en vidrio templado Negro reversible. Con un agujero para el grifo 1160x500x178 Mm. Espesor: 0,7 mm Peso Neto: 11,0 Kg Peso Bruto: 14,1 Kg Metros Cúbicos: 0,2025 m³ Prime Vitra."
   53: 
     attributes:
-      name: Fregadero en vidrio templado Rojo reversible  Con un agujero para el grifo 1160x500x178 Mm Peso Neto 11,0 Kg Peso Bruto 14,1 Kg Metros Cúbicos 0,2025 m³ Prime Vitra. 
+      name: Fregadero en vidrio templado Rojo reversible 1160x500x178 Mm  
       description: '<p>Fregadero en vidrio templado Rojo reversible  Con un agujero para el grifo 1160x500x178 Mm Peso Neto: 11,0 Kg Peso Bruto: 14,1 Kg Metros Cúbicos: 0,2025 m³ Prime Vitra.</p>'
       product_keywords:
       tax_category_id:
@@ -1179,7 +1179,7 @@ products:
       description_markup: "Fregadero en vidrio templado Rojo reversible  Con un agujero para el grifo 1160x500x178 Mm Peso Neto: 11,0 Kg Peso Bruto: 14,1 Kg Metros Cúbicos: 0,2025 m³ Prime Vitra."
   54: 
     attributes:
-      name: Fregadero en vidrio templado Blanco reversible Con un agujero para el grifo 1160x500x178 Mm,  Peso Neto 11,0 Kg. Peso Bruto 14,1 Kg Metros Cúbicos 0,2025 m³ Prime Vitra. 
+      name: Fregadero en vidrio templado Blanco reversible 1160x500x178 Mm 
       description: '<p>Fregadero en vidrio templado Blanco reversible Con un agujero para el grifo 1160x500x178 Mm,  Peso Neto: 11,0 Kg. Peso Bruto: 14,1 Kg Metros Cúbicos: 0,2025 m³ Prime Vitra.</p>'
       product_keywords:
       tax_category_id:
@@ -1198,7 +1198,7 @@ products:
       description_markup: "Fregadero en vidrio templado Blanco reversible Con un agujero para el grifo 1160x500x178 Mm,  Peso Neto: 11,0 Kg. Peso Bruto: 14,1 Kg Metros Cúbicos: 0,2025 m³ Prime Vitra."
   55: 
     attributes:
-      name: Válvula ø 4 1/2“ con rebosadero + tabla + Cesta de Vegetales. Profundidad de las cubetas 180Mm. 
+      name: Válvula ø 4 1/2 con rebosadero + tabla + Cesta de Vegetales 
       description: '<p>Válvula ø 4 1/2“ con rebosadero + tabla + Cesta de Vegetales. Profundidad de las cubetas: 180Mm.</p>'
       product_keywords:
       tax_category_id:
@@ -1217,7 +1217,7 @@ products:
       description_markup: "Válvula ø 4 1/2“ con rebosadero + tabla + Cesta de Vegetales. Profundidad de las cubetas: 180Mm."
   56: 
     attributes:
-      name: Válvula ø 4 1/2“ con rebosadero + tabla. Profundidad de las cubetas 180Mm. 
+      name: Válvula ø 4 1/2 con rebosadero + tabla 
       description: '<p>Válvula ø 4 1/2“ con rebosadero + tabla. Profundidad de las cubetas: 180Mm.</p>'
       product_keywords:
       tax_category_id:
@@ -1236,7 +1236,7 @@ products:
       description_markup: "Válvula ø 4 1/2“ con rebosadero + tabla. Profundidad de las cubetas: 180Mm."
   57: 
     attributes:
-      name: Martillo de uña curva Tamaño  18 Mm. 
+      name: Martillo de uña curva Tamaño  18 Mm 
       description: '<p>Martillo de uña curva Tamaño  18 Mm.</p>'
       product_keywords:
       tax_category_id:
@@ -1255,7 +1255,7 @@ products:
       description_markup: "Martillo de uña curva Tamaño  18 Mm."
   58: 
     attributes:
-      name: Martillo de uña Tamaño   120 gr. 
+      name: Martillo de uña Tamaño 120 gr
       description: '<p>Martillo de uña Tamaño   120 gr.</p>'
       product_keywords:
       tax_category_id:
@@ -1274,7 +1274,7 @@ products:
       description_markup: "Martillo de uña Tamaño   120 gr."
   59: 
     attributes:
-      name: Martillo zapatero Tamaño   350gr.
+      name: Martillo zapatero Tamaño 350gr
       description: '<p>Martillo zapatero Tamaño   350gr.</p>'
       product_keywords:
       tax_category_id:
@@ -1673,8 +1673,8 @@ products:
       description_markup: "Maza octavada 1000g"
   80: 
     attributes:
-      name: Maza octavada  Tamaño  1500g
-      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      name: Maza octavada 2000g
+      description: '<p>Maza octavada 2000g</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -1689,11 +1689,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Maza octavada  Tamaño  1500g"
+      description_markup: "Maza octavada 2000g"
   81: 
     attributes:
-      name: Maza octavada  Tamaño  1500g
-      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      name: Martillo de uña 27mm
+      description: '<p>Martillo de uña 27mm</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -1708,11 +1708,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Maza octavada  Tamaño  1500g"
+      description_markup: "Martillo de uña 27mm"
   82: 
     attributes:
-      name: Maza octavada  Tamaño  1500g
-      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      name: Martillo de uña 16oz
+      description: '<p>Martillo de uña 16oz</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -1727,11 +1727,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Maza octavada  Tamaño  1500g"
+      description_markup: "Martillo de uña 16oz"
   83: 
     attributes:
-      name: Maza octavada  Tamaño  1500g
-      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      name: Martillo de uña 16oz
+      description: '<p>Martillo de uña 16oz</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -1746,11 +1746,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Maza octavada  Tamaño  1500g"
+      description_markup: "Martillo de uña 16oz"
   84: 
     attributes:
-      name: Maza octavada  Tamaño  1500g
-      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      name: Pinza punta media caña 6
+      description: '<p>Pinza punta media caña 6</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -1765,11 +1765,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Maza octavada  Tamaño  1500g"
+      description_markup: "Pinza punta media caña 6"
   85: 
     attributes:
-      name: Maza octavada  Tamaño  1500g
-      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      name: Pinza electricista 9
+      description: '<p>Pinza electricista 9</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -1784,11 +1784,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Maza octavada  Tamaño  1500g"
+      description_markup: "Pinza electricista 9"
   86: 
     attributes:
-      name: Maza octavada  Tamaño  1500g
-      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      name: Pinza universal aisladora Tamaño 8
+      description: '<p>Pinza universal aisladora 1.000 voltios Tamaño 8</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -1803,11 +1803,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Maza octavada  Tamaño  1500g"
+      description_markup: "Pinza universal aisladora 1.000 voltios Tamaño 8"
   87: 
     attributes:
-      name: Maza octavada  Tamaño  1500g
-      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      name: Pinza corte diagonal  aisladora Tamaño 6
+      description: '<p>Pinza corte diagonal  aisladora 1.000 voltios Tamaño 6</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -1822,11 +1822,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Maza octavada  Tamaño  1500g"
+      description_markup: "Pinza corte diagonal  aisladora 1.000 voltios Tamaño 6"
   88: 
     attributes:
-      name: Maza octavada  Tamaño  1500g
-      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      name: Pinza punta media caña aisladora Tamaño 6
+      description: '<p>Pinza punta media caña aisladora 1.000 voltios Tamaño 6</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -1841,11 +1841,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Maza octavada  Tamaño  1500g"
+      description_markup: "Pinza punta media caña aisladora 1.000 voltios Tamaño 6"
   89: 
     attributes:
-      name: Maza octavada  Tamaño  1500g
-      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      name: Pinza punta media caña 5
+      description: '<p>Pinza punta media caña 5</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -1860,11 +1860,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Maza octavada  Tamaño  1500g"
+      description_markup: "Pinza punta media caña 5"
   90: 
     attributes:
-      name: Maza octavada  Tamaño  1500g
-      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      name: Pinza de presión mordiente curvo 10
+      description: '<p>Pinza de presión mordiente curvo 10</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -1879,11 +1879,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Maza octavada  Tamaño  1500g"
+      description_markup: "Pinza de presión mordiente curvo 10"
   91: 
     attributes:
-      name: Maza octavada  Tamaño  1500g
-      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      name: Llave test punta chata 1/8x3
+      description: '<p>Llave test punta chata 1/8x3</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -1898,11 +1898,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Maza octavada  Tamaño  1500g"
+      description_markup: "Llave test punta chata 1/8x3"
   92: 
     attributes:
-      name: Maza octavada  Tamaño  1500g
-      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      name: Destornillador punta recta Tamaño 1/8x3
+      description: '<p>Destornillador punta recta Tamaño 1/8x3</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -1917,11 +1917,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Maza octavada  Tamaño  1500g"
+      description_markup: "Destornillador punta recta Tamaño 1/8x3"
   93: 
     attributes:
-      name: Maza octavada  Tamaño  1500g
-      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      name: Destornillador punta chata Tamaño 3/16x3
+      description: '<p>Destornillador punta chata Tamaño 3/16x3</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -1936,11 +1936,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Maza octavada  Tamaño  1500g"
+      description_markup: "Destornillador punta chata Tamaño 3/16x3"
   94: 
     attributes:
-      name: Maza octavada  Tamaño  1500g
-      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      name: Destornillador punta recta Tamaño 3/16x4
+      description: '<p>Destornillador punta recta Tamaño 3/16x4</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -1955,11 +1955,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Maza octavada  Tamaño  1500g"
+      description_markup: "Destornillador punta recta Tamaño 3/16x4"
   95: 
     attributes:
-      name: Maza octavada  Tamaño  1500g
-      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      name: Destornillador punta recta Tamaño 3/16x6
+      description: '<p>Destornillador punta recta Tamaño 3/16x6</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -1974,11 +1974,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Maza octavada  Tamaño  1500g"
+      description_markup: "Destornillador punta recta Tamaño 3/16x6"
   96: 
     attributes:
-      name: Maza octavada  Tamaño  1500g
-      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      name: Destornillador punta recta Tamaño 1/4x4
+      description: '<p>Destornillador punta recta Tamaño 1/4x4</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -1993,11 +1993,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Maza octavada  Tamaño  1500g"
+      description_markup: "Destornillador punta recta Tamaño 1/4x4"
   97: 
     attributes:
-      name: Maza octavada  Tamaño  1500g
-      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      name: Destornillador punta recta Tamaño 1/4x6
+      description: '<p>Destornillador punta recta Tamaño 1/4x6</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -2012,11 +2012,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Maza octavada  Tamaño  1500g"
+      description_markup: "Destornillador punta recta Tamaño 1/4x6"
   98: 
     attributes:
-      name: Maza octavada  Tamaño  1500g
-      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      name: Destornillador punta chata 1/4x8
+      description: '<p>Destornillador punta chata 1/4x8</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -2031,11 +2031,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Maza octavada  Tamaño  1500g"
+      description_markup: "Destornillador punta chata 1/4x8"
   99: 
     attributes:
-      name: Maza octavada  Tamaño  1500g
-      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      name: Destornillador punta recta Tamaño  5/16x8
+      description: '<p>Destornillador punta recta Tamaño  5/16x8</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -2050,11 +2050,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Maza octavada  Tamaño  1500g"
+      description_markup: "Destornillador punta recta Tamaño  5/16x8"
   100: 
     attributes:
-      name: Maza octavada  Tamaño  1500g
-      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      name: Destornillador punta estrella Tamaño  1/8x3
+      description: '<p>Destornillador punta estrella Tamaño  1/8x3</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -2069,11 +2069,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Maza octavada  Tamaño  1500g"
+      description_markup: "Destornillador punta estrella Tamaño  1/8x3"
   101: 
     attributes:
-      name: Maza octavada  Tamaño  1500g
-      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      name: Destornillador punta estrella Tamaño  3/16x4
+      description: '<p>Destornillador punta estrella Tamaño  3/16x4</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -2088,11 +2088,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Maza octavada  Tamaño  1500g"
+      description_markup: "Destornillador punta estrella Tamaño  3/16x4"
   102: 
     attributes:
-      name: Maza octavada  Tamaño  1500g
-      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      name: Destornillador punta estrella Tamaño  3/16x6
+      description: '<p>Destornillador punta estrella Tamaño  3/16x6</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -2107,11 +2107,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Maza octavada  Tamaño  1500g"
+      description_markup: "Destornillador punta estrella Tamaño  3/16x6"
   103: 
     attributes:
-      name: Maza octavada  Tamaño  1500g
-      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      name: Destornillador punta estrella Tamaño  1/4x4
+      description: '<p>Destornillador punta estrella Tamaño  1/4x4</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -2126,11 +2126,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Maza octavada  Tamaño  1500g"
+      description_markup: "Destornillador punta estrella Tamaño  1/4x4"
   104: 
     attributes:
-      name: Maza octavada  Tamaño  1500g
-      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      name: Destornillador punta estrella Tamaño  1/4x6
+      description: '<p>Destornillador punta estrella Tamaño  1/4x6</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -2145,11 +2145,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Maza octavada  Tamaño  1500g"
+      description_markup: "Destornillador punta estrella Tamaño  1/4x6"
   105: 
     attributes:
-      name: Maza octavada  Tamaño  1500g
-      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      name: Destornillador punta estrella Tamaño  5/16x6
+      description: '<p>Destornillador punta estrella Tamaño  5/16x6</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -2164,11 +2164,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Maza octavada  Tamaño  1500g"
+      description_markup: "Destornillador punta estrella Tamaño  5/16x6"
   106: 
     attributes:
-      name: Maza octavada  Tamaño  1500g
-      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      name: Destornillador punta cruzada Tamaño  1/8x5
+      description: '<p>Destornillador punta cruzada Tamaño  1/8x5</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -2183,11 +2183,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Maza octavada  Tamaño  1500g"
+      description_markup: "Destornillador punta cruzada Tamaño  1/8x5"
   107: 
     attributes:
-      name: Maza octavada  Tamaño  1500g
-      description: '<p>Maza octavada  Tamaño  1500g</p>'
+      name: Destornillador punta cruzada Tamaño  3/16x3
+      description: '<p>Destornillador punta cruzada Tamaño  3/16x3</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -2202,7 +2202,7 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Maza octavada  Tamaño  1500g"
+      description_markup: "Destornillador punta cruzada Tamaño  3/16x3"
   108: 
     attributes:
       name: Maza octavada  Tamaño  1500g
