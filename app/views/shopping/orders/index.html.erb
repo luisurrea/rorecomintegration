@@ -3,9 +3,10 @@
 <% end %>
 <div id='order-wrapper' class='span-24'>
   <div class='span-14'>
-    <h1>Order Summary</h1>
+  	
+    <div class="panel"><h5>Resumen de la orden</h5></div>
 
-    <div id='order-items-summary'>
+ <!--   <div id='order-items-summary'>
       <% i = 1 %>
       <% @order.order_items.group_by(&:variant_id).each do |variant_id, items| %>
         <div id='order-item-<%= i %>'>
@@ -13,16 +14,17 @@
         </div>
         <% i += 1 %>
       <% end %>
-    </div>
-
-    <div id='final-order-shipping-address' class='box span-6 rounded-10' style='text-align:left;'>
-      <h5>Shipping Address</h5>
+ </div>-->
+    <div class="row">
+    <div class='six columns'>
+      <h5>Direccion de envio</h5>
       <%= render :partial => '/shared/compact_address', :locals => {:shopping_address => @order.ship_address} %>
-      <%= link_to 'Change address', shopping_addresses_path, :class => 'button green' %>
+      <%= link_to 'Cambiar direccion', shopping_addresses_path, :class => 'radius button ' %>
     </div>
-    <div id='final-order-shipping-address' class='box span-6 rounded-8 last' style='text-align:left;'>
-      <h5>Billing Address</h5>
+    <div class='six columns'>
+      <h5>Direccion de facturacion</h5>
       <%= render :partial => '/shared/compact_address', :locals => {:shopping_address => @order.bill_address} %>
+    </div>
     </div>
   </div>
   <div class='pretty_table span-10 last'>
@@ -30,9 +32,9 @@
       <thead>
         <tr class='odd'>
           <th class='column1_header'>
-            Item <span class='ss_sprite ss_application_cascade'></span>
+            Articulo <span class='ss_sprite ss_application_cascade'></span>
 
-          </th><th>Price:</th><th>Price + Tax</th>
+          </th><th>Precio</th><th>Precio + IVA</th>
         </tr>
       </thead>
       <% @order.order_items.each do |item| %>
@@ -44,7 +46,7 @@
         <td></td><td>Sub-total:</td><td><%= number_to_currency @order.sub_total %></td>
       </tr>
       <tr>
-        <td></td><td>Shipping Charges:</td><td><%= number_to_currency @order.shipping_charges %></td>
+        <td></td><td>Costos de envio:</td><td><%= number_to_currency @order.shipping_charges %></td>
       </tr>
       <% if @order.coupon_amount > 0.0 %>
         <tr>
@@ -70,7 +72,7 @@
                                   :id   => 'purchase_order') do  %>
 
 
-      <%# text_field(object_name, method, options = {}) %>
+ <!--     <%# text_field(object_name, method, options = {}) %>
 
 
 
@@ -114,10 +116,10 @@
         <%= label_tag :year %>
          <%= select_tag(:year, options_for_select((Time.zone.now.year..(Time.zone.now.year + 10)))) %>
       </div>
-      <div class='clear'></div>
+      <div class='clear'></div> -->
 
 
-      <%= submit_tag 'Complete Order', :class => 'button light' %>
+      <%= submit_tag 'Completar Orden', :class => 'radius button light' %>
     <% end %>
   </div>
 </div>

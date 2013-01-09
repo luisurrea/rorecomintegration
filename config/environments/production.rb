@@ -96,24 +96,24 @@ Hadean::Application.configure do
     #Formtastic::SemanticFormBuilder.send(:include, Formtastic::FuturePicker)
     #Formtastic::SemanticFormBuilder.send(:include, Formtastic::YearPicker)
 
-    ActiveMerchant::Billing::Base.mode = :test
+   # ActiveMerchant::Billing::Base.mode = :test
     #::GATEWAY = ActiveMerchant::Billing::PaypalGateway.new(
     #  :login      => Settings.paypal.login
     #  :password   => Settings.paypal.password
     #  :signature  => Settings.paypal.signature
     #)
 
-    ::GATEWAY = ActiveMerchant::Billing::AuthorizeNetGateway.new(
-      :login    => Settings.authnet.login
-      :password => Settings.authnet.login
-      :test     => true
-    )
+    #::GATEWAY = ActiveMerchant::Billing::AuthorizeNetGateway.new(
+    #  :login    => Settings.authnet.login
+    #  :password => Settings.authnet.login
+    #  :test     => true
+    #)
 
-    ::CIM_GATEWAY = ActiveMerchant::Billing::AuthorizeNetCimGateway.new(
-      :login    => Settings.authnet.login
-      :password => Settings.authnet.password
-      :test     => true
-    )
+    #::CIM_GATEWAY = ActiveMerchant::Billing::AuthorizeNetCimGateway.new(
+    #  :login    => Settings.authnet.login
+    #  :password => Settings.authnet.password
+    #  :test     => true
+    #)
 
     #::GATEWAY = ActiveMerchant::Billing::BraintreeGateway.new(
     #  :login     => Settings.braintree.login

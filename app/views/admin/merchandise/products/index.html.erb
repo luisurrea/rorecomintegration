@@ -7,7 +7,7 @@
       <label>Nombre</label>
       <%= text_field_tag :name, params[:name] %>
 
-      <label>Tipo de Producto</label>
+      <label>Categoria</label>
       <%= select_tag "product_type_id", options_from_collection_for_select(product_types, "id", "name"), :include_blank => true %>
 
       <div style="text-align:center; margin-top: 15px">
@@ -34,7 +34,7 @@
     <tr class='odd'>
         <th class='column1_header'><%= sortable "Nombre" %></th>
         <th>Activo</th>
-        <th><%= 'Tipo de producto' %></th>
+        <th><%= 'Categoria' %></th>
         <th></th>
         <th></th>
     </tr>

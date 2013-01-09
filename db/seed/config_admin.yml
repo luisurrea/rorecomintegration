@@ -853,7 +853,7 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Lavamanos 300 x 115 mm Redondo. Alto brillo. Sin Válvula, Agujero de 1 3/4". Prime Redonda."
+      description_markup: "Lavamanos 300 x 115 mm Redondo. Alto brillo. Sin Válvula, Agujero de 1 3/4. Prime Redonda."
   37: 
     attributes:
       name: Lavamanos 340 x 140 mr. Redondo. Satinado. Sin Válvula, Agujero de 1 3/4". Prime Redonda. 
@@ -872,7 +872,7 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Lavamanos 340 x 140 mr. Redondo. Satinado. Sin Válvula, Agujero de 1 3/4". Prime Redonda."
+      description_markup: "Lavamanos 340 x 140 mr. Redondo. Satinado. Sin Válvula, Agujero de 1 3/4. Prime Redonda."
   38: 
     attributes:
       name: Lavamanos 340 x 140 mr. Redondo. Alto brillo. Sin Válvula, Agujero de 1 3/4".Prime Redonda. 
@@ -891,7 +891,7 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Lavamanos 340 x 140 mr. Redondo. Alto brillo. Sin Válvula, Agujero de 1 3/4".Prime Redonda."
+      description_markup: "Lavamanos 340 x 140 mr. Redondo. Alto brillo. Sin Válvula, Agujero de 1 3/4.Prime Redonda."
   39: 
     attributes:
       name: Lavamanos 360 x 260 X C 115 mm Ovalado. Alto brillo. Sin Válvula Agujero de 1 3/4". Perfecta Oval.
@@ -910,7 +910,7 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Lavamanos 360 x 260 X C 115 mm Ovalado. Alto brillo. Sin Válvula Agujero de 1 3/4". Perfecta Oval."
+      description_markup: "Lavamanos 360 x 260 X C 115 mm Ovalado. Alto brillo. Sin Válvula Agujero de 1 3/4. Perfecta Oval."
   40: 
     attributes:
       name: Lavamanos 400 x 275 x C 125 mm Ovalado. Satinado. Sin Válvula Agujero de 1 3/4". Perfecta Oval.
@@ -929,7 +929,7 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Lavamanos 400 x 275 x C 125 mm Ovalado. Satinado. Sin Válvula Agujero de 1 3/4". Perfecta Oval."
+      description_markup: "Lavamanos 400 x 275 x C 125 mm Ovalado. Satinado. Sin Válvula Agujero de 1 3/4. Perfecta Oval."
   41: 
     attributes:
       name: Lavamanos 400 x 275 x C 125 mm Ovalado. Alto Brillo. Sin Válvula Agujero de 1 3/4". Perfecta Oval.
@@ -948,11 +948,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Lavamanos 400 x 275 x C 125 mm Ovalado. Alto Brillo. Sin Válvula Agujero de 1 3/4". Perfecta Oval."
+      description_markup: "Lavamanos 400 x 275 x C 125 mm Ovalado. Alto Brillo. Sin Válvula Agujero de 1 3/4. Perfecta Oval."
   42: 
     attributes:
       name: Lavamanos 340 x 140Mm. Ovalado. Alto Satinado. Sin Válvula, Agujero de 1 3/4". Perfecta Demi.
-      description: '<p>Lavamanos 340 x 140Mm. Ovalado. Alto Satinado. Sin Válvula, Agujero de 1 3/4". Perfecta Demi.</p>'
+      description: '<p>Lavamanos 340 x 140Mm. Ovalado. Alto Satinado. Sin Válvula, Agujero de 1 3/4. Perfecta Demi.</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -967,7 +967,7 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Lavamanos 340 x 140Mm. Ovalado. Alto Satinado. Sin Válvula, Agujero de 1 3/4". Perfecta Demi."
+      description_markup: "Lavamanos 340 x 140Mm. Ovalado. Alto Satinado. Sin Válvula, Agujero de 1 3/4. Perfecta Demi."
   43: 
     attributes:
       name: Lavamanos 340 x 140 Mm. Alto Brillo. Alto Brillo. Sin Válvula, Agujero de 1 3/4". Perfecta Demi.
@@ -986,7 +986,7 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Lavamanos 340 x 140 Mm. Alto Brillo. Alto Brillo. Sin Válvula, Agujero de 1 3/4". Perfecta Demi."
+      description_markup: "Lavamanos 340 x 140 Mm. Alto Brillo. Alto Brillo. Sin Válvula, Agujero de 1 3/4. Perfecta Demi."
   44: 
     attributes:
       name: Válvula 4.1/2 MARCA TRAMONTINA Empaque Bolsa Plástica Modelo 
@@ -1044,10 +1044,9 @@ products:
       meta_description: 
       featured: false
       description_markup: "Campana de Pared Dritta 90 127 V Tubo de salida de 150 * 2000 Mm"
-           
   47: 
     attributes:
-      name: Fregadero en vidrio templado Negro reversible. Con un agujero para el grifo 860x500x178 Mm Espesor: 0,7 Mm  Peso Neto: 8,9 Kg Peso Bruto: 11,7 Kg Metros Cúbicos: 0,1539 m³ Prime Vitra. 
+      name: Fregadero en vidrio templado Negro reversible. 
       description: '<p>Fregadero en vidrio templado Negro reversible. Con un agujero para el grifo 860x500x178 Mm Espesor: 0,7 Mm  Peso Neto: 8,9 Kg Peso Bruto: 11,7 Kg Metros Cúbicos: 0,1539 m³ Prime Vitra.</p>'
       product_keywords:
       tax_category_id:
@@ -1066,7 +1065,7 @@ products:
       description_markup: "Fregadero en vidrio templado Negro reversible. Con un agujero para el grifo 860x500x178 Mm Espesor: 0,7 Mm  Peso Neto: 8,9 Kg Peso Bruto: 11,7 Kg Metros Cúbicos: 0,1539 m³ Prime Vitra."
   48: 
     attributes:
-      name: Fregadero en vidrio templado Blanco reversible  Con un agujero para el grifo 860x500x178 Mm. Peso Neto: 8,9 Kg Peso Bruto: 11,7 Kg Metros Cúbicos: 0,1539 m³ Prime Vitra. 
+      name: Fregadero en vidrio templado Blanco reversible Con un agujero para el grifo 860x500x178 Mm. Peso Neto 8,9 Kg Peso Bruto 11,7 Kg Metros Cúbicos 0,1539 m³ Prime Vitra. 
       description: '<p>Fregadero en vidrio templado Blanco reversible  Con un agujero para el grifo 860x500x178 Mm. Peso Neto: 8,9 Kg Peso Bruto: 11,7 Kg Metros Cúbicos: 0,1539 m³ Prime Vitra.</p>'
       product_keywords:
       tax_category_id:
@@ -1085,7 +1084,7 @@ products:
       description_markup: "Fregadero en vidrio templado Blanco reversible  Con un agujero para el grifo 860x500x178 Mm. Peso Neto: 8,9 Kg Peso Bruto: 11,7 Kg Metros Cúbicos: 0,1539 m³ Prime Vitra."
   49: 
     attributes:
-      name: Fregadero en vidrio templado Negro reversible Con un agujero para el grifo 1000x500x178 mm Espesor: 0,7 Mm. Peso Neto: 10,2 Kg Peso Bruto: 13,6 Kg Metros Cúbicos: 0,1782 m³ Prime Vitra. 
+      name: Fregadero en vidrio templado Negro reversible Con un agujero para el grifo 1000x500x178 mm Espesor 0,7 Mm. Peso Neto 10,2 Kg Peso Bruto 13,6 Kg Metros Cúbicos 0,1782 m³ Prime Vitra. 
       description: '<p>Fregadero en vidrio templado Negro reversible Con un agujero para el grifo 1000x500x178 mm Espesor: 0,7 Mm. Peso Neto: 10,2 Kg Peso Bruto: 13,6 Kg Metros Cúbicos: 0,1782 m³ Prime Vitra.</p>'
       product_keywords:
       tax_category_id:
@@ -1104,7 +1103,7 @@ products:
       description_markup: "Fregadero en vidrio templado Negro reversible Con un agujero para el grifo 1000x500x178 mm Espesor: 0,7 Mm. Peso Neto: 10,2 Kg Peso Bruto: 13,6 Kg Metros Cúbicos: 0,1782 m³ Prime Vitra."
   50: 
     attributes:
-      name: Fregadero en vidrio templado Rojo reversible Con un agujero para el grifo  1000x500x178 Mm Peso Neto: 10,2 Kg Peso Bruto: 13,6 Kg Metros Cúbicos: 0,1782 m³ Prime Vitra. 
+      name: Fregadero en vidrio templado Rojo reversible Con un agujero para el grifo  1000x500x178 Mm Peso Neto 10,2 Kg Peso Bruto 13,6 Kg Metros Cúbicos 0,1782 m³ Prime Vitra. 
       description: '<p>Fregadero en vidrio templado Rojo reversible Con un agujero para el grifo  1000x500x178 Mm Peso Neto: 10,2 Kg Peso Bruto: 13,6 Kg Metros Cúbicos: 0,1782 m³ Prime Vitra.</p>'
       product_keywords:
       tax_category_id:
@@ -1123,7 +1122,7 @@ products:
       description_markup: "Fregadero en vidrio templado Rojo reversible Con un agujero para el grifo  1000x500x178 Mm Peso Neto: 10,2 Kg Peso Bruto: 13,6 Kg Metros Cúbicos: 0,1782 m³ Prime Vitra."
   51: 
     attributes:
-      name: Fregadero en vidrio templado Blanco reversible Con un agujero para el grifo 1000x500x178 Mm. Peso Neto: 10,2 Kg Peso Bruto: 13,6 Kg Metros Cúbicos: 0,1782 m³ Prime Vitra. 
+      name: Fregadero en vidrio templado Blanco reversible Con un agujero para el grifo 1000x500x178 Mm. Peso Neto 10,2 Kg Peso Bruto 13,6 Kg Metros Cúbicos 0,1782 m³ Prime Vitra. 
       description: '<p>Fregadero en vidrio templado Blanco reversible Con un agujero para el grifo 1000x500x178 Mm. Peso Neto: 10,2 Kg Peso Bruto: 13,6 Kg Metros Cúbicos: 0,1782 m³ Prime Vitra.</p>'
       product_keywords:
       tax_category_id:
@@ -1142,7 +1141,7 @@ products:
       description_markup: "Fregadero en vidrio templado Blanco reversible Con un agujero para el grifo 1000x500x178 Mm. Peso Neto: 10,2 Kg Peso Bruto: 13,6 Kg Metros Cúbicos: 0,1782 m³ Prime Vitra."
   52: 
     attributes:
-      name: Fregadero en vidrio templado Negro reversible. Con un agujero para el grifo 1160x500x178 Mm. Espesor: 0,7 mm Peso Neto: 11,0 Kg Peso Bruto: 14,1 Kg Metros Cúbicos: 0,2025 m³ Prime Vitra. 
+      name: Fregadero en vidrio templado Negro reversible. Con un agujero para el grifo 1160x500x178 Mm. Espesor 0,7 mm Peso Neto 11,0 Kg Peso Bruto 14,1 Kg Metros Cúbicos 0,2025 m³ Prime Vitra. 
       description: '<p>Fregadero en vidrio templado Negro reversible. Con un agujero para el grifo 1160x500x178 Mm. Espesor: 0,7 mm Peso Neto: 11,0 Kg Peso Bruto: 14,1 Kg Metros Cúbicos: 0,2025 m³ Prime Vitra.</p>'
       product_keywords:
       tax_category_id:
@@ -1161,7 +1160,7 @@ products:
       description_markup: "Fregadero en vidrio templado Negro reversible. Con un agujero para el grifo 1160x500x178 Mm. Espesor: 0,7 mm Peso Neto: 11,0 Kg Peso Bruto: 14,1 Kg Metros Cúbicos: 0,2025 m³ Prime Vitra."
   53: 
     attributes:
-      name: Fregadero en vidrio templado Rojo reversible  Con un agujero para el grifo 1160x500x178 Mm Peso Neto: 11,0 Kg Peso Bruto: 14,1 Kg Metros Cúbicos: 0,2025 m³ Prime Vitra. 
+      name: Fregadero en vidrio templado Rojo reversible  Con un agujero para el grifo 1160x500x178 Mm Peso Neto 11,0 Kg Peso Bruto 14,1 Kg Metros Cúbicos 0,2025 m³ Prime Vitra. 
       description: '<p>Fregadero en vidrio templado Rojo reversible  Con un agujero para el grifo 1160x500x178 Mm Peso Neto: 11,0 Kg Peso Bruto: 14,1 Kg Metros Cúbicos: 0,2025 m³ Prime Vitra.</p>'
       product_keywords:
       tax_category_id:
@@ -1180,7 +1179,7 @@ products:
       description_markup: "Fregadero en vidrio templado Rojo reversible  Con un agujero para el grifo 1160x500x178 Mm Peso Neto: 11,0 Kg Peso Bruto: 14,1 Kg Metros Cúbicos: 0,2025 m³ Prime Vitra."
   54: 
     attributes:
-      name: Fregadero en vidrio templado Blanco reversible Con un agujero para el grifo 1160x500x178 Mm,  Peso Neto: 11,0 Kg. Peso Bruto: 14,1 Kg Metros Cúbicos: 0,2025 m³ Prime Vitra. 
+      name: Fregadero en vidrio templado Blanco reversible Con un agujero para el grifo 1160x500x178 Mm,  Peso Neto 11,0 Kg. Peso Bruto 14,1 Kg Metros Cúbicos 0,2025 m³ Prime Vitra. 
       description: '<p>Fregadero en vidrio templado Blanco reversible Con un agujero para el grifo 1160x500x178 Mm,  Peso Neto: 11,0 Kg. Peso Bruto: 14,1 Kg Metros Cúbicos: 0,2025 m³ Prime Vitra.</p>'
       product_keywords:
       tax_category_id:
@@ -1199,7 +1198,7 @@ products:
       description_markup: "Fregadero en vidrio templado Blanco reversible Con un agujero para el grifo 1160x500x178 Mm,  Peso Neto: 11,0 Kg. Peso Bruto: 14,1 Kg Metros Cúbicos: 0,2025 m³ Prime Vitra."
   55: 
     attributes:
-      name: Válvula ø 4 1/2“ con rebosadero + tabla + Cesta de Vegetales. Profundidad de las cubetas: 180Mm. 
+      name: Válvula ø 4 1/2“ con rebosadero + tabla + Cesta de Vegetales. Profundidad de las cubetas 180Mm. 
       description: '<p>Válvula ø 4 1/2“ con rebosadero + tabla + Cesta de Vegetales. Profundidad de las cubetas: 180Mm.</p>'
       product_keywords:
       tax_category_id:
@@ -1218,7 +1217,7 @@ products:
       description_markup: "Válvula ø 4 1/2“ con rebosadero + tabla + Cesta de Vegetales. Profundidad de las cubetas: 180Mm."
   56: 
     attributes:
-      name: Válvula ø 4 1/2“ con rebosadero + tabla. Profundidad de las cubetas: 180Mm. 
+      name: Válvula ø 4 1/2“ con rebosadero + tabla. Profundidad de las cubetas 180Mm. 
       description: '<p>Válvula ø 4 1/2“ con rebosadero + tabla. Profundidad de las cubetas: 180Mm.</p>'
       product_keywords:
       tax_category_id:

@@ -1,23 +1,37 @@
 <% content_for :head do -%>
   <%= stylesheet_link_tag 'home_page.css' %>
 <% end %>
-
+<% content_for :bottom do -%>
+  <%= javascript_include_tag "shopping/cart" %>
+<% end %>
 <div id='containerrightcont'>
 	<div class="eleven columns centered">
 	<div class="panel"><h5>Productos Destacados</h5></div>
 	<ol id='interesting_items-list'>
   <% @featured_product.each do |pro, i| %>
        <li class='four columns' style="height: 200px; overflow: hidden;">
+          <div class='interesting_items-details'><%= pro.name %></div>
           <div class='interesting_items-image'>
             <%= link_to image_tag(pro.featured_image(:small)), product_path(pro), title: pro.name %>
           </div>
-          <div class='interesting_items-details'><%= pro.name %><br/>
+          
           	<div class='interesting_items-details-price'>
 	           <%= number_to_currency pro.price_range.first %>
   	          <% if pro.price_range? %>
     	            to <%= number_to_currency pro.price_range.last %>
       	      <% end %>
-      	      </div>
+      	      <br />
+      	      <% unless pro.variants.empty?%>
+      	      <%= form_for  @cart_item, :as => :cart_item,
+                  :url  => shopping_cart_items_path(@cart_item),
+                  :html => { :id => 'new_cart_item' } do |f| %>
+        <%= f.hidden_field :variant_id, :value => pro.variants.first.try(:id) %>
+      <%= f.hidden_field :quantity, :value => 1 %>
+
+        <div id='submit_add_to_cart' class="small radius button">Agregar al carro</div>
+      
+    <% end %>
+      	      <%end%>
           </div>
         </li>
       <% end %>
@@ -32,3 +46,8 @@
   <iframe src="http://player.vimeo.com/video/31570696?title=0&amp;byline=0&amp;portrait=0" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 </div>
 </div>
+<% content_for :below_body do -%>
+  <script>
+    Hadean.Utility.registerOnLoadHandler(Hadean.Cart.NewForm.initialize());
+  </script>
+<% end %>
