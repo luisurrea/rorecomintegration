@@ -2640,6 +2640,1849 @@ products:
       meta_description: 
       featured: false
       description_markup: "Llave combinada 3/8"
+  131: 
+    attributes:
+      name: Llave combinada 7/16
+      description: '<p>Llave combinada 7/16</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llave combinada 7/16"
+  132: 
+    attributes:
+      name: Llave combinada 1/2
+      description: '<p>Llave combinada 1/2</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llave combinada 1/2"
+  133: 
+    attributes:
+      name: Llave combinada 9/16
+      description: '<p>Llave combinada 9/16</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llave combinada 9/16"
+  134: 
+    attributes:
+      name: Llave combinada 10mm
+      description: '<p>Llave combinada 10mm</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llave combinada 10mm"
+  135: 
+    attributes:
+      name: Cincel punta plana + empuñadura plástica 12
+      description: '<p>Cincel punta plana + empuñadura plástica 12</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Cincel punta plana + empuñadura plástica 12"
+  136: 
+    attributes:
+      name: Cincel 10 con empuñadura
+      description: '<p>Cincel 10 con empuñadura</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Cincel 10 con empuñadura"
+  137: 
+    attributes:
+      name: Cincel redondo + empuñadura plástica Tamaño  12
+      description: '<p>Cincel redondo + empuñadura plástica Tamaño  12</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Cincel redondo + empuñadura plástica Tamaño  12"
+  138: 
+    attributes:
+      name: Serrucho profesional  Tamaño  22
+      description: '<p>Serrucho profesional  Tamaño  22</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Serrucho profesional  Tamaño  22"
+  139: 
+    attributes:
+      name: Serrucho Supercut 7 Dientes 15
+      description: '<p>Serrucho Supercut 7 Dientes 15</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Serrucho Supercut 7 Dientes 15"
+  140: 
+    attributes:
+      name: Serrucho Supercut 18
+      description: '<p>Serrucho Supercut 18</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Serrucho Supercut 18"
+  141: 
+    attributes:
+      name: Serrucho de poda 12
+      description: '<p>Serrucho de poda 12</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Serrucho de poda 12"
+  142: 
+    attributes:
+      name: Miniarco de sierra 10
+      description: '<p>Miniarco de sierra 10</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Miniarco de sierra 10"
+  143: 
+    attributes:
+      name: Cortadora profesional 6
+      description: '<p>Cortadora profesional 6</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Cortadora profesional 6"
+  144: 
+    attributes:
+      name: Arco sierra ajustable Tamaño   12
+      description: '<p>Arco sierra ajustable Tamaño   12</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Arco sierra ajustable Tamaño   12"
+  145: 
+    attributes:
+      name: Arco sierra fijo Tamaño  12
+      description: '<p>Arco sierra fijo Tamaño  12</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Arco sierra fijo Tamaño  12"
+  146: 
+    attributes:
+      name: Cinta métrica profesional 3m
+      description: '<p>Cinta métrica profesional 3m</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Cinta métrica profesional 3m"
+  147: 
+    attributes:
+      name: Cinta métrica profesional 5m
+      description: '<p>Cinta métrica profesional 5m</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Cinta métrica profesional 5m"
+  148: 
+    attributes:
+      name: Cinta métrica profesional 7,5m
+      description: '<p>Cinta métrica profesional 7,5m</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Cinta métrica profesional 7,5m"
+  149: 
+    attributes:
+      name: Broca para acero 110x35x5 mm
+      description: '<p>Broca para acero Dimensiones del embalaje (Longitud X Anchura X Altura) 110x35x5 mm</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Broca para acero Dimensiones del embalaje (Longitud X Anchura X Altura) 110x35x5 mm"
+  150: 
+    attributes:
+      name: Broca para acero 150x35x10 mm
+      description: '<p>Broca para acero Dimensiones del embalaje (Longitud X Anchura X Altura) 150x35x10 mm</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Broca para acero Dimensiones del embalaje (Longitud X Anchura X Altura) 150x35x10 mm"
+  151: 
+    attributes:
+      name: Broca para acero 150x35x10 mm
+      description: '<p>Broca para acero Dimensiones del embalaje (Longitud X Anchura X Altura) 150x35x10 mm</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Broca para acero Dimensiones del embalaje (Longitud X Anchura X Altura) 150x35x10 mm"
+  152: 
+    attributes:
+      name: Broca para acero 200x35x15 mm
+      description: '<p>Broca para acero Dimensiones del embalaje (Longitud X Anchura X Altura) 200x35x15 mm</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Broca para acero Dimensiones del embalaje (Longitud X Anchura X Altura) 200x35x15 mm"
+  153: 
+    attributes:
+      name: Broca para acero 200x35x20 mm
+      description: '<p>Broca para acero Dimensiones del embalaje (Longitud X Anchura X Altura) 200x35x20 mm</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Broca para acero Dimensiones del embalaje (Longitud X Anchura X Altura) 200x35x20 mm"
+  154: 
+    attributes:
+      name: Broca para acero 290x35x20 mm
+      description: '<p>Broca para acero Dimensiones del embalaje (Longitud X Anchura X Altura) 290x35x20 mm</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Broca para acero Dimensiones del embalaje (Longitud X Anchura X Altura) 290x35x20 mm"
+  155: 
+    attributes:
+      name: Broca para acero 250x35x25 mm
+      description: '<p>Broca para acero Dimensiones del embalaje (Longitud X Anchura X Altura) 250x35x25 mm</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Broca para acero Dimensiones del embalaje (Longitud X Anchura X Altura) 250x35x25 mm"
+  156: 
+    attributes:
+      name: Broca para acero 215x35x25 mm
+      description: '<p>Broca para acero Dimensiones del embalaje (Longitud X Anchura X Altura) 215x35x25 mm</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Broca para acero Dimensiones del embalaje (Longitud X Anchura X Altura) 215x35x25 mm"
+  157: 
+    attributes:
+      name: Juego de brocas para cemento 4 piezas
+      description: '<p>Juego de brocas para cemento 4 piezas, Dimensiones del embalaje (Longitud X Anchura X Altura) 180x90x15 mm Cuerpo en acero especial Punta de carburo de tungsteno Temple total en el cuerpo Acabado cromado DIN 8039 Blíster Composición brocas de 4, 5, 6 y 8mm</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Juego de brocas para cemento 4 piezas, Dimensiones del embalaje (Longitud X Anchura X Altura) 180x90x15 mm Cuerpo en acero especial Punta de carburo de tungsteno Temple total en el cuerpo Acabado cromado DIN 8039 Blíster Composición brocas de 4, 5, 6 y 8mm"
+  158: 
+    attributes:
+      name: Juego de brocas Mix 9 piezas 
+      description: '<p>Juego de brocas Mix 9 piezas, Dimensiones del embalaje (Longitud X Anchura X Altura) 180x180x20 mm Composición 3 brocas para madera, tamaños 5, 6 y 8mm 3 brocas para cemente, tamaños 5,6 y 8mm 3 brocas para acero, tamaños 5, 6 y 8mm Blíster</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Juego de brocas Mix 9 piezas, Dimensiones del embalaje (Longitud X Anchura X Altura) 180x180x20 mm Composición 3 brocas para madera, tamaños 5, 6 y 8mm 3 brocas para cemente, tamaños 5,6 y 8mm 3 brocas para acero, tamaños 5, 6 y 8mm Blíster"
+  159: 
+    attributes:
+      name: Juego de herramientas 3 Piezas
+      description: '<p>Juego de herramientas 3 Piezas composición 1 Martillo de uña 18mm 1 Pinza universal 7 1 Destornillador punta chata 3/16x4</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Juego de herramientas 3 Piezas composición 1 Martillo de uña 18mm 1 Pinza universal 7 1 Destornillador punta chata 3/16x4"
+  160: 
+    attributes:
+      name: Juego de herramientas 7pzs composición 1 Pinza universal 8 aislada 1000V 1 Destornillador punta chata 3/16x4 1 Destornillador punta chata 1/4x5 1 Destornillador punta cruzada 3/16x4 1 Llave test punta chata 1 Cortadora 1 Cinta Aisladora
+      description: '<p>Juego de herramientas 7pzs composición 1 Pinza universal 8 aislada 1000V 1 Destornillador punta chata 3/16x4 1 Destornillador punta chata 1/4x5 1 Destornillador punta cruzada 3/16x4 1 Llave test punta chata 1 Cortadora 1 Cinta Aisladora</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Juego de herramientas 7pzs composición 1 Pinza universal 8 aislada 1000V 1 Destornillador punta chata 3/16x4 1 Destornillador punta chata 1/4x5 1 Destornillador punta cruzada 3/16x4 1 Llave test punta chata 1 Cortadora 1 Cinta Aisladora"
+  161: 
+    attributes:
+      name: Juego de herramientas 5pzs
+      description: '<p>Juego de herramientas 5pzs composición 1 Destornillador punta chata 1/8x4 1 Destornillador punta chata 3/16x4 1 Destornillador punta cruzada 3/16x4 1 Cinta métrica 2m 1 Cortadora</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 7
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Juego de herramientas 5pzs composición 1 Destornillador punta chata 1/8x4 1 Destornillador punta chata 3/16x4 1 Destornillador punta cruzada 3/16x4 1 Cinta métrica 2m 1 Cortadora"
+  162: 
+    attributes:
+      name: Llave de Ajuste Tamaño 6 mm
+      description: '<p>Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas"
+  163: 
+    attributes:
+      name: Llave de Ajuste Tamaño 7 mm
+      description: '<p>Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas"
+  164: 
+    attributes:
+      name: Llave de Ajuste Tamaño 8 mm
+      description: '<p>Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas"
+  165: 
+    attributes:
+      name: Llave de Ajuste Tamaño 9 mm
+      description: '<p>Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas"
+  166: 
+    attributes:
+      name: Llave de Ajuste Tamaño 10 mm
+      description: '<p>Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas"
+  167: 
+    attributes:
+      name: Llave de Ajuste Tamaño 11 mm
+      description: '<p>Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas"
+  168: 
+    attributes:
+      name: Llave de Ajuste Tamaño 12 mm
+      description: '<p>Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas"
+  169: 
+    attributes:
+      name: Llave de Ajuste Tamaño 13 mm
+      description: '<p>Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradasLlaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas"
+  169: 
+    attributes:
+      name: Llave de Ajuste Tamaño 14 mm
+      description: '<p>Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradasLlaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradasLlaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas"
+  170: 
+    attributes:
+      name: Llave de Ajuste Tamaño 15 mm
+      description: '<p>Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradasLlaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradasLlaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas"
+  171: 
+    attributes:
+      name: Llave de Ajuste Tamaño 16 mm
+      description: '<p>Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradasLlaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradasLlaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas"
+  172: 
+    attributes:
+      name: Llave de Ajuste Tamaño 17 mm
+      description: '<p>Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradasLlaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradasLlaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas"
+  173: 
+    attributes:
+      name: Llave de Ajuste Tamaño 18 mm
+      description: '<p>Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradasLlaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradasLlaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas"
+  174: 
+    attributes:
+      name: Llave de Ajuste Tamaño 19 mm
+      description: '<p>Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradasLlaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradasLlaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas"
+  175: 
+    attributes:
+      name: Llave de Ajuste Tamaño 21 mm
+      description: '<p>Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradasLlaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradasLlaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas"
+  176: 
+    attributes:
+      name: Llave de Ajuste Tamaño 22 mm
+      description: '<p>Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradasLlaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradasLlaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas"
+  177: 
+    attributes:
+      name: Llave de Ajuste Tamaño 24 mm
+      description: '<p>Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradasLlaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradasLlaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas"
+  178: 
+    attributes:
+      name: Llave de Ajuste Tamaño 28 mm
+      description: '<p>Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradasLlaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradasLlaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas"
+  179: 
+    attributes:
+      name: Llave de Ajuste Tamaño 30 mm
+      description: '<p>Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradasLlaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradasLlaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas"
+  180: 
+    attributes:
+      name: Llave de Ajuste Tamaño 32 mm
+      description: '<p>Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradasLlaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradasLlaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas"
+  181: 
+    attributes:
+      name: Llave combinada 1/4
+      description: '<p>Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas."
+  182: 
+    attributes:
+      name: Llave combinada 5/16
+      description: '<p>Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas."
+  183: 
+    attributes:
+      name: Llave combinada 3/8
+      description: '<p>Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas."
+  184: 
+    attributes:
+      name: Llave combinada 7/16
+      description: '<p>Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas."
+  185: 
+    attributes:
+      name: Llave combinada 1/2
+      description: '<p>Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas."
+  185: 
+    attributes:
+      name: Llave combinada 9/16
+      description: '<p>Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas."
+  186: 
+    attributes:
+      name: Llave combinada 5/8
+      description: '<p>Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas."
+  187: 
+    attributes:
+      name: Llave combinada 11/16
+      description: '<p>Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas."
+  188: 
+    attributes:
+      name: Llave combinada 3/4
+      description: '<p>Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas."
+  189: 
+    attributes:
+      name: Llave combinada 25/32
+      description: '<p>Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas."
+  190: 
+    attributes:
+      name: Llave combinada 13/16
+      description: '<p>Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas."
+  191: 
+    attributes:
+      name: Llave combinada 7/8
+      description: '<p>Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas."
+  192: 
+    attributes:
+      name: Llave combinada 15/16
+      description: '<p>Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas."
+  193: 
+    attributes:
+      name: Llave combinada 1
+      description: '<p>Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas."
+  194: 
+    attributes:
+      name: Llave combinada 1,1/16
+      description: '<p>Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas."
+  195: 
+    attributes:
+      name: Llave combinada 1,1/8
+      description: '<p>Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas."
+  196: 
+    attributes:
+      name: Llave combinada 1,3/16
+      description: '<p>Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas."
+  197: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  198: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  199: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  200: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  162: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  162: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  162: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  162: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  162: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  162: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  162: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  162: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  162: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  162: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  162: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  162: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  162: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  162: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  162: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  162: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  162: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  162: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  162: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  162: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  162: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  162: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  162: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  162: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  162: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
  
 product_properties:
   1: #'Destornillador, Largo'
