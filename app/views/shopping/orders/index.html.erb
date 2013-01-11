@@ -19,7 +19,7 @@
     <div class='six columns'>
       <h5>Direccion de envio</h5>
       <%= render :partial => '/shared/compact_address', :locals => {:shopping_address => @order.ship_address} %>
-      <%= link_to 'Cambiar direccion', shopping_addresses_path, :class => 'radius button ' %>
+      <%= link_to 'Cambiar direccion', shopping_addresses_path, :class => 'radius button ', :style => 'float:right; margin:10px 0 10px 20px;' %>
     </div>
     <div class='six columns'>
       <h5>Direccion de facturacion</h5>
@@ -117,9 +117,9 @@
          <%= select_tag(:year, options_for_select((Time.zone.now.year..(Time.zone.now.year + 10)))) %>
       </div>
       <div class='clear'></div> -->
+			<a href="http://www.pagosonline.com/logos/pol.php?l=25&c=95737" target="_blank"><img src="http://www.pagosonline.com/logos/logo.php?l=25&c=95737" style="float: right; margin-right: 25px; margin-bottom: 20px;" alt="pagosonline, el pago seguro en internet" width="300" height="100" border="0" /></a>
 
-
-      <%= submit_tag 'Completar Orden', :class => 'radius button light' %>
+      <!--<%= submit_tag 'Completar Orden', :class => 'radius button light' %>-->
     <% end %>
   </div>
 </div>
