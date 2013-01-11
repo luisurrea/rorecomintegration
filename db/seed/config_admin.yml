@@ -3934,8 +3934,8 @@ products:
       description_markup: "Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas."
   197: 
     attributes:
-      name: 
-      description: '<p></p>'
+      name:  Llave Combinada Tamaño 10 mm
+      description: '<p>Llaves de Ajuste Combinada Milimétrica Superdrive, reduce el tiempo de ajuste en un 50% comparado con una llave normal, perfil excluisivo que permite una mejor distribución de las fuerzas.</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -3950,11 +3950,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: ""
+      description_markup: "Llaves de Ajuste Combinada Milimétrica Superdrive, reduce el tiempo de ajuste en un 50% comparado con una llave normal, perfil excluisivo que permite una mejor distribución de las fuerzas."
   198: 
     attributes:
-      name: 
-      description: '<p></p>'
+      name: Llave Combinada Tamaño 11 mm
+      description: '<p>Llaves de Ajuste Combinada Milimétrica Superdrive, reduce el tiempo de ajuste en un 50% comparado con una llave normal, perfil excluisivo que permite una mejor distribución de las fuerzas.</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -3969,11 +3969,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: ""
+      description_markup: "Llaves de Ajuste Combinada Milimétrica Superdrive, reduce el tiempo de ajuste en un 50% comparado con una llave normal, perfil excluisivo que permite una mejor distribución de las fuerzas."
   199: 
     attributes:
-      name: 
-      description: '<p></p>'
+      name: Llave Combinada Tamaño 12 mm
+      description: '<p>Llaves de Ajuste Combinada Milimétrica Superdrive, reduce el tiempo de ajuste en un 50% comparado con una llave normal, perfil excluisivo que permite una mejor distribución de las fuerzas.</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -3988,11 +3988,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: ""
+      description_markup: "Llaves de Ajuste Combinada Milimétrica Superdrive, reduce el tiempo de ajuste en un 50% comparado con una llave normal, perfil excluisivo que permite una mejor distribución de las fuerzas."
   200: 
     attributes:
-      name: 
-      description: '<p></p>'
+      name: Llave Combinada Tamaño 13 mm
+      description: '<p>Llaves de Ajuste Combinada Milimétrica Superdrive, reduce el tiempo de ajuste en un 50% comparado con una llave normal, perfil excluisivo que permite una mejor distribución de las fuerzas.</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -4007,8 +4007,977 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: ""
-  162: 
+      description_markup: "Llaves de Ajuste Combinada Milimétrica Superdrive, reduce el tiempo de ajuste en un 50% comparado con una llave normal, perfil excluisivo que permite una mejor distribución de las fuerzas."
+  201: 
+    attributes:
+      name: Llave Combinada Tamaño 14 mm
+      description: '<p>Llaves de Ajuste Combinada Milimétrica Superdrive, reduce el tiempo de ajuste en un 50% comparado con una llave normal, perfil excluisivo que permite una mejor distribución de las fuerzas.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Milimétrica Superdrive, reduce el tiempo de ajuste en un 50% comparado con una llave normal, perfil excluisivo que permite una mejor distribución de las fuerzas."
+  202: 
+    attributes:
+      name: Llave Combinada Tamaño 17 mm
+      description: '<p>Llaves de Ajuste Combinada Milimétrica Superdrive, reduce el tiempo de ajuste en un 50% comparado con una llave normal, perfil excluisivo que permite una mejor distribución de las fuerzas.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Milimétrica Superdrive, reduce el tiempo de ajuste en un 50% comparado con una llave normal, perfil excluisivo que permite una mejor distribución de las fuerzas."
+  203: 
+    attributes:
+      name: Llave Combinada Tamaño 19 mm
+      description: '<p>Llaves de Ajuste Combinada Milimétrica Superdrive, reduce el tiempo de ajuste en un 50% comparado con una llave normal, perfil excluisivo que permite una mejor distribución de las fuerzas.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Milimétrica Superdrive, reduce el tiempo de ajuste en un 50% comparado con una llave normal, perfil excluisivo que permite una mejor distribución de las fuerzas."
+  204: 
+    attributes:
+      name: Llave Combinada Confor Tork 6 mm
+      description: '<p>Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados."
+  205: 
+    attributes:
+      name: Llave Combinada Confor Tork 7 mm
+      description: '<p>Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados."
+  206: 
+    attributes:
+      name: Llave Combinada Confor Tork 8 mm
+      description: '<p>Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados."
+  207: 
+    attributes:
+      name: Llave Combinada Confor Tork 9 mm
+      description: '<p>Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados."
+  208: 
+    attributes:
+      name: Llave Combinada Confor Tork 10 mm
+      description: '<p>Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados."
+  209: 
+    attributes:
+      name: Llave Combinada Confor Tork 11 mm
+      description: '<p>Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados."
+  210: 
+    attributes:
+      name: Llave Combinada Confor Tork 12 mm
+      description: '<p>Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados."
+  211: 
+    attributes:
+      name: Llave Combinada Confor Tork 13 mm
+      description: '<p>Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados."
+  212: 
+    attributes:
+      name: Llave Combinada Confor Tork 14 mm
+      description: '<p>Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados."
+  213: 
+    attributes:
+      name: Llave Combinada Confor Tork 15 mm
+      description: '<p>Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados."
+  214: 
+    attributes:
+      name: Llave Combinada Confor Tork 16 mm
+      description: '<p>Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados."
+  215: 
+    attributes:
+      name: Llave Combinada Confor Tork 17 mm
+      description: '<p>Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados."
+  216: 
+    attributes:
+      name: Llave Combinada Confor Tork 18 mm
+      description: '<p>Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados."
+  217: 
+    attributes:
+      name: Llave Combinada Confor Tork 19 mm
+      description: '<p>Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados."
+  218: 
+    attributes:
+      name: Llave Combinada Confor Tork 20 mm
+      description: '<p>Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados."
+  219: 
+    attributes:
+      name: Llave Combinada Confor Tork 21 mm
+      description: '<p>Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados."
+  220: 
+    attributes:
+      name: Llave Combinada Confor Tork 22 mm
+      description: '<p>Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados."
+  221: 
+    attributes:
+      name: Llave Combinada Confor Tork 23 mm
+      description: '<p>Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados."
+  222: 
+    attributes:
+      name: Llave Combinada Confor Tork 24 mm
+      description: '<p>Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados."
+  223: 
+    attributes:
+      name: Matraca Convencional 10x1/2
+      description: '<p>Matraca Convencional Largo 10, Encastre de 1/2. Rache Convencional.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Matraca Convencional Largo 10, Encastre de 1/2. Rache Convencional."
+  224: 
+    attributes:
+      name: Matraca Convencional 8x3/8  
+      description: '<p>Matraca Convencional Largo 8, Encastre de 3/8. Rache Convencional.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Matraca Convencional Largo 8, Encastre de 3/8. Rache Convencional."
+  225: 
+    attributes:
+      name: Matraca Telescópica Flexdrive Largo 12x1/2 
+      description: '<p>Matraca Telescópica Flexdrive Largo 12, Encastre 1/2. Rache Extensible Sistema Flex Drive.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Matraca Telescópica Flexdrive Largo 12, Encastre 1/2. Rache Extensible Sistema Flex Drive."
+  226: 
+    attributes:
+      name: Matraca Telescópica Super Tork 12x1/2
+      description: '<p>Matraca Telescópica Super Tork  12 Encastre 1/2. Rache Estensible Robusto.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Matraca Telescópica Super Tork  12 Encastre 1/2. Rache Estensible Robusto."
+  227: 
+    attributes:
+      name: Extensión de 10x3/8
+      description: '<p>Extensión - Encastre de 3/8,  Largo 10. Accesorios para Copas.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Accesorios para Copas."
+  228: 
+    attributes:
+      name: Extensión 5x1/2
+      description: '<p>Extensión - Encastre 1/2, Largo 5 Accesorios para Copas.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Extensión - Encastre 1/2, Largo 5 Accesorios para Copas."
+  229: 
+    attributes:
+      name: Llave Estriada con Matraca 8X9X10X11 mm
+      description: '<p>Sistema Multidrive, Cada Pieza con 4 Medidas, 72 Dientes, resiste ajuste final.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Sistema Multidrive, Cada Pieza con 4 Medidas, 72 Dientes, resiste ajuste final."
+  230: 
+    attributes:
+      name: Llave Estriada con Matraca 12X13X14X15 mm
+      description: '<p>Sistema Multidrive, Cada Pieza con 4 Medidas, 72 Dientes, resiste ajuste final.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Sistema Multidrive, Cada Pieza con 4 Medidas, 72 Dientes, resiste ajuste final."
+  231: 
+    attributes:
+      name: Llave Estriada con Matraca 16X17X18X19 mm
+      description: '<p>Sistema Multidrive, Cada Pieza con 4 Medidas, 72 Dientes, resiste ajuste final.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Sistema Multidrive, Cada Pieza con 4 Medidas, 72 Dientes, resiste ajuste final."
+  232: 
+    attributes:
+      name: Llave Estriada con Matraca 5/16X3/8X7/16X1/2 
+      description: '<p>Sistema Multidrive, Cada Pieza con 4 Medidas, 72 Dientes, resiste ajuste final.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Sistema Multidrive, Cada Pieza con 4 Medidas, 72 Dientes, resiste ajuste final."
+  233: 
+    attributes:
+      name: Llave Estriada con Matraca 9/16X5/8X11/16X3/4
+      description: '<p>Sistema Multidrive, Cada Pieza con 4 Medidas, 72 Dientes, resiste ajuste final.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Sistema Multidrive, Cada Pieza con 4 Medidas, 72 Dientes, resiste ajuste final."
+  234: 
+    attributes:
+      name: Dado 8 Mm Encastre 1/2 
+      description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
+  235: 
+    attributes:
+      name: Dado 9 Mm Encastre 1/2
+      description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
+  236: 
+    attributes:
+      name: Dado 10 Mm Encastre 1/2
+      description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
+  237: 
+    attributes:
+      name: Dado 11 Mm Encastre 1/2
+      description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
+  238: 
+    attributes:
+      name: Dado 12 Mm Encastre 1/2
+      description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
+  239: 
+    attributes:
+      name: Dado 13 Mm Encastre 1/2
+      description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
+  240: 
+    attributes:
+      name: Dado 14 Mm Encastre 1/2
+      description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
+  241: 
+    attributes:
+      name: Dado 15 Mm Encastre 1/2
+      description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
+  242: 
+    attributes:
+      name: Dado 16 Mm Encastre 1/2
+      description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
+  243: 
+    attributes:
+      name: Dado 17 Mm Encastre 1/2
+      description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
+  244: 
+    attributes:
+      name: Dado 18 Mm Encastre 1/2
+      description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
+  245: 
+    attributes:
+      name: Dado 19 Mm Encastre 1/2
+      description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
+  246: 
+    attributes:
+      name: Dado 21 Mm Encastre 1/2
+      description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
+  247: 
+    attributes:
+      name: Dado 22 Mm Encastre 1/2
+      description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
+  248: 
+    attributes:
+      name: Dado 24 Mm Encastre 1/2
+      description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
+  249: 
+    attributes:
+      name: Dado 27 Mm Encastre 1/2
+      description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
+  250: 
+    attributes:
+      name: Dado 30 Mm Encastre 1/2
+      description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
+  251: 
+    attributes:
+      name: Dado 32 Mm Encastre 1/2
+      description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
+  252: 
     attributes:
       name: 
       description: '<p></p>'
@@ -4027,7 +4996,7 @@ products:
       meta_description: 
       featured: false
       description_markup: ""
-  162: 
+  253: 
     attributes:
       name: 
       description: '<p></p>'
@@ -4046,7 +5015,7 @@ products:
       meta_description: 
       featured: false
       description_markup: ""
-  162: 
+  254: 
     attributes:
       name: 
       description: '<p></p>'
@@ -4065,7 +5034,7 @@ products:
       meta_description: 
       featured: false
       description_markup: ""
-  162: 
+  255: 
     attributes:
       name: 
       description: '<p></p>'
@@ -4084,7 +5053,7 @@ products:
       meta_description: 
       featured: false
       description_markup: ""
-  162: 
+  256: 
     attributes:
       name: 
       description: '<p></p>'
@@ -4103,7 +5072,7 @@ products:
       meta_description: 
       featured: false
       description_markup: ""
-  162: 
+  257: 
     attributes:
       name: 
       description: '<p></p>'
@@ -4122,7 +5091,7 @@ products:
       meta_description: 
       featured: false
       description_markup: ""
-  162: 
+  258: 
     attributes:
       name: 
       description: '<p></p>'
@@ -4141,7 +5110,7 @@ products:
       meta_description: 
       featured: false
       description_markup: ""
-  162: 
+  259: 
     attributes:
       name: 
       description: '<p></p>'
@@ -4160,7 +5129,7 @@ products:
       meta_description: 
       featured: false
       description_markup: ""
-  162: 
+  260: 
     attributes:
       name: 
       description: '<p></p>'
@@ -4179,7 +5148,7 @@ products:
       meta_description: 
       featured: false
       description_markup: ""
-  162: 
+  261: 
     attributes:
       name: 
       description: '<p></p>'
@@ -4198,7 +5167,7 @@ products:
       meta_description: 
       featured: false
       description_markup: ""
-  162: 
+  262: 
     attributes:
       name: 
       description: '<p></p>'
@@ -4217,7 +5186,7 @@ products:
       meta_description: 
       featured: false
       description_markup: ""
-  162: 
+  263: 
     attributes:
       name: 
       description: '<p></p>'
@@ -4236,7 +5205,7 @@ products:
       meta_description: 
       featured: false
       description_markup: ""
-  162: 
+  264: 
     attributes:
       name: 
       description: '<p></p>'
@@ -4255,7 +5224,7 @@ products:
       meta_description: 
       featured: false
       description_markup: ""
-  162: 
+  265: 
     attributes:
       name: 
       description: '<p></p>'
@@ -4274,7 +5243,7 @@ products:
       meta_description: 
       featured: false
       description_markup: ""
-  162: 
+  266: 
     attributes:
       name: 
       description: '<p></p>'
@@ -4293,7 +5262,7 @@ products:
       meta_description: 
       featured: false
       description_markup: ""
-  162: 
+  267: 
     attributes:
       name: 
       description: '<p></p>'
@@ -4312,7 +5281,7 @@ products:
       meta_description: 
       featured: false
       description_markup: ""
-  162: 
+  268: 
     attributes:
       name: 
       description: '<p></p>'
@@ -4331,7 +5300,7 @@ products:
       meta_description: 
       featured: false
       description_markup: ""
-  162: 
+  269: 
     attributes:
       name: 
       description: '<p></p>'
@@ -4350,7 +5319,7 @@ products:
       meta_description: 
       featured: false
       description_markup: ""
-  162: 
+  270: 
     attributes:
       name: 
       description: '<p></p>'
@@ -4369,7 +5338,7 @@ products:
       meta_description: 
       featured: false
       description_markup: ""
-  162: 
+  271: 
     attributes:
       name: 
       description: '<p></p>'
@@ -4388,7 +5357,7 @@ products:
       meta_description: 
       featured: false
       description_markup: ""
-  162: 
+  272: 
     attributes:
       name: 
       description: '<p></p>'
@@ -4407,7 +5376,7 @@ products:
       meta_description: 
       featured: false
       description_markup: ""
-  162: 
+  273: 
     attributes:
       name: 
       description: '<p></p>'
@@ -4426,7 +5395,7 @@ products:
       meta_description: 
       featured: false
       description_markup: ""
-  162: 
+  274: 
     attributes:
       name: 
       description: '<p></p>'
@@ -4445,7 +5414,7 @@ products:
       meta_description: 
       featured: false
       description_markup: ""
-  162: 
+  275: 
     attributes:
       name: 
       description: '<p></p>'
@@ -4464,7 +5433,235 @@ products:
       meta_description: 
       featured: false
       description_markup: ""
-  162: 
+  276: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  277: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  278: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  279: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  280: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  281: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  282: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  283: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  284: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  285: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  286: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  287: 
+    attributes:
+      name: 
+      description: '<p></p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 8
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: ""
+  288: 
     attributes:
       name: 
       description: '<p></p>'
