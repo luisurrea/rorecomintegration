@@ -12,7 +12,7 @@
           <%= form.email_field :email, :autocomplete => 'off', :autocapitalize => 'off' %>
           <%=form.label :password, 'Contraseña' %>
           <%= form.password_field :password, :autocomplete => 'off', :autocapitalize => 'off' %>
-      	  <%= link_to 'Olvido la contraseña?', new_customer_password_reset_path() %>
+      	  <%= link_to 'Olvido la contraseña?', new_customer_password_reset_path() %> - <%= link_to 'Registrese', signup_path %>
        	  <%= form.submit "Entrar", :class => 'small button' %>                
       </fieldset>    
     <% end %>

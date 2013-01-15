@@ -17,7 +17,9 @@ class ProductsController < ApplicationController
          @ptname = ProductType.where('id = ?',params[:product_type_id]).pluck(:name)
          product_type = ProductType.find_by_id(params[:product_type_id]) 
          product_types = product_type.self_and_descendants.map(&:id)
-         @products = products.where('product_type_id IN (?)', product_types || featured_product_types)
+         params[:page] ||= 1
+         @products = products.where('product_type_id IN (?)', product_types || featured_product_types).
+                           paginate(:per_page => 20, :page => params[:page].to_i)     
        end        
     else
       @products = nil  

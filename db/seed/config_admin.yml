@@ -2243,7 +2243,7 @@ products:
       description_markup: "Destornillador clip 1/8x3"
   110: 
     attributes:
-      name: Juego Destornilladores 6 piezas
+      name: Juego Destornilladores 6 pcs
       description: '<p>Juego Destornilladores 6 piezas Composición: 3 destornilladores punta recta: 1/8x3, 3/16x3 y 3/16x3, 2 destornilladores punta estrella: 1/8x3, 3/16x  1 destornillador de bolsillo 1/8x3</p>'
       product_keywords:
       tax_category_id:
@@ -6518,8 +6518,8 @@ products:
       description_markup: "Maza Octogonal 500g"
   333: 
     attributes:
-      name: Maza Octogonal 1000g
-      description: '<p>Maza Octogonal 1000g</p>'
+      name: Maza Octogonal 1000g pro
+      description: '<p>Maza Octogonal 1000g pro</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -6534,7 +6534,7 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Maza Octogonal 1000g"
+      description_markup: "Maza Octogonal 1000g pro"
   334: 
     attributes:
       name: Maza Octogonal 1500g
@@ -6651,8 +6651,8 @@ products:
       description_markup: "Pinza Corte Diagonal 6 Aislada 1000V"
   340: 
     attributes:
-      name: Pinza Punta Media Caña 6
-      description: '<p>Pinza Punta Media Caña 6</p>'
+      name: Pinza Punta Media Caña 6 pro
+      description: '<p>Pinza Punta Media Caña 6 pro</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -6667,7 +6667,7 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Pinza Punta Media Caña 6"
+      description_markup: "Pinza Punta Media Caña 6 pro"
   341: 
     attributes:
       name: Pinza para Anillo Interno Recto 7
@@ -6746,8 +6746,8 @@ products:
       description_markup: "Pinza de Presión Mordiente Recto 10"
   345: 
     attributes:
-      name: Pinza de Presión Mordiente Curvo 10
-      description: '<p>Pinza de Presión Mordiente Curvo 10</p>'
+      name: Pinza de Presión Mordiente Curvo 10 pro
+      description: '<p>Pinza de Presión Mordiente Curvo 10 pro</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -6762,7 +6762,7 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Pinza de Presión Mordiente Curvo 10"
+      description_markup: "Pinza de Presión Mordiente Curvo 10 pro"
   346: 
     attributes:
       name: Pinza de Presión Tipo U 10
@@ -6822,8 +6822,8 @@ products:
       description_markup: "Llave para Tubo 18"
   349: 
     attributes:
-      name: Llave Ajustable 6
-      description: '<p>Llave Ajustable 6</p>'
+      name: Llave Ajustable 6pulg
+      description: '<p>Llave Ajustable 6pulg</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -6838,11 +6838,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Llave Ajustable 6"
+      description_markup: "Llave Ajustable 6pulg"
   350: 
     attributes:
-      name: Llave Ajustable 8
-      description: '<p>Llave Ajustable 8</p>'
+      name: Llave Ajustable 8pulg
+      description: '<p>Llave Ajustable 8pulg</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -6857,11 +6857,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Llave Ajustable 8"
+      description_markup: "Llave Ajustable 8pulg"
   351: 
     attributes:
-      name: Llave Ajustable 10
-      description: '<p>Llave Ajustable 10</p>'
+      name: Llave Ajustable 10pulg
+      description: '<p>Llave Ajustable 10pulg</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -6876,11 +6876,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Llave Ajustable 10"
+      description_markup: "Llave Ajustable 10pulg"
   352: 
     attributes:
-      name: Llave Ajustable 12
-      description: '<p>Llave Ajustable 12</p>'
+      name: Llave Ajustable 12pulg
+      description: '<p>Llave Ajustable 12pulg</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -6895,11 +6895,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Llave Ajustable 12"
+      description_markup: "Llave Ajustable 12pulg"
   353: 
     attributes:
-      name: Llave Ajustable 15
-      description: '<p>Llave Ajustable 15</p>'
+      name: Llave Ajustable 15pulg
+      description: '<p>Llave Ajustable 15pulg</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -6914,11 +6914,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Llave Ajustable 15"
+      description_markup: "Llave Ajustable 15pulg"
   354: 
     attributes:
-      name: Llave Ajustable 18
-      description: '<p>Llave Ajustable 18</p>'
+      name: Llave Ajustable 18pulg
+      description: '<p>Llave Ajustable 18pulg</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -6933,11 +6933,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Llave Ajustable 18"
+      description_markup: "Llave Ajustable 18pulg"
   355: 
     attributes:
-      name: Llave Ajustable 24
-      description: '<p>Llave Ajustable 24</p>'
+      name: Llave Ajustable 24pulg
+      description: '<p>Llave Ajustable 24pulg</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -6952,7 +6952,7 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Llave Ajustable 24"
+      description_markup: "Llave Ajustable 24pulg"
   356: 
     attributes:
       name: Arco de Sierra 12 
@@ -10012,348 +10012,6 @@ products:
       meta_description: 
       featured: false
       description_markup: "Juego tres Piezas Composición 1 Cuchillo Color Verde Verdurero 3pulg 1 Cuchillo Color Verde Tomate 5pulg Athus 1 Tabla de madera goiabão Athus"
-  517: 
-    attributes:
-      name: 
-      description: '<p></p>'
-      product_keywords:
-      tax_category_id:
-      brand_id: 1
-      product_type_id: 10
-      prototype_id: 
-      shipping_category_id: 1
-      tax_category_id: 1
-      active: true
-      permalink: 
-      available_at: '2012-11-05 14:30:29'
-      deleted_at:
-      meta_keywords: 
-      meta_description: 
-      featured: false
-      description_markup: ""
-  518: 
-    attributes:
-      name: 
-      description: '<p></p>'
-      product_keywords:
-      tax_category_id:
-      brand_id: 1
-      product_type_id: 10
-      prototype_id: 
-      shipping_category_id: 1
-      tax_category_id: 1
-      active: true
-      permalink: 
-      available_at: '2012-11-05 14:30:29'
-      deleted_at:
-      meta_keywords: 
-      meta_description: 
-      featured: false
-      description_markup: ""
-  519: 
-    attributes:
-      name: 
-      description: '<p></p>'
-      product_keywords:
-      tax_category_id:
-      brand_id: 1
-      product_type_id: 10
-      prototype_id: 
-      shipping_category_id: 1
-      tax_category_id: 1
-      active: true
-      permalink: 
-      available_at: '2012-11-05 14:30:29'
-      deleted_at:
-      meta_keywords: 
-      meta_description: 
-      featured: false
-      description_markup: ""
-  520: 
-    attributes:
-      name: 
-      description: '<p></p>'
-      product_keywords:
-      tax_category_id:
-      brand_id: 1
-      product_type_id: 10
-      prototype_id: 
-      shipping_category_id: 1
-      tax_category_id: 1
-      active: true
-      permalink: 
-      available_at: '2012-11-05 14:30:29'
-      deleted_at:
-      meta_keywords: 
-      meta_description: 
-      featured: false
-      description_markup: ""
-  521: 
-    attributes:
-      name: 
-      description: '<p></p>'
-      product_keywords:
-      tax_category_id:
-      brand_id: 1
-      product_type_id: 10
-      prototype_id: 
-      shipping_category_id: 1
-      tax_category_id: 1
-      active: true
-      permalink: 
-      available_at: '2012-11-05 14:30:29'
-      deleted_at:
-      meta_keywords: 
-      meta_description: 
-      featured: false
-      description_markup: ""
-  522: 
-    attributes:
-      name: 
-      description: '<p></p>'
-      product_keywords:
-      tax_category_id:
-      brand_id: 1
-      product_type_id: 10
-      prototype_id: 
-      shipping_category_id: 1
-      tax_category_id: 1
-      active: true
-      permalink: 
-      available_at: '2012-11-05 14:30:29'
-      deleted_at:
-      meta_keywords: 
-      meta_description: 
-      featured: false
-      description_markup: ""
-  523: 
-    attributes:
-      name: 
-      description: '<p></p>'
-      product_keywords:
-      tax_category_id:
-      brand_id: 1
-      product_type_id: 10
-      prototype_id: 
-      shipping_category_id: 1
-      tax_category_id: 1
-      active: true
-      permalink: 
-      available_at: '2012-11-05 14:30:29'
-      deleted_at:
-      meta_keywords: 
-      meta_description: 
-      featured: false
-      description_markup: ""
-  524: 
-    attributes:
-      name: 
-      description: '<p></p>'
-      product_keywords:
-      tax_category_id:
-      brand_id: 1
-      product_type_id: 10
-      prototype_id: 
-      shipping_category_id: 1
-      tax_category_id: 1
-      active: true
-      permalink: 
-      available_at: '2012-11-05 14:30:29'
-      deleted_at:
-      meta_keywords: 
-      meta_description: 
-      featured: false
-      description_markup: ""
-  525: 
-    attributes:
-      name: 
-      description: '<p></p>'
-      product_keywords:
-      tax_category_id:
-      brand_id: 1
-      product_type_id: 10
-      prototype_id: 
-      shipping_category_id: 1
-      tax_category_id: 1
-      active: true
-      permalink: 
-      available_at: '2012-11-05 14:30:29'
-      deleted_at:
-      meta_keywords: 
-      meta_description: 
-      featured: false
-      description_markup: ""
-  526: 
-    attributes:
-      name: 
-      description: '<p></p>'
-      product_keywords:
-      tax_category_id:
-      brand_id: 1
-      product_type_id: 10
-      prototype_id: 
-      shipping_category_id: 1
-      tax_category_id: 1
-      active: true
-      permalink: 
-      available_at: '2012-11-05 14:30:29'
-      deleted_at:
-      meta_keywords: 
-      meta_description: 
-      featured: false
-      description_markup: ""
-  527: 
-    attributes:
-      name: 
-      description: '<p></p>'
-      product_keywords:
-      tax_category_id:
-      brand_id: 1
-      product_type_id: 10
-      prototype_id: 
-      shipping_category_id: 1
-      tax_category_id: 1
-      active: true
-      permalink: 
-      available_at: '2012-11-05 14:30:29'
-      deleted_at:
-      meta_keywords: 
-      meta_description: 
-      featured: false
-      description_markup: ""
-  528: 
-    attributes:
-      name: 
-      description: '<p></p>'
-      product_keywords:
-      tax_category_id:
-      brand_id: 1
-      product_type_id: 10
-      prototype_id: 
-      shipping_category_id: 1
-      tax_category_id: 1
-      active: true
-      permalink: 
-      available_at: '2012-11-05 14:30:29'
-      deleted_at:
-      meta_keywords: 
-      meta_description: 
-      featured: false
-      description_markup: ""
-  529: 
-    attributes:
-      name: 
-      description: '<p></p>'
-      product_keywords:
-      tax_category_id:
-      brand_id: 1
-      product_type_id: 10
-      prototype_id: 
-      shipping_category_id: 1
-      tax_category_id: 1
-      active: true
-      permalink: 
-      available_at: '2012-11-05 14:30:29'
-      deleted_at:
-      meta_keywords: 
-      meta_description: 
-      featured: false
-      description_markup: ""
-  530: 
-    attributes:
-      name: 
-      description: '<p></p>'
-      product_keywords:
-      tax_category_id:
-      brand_id: 1
-      product_type_id: 10
-      prototype_id: 
-      shipping_category_id: 1
-      tax_category_id: 1
-      active: true
-      permalink: 
-      available_at: '2012-11-05 14:30:29'
-      deleted_at:
-      meta_keywords: 
-      meta_description: 
-      featured: false
-      description_markup: ""
-  531: 
-    attributes:
-      name: 
-      description: '<p></p>'
-      product_keywords:
-      tax_category_id:
-      brand_id: 1
-      product_type_id: 10
-      prototype_id: 
-      shipping_category_id: 1
-      tax_category_id: 1
-      active: true
-      permalink: 
-      available_at: '2012-11-05 14:30:29'
-      deleted_at:
-      meta_keywords: 
-      meta_description: 
-      featured: false
-      description_markup: ""
-  532: 
-    attributes:
-      name: 
-      description: '<p></p>'
-      product_keywords:
-      tax_category_id:
-      brand_id: 1
-      product_type_id: 10
-      prototype_id: 
-      shipping_category_id: 1
-      tax_category_id: 1
-      active: true
-      permalink: 
-      available_at: '2012-11-05 14:30:29'
-      deleted_at:
-      meta_keywords: 
-      meta_description: 
-      featured: false
-      description_markup: ""
-  533: 
-    attributes:
-      name: 
-      description: '<p></p>'
-      product_keywords:
-      tax_category_id:
-      brand_id: 1
-      product_type_id: 10
-      prototype_id: 
-      shipping_category_id: 1
-      tax_category_id: 1
-      active: true
-      permalink: 
-      available_at: '2012-11-05 14:30:29'
-      deleted_at:
-      meta_keywords: 
-      meta_description: 
-      featured: false
-      description_markup: ""
-  534: 
-    attributes:
-      name: 
-      description: '<p></p>'
-      product_keywords:
-      tax_category_id:
-      brand_id: 1
-      product_type_id: 10
-      prototype_id: 
-      shipping_category_id: 1
-      tax_category_id: 1
-      active: true
-      permalink: 
-      available_at: '2012-11-05 14:30:29'
-      deleted_at:
-      meta_keywords: 
-      meta_description: 
-      featured: false
-      description_markup: ""
  
 product_properties:
   1: #'Destornillador, Largo'

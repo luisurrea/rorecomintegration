@@ -37,7 +37,16 @@
             <%= image_tag('inox 100 x 40.jpg') %>
           </div>
         </div>
-        <div id="navbar">
+       
+       
+       
+       
+       
+       
+  <!--ojo con esto
+  	
+  	
+  	<div id="navbar">
   <ul class="nav-bar">
   	<li ><%= link_to "Home",    root_path %>
   	<li class="has-flyout"><a href="/products">Productos</a>
@@ -61,6 +70,103 @@
   	<li > <%= link_to_unless_current 'Mi Cuenta', myaccount_overview_path if most_likely_user %> </li>
   	<%end%>
   </ul>
+  </div>
+
+
+
+
+  	
+  	
+  	
+  	
+  	-->
+  
+  
+  
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+  <div id="navbar">
+    <nav class="top-bar">
+      <ul class="left">
+        <!-- Title Area -->
+        <li ><%= link_to "Home",    root_path %></li>
+      </ul>
+
+      <section>
+        <!-- Left Nav Section -->
+        <ul class="left">
+          <li class="divider"></li>
+          <li class="has-dropdown">
+            <a class="active" href="/products">Productos</a>
+            <ul class="dropdown">
+              <li><label>Section Name</label></li>
+              <li class="has-dropdown">
+                <a href="#" class="">Level 1, Has Dropdown</a>
+                <ul class="dropdown">
+                  <li><a href="#">Level 2</a></li>
+                  <li><a href="#">Level 2</a></li>
+                  <li class="has-dropdown"><a href="#">Level 2, Has Dropdown</a>
+                    <ul class="dropdown">
+                      <li><label>Section</label></li>
+                      <li><a href="#">Level 3</a></li>
+                      <li><a href="#">Level 3</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">Level 3</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Level 2</a></li>
+                  <li><a href="#">Level 2</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Level 1</a></li>
+              <li><a href="#">Level 1</a></li>
+              <li class="divider"></li>
+              <li><label>Section Name</label></li>
+              <li><a href="#">Level 1</a></li>
+              <li><a href="#">Level 1</a></li>
+              <li><a href="#">Level 1</a></li>
+              <li class="divider"></li>
+              <li><a href="#">See all &rarr;</a></li>
+            </ul>
+          </li>
+          <li class="divider hide-for-small"></li>
+        </ul>
+
+				<ul  class="left">
+        <!-- Title Area -->
+        <li class="divider"></li>
+       <li> <%= link_to "Mi Pedido", shopping_cart_items_path  %></li>
+      </ul>
+      <% unless current_user %>
+      <ul class="left" >
+        <!-- Title Area -->
+        <li class="divider"></li>
+        <li><%= link_to "Registrarme", signup_path %></li>
+      </ul>
+      <% else %>
+      <ul class="left">
+        <!-- Title Area -->
+        <li class="divider"></li>
+        </li><%= link_to_unless_current 'Mi Cuenta', myaccount_overview_path if most_likely_user %></li>
+        
+      </ul>
+      <%end%>
+      
+        <!-- Right Nav Section -->
+
+      </section>
+    </nav>
   </div>
   </div>
   <!--end nav content -->
