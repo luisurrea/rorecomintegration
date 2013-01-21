@@ -4,7 +4,7 @@
 <div id='order-wrapper' class='span-24'>
   <div class='span-14'>
   	
-    <div class="panel"><h5>Resumen de la orden</h5></div>
+    <div class="panel"><h5>Resumen de la orden <%= @order.total%></h5></div>
 
  <!--   <div id='order-items-summary'>
       <% i = 1 %>
@@ -92,15 +92,15 @@ Como podemos ver el siguiente botón apunta a nuestro servidor de pruebas.<br />
 
 <%= form_tag('https://gateway2.pagosonline.net/apps/gateway/index.html') %>
 <!--<form method="post" action="https://gateway2.pagosonline.net/apps/gateway/index.html" target="_self">-->
-<%= hidden_field_tag 'usuarioId', ''%>
+<%= hidden_field_tag 'usuarioId', '2'%>
 <!--<input name="usuarioId" type="hidden" value="<?php echo $usuarioId?>">-->
-<%= hidden_field_tag 'descripcion', ''%>
+<%= hidden_field_tag 'descripcion', 'Pruebas de Generacion de Firmas'%>
 <!--<input name="descripcion" type="hidden" value="<?php echo $descripcion ?>" >-->
 <%= hidden_field_tag 'extra1', ''%>
 <!--<input name="extra1" type="hidden" value="<?php echo $descripcion ?>" >-->
-<%= hidden_field_tag 'refVenta', ''%>
+<%= hidden_field_tag 'refVenta', '12345'%>
 <!--<input name="refVenta" type="hidden" value="<?php echo $refVenta ?>">-->
-<%= hidden_field_tag 'valor', ''%>
+<%= hidden_field_tag 'valor', @order.total %>
 <!--<input name="valor" type="hidden" value="<?php echo $valor ?>">-->
 <%= hidden_field_tag 'iva', ''%>
 <!--<input name="iva" type="hidden" value="<?php echo $iva ?>">-->
@@ -110,9 +110,9 @@ Como podemos ver el siguiente botón apunta a nuestro servidor de pruebas.<br />
 <!--<input name="firma" type="hidden" value="<?php echo $firma?>">-->
 <%= hidden_field_tag 'emailComprador', ''%>
 <!--<input name="emailComprador" type="hidden" value="<?php echo $emailComprador?>">-->
-<%= hidden_field_tag 'prueba', ''%>
+<%= hidden_field_tag 'prueba', '1'%>
 <!--<input name="prueba" type="hidden" value="1">-->
-<%= hidden_field_tag 'url_respuesta', ''%>
+<%= hidden_field_tag 'url_respuesta', 'http://ayuda.pagosonline.com/pruebas/respuesta.php'%>
 <!--<input name="url_respuesta" type="hidden" value="<?php echo $url_respuesta?>">
 <input name="Submit" type="submit" value="Prueba de pago">
 </form>

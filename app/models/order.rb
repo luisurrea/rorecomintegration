@@ -271,6 +271,7 @@ class Order < ActiveRecord::Base
     self.deal_amount = Deal.best_qualifing_deal(self)
     self.find_sub_total
     self.total = (self.total + shipping_charges - deal_amount - coupon_amount ).round_at( 2 )
+    
   end
 
   def find_sub_total
