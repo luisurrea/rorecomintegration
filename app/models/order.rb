@@ -45,7 +45,7 @@ class Order < ActiveRecord::Base
 
   # after_find :set_beginning_values
 
-  attr_accessor :total, :sub_total, :deal_amount
+  attr_accessor :total, :sub_total, :deal_amount, :base_iva, :iva, :cadenapol, :refventa
 
   #validates :number,     :presence => true
   validates :user_id,     :presence => true
@@ -271,7 +271,10 @@ class Order < ActiveRecord::Base
     self.deal_amount = Deal.best_qualifing_deal(self)
     self.find_sub_total
     self.total = (self.total + shipping_charges - deal_amount - coupon_amount ).round_at( 2 )
-    
+    self.base_iva = (self.total/1.16).round_at(2)
+    self.iva = (self.total-self.base_iva).round_at(2)
+    self.refventa = Time.zone.now
+    self.cadenapol = POLKEY+"~"+POLID.to_s+"~"+self.refventa.to_s+"~"+"#{self.total.to_s}~"+POLMONEDA
   end
 
   def find_sub_total

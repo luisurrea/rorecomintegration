@@ -43,13 +43,14 @@ Hadean::Application.configure do
   # Don't care if the mailer can't send
   config.action_mailer.raise_delivery_errors = false
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
-
-
+  POLID = Settings.pol.polid
+  POLKEY = Settings.pol.polkey
+  POLMONEDA = Settings.pol.moneda
   config.after_initialize do
     #Formtastic::SemanticFormBuilder.send(:include, Formtastic::DatePicker)
     #Formtastic::SemanticFormBuilder.send(:include, Formtastic::FuturePicker)
     #Formtastic::SemanticFormBuilder.send(:include, Formtastic::YearPicker)
-
+    
     ActiveMerchant::Billing::Base.mode = :test
     #::GATEWAY = ActiveMerchant::Billing::PaypalGateway.new(
     #  :login      => Settings.paypal.login

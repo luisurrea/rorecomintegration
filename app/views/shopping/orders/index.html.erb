@@ -4,7 +4,7 @@
 <div id='order-wrapper' class='span-24'>
   <div class='span-14'>
   	
-    <div class="panel"><h5>Resumen de la orden <%= @order.total%></h5></div>
+    <div class="panel"><h5>Resumen de la orden <%= @order.total%> | <%=@order.base_iva%> | <%=@order.iva%> <%= @order.cadenapol%></h5></div>
 
  <!--   <div id='order-items-summary'>
       <% i = 1 %>
@@ -98,13 +98,13 @@ Como podemos ver el siguiente botón apunta a nuestro servidor de pruebas.<br />
 <!--<input name="descripcion" type="hidden" value="<?php echo $descripcion ?>" >-->
 <%= hidden_field_tag 'extra1', ''%>
 <!--<input name="extra1" type="hidden" value="<?php echo $descripcion ?>" >-->
-<%= hidden_field_tag 'refVenta', '12345'%>
+<%= hidden_field_tag 'refVenta', @order.refventa %>
 <!--<input name="refVenta" type="hidden" value="<?php echo $refVenta ?>">-->
 <%= hidden_field_tag 'valor', @order.total %>
 <!--<input name="valor" type="hidden" value="<?php echo $valor ?>">-->
-<%= hidden_field_tag 'iva', ''%>
+<%= hidden_field_tag 'iva', @order.iva %>
 <!--<input name="iva" type="hidden" value="<?php echo $iva ?>">-->
-<%= hidden_field_tag 'baseDevolucionIva', ''%>
+<%= hidden_field_tag 'baseDevolucionIva', @order.base_iva %>
 <!--<input name="baseDevolucionIva" type="hidden" value="<?php echo $baseDevolucionIva ?>" ><%= hidden_field_tag '', ''%>-->
 <%= hidden_field_tag 'firma', ''%>
 <!--<input name="firma" type="hidden" value="<?php echo $firma?>">-->
