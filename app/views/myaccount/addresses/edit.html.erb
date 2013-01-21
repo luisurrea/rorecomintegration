@@ -1,8 +1,10 @@
-<h1> Edit Address </h1>
-
-<%= form_for(@address, :url => myaccount_address_path(@address)) do |f| %>
-  <%= render :partial => 'form', :locals => {:f => f} %>
-<% end %>
-
-  <%= link_to 'Show', myaccount_address_path( @address ), :class => 'button ar-small-black-button' %> |
-  <%= link_to 'View All', myaccount_addresses_path, :class => 'button ar-small-black-button' %>
+<div class="twelve columns centered">
+	<div class="panel"><h5> Editar direccion</h5></div>
+<div class="six columns centered">
+	<%= form_for(@address, :url => myaccount_address_path(@address)) do |f| %>
+ 		<%= render :partial => 'form', :locals => {:f => f} %>
+		<% end %>
+	<%= link_to 'Ver', myaccount_address_path( @address ), :class => 'radius button', :style => 'float:right;margin:10px 0 20px 10px' %> 
+  <%= link_to 'Ver todas', myaccount_addresses_path, :class => 'radius button', :style => 'float:right;margin:10px 0 20px 10px' %>
+</div>
+</div>

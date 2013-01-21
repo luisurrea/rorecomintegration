@@ -1,22 +1,20 @@
-
 <% content_for :head do -%>
   <%= stylesheet_link_tag 'shopping_cart_page.css' %>
 <% end %>
-
+<div class="panel">
+  <h5>Carrito</h5>
+</div>
 <div id='cart-items-wrapper' class='items-wrapper span-18 last'>
-
   <%= form_for session_cart, :url => shopping_cart_item_path(session_cart), :as => :cart do |cart_form| %>
-
     <% unless @cart_items.blank? %>
       <div class='row'>
-
-          <div class="panel six columns">
+         <div class="six columns">
           	<h5 class="inline left">Realizo algun cambio?</h5> 
-            <%= cart_form.submit 'actualizar', :class => 'small button inline right' %>
-          </div>
-					<div class='six columns'>
+            <%= cart_form.submit 'actualizar', :class => 'small radius button inline right' , :style => 'margin:8px 100px 0 0;'%>
+         </div>
+				<div class='six columns'>
 						<div class="four columns centered">
-        <%= cart_form.submit 'comprar', {:checkout => 1, :class => 'button', :style => 'margin-top: 20px'} %>
+        <%= cart_form.submit 'comprar', {:checkout => 1, :class => 'radius button'} %>
         </div>
       </div>
       </div>

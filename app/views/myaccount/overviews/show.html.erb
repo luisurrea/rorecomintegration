@@ -1,9 +1,10 @@
-<div class='span-10 column'>
-  <h3> <%= current_user.name %> Profile </h3>
-
-  <ul id='profile_details' >
+<div class="twelve columns centered">
+<div class="panel"><h5><%= current_user.name %></h5></div>
+<div class='six columns'>
+	<h5> Perfil: </h5>
+  <ul id='profile_details' style="list-style-type: none" >
     <li>
-      <label>Birth Date:</label>
+      <label>Fecha de nacimiento:</label>
       <%= current_user.birth_date %>
     </li>
     <li>
@@ -12,28 +13,21 @@
     </li>
 
     <li>
-      <%= link_to "Edit", edit_myaccount_overview_path() %>
+      <%= link_to "Editar", edit_myaccount_overview_path() %>
     </li>
   </ul>
 </div>
-
-<div class='span-8 column'>
+<div class='six columns'>
   <div>
-    <h3> Address: </h3>
+    <h5>Direccion:</h5>
     <% if current_user.shipping_address %>
       <%= render :partial => '/shared/compact_address', :locals => { :shopping_address => current_user.shipping_address } %>
-      <%= link_to "Edit", edit_myaccount_address_path(current_user.shipping_address) %>
+      <br />
+      <%= link_to "Editar", edit_myaccount_address_path(current_user.shipping_address) %>
     <% else %>
-      No Address Saved.<br/>
-      <%= link_to "New", new_myaccount_address_path() %>
+      No hay direcciones guaradas.<br/>
+      <%= link_to "Nueva", new_myaccount_address_path() %>
     <% end %>
   </div>
-
 </div>
-
-<div class='span-6 last column'>
-  <div>
-    <h3> Store Credits: </h3>
-    <%= number_to_currency current_user.store_credit.amount %>
-  </div>
 </div>

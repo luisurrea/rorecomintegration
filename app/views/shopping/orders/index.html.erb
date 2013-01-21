@@ -16,7 +16,7 @@
       <% end %>
  </div>-->
     <div class="row">
-    <div class='six columns'>
+    <div class='six columns'style="border-style: dotted; border-color:#CCCCCC;">
       <h5>Direccion de envio</h5>
       <%= render :partial => '/shared/compact_address', :locals => {:shopping_address => @order.ship_address} %>
       <%= link_to 'Cambiar direccion', shopping_addresses_path, :class => 'radius button ', :style => 'float:right; margin:10px 0 10px 20px;' %>
@@ -66,10 +66,10 @@
     </table>
     <div>
   </div>
-    <%= form_tag( shopping_order_path(@order),
+<!--    <%= form_tag( shopping_order_path(@order),
                                   :method => :put,
                                   #:as   => :order,
-                                  :id   => 'purchase_order') do  %>
+                                  :id   => 'purchase_order') do  %> -->
 
 
 
@@ -88,19 +88,32 @@ $emailComprador="info@mail.com"; //email al que llega confirmación del estado f
 $firma_cadena = "$llave_encripcion~$usuarioId~$refVenta~$valor~$moneda"; //concatenación para realizar la firma
 $firma = md5($firma_cadena); //creación de la firma con la cadena previamente hecha
 ?>
-Como podemos ver el siguiente botón apunta a nuestro servidor de pruebas.<br />
-<form method="post" action="https://gateway2.pagosonline.net/apps/gateway/index.html" target="_self">
-<input name="usuarioId" type="hidden" value="<?php echo $usuarioId?>">
-<input name="descripcion" type="hidden" value="<?php echo $descripcion ?>" >
-<input name="extra1" type="hidden" value="<?php echo $descripcion ?>" >
-<input name="refVenta" type="hidden" value="<?php echo $refVenta ?>">
-<input name="valor" type="hidden" value="<?php echo $valor ?>">
-<input name="iva" type="hidden" value="<?php echo $iva ?>">
-<input name="baseDevolucionIva" type="hidden" value="<?php echo $baseDevolucionIva ?>" >
-<input name="firma" type="hidden" value="<?php echo $firma?>">
-<input name="emailComprador" type="hidden" value="<?php echo $emailComprador?>">
-<input name="prueba" type="hidden" value="1">
-<input name="url_respuesta" type="hidden" value="<?php echo $url_respuesta?>">
+Como podemos ver el siguiente botón apunta a nuestro servidor de pruebas.<br />-->
+
+<%= form_tag('https://gateway2.pagosonline.net/apps/gateway/index.html') %>
+<!--<form method="post" action="https://gateway2.pagosonline.net/apps/gateway/index.html" target="_self">-->
+<%= hidden_field_tag 'usuarioId', ''%>
+<!--<input name="usuarioId" type="hidden" value="<?php echo $usuarioId?>">-->
+<%= hidden_field_tag 'descripcion', ''%>
+<!--<input name="descripcion" type="hidden" value="<?php echo $descripcion ?>" >-->
+<%= hidden_field_tag 'extra1', ''%>
+<!--<input name="extra1" type="hidden" value="<?php echo $descripcion ?>" >-->
+<%= hidden_field_tag 'refVenta', ''%>
+<!--<input name="refVenta" type="hidden" value="<?php echo $refVenta ?>">-->
+<%= hidden_field_tag 'valor', ''%>
+<!--<input name="valor" type="hidden" value="<?php echo $valor ?>">-->
+<%= hidden_field_tag 'iva', ''%>
+<!--<input name="iva" type="hidden" value="<?php echo $iva ?>">-->
+<%= hidden_field_tag 'baseDevolucionIva', ''%>
+<!--<input name="baseDevolucionIva" type="hidden" value="<?php echo $baseDevolucionIva ?>" ><%= hidden_field_tag '', ''%>-->
+<%= hidden_field_tag 'firma', ''%>
+<!--<input name="firma" type="hidden" value="<?php echo $firma?>">-->
+<%= hidden_field_tag 'emailComprador', ''%>
+<!--<input name="emailComprador" type="hidden" value="<?php echo $emailComprador?>">-->
+<%= hidden_field_tag 'prueba', ''%>
+<!--<input name="prueba" type="hidden" value="1">-->
+<%= hidden_field_tag 'url_respuesta', ''%>
+<!--<input name="url_respuesta" type="hidden" value="<?php echo $url_respuesta?>">
 <input name="Submit" type="submit" value="Prueba de pago">
 </form>
 
@@ -113,7 +126,6 @@ Una vez esté satisfechos con todas las pruebas que necesite puede apuntar al se
 <br />
 
 Finalmente debe eliminar la variable de prueba <s><<strong>input</strong> name="prueba" type="hidden" value="1"></s>-->
-
 
 
 
@@ -172,7 +184,7 @@ Finalmente debe eliminar la variable de prueba <s><<strong>input</strong> name="
       <div class='clear'></div> -->
   		<!--<a href="http://www.pagosonline.com/logos/pol.php?l=25&c=95737" target="_blank"><img src="http://www.pagosonline.com/logos/logo.php?l=25&c=95737" style="float: right; margin-right: 25px; margin-bottom: 20px;" alt="pagosonline, el pago seguro en internet" width="300" height="100" border="0" /></a>-->
 
-      <%= image_submit_tag("http://www.pagosonline.com/logos/logo.php?l=25&c=95737", :style => "float: right; margin-right: 25px; margin-bottom: 20px;")  %>
+   <%= image_submit_tag("http://www.pagosonline.com/logos/logo.php?l=25&c=95737", :style => "float: right; margin-right: 25px; margin-bottom: 20px;")  %>
     <% end %>
   </div>
 </div>

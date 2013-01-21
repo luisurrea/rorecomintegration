@@ -1,36 +1,29 @@
-<div id='myaccount-profile_name_form'>
-  <fieldset id="myaccount-profile" class='span-12'>
-     <ul>
-       <li>
-         <%= f.label :first_name %>
-         <%= f.text_field :first_name %>
-        </li>
-        <li>
-          <%= f.label :last_name %>
-          <%= f.text_field :last_name %>
-        </li>
-        <li>
-          <%= f.label :email %>
-          <%= f.text_field :email %>
-        </li>
-        <li>
-          <%= f.label :form_birth_date, "Birthday" %>
-          <%= f.text_field :form_birth_date, :class => 'ui-yearpicker' %>
-        </li>
-     </ul>
-  </fieldset>
-</div>
-<div id='myaccount-profile_form'>
-  <fieldset id="myaccount-profile-password" class='span-12'>
+<% if @user.errors.any? %>
+  <div id="error_explanation">
+    <h2><%= pluralize(@user.errors.count, "error") %> prohibited this shopping_address from being saved:</h2>
+
     <ul>
-      <li>
-        <%= f.label :password %>
-        <%= f.password_field :password %>
-      </li>
-      <li>
-        <%= f.label :password_confirmation %>
-        <%= f.password_field :password_confirmation %>
-      </li>
+    <% @user.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
     </ul>
+  </div>
+<% end %>
+<div class="six columns centered">
+  <fieldset>
+    <%= f.label :first_name, 'Nombre'  %>
+    <%= f.text_field :first_name %>
+    <%= f.label :last_name, 'Apellido' %>
+    <%= f.text_field :last_name %>
+    <%= f.label :email %>
+    <%= f.text_field :email %>
+    <%= f.label :form_birth_date, "Cumpleaños" %>
+    <%= f.text_field :form_birth_date, :class => 'ui-yearpicker' %>
+  </fieldset>
+  <fieldset>
+    <%= f.label :password, 'Contraseña (Dejelo en blanco si no lo va a cambiar)' %>
+    <%= f.password_field :password %>
+    <%= f.label :password_confirmation, 'reescriba la contraseña' %>
+    <%= f.password_field :password_confirmation %>
   </fieldset>
 </div>

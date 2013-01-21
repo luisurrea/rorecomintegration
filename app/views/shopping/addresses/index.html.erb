@@ -1,16 +1,23 @@
 <% if  @shopping_addresses.empty? %>
-  <h3>Nueva direccion</h3>
+<div class="panel">
+  <h5>Nueva direccion</h5>
+</div>
 <% else %>
-  <h3>Seleccione una direccion</h3>
+<div class="panel">
+  <h5>Seleccione una direccion</h5>
+</div>
 <% end %>
 
 <div id='shopping_addresses_selections' class='span-24 last'>
   <% @shopping_addresses.each do |shopping_address| %>
-    <div class='span-8 last box'>
+    <div class='four columns' style="border-style:solid; border-color:#CCCCCC; border-width: 1px; margin-bottom: 10px;">
+      <br />
       <%= render :partial => '/shared/compact_address', :locals => {:shopping_address => shopping_address} %>
-      <%= button_to 'Use', select_address_shopping_address_path(shopping_address), :class => 'button spade inline-block', :method => :put %>
-      <%= link_to 'Edit', edit_shopping_address_path(shopping_address) %>
-      <%= link_to 'Delete', shopping_address_path(shopping_address), :data => {:confirm => 'Are you sure?'}, :method => :delete %>
+      <br />
+      <%= button_to 'Usar', select_address_shopping_address_path(shopping_address), :class => 'small radius button', :method => :put %>
+      <%= link_to 'Editar', edit_shopping_address_path(shopping_address) %>
+      <%= link_to 'Borrar', shopping_address_path(shopping_address), :data => {:confirm => 'Are you sure?'}, :method => :delete %>
+    	<br />
     </div>
     <hr style='color:#aac'/>
   <% end %>
@@ -18,6 +25,7 @@
     <%= link_to 'Order Summary', shopping_orders_path, :class => 'button green' %>
   <% end %>
 </div>
+  <h5>..o cree una nueva direccion</h5>
 <br />
 <%= form_for @shopping_address, :url => shopping_addresses_path do |address_form| %>
   <%= render :partial =>  'form', :locals => {:f => address_form}  %>

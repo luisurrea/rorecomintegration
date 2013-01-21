@@ -1,8 +1,10 @@
 <% content_for :head do -%>
     <%= stylesheet_link_tag "login.css.scss" %>
 <% end %>
+<div class="panel">
+  <h5>Ingresar</h5>
+</div>
 <div id="loginform">
-<h3>Ingresar</h3>	
 <div id='login' class='six columns centered'>
 	<%= form_for  @user_session, :as => :user_session,
                   :url => user_sessions_path(@user_session),

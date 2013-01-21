@@ -23,7 +23,7 @@ class Myaccount::AddressesController < Myaccount::BaseController
 
     respond_to do |format|
       if @address.save_default_address(current_user, params[:address])
-        format.html { redirect_to(myaccount_address_url(@address), :notice => 'Address was successfully created.') }
+        format.html { redirect_to(myaccount_address_url(@address), :notice => 'La direccion se creo correctamente.') }
       else
         form_info
         format.html { render :action => "new" }
@@ -39,7 +39,7 @@ class Myaccount::AddressesController < Myaccount::BaseController
   def update
     @address = current_user.addresses.find(params[:id])
     if @address.save_default_address(current_user, params[:address])
-      flash[:notice] = "Successfully updated address."
+      flash[:notice] = "La direccion se actualizo correctamente."
       redirect_to myaccount_address_url(@address)
     else
       form_info
@@ -50,7 +50,7 @@ class Myaccount::AddressesController < Myaccount::BaseController
   def destroy
     @address = current_user.addresses.find(params[:id])
     @address.inactive!
-    flash[:notice] = "Successfully destroyed address."
+    flash[:notice] = "La direccion fue eliminada."
     redirect_to myaccount_addresses_url
   end
 

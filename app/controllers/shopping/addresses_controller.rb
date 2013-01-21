@@ -33,7 +33,7 @@ class Shopping::AddressesController < Shopping::BaseController
 
       if @shopping_address.id
         update_order_address_id(@shopping_address.id)
-        format.html { redirect_to(shopping_orders_url, :notice => 'Address was successfully created.') }
+        format.html { redirect_to(shopping_orders_url, :notice => 'La direccion fue creada correctamente.') }
       else
         form_info
         format.html { render :action => "index" }
@@ -56,7 +56,7 @@ class Shopping::AddressesController < Shopping::BaseController
         old_shopping_address = current_user.addresses.find(params[:id])
         old_shopping_address.update_attributes(:active => false)
         update_order_address_id(@shopping_address.id)
-        format.html { redirect_to(shopping_orders_url, :notice => 'Address was successfully updated.') }
+        format.html { redirect_to(shopping_orders_url, :notice => 'La direccion se actualizo correctamente.') }
       else
         @shopping_address = current_user.addresses.find(params[:id])
         @shopping_address.update_attributes(params[:address])
