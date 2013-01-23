@@ -45,13 +45,13 @@ class Order < ActiveRecord::Base
 
   # after_find :set_beginning_values
 
-  attr_accessor :total, :sub_total, :deal_amount, :base_iva, :iva, :cadenapol, :refventa
+  attr_accessor :total, :sub_total, :deal_amount, :base_iva, :iva, :refventa, :polcadena
 
   #validates :number,     :presence => true
   validates :user_id,     :presence => true
   validates :email,       :presence => true,
                           :format   => { :with => CustomValidators::Emails.email_validator }
-
+  
   NUMBER_SEED     = 1001001001000
   CHARACTERS_SEED = 21
 
@@ -271,10 +271,7 @@ class Order < ActiveRecord::Base
     self.deal_amount = Deal.best_qualifing_deal(self)
     self.find_sub_total
     self.total = (self.total + shipping_charges - deal_amount - coupon_amount ).round_at( 2 )
-    self.base_iva = (self.total/1.16).round_at(2)
-    self.iva = (self.total-self.base_iva).round_at(2)
-    self.refventa = Time.zone.now
-    self.cadenapol = POLKEY+"~"+POLID.to_s+"~"+self.refventa.to_s+"~"+"#{self.total.to_s}~"+POLMONEDA
+      
   end
 
   def find_sub_total
@@ -284,7 +281,21 @@ class Order < ActiveRecord::Base
     end
     self.sub_total = self.total
   end
-
+  def get_base_iva
+    self.base_iva = nil
+    self.base_iva = (self.total/1.16).round_at(2)      
+  end
+  def get_iva
+    self.iva = nil
+    self.iva = (self.total-self.base_iva).round_at(2)
+  end
+  def get_refventa
+    self.refventa=nil
+    self.refventa=Time.now.to_formatted_s(:number)
+  end
+  def get_cadena
+    self.polcadena = POLKEY+"~"+POLID.to_s+"~"+self.get_refventa+"~"+self.total.to_s+"~"+POLMONEDA
+  end
   # amount the coupon reduces the value of the order
   #
   # @param [none]
