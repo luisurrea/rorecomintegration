@@ -186,5 +186,5 @@ Hadean::Application.routes.draw do
   match '/terms', to: 'staticpages#terms'
   match '/contacto', to: 'forms_pages#new', :as => 'contactmsgs', :via => :get
   match '/contacto', to: 'forms_pages#create', :as => 'contactmsgs', :via => :post
- 
+  match '/respuestapol', to: 'staticpages#respuestapol'
 end
