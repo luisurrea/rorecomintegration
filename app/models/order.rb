@@ -282,11 +282,9 @@ class Order < ActiveRecord::Base
     self.sub_total = self.total
   end
   def get_base_iva
-    self.base_iva = nil
     self.base_iva = (self.total/1.16).round_at(2)      
   end
   def get_iva
-    self.iva = nil
     self.iva = (self.total-self.base_iva).round_at(2)
   end
   def get_refventa

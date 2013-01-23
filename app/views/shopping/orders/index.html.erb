@@ -92,27 +92,27 @@ Como podemos ver el siguiente botón apunta a nuestro servidor de pruebas.<br />
 
 <%= form_tag('https://gateway2.pagosonline.net/apps/gateway/index.html') %>
 <!--<form method="post" action="https://gateway2.pagosonline.net/apps/gateway/index.html" target="_self">-->
-<%= hidden_field_tag 'usuarioId', '2'%>
+<%= hidden_field_tag 'usuarioId', POLID.to_s %>
 <!--<input name="usuarioId" type="hidden" value="<?php echo $usuarioId?>">-->
-<%= hidden_field_tag 'descripcion', 'Pruebas de Generacion de Firmas'%>
+<%= hidden_field_tag 'descripcion',  @order.order_items.each do |item|  item.variant.product.name  end %>
 <!--<input name="descripcion" type="hidden" value="<?php echo $descripcion ?>" >-->
 <%= hidden_field_tag 'extra1', ''%>
 <!--<input name="extra1" type="hidden" value="<?php echo $descripcion ?>" >-->
-<%= hidden_field_tag 'refVenta', @order.get_refventa %>
-<!--<input name="refVenta" type="hidden" value="<?php echo $refVenta ?>">-->
 <%= hidden_field_tag 'valor', @order.total %>
 <!--<input name="valor" type="hidden" value="<?php echo $valor ?>">-->
-<%= hidden_field_tag 'iva', @order.get_iva %>
-<!--<input name="iva" type="hidden" value="<?php echo $iva ?>">-->
 <%= hidden_field_tag 'baseDevolucionIva', @order.get_base_iva %>
 <!--<input name="baseDevolucionIva" type="hidden" value="<?php echo $baseDevolucionIva ?>" ><%= hidden_field_tag '', ''%>-->
-<%= hidden_field_tag 'firma', ''%>
+<%= hidden_field_tag 'refVenta', @order.get_refventa %>
+<!--<input name="refVenta" type="hidden" value="<?php echo $refVenta ?>">-->
+<%= hidden_field_tag 'iva', @order.get_iva %>
+<!--<input name="iva" type="hidden" value="<?php echo $iva ?>">-->
+<%= hidden_field_tag 'firma', @order.get_cadena %>
 <!--<input name="firma" type="hidden" value="<?php echo $firma?>">-->
 <%= hidden_field_tag 'emailComprador', ''%>
 <!--<input name="emailComprador" type="hidden" value="<?php echo $emailComprador?>">-->
 <%= hidden_field_tag 'prueba', '1'%>
 <!--<input name="prueba" type="hidden" value="1">-->
-<%= hidden_field_tag 'url_respuesta', 'http://ayuda.pagosonline.com/pruebas/respuesta.php'%>
+<%= hidden_field_tag 'url_respuesta', 'http://inoxdobrasil.com.co/respuestapol'%>
 <!--<input name="url_respuesta" type="hidden" value="<?php echo $url_respuesta?>">
 <input name="Submit" type="submit" value="Prueba de pago">
 </form>
