@@ -11,10 +11,11 @@ $("#featured").orbit();
 
 $(document).ready(function($) {
     $('.tabs .subtopic').hide();
+    $('.tabs .undersubtopic').hide();
     $('.tabs .topic a').click(function() {
         if ($(this).hasClass('selected')) {
             $(this).removeClass('selected');
-            $(this).parent().nextUntil('.tabs .topic').slideUp();
+            $(this).parent().nextUntil('.tabs .topic'||'.tabs').slideUp();
         } else {
             $('.tabs .topic a').removeClass('selected');
             $(this).addClass('selected');

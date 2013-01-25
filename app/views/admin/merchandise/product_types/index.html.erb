@@ -1,40 +1,20 @@
 <%= render :partial => '/admin/merchandise/sub_header'%>
 
-<% content_for :sidemenu do %>
-
-  <div class='admin_filters'>
-    <%= form_tag admin_merchandise_product_types_path, :method => 'get', :id => "product_types_search" do %>
-      <%= hidden_field_tag :direction, params[:direction] %>
-      <%= hidden_field_tag :sort, params[:sort] %>
-
-      <label>Nombre</label>
-      <%= text_field_tag :name, params[:name] %>
-      <div style='text-align:center'>
-        <%= submit_tag "Buscar", :name => nil, :class => 'button' %>
-      </div>
-    <% end %>
-    <div class='clearfix'></div>
-  </div>
-<% end %>
-
 <div class='admin_title_header'>
   <h3>Categorias</h3>
   <%= link_to "Nueva categoria", new_admin_merchandise_product_type_path, :class => "button" %>
 </div>
 
 <div class="admin_product_types">
-  <table>
-    <thead>
-    <tr class='odd'>
-      <th class='column1_header' ><%= sortable "name" %></th>
-    </tr>
-    </thead>
-    <% @product_types.each do |product_type| %>
-      <tr class='<%= cycle("odd", "")%>'>
-        <td><%= link_to product_type.name, edit_admin_merchandise_product_type_path(product_type) %></td>
-      </tr>
-    <% end %>
-  </table>
-
-  <%= will_paginate @product_types %>
+  <ul style="list-style-type: square;">
+  <% product_types.roots.each do |pt_tab| %>
+  	<li><%=link_to pt_tab.name, edit_admin_merchandise_product_type_path(pt_tab)%> </li>
+    <% pt_tab.children.each do |ptchildren| %>
+    	<li style="margin-left: 20px;"><%=link_to ptchildren.name, edit_admin_merchandise_product_type_path(ptchildren) %> </li>
+    	<% ptchildren.children.each do |ptsubchildren| %>
+			<li style="margin-left: 40px"><%=link_to ptsubchildren.name, edit_admin_merchandise_product_type_path(ptsubchildren) %> </li>			
+		<%end%>	
+	<%end%>  				
+  <% end %>
+</ul>
 </div>
