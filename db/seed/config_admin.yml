@@ -1,7 +1,7 @@
 shipping_methods:
   1: #'Colombia'
     attributes:
-      name: 'Transporte propio'
+      name: 'Transporte inoxdobrasil'
       shipping_zone_id: 1
 
 shipping_categories:
@@ -23,126 +23,191 @@ shipping_rates:
       position: 1
       active: true
   
-
-prototypes:
-  1: #Destornilladores
-    attributes:
-      name: Destornillador
-      active: true
-  2: #Alicates
-    attributes:
-      name: Alicates
-      active: true
-
-properties:
-  1: #largo del destornillador
-    attributes:
-      identifing_name: destornillador-largo
-      display_name: largo
-  2: #ancho del destornillador
-    attributes:
-      identifing_name: destornillador-ancho
-      display_name: ancho
-  3: #tipo de destornillador
-    attributes:
-      identifing_name: destornillador-tipo
-      display_name: tipo
-  
-prototype_properties:
-  1: #'largo del destornillador'
-    attributes:
-      property_id: 1
-      prototype_id: 1
-  2: #'ancho del destornillador'
-    attributes:
-      property_id: 2
-      prototype_id: 1
-  3: #'tipo de destornillador'
-    attributes:
-      property_id: 3
-      prototype_id: 1
-  
-
 product_types:
-  1: #Accesorios
+  1: #Delta
     attributes:
-      name: Accesorios
+      name: Muebles 
+      parent_id: 
+      active: true
+  2: #Delta
+    attributes:
+      name: Jardineria 
+      parent_id: 
+      active: true        
+  3: #Accesorios
+    attributes:
+      name: Ollas y sartenes 
       parent_id:
       active: true
-  2: #Belem y Madeiras
+  4: #Belem y Madeiras
     attributes:
-      name: Belem y Madeiras
-      parent_id: 1
+      name: Con Antiadherente Starflon
+      parent_id: 3
       active: true
-  3: #Cocina Acero Inoxidable
+  5: #Cocina Acero Inoxidable
     attributes:
-      name: Cocina Acero Inoxidable
-      parent_id: 
+      name: Ollas a presión
+      parent_id: 3
       active: true
-  4: #Linea de Lujo
+  6: #Linea de Lujo
     attributes:
-      name: Linea de Lujo
+      name: Linea profesional
       parent_id: 3
       active: true      
-  5: #Teec
+  7: #Teec
     attributes:
-      name: Teec
+      name: Lyon
       parent_id: 3
       active: true      
-  6: #Herramientas
+  8: #Herramientas
     attributes:
-      name: Herramientas
-      parent_id: 
+      name: En Acero inoxidable 18,10 (Quirúrgico)
+      parent_id: 3
       active: true      
-  7: #Master
-    attributes:
-      name: Master
-      parent_id: 6
-      active: true      
-  8: #Pro
-    attributes:
-      name: Pro
-      parent_id: 6
-      active: true      
-  9: #Hogar
-    attributes:
-      name: Hogar
-      parent_id: 
-      active: true      
-  10: #Cutelaria
-    attributes:
-      name: Cutelaria
-      parent_id: 9
-      active: true      
-  11: #Farroupilha
-    attributes:
-      name: Farroupilha
-      parent_id: 9
-      active: true
-  12: #Samovares
+  9: #Master
     attributes:
       name: Samovares
-      parent_id: 9
+      parent_id: 3
       active: true      
-  13: #Jardineria
+  10: #Pro
     attributes:
-      name: Jardineria
+      name: Cuchillos para cocina
       parent_id: 
-      active: true
-  14: #Multi
+      active: true      
+  11: #Hogar
     attributes:
-      name: Multi
-      parent_id: 13
-      active: true
-  15: #Muebles
+      name: Linea Universal
+      parent_id: 10
+      active: true      
+  12: #Cutelaria
     attributes:
-      name: Muebles
+      name: Linea Athus
+      parent_id: 10
+      active: true      
+  13: #Farroupilha
+    attributes:
+      name: Linea Ultracorte
+      parent_id: 10
+      active: true
+  14: #Samovares
+    attributes:
+      name: Linea Premium
+      parent_id: 10
+      active: true      
+  15: #Jardineria
+    attributes:
+      name: Linea Profesional
+      parent_id: 10
+      active: true
+  16: #Multi
+    attributes:
+      name: Otras lineas
+      parent_id: 10
+      active: true
+  17: #Muebles
+    attributes:
+      name: Afiladores 
+      parent_id: 10
+      active: true
+  18: #Delta
+    attributes:
+      name: Maletines 
+      parent_id: 10
+      active: true
+  19: #Delta
+    attributes:
+      name: Cubiertos  
       parent_id: 
-      active: true
-  16: #Delta
+      active: true            
+  20: #Delta
     attributes:
-      name: Delta
-      parent_id: 15
+      name: Con mango de colores 
+      parent_id: 19
+      active: true            
+  21: #Delta
+    attributes:
+      name: Con mango de madera 
+      parent_id: 19
+      active: true            
+  22: #Delta
+    attributes:
+      name: En acero inoxidable 
+      parent_id: 19
+      active: true            
+  23: #Delta
+    attributes:
+      name: Para niños y niñas 
+      parent_id: 19
+      active: true            
+  24: #Delta
+    attributes:
+      name: Accesorios 
+      parent_id: 
+      active: true            
+  25: #Delta
+    attributes:
+      name: Utensilios para cocina 
+      parent_id: 24
+      active: true            
+  26: #Delta
+    attributes:
+      name: Utensilios para churrasco 
+      parent_id: 24
+      active: true            
+  27: #Delta
+    attributes:
+      name: En madera 
+      parent_id: 24
+      active: true            
+  28: #Delta
+    attributes:
+      name: Bandejas 
+      parent_id: 24
+      active: true            
+  29: #Delta
+    attributes:
+      name: Otros accesorios en acero inoxidable 
+      parent_id: 24
+      active: true            
+  30: #Delta
+    attributes:
+      name: Navajas y cuchillos deportivos 
+      parent_id: 24
+      active: true            
+  31: #Delta
+    attributes:
+      name: Herramientas 
+      parent_id: 
+      active: true            
+  32: #Delta
+    attributes:
+      name: Master  
+      parent_id: 31
+      active: true            
+  33: #Delta
+    attributes:
+      name: Pro 
+      parent_id: 31
+      active: true            
+  34: #Delta
+    attributes:
+      name: Lavaplatos  
+      parent_id: 
+      active: true            
+  35: #Delta
+    attributes:
+      name: Fregaderos  
+      parent_id: 34
+      active: true            
+  36: #Delta
+    attributes:
+      name: Cubetas  
+      parent_id: 34
+      active: true            
+  37: #Delta
+    attributes:
+      name: Lavamanos  
+      parent_id: 34
       active: true            
 brands:
   1:
@@ -177,17 +242,17 @@ products:
         - destornillador
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 1
       shipping_category_id: 1
       tax_category_id: 1
-      active: true
+      active: false
       permalink: destornillador
       available_at: '2011-11-05 14:30:29'
       deleted_at:
       meta_keywords: destornillador
       meta_description: destornillador profesional
-      featured: true
+      featured: false
       description_markup: "Destornillador Linea Master"
   2: 
     attributes:
@@ -286,7 +351,7 @@ products:
       description_markup: "Lavaplatos 800 x 500 mm Poceta izquierda + Escurridor  Pre Pulido. Sin válvula. Estándar Filo 40."
   7: 
     attributes:
-      name: Lavaplatos 1.000 x 500 mm Poceta izquierda + Escurridor
+      name: Lavaplatos 1000 x 500 mm Poceta izquierda + Escurridor
       description: '<p>Lavaplatos 1.000 x 500 mm Poceta izquierda + Escurridor Pre Pulido. Sin válvula. Estándar Filo 40</p>'
       product_keywords:
       tax_category_id:
@@ -1236,12 +1301,12 @@ products:
       description_markup: "Válvula ø 4 1/2“ con rebosadero + tabla. Profundidad de las cubetas: 180Mm."
   57: 
     attributes:
-      name: Martillo de uña curva Tamaño  18 Mm 
+      name: Martillo de uña curva 18 Mm 
       description: '<p>Martillo de uña curva Tamaño  18 Mm.</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1260,7 +1325,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1274,12 +1339,12 @@ products:
       description_markup: "Martillo de uña Tamaño   120 gr."
   59: 
     attributes:
-      name: Martillo zapatero Tamaño 350gr
+      name: Martillo zapatero 350gr
       description: '<p>Martillo zapatero Tamaño   350gr.</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1293,12 +1358,12 @@ products:
       description_markup: "Martillo zapatero Tamaño   350gr."
   60: 
     attributes:
-      name: Maza octavada  Tamaño  1500g
+      name: Maza octavada 1500g
       description: '<p>Maza octavada  Tamaño  1500g</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1312,12 +1377,12 @@ products:
       description_markup: "Maza octavada  Tamaño  1500g"
   61: 
     attributes:
-      name: Hacha con uña  Tamaño  450g
+      name: Hacha con uña 450g
       description: '<p>Hacha con uña  Tamaño  450g</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1336,7 +1401,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1355,7 +1420,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1374,7 +1439,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1393,7 +1458,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1407,12 +1472,12 @@ products:
       description_markup: "Martillo de uña 25mm"
   66: 
     attributes:
-      name: Martillo de uña 16oz
-      description: '<p>Martillo de uña 16oz</p>'
+      name: Martillo de uña 16oz 3016
+      description: '<p>Martillo de uña 16oz 3016</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1423,15 +1488,15 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Martillo de uña 16oz"
+      description_markup: "Martillo de uña 16oz 3016"
   67: 
     attributes:
-      name: Martillo de uña 27mm
-      description: '<p>Martillo de uña 27mm</p>'
+      name: Martillo de uña 27mm 40300027
+      description: '<p>Martillo de uña 27mm 40300027</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1442,7 +1507,7 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Martillo de uña 27mm"
+      description_markup: "Martillo de uña 27mm 40300027"
   68: 
     attributes:
       name: Martillo de uña 20mm
@@ -1450,7 +1515,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1464,12 +1529,12 @@ products:
       description_markup: "Martillo de uña 20mm"
   69: 
     attributes:
-      name: Martillo de uña 25mm
-      description: '<p>Martillo de uña 25mm</p>'
+      name: Martillo de uña 25mm 40370025
+      description: '<p>Martillo de uña 25mm 40370025</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1480,7 +1545,7 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Martillo de uña 25mm"
+      description_markup: "Martillo de uña 25mm 40370025"
   70: 
     attributes:
       name: Martillo de uña 27mm
@@ -1488,7 +1553,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1507,7 +1572,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1526,7 +1591,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1545,7 +1610,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1564,7 +1629,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1583,7 +1648,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1602,7 +1667,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1621,7 +1686,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1640,7 +1705,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1659,7 +1724,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1678,7 +1743,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1692,12 +1757,12 @@ products:
       description_markup: "Maza octavada 2000g"
   81: 
     attributes:
-      name: Martillo de uña 27mm
-      description: '<p>Martillo de uña 27mm</p>'
+      name: Martillo de uña 27mm 40700027
+      description: '<p>Martillo de uña 27mm 40700027</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1708,15 +1773,15 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Martillo de uña 27mm"
+      description_markup: "Martillo de uña 27mm 40700027"
   82: 
     attributes:
-      name: Martillo de uña 16oz
-      description: '<p>Martillo de uña 16oz</p>'
+      name: Martillo de uña 16oz 5016
+      description: '<p>Martillo de uña 16oz 5016</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1727,15 +1792,15 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Martillo de uña 16oz"
+      description_markup: "Martillo de uña 16oz 5016"
   83: 
     attributes:
-      name: Martillo de uña 16oz
-      description: '<p>Martillo de uña 16oz</p>'
+      name: Martillo de uña 16oz 4016
+      description: '<p>Martillo de uña 16oz 4016</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1746,7 +1811,7 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Martillo de uña 16oz"
+      description_markup: "Martillo de uña 16oz 4016"
   84: 
     attributes:
       name: Pinza punta media caña 6
@@ -1754,7 +1819,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1773,7 +1838,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1792,7 +1857,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1811,7 +1876,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1830,7 +1895,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1849,7 +1914,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1868,7 +1933,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1887,7 +1952,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1906,7 +1971,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1925,7 +1990,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1944,7 +2009,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1963,7 +2028,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1982,7 +2047,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2001,7 +2066,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2020,7 +2085,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2039,7 +2104,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2058,7 +2123,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2077,7 +2142,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2096,7 +2161,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2115,7 +2180,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2134,7 +2199,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2153,7 +2218,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2172,7 +2237,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2191,7 +2256,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2210,7 +2275,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2229,7 +2294,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2248,7 +2313,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2267,7 +2332,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2286,7 +2351,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2305,7 +2370,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2324,7 +2389,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2343,7 +2408,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2362,7 +2427,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2381,7 +2446,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2400,7 +2465,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2419,7 +2484,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2438,7 +2503,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2457,7 +2522,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2476,7 +2541,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2495,7 +2560,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2514,7 +2579,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2533,7 +2598,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2552,7 +2617,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2571,7 +2636,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2590,7 +2655,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2609,7 +2674,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2628,7 +2693,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2647,7 +2712,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2666,7 +2731,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2685,7 +2750,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2704,7 +2769,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2723,7 +2788,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2742,7 +2807,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2761,7 +2826,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2780,7 +2845,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2799,7 +2864,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2818,7 +2883,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2837,7 +2902,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2856,7 +2921,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2875,7 +2940,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2894,7 +2959,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2913,7 +2978,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2932,7 +2997,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2951,7 +3016,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2970,7 +3035,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -2989,7 +3054,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -3008,7 +3073,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -3027,7 +3092,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -3046,7 +3111,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -3065,7 +3130,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -3084,7 +3149,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -3103,7 +3168,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -3122,7 +3187,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -3141,7 +3206,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -3160,7 +3225,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -3179,7 +3244,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -3198,7 +3263,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -3217,7 +3282,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 7
+      product_type_id: 30
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7150,7 +7215,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7169,7 +7234,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7188,7 +7253,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7202,12 +7267,12 @@ products:
       description_markup: "Molde de Pan Tamaño 33.6*13.1*7.5 Cm. Espesor 1 mm Brasil"
   369: 
     attributes:
-      name: Fuente rectangular honda 27,3x20x5,4 
+      name: Fuente rectangular honda 27,3x20x5,4cm 
       description: '<p>Fuente rectangular honda 27,3x20x5,4 Cm Espesor 0,8 Brasil</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7226,7 +7291,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7245,7 +7310,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7264,7 +7329,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7283,7 +7348,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7302,7 +7367,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7321,7 +7386,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7340,7 +7405,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7359,7 +7424,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7378,7 +7443,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7397,7 +7462,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7416,7 +7481,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7435,7 +7500,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7454,7 +7519,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7473,7 +7538,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7492,7 +7557,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7511,7 +7576,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7530,7 +7595,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7549,7 +7614,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7568,7 +7633,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7587,7 +7652,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7606,7 +7671,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7625,7 +7690,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7644,7 +7709,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7663,7 +7728,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7682,7 +7747,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7701,7 +7766,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7720,7 +7785,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7739,7 +7804,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7758,7 +7823,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7777,7 +7842,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7796,7 +7861,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7815,7 +7880,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7834,7 +7899,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7853,7 +7918,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7872,7 +7937,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7891,7 +7956,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7910,7 +7975,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7929,7 +7994,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7948,7 +8013,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7967,7 +8032,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -7986,7 +8051,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8005,7 +8070,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8024,7 +8089,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8043,7 +8108,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8062,7 +8127,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8081,7 +8146,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8100,7 +8165,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 2
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8119,7 +8184,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 3
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8138,7 +8203,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 3
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8157,7 +8222,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 3
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8176,7 +8241,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 3
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8195,7 +8260,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 3
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8214,7 +8279,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 4
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8233,7 +8298,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 4
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8252,7 +8317,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 4
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8271,7 +8336,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 4
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8290,7 +8355,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 4
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8309,7 +8374,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 4
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8328,7 +8393,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 4
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8342,12 +8407,12 @@ products:
       description_markup: "Sartèn de hierro 30 cm Espesor 3,0 mm Hierro estampado Profissional"
   429: 
     attributes:
-      name: Bistequera de aluminio 28 cm Lyon Dorada
+      name: Bistequera de aluminio 28 cm Lyon
       description: '<p>Bistequera de aluminio forjado 28 cm espesor 6,0 mm revestimiento de antiadherente Mango de acero inoxidable Lyon Dorada</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 5
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8361,12 +8426,12 @@ products:
       description_markup: "Bistequera de aluminio forjado 28 cm espesor 6,0 mm revestimiento de antiadherente Mango de acero inoxidable Lyon Dorada"
   430: 
     attributes:
-      name: Cacerola y tapa de aluminio forjado 26 cm Lyon Dorada
+      name: Cacerola y tapa de aluminio forjado 26 cm 
       description: '<p>Cacerola y tapa de aluminio forjado 26 cm - 5,0 Litros Espesor 8,0 mm antiadherente 26 cm Lyon Dorada</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 5
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8380,12 +8445,12 @@ products:
       description_markup: "Cacerola y tapa de aluminio forjado 26 cm - 5,0 Litros Espesor 8,0 mm antiadherente 26 cm Lyon Dorada"
   431: 
     attributes:
-      name: Cacerola y tapa de aluminio forjado 30 cm Lyon Dorada
+      name: Cacerola y tapa de aluminio forjado 30 cm 
       description: '<p>Cacerola y tapa de aluminio forjado 30 cm - 7,0 Litros Espesor 8,0 mm antiadherente 26 cm Lyon Dorada</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 5
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8399,12 +8464,12 @@ products:
       description_markup: "Cacerola y tapa de aluminio forjado 30 cm - 7,0 Litros Espesor 8,0 mm antiadherente 26 cm Lyon Dorada"
   432: 
     attributes:
-      name: Olla cuadrada de aluminio forjado 28 cm Lyon Dorada
+      name: Olla cuadrada de aluminio forjado 28 cm
       description: '<p>Olla cuadrada de aluminio forjado 28 cm - 5,6 Litros Espesor 8,0 mm antiadherente Lyon Dorada</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 5
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8418,12 +8483,12 @@ products:
       description_markup: "Olla cuadrada de aluminio forjado 28 cm - 5,6 Litros Espesor 8,0 mm antiadherente Lyon Dorada"
   433: 
     attributes:
-      name: Pinza de Carne 48 Pampa Churrasco
+      name: ne 48cms Pampa Churrasco
       description: '<p>Pinza de Carne 48 cms Hoja de acero inoxidable Mango madera Pampa Churrasco</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 24
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8442,7 +8507,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 24
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8461,7 +8526,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 24
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8480,7 +8545,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 24
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8499,7 +8564,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 24
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8513,12 +8578,12 @@ products:
       description_markup: "Pincel para aderezar 425x29x23 mm Hoja de acero inoxidable Mango madera fijado con remaches de aluminio Argolla de acero inoxidable Cerdas de silicona Churrasco"
   438: 
     attributes:
-      name: Juego 6 Piezas Cuchillo Asado Polywood Rojo
-      description: '<p>Juego 6 Piezas Cuchillo Asado 5 acero inoxidable Mango Polywood (madera tratada) Polywood Rojo</p>'
+      name: Juego 6 Piezas Cuchillo Asado 5pg 
+      description: '<p>Juego 6 Piezas Cuchillo Asado 5pg acero inoxidable Mango Polywood (madera tratada) Polywood Rojo</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 19
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8529,15 +8594,15 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Juego 6 Piezas Cuchillo Asado 5 acero inoxidable Mango Polywood (madera tratada) Polywood Rojo"
+      description_markup: "Juego 6 Piezas Cuchillo Asado 5pg acero inoxidable Mango Polywood (madera tratada) Polywood Rojo"
   439: 
     attributes:
-      name: Juego cuchillos asado 6 piezas Polywood castaño
+      name: Juego cuchillos asado 6 piezas castaño
       description: '<p>Juego cuchillos asado 6 piezas Polywood castaño</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 19
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8551,12 +8616,12 @@ products:
       description_markup: "Juego cuchillos asado 6 piezas Polywood castaño"
   440: 
     attributes:
-      name: Juego 6 Piezas Tenedores Polywood Rojo
+      name: Juego 6 Piezas Tenedores Rojo
       description: '<p>Juego 6 Piezas Tenedores acero inoxidable Mango Polywood (madera tratada) Polywood Rojo</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 19
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8570,12 +8635,12 @@ products:
       description_markup: "Juego 6 Piezas Tenedores acero inoxidable Mango Polywood (madera tratada) Polywood Rojo"
   441: 
     attributes:
-      name: Juego 6 Piezas Tenedores Polywood Castaño
+      name: Juego 6 Piezas Tenedores Castaño
       description: '<p>Juego 6 Piezas Tenedores acero inoxidable Mango Polywood (madera tratada) Polywood Castaño</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 19
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8589,12 +8654,12 @@ products:
       description_markup: "Juego 6 Piezas Tenedores acero inoxidable Mango Polywood (madera tratada) Polywood Castaño"
   442: 
     attributes:
-      name: Tenedor Jumbo acero inoxidable Polywood Rojo 
+      name: Tenedor Jumbo acero inoxidable Rojo 
       description: '<p>Tenedor Jumbo acero inoxidable Mango Polywood (madera tratada) Polywood Rojo</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 19
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8608,12 +8673,12 @@ products:
       description_markup: "Tenedor Jumbo acero inoxidable Mango Polywood (madera tratada) Polywood Rojo"
   443: 
     attributes:
-      name: Cuchillo Jumbo acero inoxidable Polywood Rojo
+      name: Cuchillo Jumbo acero inoxidable Rojo
       description: '<p>Cuchillo Jumbo acero inoxidable Mango Polywood (madera tratada) Polywood Rojo</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 19
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8627,12 +8692,12 @@ products:
       description_markup: "Cuchillo Jumbo acero inoxidable Mango Polywood (madera tratada) Polywood Rojo"
   444: 
     attributes:
-      name: Juego de cubiertos 25 Piezas Polywood Rojo
+      name: Juego de cubiertos 25 Piezas Rojo
       description: '<p>Juego de cubiertos 25 Piezas Composición 6 - Cuchillo asado 4 6 -Tenedor mesa 6 - Cuchara mesa 6 - Cuchara té 1- Soporte Metálico Polywood Rojo</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 19
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8651,7 +8716,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 19
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8665,12 +8730,12 @@ products:
       description_markup: "Media luna Hoja de acero inoxidable Mango Polywood (madera tratada) Polywood Rojo"
   446: 
     attributes:
-      name: Juego para Barbecue Dos Piezas Polywood Rojo
+      name: Juego para Barbecue Dos Piezas Rojo
       description: '<p>Juego para Barbecue Dos Piezas Composición 1  Cuchillo De Carne 8 1 Tenedor Trinchante Hoja de acero inoxidable Mango Polywood (madera tratada) Polywood Rojo</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 19
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8684,12 +8749,12 @@ products:
       description_markup: "Juego para Barbecue Dos Piezas Composición 1  Cuchillo De Carne 8 1 Tenedor Trinchante Hoja de acero inoxidable Mango Polywood (madera tratada) Polywood Rojo"
   447: 
     attributes:
-      name: Juego 3 Piezas Cuchillo asado 5 Tradicional
-      description: '<p>Juego 3 Piezas Cuchillo asado 5 Tradicional</p>'
+      name: Juego 3 Piezas Cuchillo asado 5pg Tradicional
+      description: '<p>Juego 3 Piezas Cuchillo asado 5pg Tradicional</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 19
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8700,7 +8765,7 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Juego 3 Piezas Cuchillo asado 5 Tradicional"
+      description_markup: "Juego 3 Piezas Cuchillo asado 5pg Tradicional"
   448: 
     attributes:
       name: Juego 3 Piezas Tenedor Mesa Tradicional
@@ -8708,7 +8773,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 19
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8727,7 +8792,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 19
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8746,7 +8811,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 19
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8765,7 +8830,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 19
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8779,12 +8844,12 @@ products:
       description_markup: "Juego x 12 cubiertos asado Composición 6 Juego tenedores mesa 6 Juego cuchillos asado Tradicional"
   452: 
     attributes:
-      name: Juego x 2 Cuchillos Legumbres 3 Tradicional
-      description: '<p>Juego x 2 Cuchillos Legumbres 3 Tradicional</p>'
+      name: Juego x 2 Cuchillos Legumbres 3pg Tradicional
+      description: '<p>Juego x 2 Cuchillos Legumbres 3pg Tradicional</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 19
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8795,15 +8860,15 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Juego x 2 Cuchillos Legumbres 3 Tradicional"
+      description_markup: "Juego x 2 Cuchillos Legumbres 3pg Tradicional"
   453: 
     attributes:
-      name: Cuchillo asado filo liso 5 Tradicional
-      description: '<p>Cuchillo asado filo liso 5 Tradicional</p>'
+      name: Cuchillo asado filo liso 5pg Tradicional
+      description: '<p>Cuchillo asado filo liso 5pg Tradicional</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 19
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8814,15 +8879,15 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Cuchillo asado filo liso 5 Tradicional"
+      description_markup: "Cuchillo asado filo liso 5pg Tradicional"
   454: 
     attributes:
-      name: Cuchillo asado Estriado 5 Tradicional
-      description: '<p>Cuchillo asado Estriado liso 5 Blíster Tradicional</p>'
+      name: Cuchillo asado Estriado 5pg Tradicional
+      description: '<p>Cuchillo asado Estriado liso 5pg Blíster Tradicional</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 19
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8833,7 +8898,7 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Cuchillo asado Estriado liso 5 Blíster Tradicional"
+      description_markup: "Cuchillo asado Estriado liso 5pg Blíster Tradicional"
   455: 
     attributes:
       name: Tenedor  De Mesa Tradicional 
@@ -8841,7 +8906,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 19
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8855,12 +8920,12 @@ products:
       description_markup: "Tenedor  De Mesa Tradicional"
   456: 
     attributes:
-      name: Cuchillo asado liso 5 Tradicional
-      description: '<p>Cuchillo asado filo liso 5 Tradicional</p>'
+      name: Cuchillo asado filo liso 5pulg Tradicional
+      description: '<p>Cuchillo asado filo liso 5pulg Tradicional</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 19
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8871,15 +8936,15 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Cuchillo asado filo liso 5 Tradicional"
+      description_markup: "Cuchillo asado filo liso 5pulg Tradicional"
   457: 
     attributes:
-      name: Cuchillo asado Estriado 5 Tradicional
-      description: '<p>Cuchillo asado Estriado liso 5 Tradicional</p>'
+      name: Cuchillo asado Estriado 5pulg Tradicional
+      description: '<p>Cuchillo asado Estriado liso 5pulg Tradicional</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 19
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8890,15 +8955,15 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Cuchillo asado Estriado liso 5 Tradicional"
+      description_markup: "Cuchillo asado Estriado liso 5 pulg Tradicional"
   458: 
     attributes:
-      name: Juego  cuchillos 4 piezas 
+      name: Juego  cuchillos 4 piezas tradicional 
       description: '<p>Juego  cuchillos 4 piezas Composición 1 Juego cuchillos asado 12 piezas 1 Juego  cuchillo legumbres 12 piezas 1 Cuchillo cocina 1 Tenedor trinchante</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 19
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8917,7 +8982,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 19
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8936,7 +9001,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 19
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8955,7 +9020,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 19
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8974,7 +9039,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 19
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -8993,7 +9058,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 19
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -9007,12 +9072,12 @@ products:
       description_markup: "Tenedor  De Mesa Dynamic"
   464: 
     attributes:
-      name: Cuchillo Asado Liso 5 Dynamic
-      description: '<p>Cuchillo Asado Liso 5 Dynamic</p>'
+      name: Cuchillo Asado Liso 5pg Dynamic
+      description: '<p>Cuchillo Asado Liso 5pg Dynamic</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 19
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -9023,15 +9088,15 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Cuchillo Asado Liso 5 Dynamic"
+      description_markup: "Cuchillo Asado Liso 5pg Dynamic"
   465: 
     attributes:
-      name: Cuchillo asado  5 Dynamic
-      description: '<p>Cuchillo asado  5 Dynamic</p>'
+      name: Cuchillo asado  5pg Dynamic
+      description: '<p>Cuchillo asado  5pg Dynamic</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 19
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -9042,7 +9107,7 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Cuchillo asado  5 Dynamic"
+      description_markup: "Cuchillo asado  5pg Dynamic"
   466: 
     attributes:
       name: Juego de cubiertos 16 Piezas Dynamic
@@ -9050,7 +9115,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 19
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -9102,12 +9167,12 @@ products:
       description_markup: "Cuchillo Pan  8 Dynamic"
   469: 
     attributes:
-      name: Cuchillo cocina  5 Universal
+      name: Cuchillo cocina 5 Universal
       description: '<p>Cuchillo cocina  5 Universal</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 9
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -9126,7 +9191,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 9
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -9145,7 +9210,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 9
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -9164,7 +9229,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 9
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -9178,12 +9243,12 @@ products:
       description_markup: "Cuchillo cocina 8 Universal"
   473: 
     attributes:
-      name: Cuchillo cocina 5in Universal
-      description: '<p>Cuchillo cocina 5in Universal</p>'
+      name: Cuchillo cocina 5pg Universal
+      description: '<p>Cuchillo cocina 5pg Universal</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 9
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -9194,15 +9259,15 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Cuchillo cocina 5in Universal"
+      description_markup: "Cuchillo cocina 5pg Universal"
   474: 
     attributes:
-      name: Cuchillo cocina 6in Universal
-      description: '<p>Cuchillo cocina 6in Universal</p>'
+      name: Cuchillo cocina 6pg Universal
+      description: '<p>Cuchillo cocina 6pg Universal</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 9
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -9213,15 +9278,15 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Cuchillo cocina 6in Universal"
+      description_markup: "Cuchillo cocina 6pg Universal"
   475: 
     attributes:
-      name: Cuchillo cocina 8in Universal
-      description: '<p>Cuchillo cocina 8in Universal</p>'
+      name: Cuchillo cocina 8pg Universal
+      description: '<p>Cuchillo cocina 8pg Universal</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 9
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -9232,7 +9297,7 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Cuchillo cocina 8in Universal"
+      description_markup: "Cuchillo cocina 8pg Universal"
   476: 
     attributes:
       name: Cuchillo cocina 5pulg Universal
@@ -9240,7 +9305,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 9
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -9259,7 +9324,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 9
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -9278,7 +9343,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 9
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -9297,7 +9362,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 9
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -9316,7 +9381,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 9
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -9335,7 +9400,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 9
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -9354,7 +9419,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 9
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -9373,7 +9438,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 9
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -9392,7 +9457,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 9
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -9406,12 +9471,12 @@ products:
       description_markup: "Cuchillo cocina 9inch Universal"
   485: 
     attributes:
-      name: Cuchillo cocina 5pulgs Universal
-      description: '<p>Cuchillo cocina 5pulgs Universal</p>'
+      name: Cuchillo cocina 5in Universal
+      description: '<p>Cuchillo cocina 5in Universal</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 9
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -9422,15 +9487,72 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Cuchillo cocina 5pulgs Universal"
+      description_markup: "Cuchillo cocina 5in Universal"
   486: 
+    attributes:
+      name: Cuchillo cocina 6in Universal
+      description: '<p>Cuchillo cocina 6in Universal</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 9
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Cuchillo cocina 6in Universal"
+  487: 
+    attributes:
+      name: Cuchillo cocina 7in Universal
+      description: '<p>Cuchillo cocina 7in Universal</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 9
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Cuchillo cocina 7in Universal"
+  488: 
+    attributes:
+      name: Cuchillo cocina 8in Universal
+      description: '<p>Cuchillo cocina 8in Universal</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 9
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Cuchillo cocina 8in Universal"
+  489: 
     attributes:
       name: Cuchillo cocina 6pulgs Universal
       description: '<p>Cuchillo cocina 6pulgs Universal</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 9
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -9442,63 +9564,6 @@ products:
       meta_description: 
       featured: false
       description_markup: "Cuchillo cocina 6pulgs Universal"
-  487: 
-    attributes:
-      name: Cuchillo cocina 7pulgs Universal
-      description: '<p>Cuchillo cocina 7pulgs Universal</p>'
-      product_keywords:
-      tax_category_id:
-      brand_id: 1
-      product_type_id: 10
-      prototype_id: 
-      shipping_category_id: 1
-      tax_category_id: 1
-      active: true
-      permalink: 
-      available_at: '2012-11-05 14:30:29'
-      deleted_at:
-      meta_keywords: 
-      meta_description: 
-      featured: false
-      description_markup: "Cuchillo cocina 7pulgs Universal"
-  488: 
-    attributes:
-      name: Cuchillo cocina 8pulgs Universal
-      description: '<p>Cuchillo cocina 8pulgs Universal</p>'
-      product_keywords:
-      tax_category_id:
-      brand_id: 1
-      product_type_id: 10
-      prototype_id: 
-      shipping_category_id: 1
-      tax_category_id: 1
-      active: true
-      permalink: 
-      available_at: '2012-11-05 14:30:29'
-      deleted_at:
-      meta_keywords: 
-      meta_description: 
-      featured: false
-      description_markup: "Cuchillo cocina 8pulgs Universal"
-  489: 
-    attributes:
-      name: Cuchillo cocina 6pulgadas Universal
-      description: '<p>Cuchillo cocina 6pulgadas Universal</p>'
-      product_keywords:
-      tax_category_id:
-      brand_id: 1
-      product_type_id: 10
-      prototype_id: 
-      shipping_category_id: 1
-      tax_category_id: 1
-      active: true
-      permalink: 
-      available_at: '2012-11-05 14:30:29'
-      deleted_at:
-      meta_keywords: 
-      meta_description: 
-      featured: false
-      description_markup: "Cuchillo cocina 6pulgadas Universal"
   490: 
     attributes:
       name: Cuchillo cocina 6inches Universal
@@ -9506,7 +9571,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 9
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -9525,7 +9590,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 9
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -9544,7 +9609,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 9
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -9558,12 +9623,12 @@ products:
       description_markup: "Cuchillo cocina 8inches Universal"
   493: 
     attributes:
-      name: Cuchillo cocina 6pg Universal
-      description: '<p>Cuchillo cocina 6pg Universal</p>'
+      name: Cuchillo cocina 6pulgadas Universal
+      description: '<p>Cuchillo cocina 6pulgadas Universal</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 9
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -9574,15 +9639,15 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Cuchillo cocina 6pg Universal"
+      description_markup: "Cuchillo cocina 6pulgadas Universal"
   494: 
     attributes:
-      name: Cuchillo cocina 8pg Universal
-      description: '<p>Cuchillo cocina 8pg Universal</p>'
+      name: Cuchillo cocina 8pulgadas Universal
+      description: '<p>Cuchillo cocina 8pulgadas Universal</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 10
+      product_type_id: 9
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -9593,11 +9658,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Cuchillo cocina 8pg Universal"
+      description_markup: "Cuchillo cocina 8pulgadas Universal"
   495: 
     attributes:
-      name: Cuchillo legumbres 3 Athus BLANCO
-      description: '<p>Cuchillo legumbres 3 Athus BLANCO</p>'
+      name: Cuchillo legumbres 3pg Athus BLANCO
+      description: '<p>Cuchillo legumbres 3pg Athus BLANCO</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -9612,11 +9677,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Cuchillo legumbres 3 Athus BLANCO"
+      description_markup: "Cuchillo legumbres 3pg Athus BLANCO"
   496: 
     attributes:
-      name: Cuchillo Mondador 3 Athus BLANCO
-      description: '<p>Cuchillo Mondador 3 Athus BLANCO</p>'
+      name: Cuchillo Mondador 3pg Athus BLANCO
+      description: '<p>Cuchillo Mondador 3pg Athus BLANCO</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -9631,11 +9696,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Cuchillo Mondador 3 Athus BLANCO"
+      description_markup: "Cuchillo Mondador 3pg Athus BLANCO"
   497: 
     attributes:
-      name: Cuchillo pan 7 Athus BLANCO 
-      description: '<p>Cuchillo pan 7 Athus BLANCO </p>'
+      name: Cuchillo pan 7pg Athus BLANCO 
+      description: '<p>Cuchillo pan 7pg Athus BLANCO </p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -9653,8 +9718,8 @@ products:
       description_markup: "Cuchillo pan 7 Athus BLANCO "
   498: 
     attributes:
-      name: Cuchillo cocina  6 Athus BLANCO
-      description: '<p>Cuchillo cocina  6 Athus BLANCO</p>'
+      name: Cuchillo cocina  6pg Athus BLANCO
+      description: '<p>Cuchillo cocina  6pg Athus BLANCO</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -9669,11 +9734,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Cuchillo cocina  6 Athus BLANCO"
+      description_markup: "Cuchillo cocina  6pg  Athus BLANCO"
   499: 
     attributes:
-      name: Cuchillo cocina  7 Athus BLANCO
-      description: '<p>Cuchillo cocina  7 Athus BLANCO</p>'
+      name: Cuchillo cocina  7pg  Athus BLANCO
+      description: '<p>Cuchillo cocina  7pg Athus BLANCO</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -9688,7 +9753,7 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Cuchillo cocina  7 Athus BLANCO"
+      description_markup: "Cuchillo cocina  7pg Athus BLANCO"
   500: 
     attributes:
       name: Cuchillo cocina  7inch  Athus BLANCO
@@ -9710,8 +9775,8 @@ products:
       description_markup: "Cuchillo cocina  7inch  Athus BLANCO"
   501: 
     attributes:
-      name: Cuchillo para congelados 9 Athus BLANCO
-      description: '<p>Cuchillo para congelados 9 Athus BLANCO</p>'
+      name: Cuchillo para congelados 9pg Athus BLANCO
+      description: '<p>Cuchillo para congelados 9pg Athus BLANCO</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -9726,11 +9791,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Cuchillo para congelados 9 Athus BLANCO"
+      description_markup: "Cuchillo para congelados 9pg Athus BLANCO"
   502: 
     attributes:
-      name: Cuchillo tomate 5 Athus BLANCO
-      description: '<p>Cuchillo tomate 5 Athus BLANCO</p>'
+      name: Cuchillo tomate 5pg Athus BLANCO
+      description: '<p>Cuchillo tomate 5pg Athus BLANCO</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -9745,11 +9810,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Cuchillo tomate 5 Athus BLANCO"
+      description_markup: "Cuchillo tomate 5pg Athus BLANCO"
   503: 
     attributes:
-      name: Cuchillo queso 6 Athus BLANCO
-      description: '<p>Cuchillo queso 6 Athus BLANCO</p>'
+      name: Cuchillo queso 6pg Athus BLANCO
+      description: '<p>Cuchillo queso 6pg Athus BLANCO</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -9764,11 +9829,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Cuchillo queso 6 Athus BLANCO"
+      description_markup: "Cuchillo queso 6pg Athus BLANCO"
   504: 
     attributes:
-      name: Hachuela cocina 5 Athus BLANCO
-      description: '<p>Hachuela cocina 5 Athus BLANCO</p>'
+      name: Hachuela cocina 5pg Athus BLANCO
+      description: '<p>Hachuela cocina 5pg Athus BLANCO</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -9783,11 +9848,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Hachuela cocina 5 Athus BLANCO"
+      description_markup: "Hachuela cocina 5pg Athus BLANCO"
   505: 
     attributes:
-      name: Cuchillo legumbres 3  Athus NEGRO
-      description: '<p>"Cuchillo legumbres 3  Athus NEGRO</p>'
+      name: Cuchillo legumbres 3in  Athus NEGRO
+      description: '<p>"Cuchillo legumbres 3in  Athus NEGRO</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -9802,11 +9867,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Cuchillo legumbres 3  Athus NEGRO"
+      description_markup: "Cuchillo legumbres 3in  Athus NEGRO"
   506: 
     attributes:
-      name: Cuchillo asado 5 Athus NEGRO
-      description: '<p>Cuchillo asado 5 Athus NEGRO</p>'
+      name: Cuchillo asado 5pg Athus NEGRO
+      description: '<p>Cuchillo asado 5pg Athus NEGRO</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -9821,11 +9886,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Cuchillo asado 5 Athus NEGRO"
+      description_markup: "Cuchillo asado 5pg Athus NEGRO"
   507: 
     attributes:
-      name: Cuchillo pan 7 Athus NEGRO
-      description: '<p>Cuchillo pan 7 Athus NEGRO</p>'
+      name: Cuchillo pan 7pg Athus NEGRO
+      description: '<p>Cuchillo pan 7pg Athus NEGRO</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -9840,11 +9905,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Cuchillo pan 7 Athus NEGRO"
+      description_markup: "Cuchillo pan 7pg Athus NEGRO"
   508: 
     attributes:
-      name: Cuchillo cocina  6 Athus NEGRO
-      description: '<p>Cuchillo cocina  6 Athus NEGRO</p>'
+      name: Cuchillo cocina  6pg Athus NEGRO
+      description: '<p>Cuchillo cocina  6pg Athus NEGRO</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -9859,11 +9924,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Cuchillo cocina  6 Athus NEGRO"
+      description_markup: "Cuchillo cocina  6pg Athus NEGRO"
   509: 
     attributes:
-      name: Cuchillo cocina 7 Athus NEGRO
-      description: '<p>Cuchillo cocina 7 Athus NEGRO</p>'
+      name: Cuchillo cocina 7pg Athus NEGRO
+      description: '<p>Cuchillo cocina 7pg Athus NEGRO</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -9878,7 +9943,7 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Cuchillo cocina 7 Athus NEGRO"
+      description_markup: "Cuchillo cocina 7pg Athus NEGRO"
   510: 
     attributes:
       name: Cuchillo cocina 7pulg Athus NEGRO
@@ -9900,8 +9965,8 @@ products:
       description_markup: "Cuchillo cocina 7pulg Athus NEGRO"
   511: 
     attributes:
-      name: Cuchillo para congelados 9 Athus NEGRO
-      description: '<p>Cuchillo para congelados 9 Athus NEGRO</p>'
+      name: Cuchillo para congelados 9pg Athus NEGRO
+      description: '<p>Cuchillo para congelados 9pg Athus NEGRO</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -9916,7 +9981,7 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Cuchillo para congelados 9 Athus NEGRO"
+      description_markup: "Cuchillo para congelados 9pg Athus NEGRO"
   512: 
     attributes:
       name: Tenedor Trinchante Athus NEGRO
@@ -9938,8 +10003,8 @@ products:
       description_markup: "Tenedor Trinchante Athus NEGRO"
   513: 
     attributes:
-      name: Cuchillo tomate 5 Athus NEGRO
-      description: '<p>Cuchillo tomate 5 Athus NEGRO</p>'
+      name: Cuchillo tomate 5pg Athus NEGRO
+      description: '<p>Cuchillo tomate 5pg Athus NEGRO</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -9954,11 +10019,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Cuchillo tomate 5 Athus NEGRO"
+      description_markup: "Cuchillo tomate 5pg Athus NEGRO"
   514: 
     attributes:
-      name: Cuchillo queso 6 Athus NEGRO
-      description: '<p>Cuchillo queso 6 Athus NEGRO</p>'
+      name: Cuchillo queso 6pg Athus NEGRO
+      description: '<p>Cuchillo queso 6pg Athus NEGRO</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -9973,11 +10038,11 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Cuchillo queso 6 Athus NEGRO"
+      description_markup: "Cuchillo queso 6pg Athus NEGRO"
   515: 
     attributes:
-      name: Hachuela cocina 5 Athus NEGRO
-      description: '<p>Hachuela cocina 5 Athus NEGRO</p>'
+      name: Hachuela cocina 5pg Athus NEGRO
+      description: '<p>Hachuela cocina 5pg Athus NEGRO</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
@@ -9992,7 +10057,7 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Hachuela cocina 5 Athus NEGRO"
+      description_markup: "Hachuela cocina 5pg Athus NEGRO"
   516: 
     attributes:
       name: Juego tres Piezas Athus
