@@ -8,10 +8,22 @@ class ProductsController < ApplicationController
     if params[:product_type_id].present?  
        if @ptyp == [nil]
          product_types = ProductType.where('parent_id = ?', params[:product_type_id])
-         @ptypes = product_types
-         @products = nil
-         @parenttype = @ptypes[0]
-         @partpname =  ProductType.where('id = ?', params[:product_type_id]).pluck(:name)
+         @products = Product.where('product_type_id = 3')
+         if @products == [nil]
+           @ptypes = product_types
+           @products = nil
+           @parenttype = @ptypes[0]
+           @partpname =  ProductType.where('id = ?', params[:product_type_id]).pluck(:name)
+         else
+           @partpname = ProductType.where('id = ?', @ptyp[0]).pluck(:name)
+           @ptname = ProductType.where('id = ?',params[:product_type_id]).pluck(:name)
+           product_type = ProductType.find_by_id(params[:product_type_id]) 
+           product_types = product_type.self_and_descendants.map(&:id)
+           params[:page] ||= 1
+           @products = products.where('product_type_id IN (?)', product_types || featured_product_types).
+                           paginate(:per_page => 20, :page => params[:page].to_i)
+         end
+         
        else
          @partpname = ProductType.where('id = ?', @ptyp[0]).pluck(:name)
          @ptname = ProductType.where('id = ?',params[:product_type_id]).pluck(:name)
