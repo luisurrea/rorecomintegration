@@ -75,6 +75,7 @@ class Product < ActiveRecord::Base
   validates :meta_keywords,         :presence => true,       :length => { :maximum => 255 }, :if => :active
   validates :meta_description,      :presence => true,       :length => { :maximum => 255 }, :if => :active
 
+  
   # gives you the tax rate for the give state_id and the time.
   #  Tax rates can change from year to year so Time is a factor
   #

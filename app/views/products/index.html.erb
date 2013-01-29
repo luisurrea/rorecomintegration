@@ -2,33 +2,39 @@
   <%= stylesheet_link_tag 'products_page.css' %>
 <% end %>
 <div id="containerrightcont">
-	<div class="eleven columns centered">	
-		<% if  @products!=nil   %>
-			<div class="panel"><h5><%= @partpname[0] %> - <%= @ptname[0] %></h5>
-	     	<%= will_paginate @products %>	
-	    	</div>
-	    	<% @products.each_with_index do |product, i| %>
-      	<div id="product-list">
-        	<%= link_to image_tag(product.featured_image(:small)), product_path(product), title: product.name %>
-          <h3><%=link_to product.name, product_path(product) %> <span class="price"> <%= number_to_currency product.price_range.first %>
-  	          <% if product.price_range? %>
-    	            to <%= number_to_currency product.price_range.last %>
-      	      <% end %></span></h3> 
-      	  <p><%= raw truncate(strip_tags(product.description), length: 250) %></p>  
-      	</div>
-      <% end %>	
-      <div class="panel">
-      <%= will_paginate @products %>
-      </div>
-		<%else%>
-			<%if @parenttype.parent_id == nil %>
-				<div class="panel"><h5>Categorias de productos</h5></div>
-			<%else%> 	
-				<div class="panel"><h5>Categorias de productos - <%=@partpname[0]%></h5></div>
-			<%end%>	
+  <div class="eleven columns centered">	
+	<% if  @products.empty?   %>
+		<%if @noproducttype==true %>
+			<div class="panel"><h5>menu principal</h5></div>
 			<% @ptypes.each do |pt_tab| %>
-   			<div id="category-links"> <%= link_to_unless_current pt_tab.name, products_path(:product_type_id => pt_tab.id) %> </div>
- 		  <% end %>
+   				<div id="category-links"> <%= link_to_unless_current pt_tab.name, products_path(:product_type_id => pt_tab.id) %> </div>
+ 		  	<% end %>
+		<%elsif @haschildren==true %>
+			<div class="panel"><h5>submenu</h5></div>
+			
+		<%else%>
+			<div class="panel"><h5>La categoria no tiene productos</h5></div>
+		<%end%>	
+	<%elsif @haschildren==true %>
+		<div class="panel"><h5>submenu</h5></div>
+	<%else%>	
+		<div class="panel"><h5>Si tiene</h5></div>
+		<div class="panel"><h5></h5>
+	     	<%= will_paginate @products %>	
+	    </div>
+	    <% @products.each_with_index do |product, i| %>
+      		<div id="product-list">
+        		<%= link_to image_tag(product.featured_image(:small)), product_path(product), title: product.name %>
+          		<h3><%=link_to product.name, product_path(product) %> <span class="price"> <%= number_to_currency product.price_range.first %>
+  	          	<% if product.price_range? %>
+    	            to <%= number_to_currency product.price_range.last %>
+      	      	<% end %></span></h3> 
+      	 		<p><%= raw truncate(strip_tags(product.description), length: 250) %></p>  
+      		</div>
+      	<% end %>	
+      	<div class="panel">
+      		<%= will_paginate @products %>
+      	</div>
     <%end%>
   </div>
 </div>
