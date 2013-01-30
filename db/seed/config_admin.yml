@@ -22,7 +22,21 @@ shipping_rates:
       minimum_charge: 25.00
       position: 1
       active: true
-  
+prototypes:
+  1: #Base
+    attributes:
+      name: Base
+      active: true   
+properties:
+  1: #largo
+    attributes:
+      identifing_name: base-largo
+      display_name: largo  
+prototype_properties:
+  1: #'largo base'
+    attributes:
+      property_id: 1
+      prototype_id: 1             
 product_types:
   1: #Delta
     attributes:
@@ -234,7 +248,7 @@ tax_rates:
       active: true
   
 products:
-  1: #'Destornillador'
+  1: #'tabla para alimentos'
     attributes:
       name: Tabla para alimentos 333x167x12Mm
       description: '<p>Tabla para alimentos con mango  Tamaño 333*167*12Mm Natural</p>'
@@ -882,7 +896,7 @@ products:
       description_markup: "Fregadero 2C 33 Plus FX California Externo 840 x 560 x 152 mm Volumen 2 x 4 gal - 2 x 15 Litros  Satinado - Tres Huecos para Grifería Perfecta California."
   35: 
     attributes:
-      name: Fregadero 21 FX California Externo 533 x 508 x 165 mm  
+      name: Fregadero 21 FX California 533 x 508 x 165 mm  
       description: '<p>Fregadero 21 FX California Externo 533 x 508 x 165 mm Cubeta 400 x 340 x 150 mm Volumen 4,34 gal - 16,5 litros Satinado Tres Huecos para Grifería Prime California.</p>'
       product_keywords:
       tax_category_id:
@@ -1053,7 +1067,7 @@ products:
       description_markup: "Lavamanos 340 x 140 Mm. Alto Brillo. Alto Brillo. Sin Válvula, Agujero de 1 3/4. Perfecta Demi."
   44: 
     attributes:
-      name: Válvula 4 1/2 MARCA TRAMONTINA 
+      name: Válvula 4 1|2 MARCA TRAMONTINA 
       description: '<p>Válvula 4.1/2 MARCA TRAMONTINA Empaque Bolsa Plástica Modelo</p>'
       product_keywords:
       tax_category_id:
@@ -1077,7 +1091,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 0
+      product_type_id: 8
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1096,7 +1110,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 0
+      product_type_id: 8
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1115,7 +1129,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 0
+      product_type_id: 8
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1134,7 +1148,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 0
+      product_type_id: 8
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1153,7 +1167,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 0
+      product_type_id: 8
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1172,7 +1186,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 0
+      product_type_id: 8
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1191,7 +1205,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 0
+      product_type_id: 8
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1210,7 +1224,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 0
+      product_type_id: 8
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1229,7 +1243,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 0
+      product_type_id: 8
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1248,7 +1262,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 0
+      product_type_id: 8
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1262,12 +1276,12 @@ products:
       description_markup: "Fregadero en vidrio templado Blanco reversible Con un agujero para el grifo 1160x500x178 Mm,  Peso Neto: 11,0 Kg. Peso Bruto: 14,1 Kg Metros Cúbicos: 0,2025 m³ Prime Vitra."
   55: 
     attributes:
-      name: Válvula ø 4 1/2 con rebosadero + tabla + Cesta de Vegetales 
+      name: Válvula ø 4 1|2 con rebosadero + tabla + Cesta de Vegetales 
       description: '<p>Válvula ø 4 1/2“ con rebosadero + tabla + Cesta de Vegetales. Profundidad de las cubetas: 180Mm.</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 0
+      product_type_id: 8
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1281,12 +1295,12 @@ products:
       description_markup: "Válvula ø 4 1/2“ con rebosadero + tabla + Cesta de Vegetales. Profundidad de las cubetas: 180Mm."
   56: 
     attributes:
-      name: Válvula ø 4 1/2 con rebosadero + tabla 
+      name: Válvula ø 4 1|2 con rebosadero + tabla 
       description: '<p>Válvula ø 4 1/2“ con rebosadero + tabla. Profundidad de las cubetas: 180Mm.</p>'
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 0
+      product_type_id: 8
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -1946,7 +1960,7 @@ products:
       description_markup: "Pinza de presión mordiente curvo 10"
   91: 
     attributes:
-      name: Llave test punta chata 1/8x3
+      name: Llave test punta chata 1|8x3
       description: '<p>Llave test punta chata 1/8x3</p>'
       product_keywords:
       tax_category_id:
@@ -1962,10 +1976,10 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Llave test punta chata 1/8x3"
+      description_markup: "Llave test punta chata 1|8x3"
   92: 
     attributes:
-      name: Destornillador punta recta Tamaño 1/8x3
+      name: Destornillador punta recta Tamaño 1|8x3
       description: '<p>Destornillador punta recta Tamaño 1/8x3</p>'
       product_keywords:
       tax_category_id:
@@ -1984,7 +1998,7 @@ products:
       description_markup: "Destornillador punta recta Tamaño 1/8x3"
   93: 
     attributes:
-      name: Destornillador punta chata Tamaño 3/16x3
+      name: Destornillador punta chata Tamaño 3|16x3
       description: '<p>Destornillador punta chata Tamaño 3/16x3</p>'
       product_keywords:
       tax_category_id:
@@ -2003,7 +2017,7 @@ products:
       description_markup: "Destornillador punta chata Tamaño 3/16x3"
   94: 
     attributes:
-      name: Destornillador punta recta Tamaño 3/16x4
+      name: Destornillador punta recta Tamaño 3|16x4
       description: '<p>Destornillador punta recta Tamaño 3/16x4</p>'
       product_keywords:
       tax_category_id:
@@ -2022,7 +2036,7 @@ products:
       description_markup: "Destornillador punta recta Tamaño 3/16x4"
   95: 
     attributes:
-      name: Destornillador punta recta Tamaño 3/16x6
+      name: Destornillador punta recta Tamaño 3|16x6
       description: '<p>Destornillador punta recta Tamaño 3/16x6</p>'
       product_keywords:
       tax_category_id:
@@ -2041,7 +2055,7 @@ products:
       description_markup: "Destornillador punta recta Tamaño 3/16x6"
   96: 
     attributes:
-      name: Destornillador punta recta Tamaño 1/4x4
+      name: Destornillador punta recta Tamaño 1|4x4
       description: '<p>Destornillador punta recta Tamaño 1/4x4</p>'
       product_keywords:
       tax_category_id:
@@ -2060,7 +2074,7 @@ products:
       description_markup: "Destornillador punta recta Tamaño 1/4x4"
   97: 
     attributes:
-      name: Destornillador punta recta Tamaño 1/4x6
+      name: Destornillador punta recta Tamaño 1|4x6
       description: '<p>Destornillador punta recta Tamaño 1/4x6</p>'
       product_keywords:
       tax_category_id:
@@ -2079,7 +2093,7 @@ products:
       description_markup: "Destornillador punta recta Tamaño 1/4x6"
   98: 
     attributes:
-      name: Destornillador punta chata 1/4x8
+      name: Destornillador punta chata 1|4x8 41500033
       description: '<p>Destornillador punta chata 1/4x8</p>'
       product_keywords:
       tax_category_id:
@@ -2098,7 +2112,7 @@ products:
       description_markup: "Destornillador punta chata 1/4x8"
   99: 
     attributes:
-      name: Destornillador punta recta Tamaño  5/16x8
+      name: Destornillador punta recta 5|16x8
       description: '<p>Destornillador punta recta Tamaño  5/16x8</p>'
       product_keywords:
       tax_category_id:
@@ -2117,7 +2131,7 @@ products:
       description_markup: "Destornillador punta recta Tamaño  5/16x8"
   100: 
     attributes:
-      name: Destornillador punta estrella Tamaño  1/8x3
+      name: Destornillador punta estrella Tamaño  1|8x3
       description: '<p>Destornillador punta estrella Tamaño  1/8x3</p>'
       product_keywords:
       tax_category_id:
@@ -2133,10 +2147,10 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: "Destornillador punta estrella Tamaño  1/8x3"
+      description_markup: "Destornillador punta estrella Tamaño  1|8x3"
   101: 
     attributes:
-      name: Destornillador punta estrella Tamaño  3/16x4
+      name: Destornillador punta estrella Tamaño  3|16x4
       description: '<p>Destornillador punta estrella Tamaño  3/16x4</p>'
       product_keywords:
       tax_category_id:
@@ -2155,7 +2169,7 @@ products:
       description_markup: "Destornillador punta estrella Tamaño  3/16x4"
   102: 
     attributes:
-      name: Destornillador punta estrella Tamaño  3/16x6
+      name: Destornillador punta estrella Tamaño  3|16x6
       description: '<p>Destornillador punta estrella Tamaño  3/16x6</p>'
       product_keywords:
       tax_category_id:
@@ -2174,7 +2188,7 @@ products:
       description_markup: "Destornillador punta estrella Tamaño  3/16x6"
   103: 
     attributes:
-      name: Destornillador punta estrella Tamaño  1/4x4
+      name: Destornillador punta estrella Tamaño  1|4x4
       description: '<p>Destornillador punta estrella Tamaño  1/4x4</p>'
       product_keywords:
       tax_category_id:
@@ -2193,7 +2207,7 @@ products:
       description_markup: "Destornillador punta estrella Tamaño  1/4x4"
   104: 
     attributes:
-      name: Destornillador punta estrella Tamaño  1/4x6
+      name: Destornillador punta estrella Tamaño  1|4x6
       description: '<p>Destornillador punta estrella Tamaño  1/4x6</p>'
       product_keywords:
       tax_category_id:
@@ -2212,7 +2226,7 @@ products:
       description_markup: "Destornillador punta estrella Tamaño  1/4x6"
   105: 
     attributes:
-      name: Destornillador punta estrella Tamaño  5/16x6
+      name: Destornillador punta estrella Tamaño  5|16x6
       description: '<p>Destornillador punta estrella Tamaño  5/16x6</p>'
       product_keywords:
       tax_category_id:
@@ -2231,7 +2245,7 @@ products:
       description_markup: "Destornillador punta estrella Tamaño  5/16x6"
   106: 
     attributes:
-      name: Destornillador punta cruzada Tamaño  1/8x5
+      name: Destornillador punta cruzada Tamaño  1|8x5
       description: '<p>Destornillador punta cruzada Tamaño  1/8x5</p>'
       product_keywords:
       tax_category_id:
@@ -2250,7 +2264,7 @@ products:
       description_markup: "Destornillador punta cruzada Tamaño  1/8x5"
   107: 
     attributes:
-      name: Destornillador punta cruzada Tamaño  3/16x3
+      name: Destornillador punta cruzada Tamaño  3|16x3
       description: '<p>Destornillador punta cruzada Tamaño  3/16x3</p>'
       product_keywords:
       tax_category_id:
@@ -2269,7 +2283,7 @@ products:
       description_markup: "Destornillador punta cruzada Tamaño  3/16x3"
   108: 
     attributes:
-      name: Destornillador para electrónica punta chata 1/8x8
+      name: Destornillador para electrónica punta chata 1|8x8
       description: '<p>Destornillador para electrónica punta chata 1/8x8</p>'
       product_keywords:
       tax_category_id:
@@ -2288,7 +2302,7 @@ products:
       description_markup: "Destornillador para electrónica punta chata 1/8x8"
   109: 
     attributes:
-      name: Destornillador clip 1/8x3
+      name: Destornillador clip 1|8x3
       description: '<p>Destornillador clip 1/8x3</p>'
       product_keywords:
       tax_category_id:
@@ -2345,7 +2359,7 @@ products:
       description_markup: "Juego Destornilladores 6 Piezas: Composición: 6 puntas intercambiables: 3 Destornilladores punta chata: 1/8x3, 3/16x3, 1/4x3 3 Destornilladores punta cruzada: 1/8x3, 3/16x3, 1/4x3"
   112: 
     attributes:
-      name: Destornillador punta chata 1/4x6
+      name: Destornillador punta chata 1|4x6
       description: '<p>Destornillador punta chata 1/4x6</p>'
       product_keywords:
       tax_category_id:
@@ -2364,7 +2378,7 @@ products:
       description_markup: "Destornillador punta chata 1/4x6"
   113: 
     attributes:
-      name: Destornillador punta chata 1/4x8
+      name: Destornillador punta chata 1|4x8 
       description: '<p>Destornillador punta chata 1/4x8</p>'
       product_keywords:
       tax_category_id:
@@ -2383,7 +2397,7 @@ products:
       description_markup: "Destornillador punta chata 1/4x8"
   114: 
     attributes:
-      name: Destornillador punta cruzada 1/4x4
+      name: Destornillador punta cruzada 1|4x4
       description: '<p>Destornillador punta cruzada 1/4x4</p>'
       product_keywords:
       tax_category_id:
@@ -2402,7 +2416,7 @@ products:
       description_markup: "Destornillador punta cruzada 1/4x4"
   115: 
     attributes:
-      name: Destornillador punta cruzada 1/4x6
+      name: Destornillador punta cruzada 1|4x6
       description: '<p>Destornillador punta cruzada 1/4x6</p>'
       product_keywords:
       tax_category_id:
@@ -2421,7 +2435,7 @@ products:
       description_markup: "Destornillador punta cruzada 1/4x6"
   116: 
     attributes:
-      name: Destornillador punta cruzada 1/4x8
+      name: Destornillador punta cruzada 1|4x8
       description: '<p>Destornillador punta cruzada 1/4x8</p>'
       product_keywords:
       tax_category_id:
@@ -2687,7 +2701,7 @@ products:
       description_markup: "Juego llaves combinadas 10 piezas Composición 6, 7, 8, 10, 11, 12, 13, 14, 16 y 17 Mm. Tamaño"
   130: 
     attributes:
-      name: Llave combinada 3/8
+      name: Llave combinada 3|8
       description: '<p>Llave combinada 3/8</p>'
       product_keywords:
       tax_category_id:
@@ -2706,7 +2720,7 @@ products:
       description_markup: "Llave combinada 3/8"
   131: 
     attributes:
-      name: Llave combinada 7/16
+      name: Llave combinada 7|16
       description: '<p>Llave combinada 7/16</p>'
       product_keywords:
       tax_category_id:
@@ -2725,7 +2739,7 @@ products:
       description_markup: "Llave combinada 7/16"
   132: 
     attributes:
-      name: Llave combinada 1/2
+      name: Llave combinada 1|2
       description: '<p>Llave combinada 1/2</p>'
       product_keywords:
       tax_category_id:
@@ -2744,7 +2758,7 @@ products:
       description_markup: "Llave combinada 1/2"
   133: 
     attributes:
-      name: Llave combinada 9/16
+      name: Llave combinada 9|16
       description: '<p>Llave combinada 9/16</p>'
       product_keywords:
       tax_category_id:
@@ -3086,7 +3100,7 @@ products:
       description_markup: "Broca para acero Dimensiones del embalaje (Longitud X Anchura X Altura) 150x35x10 mm"
   151: 
     attributes:
-      name: Broca para acero 150x35x10 mm
+      name: Broca para acero 150x35x10 mm 43141128
       description: '<p>Broca para acero Dimensiones del embalaje (Longitud X Anchura X Altura) 150x35x10 mm</p>'
       product_keywords:
       tax_category_id:
@@ -3143,7 +3157,7 @@ products:
       description_markup: "Broca para acero Dimensiones del embalaje (Longitud X Anchura X Altura) 200x35x20 mm"
   154: 
     attributes:
-      name: Broca para acero 290x35x20 mm
+      name: Broca para acero 290x35x20 mm 43141151
       description: '<p>Broca para acero Dimensiones del embalaje (Longitud X Anchura X Altura) 290x35x20 mm</p>'
       product_keywords:
       tax_category_id:
@@ -3181,7 +3195,7 @@ products:
       description_markup: "Broca para acero Dimensiones del embalaje (Longitud X Anchura X Altura) 250x35x25 mm"
   156: 
     attributes:
-      name: Broca para acero 215x35x25 mm
+      name: Broca para acero 215x35x25 mm 43141157
       description: '<p>Broca para acero Dimensiones del embalaje (Longitud X Anchura X Altura) 215x35x25 mm</p>'
       product_keywords:
       tax_category_id:
@@ -3257,7 +3271,7 @@ products:
       description_markup: "Juego de herramientas 3 Piezas composición 1 Martillo de uña 18mm 1 Pinza universal 7 1 Destornillador punta chata 3/16x4"
   160: 
     attributes:
-      name: Juego de herramientas 7pzs composición 1 Pinza universal 8 aislada 1000V 1 Destornillador punta chata 3/16x4 1 Destornillador punta chata 1/4x5 1 Destornillador punta cruzada 3/16x4 1 Llave test punta chata 1 Cortadora 1 Cinta Aisladora
+      name: Juego de herramientas 7pzs 
       description: '<p>Juego de herramientas 7pzs composición 1 Pinza universal 8 aislada 1000V 1 Destornillador punta chata 3/16x4 1 Destornillador punta chata 1/4x5 1 Destornillador punta cruzada 3/16x4 1 Llave test punta chata 1 Cortadora 1 Cinta Aisladora</p>'
       product_keywords:
       tax_category_id:
@@ -3675,7 +3689,7 @@ products:
       description_markup: "Llaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradasLlaves de Ajuste Combinada Milimétrica Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas"
   181: 
     attributes:
-      name: Llave combinada 1/4
+      name: Llave combinada 1|4
       description: '<p>Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas.</p>'
       product_keywords:
       tax_category_id:
@@ -3694,7 +3708,7 @@ products:
       description_markup: "Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas."
   182: 
     attributes:
-      name: Llave combinada 5/16
+      name: Llave combinada 5|16
       description: '<p>Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas.</p>'
       product_keywords:
       tax_category_id:
@@ -3713,7 +3727,7 @@ products:
       description_markup: "Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas."
   183: 
     attributes:
-      name: Llave combinada 3/8
+      name: Llave combinada 3|8 44670102
       description: '<p>Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas.</p>'
       product_keywords:
       tax_category_id:
@@ -3732,7 +3746,7 @@ products:
       description_markup: "Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas."
   184: 
     attributes:
-      name: Llave combinada 7/16
+      name: Llave combinada 7|16 44670103
       description: '<p>Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas.</p>'
       product_keywords:
       tax_category_id:
@@ -3751,26 +3765,7 @@ products:
       description_markup: "Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas."
   185: 
     attributes:
-      name: Llave combinada 1/2
-      description: '<p>Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas.</p>'
-      product_keywords:
-      tax_category_id:
-      brand_id: 1
-      product_type_id: 33
-      prototype_id: 
-      shipping_category_id: 1
-      tax_category_id: 1
-      active: true
-      permalink: 
-      available_at: '2012-11-05 14:30:29'
-      deleted_at:
-      meta_keywords: 
-      meta_description: 
-      featured: false
-      description_markup: "Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas."
-  185: 
-    attributes:
-      name: Llave combinada 9/16
+      name: Llave combinada 1|2 44670104
       description: '<p>Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas.</p>'
       product_keywords:
       tax_category_id:
@@ -3789,7 +3784,7 @@ products:
       description_markup: "Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas."
   186: 
     attributes:
-      name: Llave combinada 5/8
+      name: Llave combinada 5|8
       description: '<p>Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas.</p>'
       product_keywords:
       tax_category_id:
@@ -3808,7 +3803,7 @@ products:
       description_markup: "Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas."
   187: 
     attributes:
-      name: Llave combinada 11/16
+      name: Llave combinada 11|16
       description: '<p>Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas.</p>'
       product_keywords:
       tax_category_id:
@@ -3827,7 +3822,7 @@ products:
       description_markup: "Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas."
   188: 
     attributes:
-      name: Llave combinada 3/4
+      name: Llave combinada 3|4
       description: '<p>Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas.</p>'
       product_keywords:
       tax_category_id:
@@ -3846,7 +3841,7 @@ products:
       description_markup: "Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas."
   189: 
     attributes:
-      name: Llave combinada 25/32
+      name: Llave combinada 25|32
       description: '<p>Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas.</p>'
       product_keywords:
       tax_category_id:
@@ -3865,7 +3860,7 @@ products:
       description_markup: "Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas."
   190: 
     attributes:
-      name: Llave combinada 13/16
+      name: Llave combinada 13|16
       description: '<p>Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas.</p>'
       product_keywords:
       tax_category_id:
@@ -3884,7 +3879,7 @@ products:
       description_markup: "Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas."
   191: 
     attributes:
-      name: Llave combinada 7/8
+      name: Llave combinada 7|8
       description: '<p>Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas.</p>'
       product_keywords:
       tax_category_id:
@@ -3903,7 +3898,7 @@ products:
       description_markup: "Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas."
   192: 
     attributes:
-      name: Llave combinada 15/16
+      name: Llave combinada 15|16
       description: '<p>Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas.</p>'
       product_keywords:
       tax_category_id:
@@ -3941,7 +3936,7 @@ products:
       description_markup: "Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas."
   194: 
     attributes:
-      name: Llave combinada 1,1/16
+      name: Llave combinada 1,1|16
       description: '<p>Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas.</p>'
       product_keywords:
       tax_category_id:
@@ -3960,7 +3955,7 @@ products:
       description_markup: "Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas."
   195: 
     attributes:
-      name: Llave combinada 1,1/8
+      name: Llave combinada 1,1|8
       description: '<p>Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas.</p>'
       product_keywords:
       tax_category_id:
@@ -3979,7 +3974,7 @@ products:
       description_markup: "Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas."
   196: 
     attributes:
-      name: Llave combinada 1,3/16
+      name: Llave combinada 1,3|16
       description: '<p>Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas.</p>'
       product_keywords:
       tax_category_id:
@@ -4492,7 +4487,7 @@ products:
       description_markup: "Llaves de Ajuste Combinada Confor Tork, Perfil Innovador que ofrece mayor ergonomia y confort, permite aplicar mayor fuerza en los dos lados."
   223: 
     attributes:
-      name: Matraca Convencional 10x1/2
+      name: Matraca Convencional 10x1|2
       description: '<p>Matraca Convencional Largo 10, Encastre de 1/2. Rache Convencional.</p>'
       product_keywords:
       tax_category_id:
@@ -4511,7 +4506,7 @@ products:
       description_markup: "Matraca Convencional Largo 10, Encastre de 1/2. Rache Convencional."
   224: 
     attributes:
-      name: Matraca Convencional 8x3/8  
+      name: Matraca Convencional 8x3|8  
       description: '<p>Matraca Convencional Largo 8, Encastre de 3/8. Rache Convencional.</p>'
       product_keywords:
       tax_category_id:
@@ -4530,7 +4525,7 @@ products:
       description_markup: "Matraca Convencional Largo 8, Encastre de 3/8. Rache Convencional."
   225: 
     attributes:
-      name: Matraca Telescópica Flexdrive Largo 12x1/2 
+      name: Matraca Telescópica Flexdrive Largo 12x1|2 
       description: '<p>Matraca Telescópica Flexdrive Largo 12, Encastre 1/2. Rache Extensible Sistema Flex Drive.</p>'
       product_keywords:
       tax_category_id:
@@ -4549,7 +4544,7 @@ products:
       description_markup: "Matraca Telescópica Flexdrive Largo 12, Encastre 1/2. Rache Extensible Sistema Flex Drive."
   226: 
     attributes:
-      name: Matraca Telescópica Super Tork 12x1/2
+      name: Matraca Telescópica Super Tork 12x1|2
       description: '<p>Matraca Telescópica Super Tork  12 Encastre 1/2. Rache Estensible Robusto.</p>'
       product_keywords:
       tax_category_id:
@@ -4568,7 +4563,7 @@ products:
       description_markup: "Matraca Telescópica Super Tork  12 Encastre 1/2. Rache Estensible Robusto."
   227: 
     attributes:
-      name: Extensión de 10x3/8
+      name: Extensión de 10x3|8
       description: '<p>Extensión - Encastre de 3/8,  Largo 10. Accesorios para Copas.</p>'
       product_keywords:
       tax_category_id:
@@ -4587,7 +4582,7 @@ products:
       description_markup: "Accesorios para Copas."
   228: 
     attributes:
-      name: Extensión 5x1/2
+      name: Extensión 5x1|2
       description: '<p>Extensión - Encastre 1/2, Largo 5 Accesorios para Copas.</p>'
       product_keywords:
       tax_category_id:
@@ -4663,7 +4658,7 @@ products:
       description_markup: "Sistema Multidrive, Cada Pieza con 4 Medidas, 72 Dientes, resiste ajuste final."
   232: 
     attributes:
-      name: Llave Estriada con Matraca 5/16X3/8X7/16X1/2 
+      name: Llave Estriada con Matraca 5|16X3|8X7|16X1|2 
       description: '<p>Sistema Multidrive, Cada Pieza con 4 Medidas, 72 Dientes, resiste ajuste final.</p>'
       product_keywords:
       tax_category_id:
@@ -4682,7 +4677,7 @@ products:
       description_markup: "Sistema Multidrive, Cada Pieza con 4 Medidas, 72 Dientes, resiste ajuste final."
   233: 
     attributes:
-      name: Llave Estriada con Matraca 9/16X5/8X11/16X3/4
+      name: Llave Estriada con Matraca 9|16X5|8X11|16X3|4
       description: '<p>Sistema Multidrive, Cada Pieza con 4 Medidas, 72 Dientes, resiste ajuste final.</p>'
       product_keywords:
       tax_category_id:
@@ -4701,7 +4696,7 @@ products:
       description_markup: "Sistema Multidrive, Cada Pieza con 4 Medidas, 72 Dientes, resiste ajuste final."
   234: 
     attributes:
-      name: Dado 8 Mm Encastre 1/2 
+      name: Dado 8 Mm Encastre 1|2 
       description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos.</p>'
       product_keywords:
       tax_category_id:
@@ -4720,7 +4715,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
   235: 
     attributes:
-      name: Dado 9 Mm Encastre 1/2
+      name: Dado 9 Mm Encastre 1|2
       description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
       product_keywords:
       tax_category_id:
@@ -4739,7 +4734,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
   236: 
     attributes:
-      name: Dado 10 Mm Encastre 1/2
+      name: Dado 10 Mm Encastre 1|2
       description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
       product_keywords:
       tax_category_id:
@@ -4758,7 +4753,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
   237: 
     attributes:
-      name: Dado 11 Mm Encastre 1/2
+      name: Dado 11 Mm Encastre 1|2
       description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
       product_keywords:
       tax_category_id:
@@ -4777,7 +4772,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
   238: 
     attributes:
-      name: Dado 12 Mm Encastre 1/2
+      name: Dado 12 Mm Encastre 1|2
       description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
       product_keywords:
       tax_category_id:
@@ -4796,7 +4791,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
   239: 
     attributes:
-      name: Dado 13 Mm Encastre 1/2
+      name: Dado 13 Mm Encastre 1|2
       description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
       product_keywords:
       tax_category_id:
@@ -4815,7 +4810,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
   240: 
     attributes:
-      name: Dado 14 Mm Encastre 1/2
+      name: Dado 14 Mm Encastre 1|2
       description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
       product_keywords:
       tax_category_id:
@@ -4834,7 +4829,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
   241: 
     attributes:
-      name: Dado 15 Mm Encastre 1/2
+      name: Dado 15 Mm Encastre 1|2
       description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
       product_keywords:
       tax_category_id:
@@ -4853,7 +4848,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
   242: 
     attributes:
-      name: Dado 16 Mm Encastre 1/2
+      name: Dado 16 Mm Encastre 1|2
       description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
       product_keywords:
       tax_category_id:
@@ -4872,7 +4867,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
   243: 
     attributes:
-      name: Dado 17 Mm Encastre 1/2
+      name: Dado 17 Mm Encastre 1|2
       description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
       product_keywords:
       tax_category_id:
@@ -4891,7 +4886,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
   244: 
     attributes:
-      name: Dado 18 Mm Encastre 1/2
+      name: Dado 18 Mm Encastre 1|2
       description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
       product_keywords:
       tax_category_id:
@@ -4910,7 +4905,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
   245: 
     attributes:
-      name: Dado 19 Mm Encastre 1/2
+      name: Dado 19 Mm Encastre 1|2
       description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
       product_keywords:
       tax_category_id:
@@ -4929,7 +4924,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
   246: 
     attributes:
-      name: Dado 21 Mm Encastre 1/2
+      name: Dado 21 Mm Encastre 1|2
       description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
       product_keywords:
       tax_category_id:
@@ -4948,7 +4943,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
   247: 
     attributes:
-      name: Dado 22 Mm Encastre 1/2
+      name: Dado 22 Mm Encastre 1|2
       description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
       product_keywords:
       tax_category_id:
@@ -4967,7 +4962,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
   248: 
     attributes:
-      name: Dado 24 Mm Encastre 1/2
+      name: Dado 24 Mm Encastre 1|2
       description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
       product_keywords:
       tax_category_id:
@@ -4986,7 +4981,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
   249: 
     attributes:
-      name: Dado 27 Mm Encastre 1/2
+      name: Dado 27 Mm Encastre 1|2
       description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
       product_keywords:
       tax_category_id:
@@ -5005,7 +5000,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
   250: 
     attributes:
-      name: Dado 30 Mm Encastre 1/2
+      name: Dado 30 Mm Encastre 1|2
       description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
       product_keywords:
       tax_category_id:
@@ -5024,7 +5019,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
   251: 
     attributes:
-      name: Dado 32 Mm Encastre 1/2
+      name: Dado 32 Mm Encastre 1|2
       description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
       product_keywords:
       tax_category_id:
@@ -5043,7 +5038,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
   252: 
     attributes:
-      name: Juego de Dados 1/2 23 piezas Techdrive                                     
+      name: Juego de Dados 1|2 23 piezas Techdrive                                     
       description: '<p>Juego de Dados Encastre 1/2 23 piezas Milimétricos Composición 18 dados Techdrive Encastre 1/2 8,9,10,11,12.13,14,15,16,17,18,19,21,22,24,27,30 y 32 2 Extensión 5 y 10, Mango T 10, junta universal, matraca 10, maletín plástico. Pro Juego Dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos.</p>'
       product_keywords:
       tax_category_id:
@@ -5062,7 +5057,7 @@ products:
       description_markup: "Juego de Dados Encastre 1/2 23 piezas Milimétricos Composición 18 dados Techdrive Encastre 1/2 8,9,10,11,12,13,14,15,16,17,18,19,21,22,24,27,30 y 32 2 Extensión 5 y 10, Mango T 10, junta universal, matraca 10, maletín plástico. Pro Juego Dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos."
   253: 
     attributes:
-      name: Dado Xtractor 8mm Encastre 1/2
+      name: Dado Xtractor 8mm Encastre 1|2
       description: '<p>Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%.</p>'
       product_keywords:
       tax_category_id:
@@ -5081,7 +5076,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%."
   254: 
     attributes:
-      name: Dado Xtractor 9mm Encastre 1/2
+      name: Dado Xtractor 9mm Encastre 1|2
       description: '<p>Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%.</p>'
       product_keywords:
       tax_category_id:
@@ -5100,7 +5095,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%."
   255: 
     attributes:
-      name: Dado Xtractor 10mm Encastre 1/2
+      name: Dado Xtractor 10mm Encastre 1|2
       description: '<p>Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%.</p>'
       product_keywords:
       tax_category_id:
@@ -5119,7 +5114,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%."
   256: 
     attributes:
-      name: Dado Xtractor 11mm Encastre 1/2
+      name: Dado Xtractor 11mm Encastre 1|2
       description: '<p>Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%.</p>'
       product_keywords:
       tax_category_id:
@@ -5138,7 +5133,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%."
   257: 
     attributes:
-      name: Dado Xtractor 12mm Encastre 1/2
+      name: Dado Xtractor 12mm Encastre 1|2
       description: '<p>Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%.</p>'
       product_keywords:
       tax_category_id:
@@ -5157,7 +5152,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%."
   258: 
     attributes:
-      name: Dado Xtractor 13mm Encastre 1/2
+      name: Dado Xtractor 13mm Encastre 1|2
       description: '<p>Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%.</p>'
       product_keywords:
       tax_category_id:
@@ -5176,7 +5171,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%."
   259: 
     attributes:
-      name: Dado Xtractor 14mm Encastre 1/2
+      name: Dado Xtractor 14mm Encastre 12
       description: '<p>Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%.</p>'
       product_keywords:
       tax_category_id:
@@ -5195,7 +5190,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%."
   260: 
     attributes:
-      name: Dado Xtractor 15mm Encastre 1/2
+      name: Dado Xtractor 15mm Encastre 1|2
       description: '<p>Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%.</p>'
       product_keywords:
       tax_category_id:
@@ -5214,7 +5209,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%."
   261: 
     attributes:
-      name: Dado Xtractor 16mm Encastre 1/2
+      name: Dado Xtractor 16mm Encastre 1|2
       description: '<p>Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%.</p>'
       product_keywords:
       tax_category_id:
@@ -5233,7 +5228,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%."
   262: 
     attributes:
-      name: Dado Xtractor 17mm Encastre 1/2
+      name: Dado Xtractor 17mm Encastre 1|2
       description: '<p>Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%.</p>'
       product_keywords:
       tax_category_id:
@@ -5252,7 +5247,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%."
   263: 
     attributes:
-      name: Dado Xtractor 18mm Encastre 1/2
+      name: Dado Xtractor 18mm Encastre 1|2
       description: '<p>Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%.</p>'
       product_keywords:
       tax_category_id:
@@ -5271,7 +5266,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%."
   264: 
     attributes:
-      name: Dado Xtractor 19mm Encastre 1/2
+      name: Dado Xtractor 19mm Encastre 1|2
       description: '<p>Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%.</p>'
       product_keywords:
       tax_category_id:
@@ -5290,7 +5285,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%."
   265: 
     attributes:
-      name: Dado Xtractor 21mm Encastre 1/2
+      name: Dado Xtractor 21mm Encastre 1|2
       description: '<p>Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%.</p>'
       product_keywords:
       tax_category_id:
@@ -5309,7 +5304,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%."
   266: 
     attributes:
-      name: Dado Xtractor 22mm Encastre 1/2
+      name: Dado Xtractor 22mm Encastre 1|2
       description: '<p>Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%.</p>'
       product_keywords:
       tax_category_id:
@@ -5328,7 +5323,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%."
   267: 
     attributes:
-      name: Dado Xtractor 24mm Encastre 1/2
+      name: Dado Xtractor 24mm Encastre 1|2
       description: '<p>Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%.</p>'
       product_keywords:
       tax_category_id:
@@ -5347,7 +5342,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%."
   268: 
     attributes:
-      name: Dado Xtractor 27mm Encastre 1/2
+      name: Dado Xtractor 27mm Encastre 1|2
       description: '<p>Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%.</p>'
       product_keywords:
       tax_category_id:
@@ -5366,7 +5361,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%."
   269: 
     attributes:
-      name: Dado Xtractor 30mm Encastre 1/2
+      name: Dado Xtractor 30mm Encastre 1|2
       description: '<p>Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%.</p>'
       product_keywords:
       tax_category_id:
@@ -5385,7 +5380,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%."
   270: 
     attributes:
-      name: Dado Xtractor 32mm Encastre 1/2
+      name: Dado Xtractor 32mm Encastre 1|2
       description: '<p>Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%.</p>'
       product_keywords:
       tax_category_id:
@@ -5404,7 +5399,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%."
   271: 
     attributes:
-      name: Juego de Dados Encastre 1/2" 23 piezas Xtractor   
+      name: Juego de Dados Encastre 1|2pg 23 piezas Xtractor   
       description: '<p>Juego de Dados Encastre 1/2 23 piezas Milimetricos Composición 18 dados Xtractor Plus Encastre 1/2 8,9,10,11,12.13,14,15,16,17,18,19,21,22,24,27,30 y 32.Juego dados y accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%.</p>'
       product_keywords:
       tax_category_id:
@@ -5423,7 +5418,7 @@ products:
       description_markup: "Juego de Dados Encastre 1/2 23 piezas Milimetricos Composición 18 dados Xtractor Plus Encastre 1/2 8,9,10,11,12.13,14,15,16,17,18,19,21,22,24,27,30 y 32.Juego dados y accesorios, Sistema Xtractor Plus, Extrae Tornillos o Tuercas con perfil gasto hasta en un 80%."
   272: 
     attributes:
-      name: Juego de dados 3/8
+      name: Juego de dados 3|8
       description: '<p>Juego de dados 3/8 - Pulgadas 1 Dado sextavado 3/8 9/32 1 Dado sextavado 3/8 5/16 1 Dado sextavado 3/8 3/8 1 Dado sextavado 3/8 7/16 1 Dado sextavado 3/8 1/2 1 Dado estriado 3/8 9/16 1 Dado estriado 3/8 5/8 1 Dado estriado 3/8 3/4 1 Dado estriado 3/8 13/16 1 Mango deslizante T 3/8 8 Juego dados y accesorios, sextavado convencional </p>'
       product_keywords:
       tax_category_id:
@@ -5442,7 +5437,7 @@ products:
       description_markup: "Juego de dados 3/8 - Pulgadas 1 Dado sextavado 3/8 9/32 1 Dado sextavado 3/8 5/16 1 Dado sextavado 3/8 3/8 1 Dado sextavado 3/8 7/16 1 Dado sextavado 3/8 1/2 1 Dado estriado 3/8 9/16 1 Dado estriado 3/8 5/8 1 Dado estriado 3/8 3/4 1 Dado estriado 3/8 13/16 1 Mango deslizante T 3/8 8 Juego dados y accesorios, sextavado convencional "
   273: 
     attributes:
-      name: Dado Sextavado 1/2 8mm 
+      name: Dado Sextavado 1|2 8mm 
       description: '<p>Dados Estriados Convencionales</p>'
       product_keywords:
       tax_category_id:
@@ -5461,7 +5456,7 @@ products:
       description_markup: "Dados Estriados Convencionales"
   274: 
     attributes:
-      name: Dado Sextavado 1/2 10mm
+      name: Dado Sextavado 1|2 10mm
       description: '<p>Dados Estriados Convencionales</p>'
       product_keywords:
       tax_category_id:
@@ -5480,7 +5475,7 @@ products:
       description_markup: "Dados Estriados Convencionales"
   275: 
     attributes:
-      name: Dado Sextavado 1/2 12mm
+      name: Dado Sextavado 1|2 12mm
       description: '<p>Dados Estriados Convencionales</p>'
       product_keywords:
       tax_category_id:
@@ -5499,7 +5494,7 @@ products:
       description_markup: "Dados Estriados Convencionales"
   276: 
     attributes:
-      name: Dado Sextavado 1/2 14mm
+      name: Dado Sextavado 1|2 14mm
       description: '<p>Dados Estriados Convencionales</p>'
       product_keywords:
       tax_category_id:
@@ -5518,7 +5513,7 @@ products:
       description_markup: "Dados Estriados Convencionales"
   277: 
     attributes:
-      name: Dado Sextavado 1/2 17mm
+      name: Dado Sextavado 12 17mm
       description: '<p>Dados Estriados Convencionales</p>'
       product_keywords:
       tax_category_id:
@@ -5537,7 +5532,7 @@ products:
       description_markup: "Dados Estriados Convencionales"
   278: 
     attributes:
-      name: Dado Sextavado 1/2 8mm techdrive
+      name: Dado Sextavado 1|2 8mm techdrive
       description: '<p>Rache Techdrive Plus Tornillos Largos o Pasantes.</p>'
       product_keywords:
       tax_category_id:
@@ -5556,7 +5551,7 @@ products:
       description_markup: "Rache Techdrive Plus Tornillos Largos o Pasantes."
   279: 
     attributes:
-      name: Dado 10mm Concavar 1/2
+      name: Dado 10mm Concavar 1|2
       description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
       product_keywords:
       tax_category_id:
@@ -5575,7 +5570,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
   280: 
     attributes:
-      name: Dado 11mm Concavar 1/2
+      name: Dado 11mm Concavar 1|2
       description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
       product_keywords:
       tax_category_id:
@@ -5594,7 +5589,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
   281: 
     attributes:
-      name: Dado 12mm Concavar 1/2
+      name: Dado 12mm Concavar 1|2
       description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
       product_keywords:
       tax_category_id:
@@ -5613,7 +5608,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
   282: 
     attributes:
-      name: Dado 13mm Concavar 1/2
+      name: Dado 13mm Concavar 1|2
       description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
       product_keywords:
       tax_category_id:
@@ -5632,7 +5627,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
   283: 
     attributes:
-      name: Dado 14mm Concavar 1/2
+      name: Dado 14mm Concavar 1|2
       description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
       product_keywords:
       tax_category_id:
@@ -5651,7 +5646,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
   284: 
     attributes:
-      name: Dado 15mm Concavar 1/2
+      name: Dado 15mm Concavar 1|2
       description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
       product_keywords:
       tax_category_id:
@@ -5670,7 +5665,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
   285: 
     attributes:
-      name: Dado 16mm Concavar 1/2
+      name: Dado 16mm Concavar 1|2
       description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
       product_keywords:
       tax_category_id:
@@ -5689,7 +5684,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
   286: 
     attributes:
-      name: Dado 17mm Concavar 1/2
+      name: Dado 17mm Concavar 1|2
       description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
       product_keywords:
       tax_category_id:
@@ -5708,7 +5703,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
   287: 
     attributes:
-      name: Dado 18mm Concavar 1/2
+      name: Dado 18mm Concavar 1|2
       description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
       product_keywords:
       tax_category_id:
@@ -5727,7 +5722,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
   288: 
     attributes:
-      name: Dado 19mm Concavar 1/2
+      name: Dado 19mm Concavar 1|2
       description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
       product_keywords:
       tax_category_id:
@@ -5746,7 +5741,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
   289: 
     attributes:
-      name: Dado 21mm Concavar 1/2
+      name: Dado 21mm Concavar 1|2
       description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
       product_keywords:
       tax_category_id:
@@ -5765,7 +5760,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
   290: 
     attributes:
-      name: Dado 22mm Concavar 1/2
+      name: Dado 22mm Concavar 1|2
       description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
       product_keywords:
       tax_category_id:
@@ -5784,7 +5779,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
   291: 
     attributes:
-      name: Dado 24mm Concavar 1/2
+      name: Dado 24mm Concavar 1|2
       description: '<p>Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos</p>'
       product_keywords:
       tax_category_id:
@@ -5803,7 +5798,7 @@ products:
       description_markup: "Pro dados y Accesorios, Sistema Techdrive Usados en 6 Tipos de Perfiles de Tuercas y Tornillos"
   292: 
     attributes:
-      name: Dado Estriado Largo 76mmx1/2x10mm
+      name: Dado Estriado Largo 76mmx1|2x10mm
       description: '<p>Dados Estriados Convencionales</p>'
       product_keywords:
       tax_category_id:
@@ -5822,7 +5817,7 @@ products:
       description_markup: "Dados Estriados Convencionales"
   293: 
     attributes:
-      name: Dado Estriado Largo 76mmx1/2x12mm
+      name: Dado Estriado Largo 76mmx1|2x12mm
       description: '<p>Dados Estriados Convencionales</p>'
       product_keywords:
       tax_category_id:
@@ -5841,7 +5836,7 @@ products:
       description_markup: "Dados Estriados Convencionales"
   294: 
     attributes:
-      name: Dado Estriado Largo 76mmx1/2x13mm
+      name: Dado Estriado Largo 76mmx1|2x13mm
       description: '<p>Dados Estriados Convencionales</p>'
       product_keywords:
       tax_category_id:
@@ -5860,7 +5855,7 @@ products:
       description_markup: "Dados Estriados Convencionales"
   295: 
     attributes:
-      name: Dado Estriado Largo 76mmx1/2x14mm
+      name: Dado Estriado Largo 76mmx1|2x14mm
       description: '<p>Dados Estriados Convencionales</p>'
       product_keywords:
       tax_category_id:
@@ -5879,7 +5874,7 @@ products:
       description_markup: "Dados Estriados Convencionales"
   296: 
     attributes:
-      name: Dado Estriado Largo 76mmx1/2x16mm
+      name: Dado Estriado Largo 76mmx1|2x16mm
       description: '<p>Dados Estriados Convencionales</p>'
       product_keywords:
       tax_category_id:
@@ -5898,7 +5893,7 @@ products:
       description_markup: "Dados Estriados Convencionales"
   297: 
     attributes:
-      name: Dado Estriado Largo 76mmx1/2x17mm
+      name: Dado Estriado Largo 76mmx1|2x17mm
       description: '<p>Dados Estriados Convencionales</p>'
       product_keywords:
       tax_category_id:
@@ -5917,7 +5912,7 @@ products:
       description_markup: "Dados Estriados Convencionales"
   298: 
     attributes:
-      name: Dado Estriado Largo 76mmx1/2x18mm
+      name: Dado Estriado Largo 76mmx1|2x18mm
       description: '<p>Dados Estriados Convencionales</p>'
       product_keywords:
       tax_category_id:
@@ -5936,7 +5931,7 @@ products:
       description_markup: "Dados Estriados Convencionales"
   299: 
     attributes:
-      name: Dado Estriado Largo 76mmx1/2x19mm
+      name: Dado Estriado Largo 76mmx1|2x19mm
       description: '<p>Dados Estriados Convencionales</p>'
       product_keywords:
       tax_category_id:
@@ -5955,7 +5950,7 @@ products:
       description_markup: "Dados Estriados Convencionales"
   300: 
     attributes:
-      name: Destornillador Punta Chata Twister 1/8x3
+      name: Destornillador Punta Chata Twister 1|8x3
       description: '<p>Destornilladores  Punta Recta TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio.</p>'
       product_keywords:
       tax_category_id:
@@ -5974,7 +5969,7 @@ products:
       description_markup: "Destornilladores  Punta Recta TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio."
   301: 
     attributes:
-      name: Destornillador Punta Chata Twister 3/16x4
+      name: Destornillador Punta Chata Twister 3|16x4
       description: '<p>Destornilladores  Punta Recta TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio.</p>'
       product_keywords:
       tax_category_id:
@@ -5993,7 +5988,7 @@ products:
       description_markup: "Destornilladores  Punta Recta TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio."
   302: 
     attributes:
-      name: Destornillador Punta Chata Twister 3/16x6
+      name: Destornillador Punta Chata Twister 3|16x6
       description: '<p>Destornilladores  Punta Recta TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio.</p>'
       product_keywords:
       tax_category_id:
@@ -6012,7 +6007,7 @@ products:
       description_markup: "Destornilladores  Punta Recta TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio."
   303: 
     attributes:
-      name: Destornillador Punta Chata Twister 1/4x4
+      name: Destornillador Punta Chata Twister 1|4x4
       description: '<p>Destornilladores  Punta Recta TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio.</p>'
       product_keywords:
       tax_category_id:
@@ -6031,7 +6026,7 @@ products:
       description_markup: "Destornilladores  Punta Recta TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio."
   304: 
     attributes:
-      name: Destornillador Punta Chata Twister 1/4x6
+      name: Destornillador Punta Chata Twister 1|4x6
       description: '<p>Destornilladores  Punta Recta TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio.</p>'
       product_keywords:
       tax_category_id:
@@ -6050,7 +6045,7 @@ products:
       description_markup: "Destornilladores  Punta Recta TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio."
   305: 
     attributes:
-      name: Destornillador Punta Chata Twister 1/8x4
+      name: Destornillador Punta Chata Twister 1|8x4
       description: '<p>Destornilladores  Punta Recta TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio.</p>'
       product_keywords:
       tax_category_id:
@@ -6069,7 +6064,7 @@ products:
       description_markup: "Destornilladores  Punta Recta TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio."
   306: 
     attributes:
-      name: Destornillador Punta Chata Twister 3/16x3
+      name: Destornillador Punta Chata Twister 3|16x3
       description: '<p>Destornilladores  Punta Recta TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio.</p>'
       product_keywords:
       tax_category_id:
@@ -6088,7 +6083,7 @@ products:
       description_markup: "Destornilladores  Punta Recta TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio."
   307: 
     attributes:
-      name: Destornillador Punta Chata Twister 3/16x5
+      name: Destornillador Punta Chata Twister 3|16x5
       description: '<p>Destornilladores  Punta Recta TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio.</p>'
       product_keywords:
       tax_category_id:
@@ -6107,7 +6102,7 @@ products:
       description_markup: "Destornilladores  Punta Recta TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio."
   308: 
     attributes:
-      name: Destornillador Punta Chata Twister 1/4x5
+      name: Destornillador Punta Chata Twister 1|4x5
       description: '<p>Destornilladores  Punta Recta TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio.</p>'
       product_keywords:
       tax_category_id:
@@ -6126,7 +6121,7 @@ products:
       description_markup: "Destornilladores  Punta Recta TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio."
   309: 
     attributes:
-      name: Destornillador Punta Chata Twister 1/4x8
+      name: Destornillador Punta Chata Twister 1|4x8
       description: '<p>Destornilladores  Punta Recta TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio.</p>'
       product_keywords:
       tax_category_id:
@@ -6145,7 +6140,7 @@ products:
       description_markup: "Destornilladores  Punta Recta TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio."
   310: 
     attributes:
-      name: Destornillador Punta Chata Twister 1/4x10
+      name: Destornillador Punta Chata Twister 1|4x10
       description: '<p>Destornilladores  Punta Recta TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio.</p>'
       product_keywords:
       tax_category_id:
@@ -6164,7 +6159,7 @@ products:
       description_markup: "Destornilladores  Punta Recta TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio."
   311: 
     attributes:
-      name: Destornillador Punta Chata Twister 5/16x4
+      name: Destornillador Punta Chata Twister 5|16x4
       description: '<p>Destornilladores  Punta Recta TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio.</p>'
       product_keywords:
       tax_category_id:
@@ -6183,7 +6178,7 @@ products:
       description_markup: "Destornilladores  Punta Recta TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio."
   312: 
     attributes:
-      name: Destornillador Punta Chata Twister 5/16x8
+      name: Destornillador Punta Chata Twister 5|16x8
       description: '<p>Destornilladores  Punta Recta TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio.</p>'
       product_keywords:
       tax_category_id:
@@ -6202,7 +6197,7 @@ products:
       description_markup: "Destornilladores  Punta Recta TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio."
   313: 
     attributes:
-      name:  Destornillador Punta Cruz Twister 1/8x3
+      name:  Destornillador Punta Cruz Twister 1|8x3
       description: '<p>Destornilladores  punta estrella TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio.</p>'
       product_keywords:
       tax_category_id:
@@ -6221,7 +6216,7 @@ products:
       description_markup: "Destornilladores  punta estrella TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio."
   314: 
     attributes:
-      name: Destornillador Punta Cruz Twister 3/16x3
+      name: Destornillador Punta Cruz Twister 3|16x3
       description: '<p>Destornilladores  punta estrella TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio.</p>'
       product_keywords:
       tax_category_id:
@@ -6240,7 +6235,7 @@ products:
       description_markup: "Destornilladores  punta estrella TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio."
   315: 
     attributes:
-      name: Destornillador Punta Cruz Twister 3/16x4
+      name: Destornillador Punta Cruz Twister 3|16x4
       description: '<p>Destornilladores  punta estrella TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio.</p>'
       product_keywords:
       tax_category_id:
@@ -6259,7 +6254,7 @@ products:
       description_markup: "Destornilladores  punta estrella TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio."
   316: 
     attributes:
-      name: Destornillador Punta Cruz Twister 3/16x6
+      name: Destornillador Punta Cruz Twister 3|16x6
       description: '<p>Destornilladores  punta estrella TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio.</p>'
       product_keywords:
       tax_category_id:
@@ -6278,7 +6273,7 @@ products:
       description_markup: "Destornilladores  punta estrella TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio."
   317: 
     attributes:
-      name: Destornillador Punta Cruz Twister 3/16x8
+      name: Destornillador Punta Cruz Twister 3|16x8
       description: '<p>Destornilladores  punta estrella TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio.</p>'
       product_keywords:
       tax_category_id:
@@ -6297,7 +6292,7 @@ products:
       description_markup: "Destornilladores  punta estrella TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio."
   318: 
     attributes:
-      name: Destornillador Punta Cruz Twister 3/16x10
+      name: Destornillador Punta Cruz Twister 3|16x10
       description: '<p>Destornilladores  punta estrella TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio.</p>'
       product_keywords:
       tax_category_id:
@@ -6316,7 +6311,7 @@ products:
       description_markup: "Destornilladores  punta estrella TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio."
   319: 
     attributes:
-      name: Destornillador Punta Cruz Twister 1/4x4
+      name: Destornillador Punta Cruz Twister 1|4x4
       description: '<p>Destornilladores  punta estrella TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio.</p>'
       product_keywords:
       tax_category_id:
@@ -6335,7 +6330,7 @@ products:
       description_markup: "Destornilladores  punta estrella TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio."
   320: 
     attributes:
-      name: Destornillador Punta Cruz Twister 1/4x6
+      name: Destornillador Punta Cruz Twister 1|4x6
       description: '<p>Destornilladores  punta estrella TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio.</p>'
       product_keywords:
       tax_category_id:
@@ -6354,7 +6349,7 @@ products:
       description_markup: "Destornilladores  punta estrella TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio."
   321: 
     attributes:
-      name: Destornillador Punta Cruz Twister 1/4x8
+      name: Destornillador Punta Cruz Twister 1|4x8
       description: '<p>Destornilladores  punta estrella TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio.</p>'
       product_keywords:
       tax_category_id:
@@ -6373,7 +6368,7 @@ products:
       description_markup: "Destornilladores  punta estrella TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio."
   322: 
     attributes:
-      name: Destornillador Punta Cruz Twister 1/4x10
+      name: Destornillador Punta Cruz Twister 1|4x10
       description: '<p>Destornilladores  punta estrella TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio.</p>'
       product_keywords:
       tax_category_id:
@@ -6392,7 +6387,7 @@ products:
       description_markup: "Destornilladores  punta estrella TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio."
   323: 
     attributes:
-      name: Destornillador Punta Cruz Twister 5/16x6
+      name: Destornillador Punta Cruz Twister 5|16x6
       description: '<p>Destornilladores  punta estrella TWISTER, asta en acero cromo vanadio templada. Acabado cromado. Punta fosfatada y magnetizada. Mango inyectado. Mango giratorio.</p>'
       product_keywords:
       tax_category_id:
@@ -7529,7 +7524,7 @@ products:
       meta_keywords: 
       meta_description: 
       featured: false
-      description_markup: ""
+      description_markup: "Paellera 30 cm antiadherente Asas en acero Napoli"
   383: 
     attributes:
       name: Paellera 34 cm 
@@ -9133,7 +9128,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 0
+      product_type_id: 8
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -9152,7 +9147,7 @@ products:
       product_keywords:
       tax_category_id:
       brand_id: 1
-      product_type_id: 0
+      product_type_id: 8
       prototype_id: 
       shipping_category_id: 1
       tax_category_id: 1
@@ -10171,6 +10166,25 @@ products:
       meta_description: 
       featured: false
       description_markup: "Juego dos Piezas Composición: 1 Cuchillo Color Blanco Queso 6pg 1 Tabla de madera goiabão Athus "
+  522: 
+    attributes:
+      name: Llave combinada 9|16 44670105
+      description: '<p>Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas.</p>'
+      product_keywords:
+      tax_category_id:
+      brand_id: 1
+      product_type_id: 33
+      prototype_id: 
+      shipping_category_id: 1
+      tax_category_id: 1
+      active: true
+      permalink: 
+      available_at: '2012-11-05 14:30:29'
+      deleted_at:
+      meta_keywords: 
+      meta_description: 
+      featured: false
+      description_markup: "Llaves de Ajuste Combinada Pulgadas Convencional producidas en acero ligado con cromo vanádio (Cr-V), y sometidas a testes rigurosos de torque para atender la norma DIN 1711-1;  El nuevo perfil Hyper Drive en algunos modelos de llave tipo estriado reduce el desgaste de las llaves, alargando su vida útil; El teste de dureza es realizado en vários puntos para garantizar la resistência al desgaste de la llave por el uso constante; Algunos tipos de llaves de ajuste son fornecidas en vitolas métricas y en pulgadas para los diversos fijadores disponibles; Aflojar y ajustar tornillos y tuercas sextavadas y cuadradas."
  
 product_properties:
   1: #'Destornillador, Largo'
@@ -10178,61 +10192,30 @@ product_properties:
       product_id: 1
       property_id: 1
       position: 1
-      description: '6in, 8in, 10in'
-  2: #'Destornillador, Ancho'
-    attributes:
-      product_id: 1
-      property_id: 2
-      position: 2
-      description: '3/16, 1/4, 5/8'
-  3: #'Destornillador, tipo'
-    attributes:
-      product_id: 1
-      property_id: 3
-      position: 3
-      description: 'Plano, Cruz'
-  
+      description: 'largo'
 inventories:
   1:
     attributes:
       count_on_hand: 11
       count_pending_to_customer: 5
       count_pending_from_supplier: 0
-
 variants:
   1: #'Destornillador 1'
     attributes:
       product_id: 1
-      sku: 0000-0000-000001
+      sku: 10000082
       name:
       price: 3000
       cost: 1000
       brand_id: 1
       inventory_id: 1
-  2: #'Destornillador 2'
-    attributes:
-      product_id: 1
-      sku: 0000-0000-000002
-      name:
-      price: 3000
-      cost: 1000
-      brand_id: 1
-      inventory_id: 2
-  
 variant_properties:
   1: #'Destornillador 1'
     attributes:
       variant_id: 1
       property_id: 1
-      description: 6in
+      description: largo
       primary: 1
-  2: #'Destornillador 2'
-    attributes:
-      variant_id: 2
-      property_id: 1
-      description: 8in
-      primary: 1
-
 variant_suppliers:
   1:
     attributes:
@@ -10242,13 +10225,4 @@ variant_suppliers:
       total_quantity_supplied: 0
       min_quantity: 11
       max_quantity: 1001
-      active: true
-  2:
-    attributes:
-      variant_id: 2
-      supplier_id: 1
-      cost: 10.00
-      total_quantity_supplied: 0
-      min_quantity: 12
-      max_quantity: 1002
       active: true

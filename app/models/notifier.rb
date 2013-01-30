@@ -1,5 +1,5 @@
 class Notifier < ActionMailer::Base
-  default :from => "system@example.com"
+  default :from => "system@inoxdobrasil.com"
 
   # Simple Welcome mailer
   # => CUSTOMIZE FOR YOUR OWN APP
@@ -13,9 +13,9 @@ class Notifier < ActionMailer::Base
     #attachments['terms.pdf'] = {:content => generate_your_pdf_here() }
 
     mail(:to => recipient.email_address_with_name,
-         :subject => "New account information") do |format|
-      format.text { render :text => "Welcome!  #{recipient.name} go to #{customer_activation_url(:a => recipient.perishable_token )}" }
-      format.html { render :text => "<h1>Welcome</h1> #{recipient.name} <a href='#{customer_activation_url(:a => recipient.perishable_token )}'>Click to Activate</a>" }
+         :subject => "Nueva cuenta en la tienda Inox Do Brasil") do |format|
+      format.text { render :text => "Bienvenido  #{recipient.name} ir a #{customer_activation_url(:a => recipient.perishable_token )}" }
+      format.html { render :text => "<h1>Bienvenido</h1> #{recipient.name} <a href='#{customer_activation_url(:a => recipient.perishable_token )}'>Haga clic para activar</a>" }
     end
 
   end
@@ -24,7 +24,7 @@ class Notifier < ActionMailer::Base
     @user = user
     @url  = edit_customer_password_reset_url(:id => user.perishable_token)
     mail(:to => user.email,
-         :subject => "Reset Password Instructions")
+         :subject => "Instrucciones para restaurar la contrasena")
   end
 
 
@@ -35,7 +35,7 @@ class Notifier < ActionMailer::Base
     @url    = root_url
     @site_name = 'site_name'
     mail(:to => order.email,
-         :subject => "Order Confirmation")
+         :subject => "Confirmacion de la orden")
   end
 
 end
