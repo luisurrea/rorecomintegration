@@ -3,23 +3,28 @@
 <% end %>
 <div id="containerrightcont">
   <div class="eleven columns centered">	
-	<% if  @products.empty?   %>
+	<% if  @products.empty?  %>
 		<%if @noproducttype==true %>
-			<div class="panel"><h5>menu principal</h5></div>
-			<% @ptypes.each do |pt_tab| %>
+			<div class="panel"><h5><%=@categbreadcrumb%></h5></div>
+			<% @children.each do |pt_tab| %>
    				<div id="category-links"> <%= link_to_unless_current pt_tab.name, products_path(:product_type_id => pt_tab.id) %> </div>
  		  	<% end %>
 		<%elsif @haschildren==true %>
-			<div class="panel"><h5>submenu</h5></div>
-			
+			<div class="panel"><h5><%=@categbreadcrumb%></h5></div>
+			<% @children.each do |pt_tab| %>
+   				<div id="category-links"> <%= link_to_unless_current pt_tab.name, products_path(:product_type_id => pt_tab.id) %> </div>
+ 			<% end %>			
 		<%else%>
 			<div class="panel"><h5>La categoria no tiene productos</h5></div>
 		<%end%>	
 	<%elsif @haschildren==true %>
-		<div class="panel"><h5>submenu</h5></div>
+		<div class="panel"><h5><%=@categbreadcrumb%></h5></div>
+		<% @children.each do |pt_tab| %>
+   				<div id="category-links"> <%= link_to_unless_current pt_tab.name, products_path(:product_type_id => pt_tab.id) %> </div>
+ 		<% end %>
 	<%else%>	
-		<div class="panel"><h5>Si tiene</h5></div>
-		<div class="panel"><h5></h5>
+		<div class="panel"><h5><%=@categbreadcrumb%></h5></div>
+		<div class="panel">
 	     	<%= will_paginate @products %>	
 	    </div>
 	    <% @products.each_with_index do |product, i| %>

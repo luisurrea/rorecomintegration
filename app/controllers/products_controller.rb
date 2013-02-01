@@ -5,23 +5,34 @@ class ProductsController < ApplicationController
     product_types = nil
     @noproducttype=false
     @haschildren=false
+    @categbreadcrumb=""
     if params[:product_type_id].present?
       @children = ProductType.where('parent_id = ?', params[:product_type_id])
-      product_type = ProductType.find_by_id(params[:product_type_id]) 
-      product_types = product_type.self_and_descendants.map(&:id)
-      params[:page] ||= 1
-      @products = products.where('product_type_id IN (?)', product_types || featured_product_types).
-                           paginate(:per_page => 20, :page => params[:page].to_i)
       if @children.empty?
         @haschildren=false
+        product_type = ProductType.find_by_id(params[:product_type_id]) 
+        @parent=ProductType.where('id = ?', product_type.parent_id).pluck(:name)
+        product_types = product_type.self_and_descendants.map(&:id)
+        params[:page] ||= 1
+        @products = products.where('product_type_id IN (?)', product_types || featured_product_types).
+                           paginate(:per_page => 20, :page => params[:page].to_i)
+        if @parent.empty?
+          @categbreadcrumb=product_type.name
+        else
+          @categbreadcrumb=@parent[0]+" - "+product_type.name
+        end          
       else
         @haschildren=true
+        @products = products.where('product_type_id IN (?)', @children)
+        @parent=ProductType.where('id = ?', @children[0].parent_id).pluck(:name)
+        @categbreadcrumb=@parent[0]
       end
     else 
       product_types = ProductType.where('parent_id is NULL')
-      @ptypes = product_types
+      @children=product_types
       @noproducttype=true
       @products = products.where('product_type_id = ?', params[:product_type_id])
+      @categbreadcrumb="Categorias de Productos"
     end  
   end
 
