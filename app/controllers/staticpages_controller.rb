@@ -7,8 +7,5 @@ class StaticpagesController < ApplicationController
 
   def terms
   end
-  
-  def respuestapol
-    
-  end
+   
 end
