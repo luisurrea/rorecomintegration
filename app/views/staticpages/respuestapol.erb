@@ -1,14 +1,5 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Store | Resultado de la transaccion</title>
-  </head>
-  <body>
-    <h2>Resultado POL </h2>
-    <p>
-      Aqui van los datos de la transaccion de POL
-    </p>
-    
+<div class="eleven columns centered">
+	<div class="panel"><h5>Resultados de la Transaccion</h5></div>	    
 <!--<?php
 $llave="1111111111111111";/////llave de usuario de pruebas 2
 $usuario_id=$_REQUEST['usuario_id'];
@@ -41,71 +32,58 @@ if(strtoupper($firma)==strtoupper($firmacreada)){//comparacion de las firmas par
 <table width="%100" border="1">
 <tr>
 <td>Inox do Brasil</td>
-<td>Pagosonline (Cambia nombre)</td>
+<td></td>
 </tr>
 <tr>
 <td>NIT</td>
-<td>######### (Cambiar de NIT)</td>
+<td>#########</td>
 </tr>
 <tr>
 <td>Fecha de procesamiento</td>
-<td><%=@usuario_id %><!--<?php echo $fecha_procesamiento; ?>--></td>
+<td><%=@fecha_procesamiento %><!--<?php echo $fecha_procesamiento; ?>--></td>
 </tr>
 <tr>
 <td>Estado de la transaccion</td>
-<td><!--<?php echo $estadoTx; ?>--> </td>
+<td><%=@estadoTx %><!--<?php echo $estadoTx; ?>--> </td>
 </tr>
 <tr>
 <td>referencia de la venta </td>
-<td><!--<?php echo $ref_venta; ?>--> </td> </tr>
+<td><%=@ref_venta %><!--<?php echo $ref_venta; ?>--> </td> </tr>
 <tr>
 <td>Referencia de la transaccion </td>
-<td><!--<?php echo $ref_pol; ?>--> </td>
+<td><%=@ref_pol %><!--<?php echo $ref_pol; ?>--> </td>
 </tr>
 <tr>
 <!--<?php
 if($banco_pse!=null){
 ?>-->
-<tr>
+<!--<tr>
 <td>cus </td>
-<td><!--<?php echo $cus; ?>--> </td>
+<td><!--<?php echo $cus; ?> </td>
 </tr>
 <tr>
 <td>Banco </td>
-<td><!--<?php echo $banco_pse; ?>--> </td>
+<td><!--<?php echo $banco_pse; ?> </td>
 </tr>
 <!--<?php
 }
 ?>-->
 <tr>
 <td>Valor total</td>
-<td><!--<?php echo number_format($valor); ?>--> </td>
+<td><%=@valor %><!--<?php echo number_format($valor); ?>--> </td>
 </tr>
 <tr>
 <td>moneda </td>
-<td><!--<?php echo $moneda; ?>--></td>
+<td><%=@moneda %><!--<?php echo $moneda; ?>--></td>
 </tr>
 <tr>
-<td>Descripci�n:</td>
-<td><!--<?php echo ($extra1); ?>--></td>
+<td>Descripcion:</td>
+<td><%=@extra1 %><!--<?php echo ($extra1); ?>--></td>
 </tr>
 </table>
-
-
-<input type="button" name="imprimir" value="Imprimir Recibo" onclick="window.print();"><br />
-Si tiene alguna duda acerca de esta transacci&oacute;n por favor cumun&iacute;quese con nuestro servicio al cliente al tel&eacute;fono XXX. <br /> <br />
-Por favor personalizar est� p�gina con logos de la empresa y por lo menos debe existir un link que este enlazado con el inicio.
-
+<!--<input type="button" name="imprimir" value="Imprimir Recibo" onclick="window.print();"><br />-->
+Si tiene alguna duda acerca de esta transaccion por favor comuniquese con nuestro servicio al cliente al telefono. <br /> <br />
 <!--<?php
 }
 ?>-->
-
-    
-    
-    
-    
-    
-    
-    
-  </body>
-</html>
+</div>
