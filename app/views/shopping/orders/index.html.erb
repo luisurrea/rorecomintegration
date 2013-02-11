@@ -94,7 +94,7 @@ Como podemos ver el siguiente botón apunta a nuestro servidor de pruebas.<br />
 <!--<form method="post" action="https://gateway2.pagosonline.net/apps/gateway/index.html" target="_self">-->
 <%= hidden_field_tag 'usuarioId', POLID.to_s %>
 <!--<input name="usuarioId" type="hidden" value="<?php echo $usuarioId?>">-->
-<%= hidden_field_tag 'descripcion',  @order.order_items.each do |item|  item.variant.product.name  end %>
+<%= hidden_field_tag 'descripcion',  @order.order_items.first.variant.product.name %>
 <!--<input name="descripcion" type="hidden" value="<?php echo $descripcion ?>" >-->
 <%= hidden_field_tag 'extra1', ''%>
 <!--<input name="extra1" type="hidden" value="<?php echo $descripcion ?>" >-->
