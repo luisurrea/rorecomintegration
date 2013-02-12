@@ -90,7 +90,7 @@ $firma = md5($firma_cadena); //creación de la firma con la cadena previamente h
 ?>
 Como podemos ver el siguiente botón apunta a nuestro servidor de pruebas.<br />-->
 
-<%= form_tag('https://gateway.pagosonline.net/apps/gateway/index.html') %>
+<%= form_tag('https://gateway2.pagosonline.net/apps/gateway/index.html') %>
 <!--<form method="post" action="https://gateway2.pagosonline.net/apps/gateway/index.html" target="_self">-->
 <%= hidden_field_tag 'usuarioId', POLID.to_s %>
 <!--<input name="usuarioId" type="hidden" value="<?php echo $usuarioId?>">-->
@@ -110,7 +110,7 @@ Como podemos ver el siguiente botón apunta a nuestro servidor de pruebas.<br />
 <!--<input name="firma" type="hidden" value="<?php echo $firma?>">-->
 <%= hidden_field_tag 'emailComprador', ''%>
 <!--<input name="emailComprador" type="hidden" value="<?php echo $emailComprador?>">-->
-<%= hidden_field_tag 'prueba', '0'%>
+<%= hidden_field_tag 'prueba', '1'%>
 <!--<input name="prueba" type="hidden" value="1">-->
 <%= hidden_field_tag 'url_respuesta', 'http://inoxdobrasil.com.co/respuestapol'%>
 <!--<input name="url_respuesta" type="hidden" value="<?php echo $url_respuesta?>">
