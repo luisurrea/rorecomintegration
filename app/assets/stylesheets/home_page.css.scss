@@ -9,10 +9,12 @@ ol#interesting_items-list {
     height:100%;
 
     .interesting_items-details {
+      font-size: 12px;
       text-align: center;
       color: #000;
-      font-weight: bold;
-   }   
+      height:40px;
+      overflow:auto;
+    }   
       .interesting_items-details-price {
       text-align: center;
       color: #44a;
