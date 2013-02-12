@@ -15,6 +15,8 @@ class RespuestapolController < ApplicationController
        @estadotx = "Transaccion rechazada por la entidad"
      elsif(estado_pol == "6" && codigo_respuesta_pol == "23")
        @estadotx = "Transaccion rechazada"
+     elsif(estado_pol == "7" && codigo_respuesta_pol == "15")
+       @estadotx = "Transaccion en proceso de validacion"  
      elsif(estado_pol == "12" && codigo_respuesta_pol == "9994")
        @estadotx = "Pendiente, Por favor revisar si el debito fue realizado en el Banco"
      elsif(estado_pol == "4" && codigo_respuesta_pol== "1")
