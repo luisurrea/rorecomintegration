@@ -14,9 +14,9 @@
                       :style => "#{@product.images.size == 0 ? 'color:#EF2255;' : ''}" %>
         </li>
         <li> <%= link_to 'Producto',     admin_merchandise_product_path(@product) %> </li>
-        <li> <%= link_to 'Propiedades',
+        <!--<li> <%= link_to 'Propiedades',
                           edit_admin_merchandise_changes_product_property_path(@product.id),
-                          :style => "#{@product.properties.size == 0 ? 'color:#EF2255;' : ''}" %> </li>
+                          :style => "#{@product.properties.size == 0 ? 'color:#EF2255;' : ''}" %> </li>-->
         <li>
           <%= link_to 'Variantes',
                       edit_admin_merchandise_multi_product_variant_path(@product),

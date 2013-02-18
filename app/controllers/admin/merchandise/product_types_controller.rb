@@ -50,12 +50,16 @@ class Admin::Merchandise::ProductTypesController < Admin::BaseController
 
   def destroy
     @product_type = ProductType.find(params[:id])
-    @product_type.active = false
-    @product_type.save
-
+    @children = ProductType.where('parent_id = ?', params[:id])
+    if !@children.empty?
+      flash[:alert] = "Lo sentimos, esta categoria es padre de otra categoria, no es posible borrarla."
+    else
+      @product_type.destroy
+    end
     redirect_to :action => :index
+    
   end
-
+  
   private
 
   def form_info

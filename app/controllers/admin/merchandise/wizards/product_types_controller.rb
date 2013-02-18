@@ -7,7 +7,7 @@ class Admin::Merchandise::Wizards::ProductTypesController < Admin::Merchandise::
   def create
     product_type = ProductType.new(params[:product_type])
 
-    flash[:notice] = "Tipo de producto exitosamente creado." if product_type.save
+    flash[:notice] = "Categoria exitosamente creada." if product_type.save
     form_info
     render :action => 'index'
   end
@@ -17,7 +17,7 @@ class Admin::Merchandise::Wizards::ProductTypesController < Admin::Merchandise::
     if @product_type
       session[:product_wizard] ||= {}
       session[:product_wizard][:product_type_id] = @product_type.id
-      flash[:notice] = "Tipo de producto exitosamente agregado."
+      flash[:notice] = "Categoria exitosamente agregada."
       redirect_to next_form
     else
       form_info

@@ -155,11 +155,11 @@ Hadean::Application.routes.draw do
       namespace :wizards do
         resources :brands,              :only => [:index, :create, :update]
         resources :products,            :only => [:new, :create]
-        resources :properties,          :only => [:index, :create, :update]
-        resources :prototypes,          :only => [:update]
+        #resources :properties,          :only => [:index, :create, :update]
+        #resources :prototypes,          :only => [:update]
         resources :tax_categories,        :only => [:index, :create, :update]
         resources :shipping_categories, :only => [:index, :create, :update]
-        resources :product_types,       :only => [:index, :create, :update]
+        resources :product_types,       :only => [:index, :create, :update, :destroy]
       end
 
       namespace :multi do
