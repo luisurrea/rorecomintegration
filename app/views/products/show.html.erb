@@ -55,12 +55,12 @@
                   <%= raw variant.primary_property.try(:property_name)  %>: <%= raw variant.sub_name %>
                 </div>
               <%= number_to_currency variant.price %>
-              <%= variant.display_stock_status %>
+              (Unidades disponibles: <%= variant.quantity_available %> )
             </ul>
           <% end %>
         </div>
       </div>
-      
+    * si la cantidad es superior a 10 unidades, puede modificar la cantidad desde menú / mi pedido  
     <% end %>
     <hr/>
       <div id='product_description' class='left-text-4'>
