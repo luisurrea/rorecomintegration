@@ -85,9 +85,17 @@
         
       </ul>
       <%end%>
-      
-        <!-- Right Nav Section -->
-
+        <%= form_for search_product, :html => {:class => 'search'} do %>
+ 				    <ul class="right">
+      		  <%= submit_tag 'Buscar', :class => 'small radius button inline right', :style => 'margin:8px 10px 0 0' %>
+      		  </ul>
+      		  <ul class="right">       
+      		  <%= text_field_tag 'q', nil , :class => 'text inline left', :id => 'term', :style => 'margin: 6px 0 12px' %>
+      		  </ul>
+    		<% end %>
+    					
+          <!-- Right Nav Section -->
+			
       </section>
     </nav>
   </div>

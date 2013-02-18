@@ -15,7 +15,7 @@ class ProductsController < ApplicationController
         product_types = product_type.self_and_descendants.map(&:id)
         params[:page] ||= 1
         @products = products.where('product_type_id IN (?)', product_types || featured_product_types).
-                           paginate(:per_page => 20, :page => params[:page].to_i)
+                           paginate(:per_page => 24, :page => params[:page].to_i)
         if @parent.empty?
           @categbreadcrumb=product_type.name
         else
@@ -43,7 +43,7 @@ class ProductsController < ApplicationController
     pagination_args[:rows] = params[:rows] || 15
 
     if params[:q] && params[:q].present?
-      @products = Product.standard_search(params[:q], pagination_args).results
+      @products = Product.standard_search(params[:q], pagination_args)
     else
       @products = Product.where('deleted_at IS NULL OR deleted_at > ?', Time.zone.now )
     end
