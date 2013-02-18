@@ -8,4 +8,7 @@ class StaticpagesController < ApplicationController
   def terms
   end
    
+   def conozca_tramontina
+     
+   end
 end

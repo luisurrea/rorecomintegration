@@ -19,7 +19,7 @@ class CartItem < ActiveRecord::Base
   belongs_to :cart
   belongs_to :variant
 
-  QUANTITIES = [1,2,3,4]
+  QUANTITIES = [1,2,3,4,5,6,7,8,9,10]
 
   before_save :inactivate_zero_quantity
 
