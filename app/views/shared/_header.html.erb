@@ -12,7 +12,7 @@
 		</div>
     </div>
     <div id="cartitems">
-    	( <strong>0</strong> items )
+    	( <strong><%= @cart_items.qty %></strong> items )
     </div>
     <div id="cart">
     <%= link_to "Carrito", shopping_cart_items_path, :id => "menu-main-cart"  %>

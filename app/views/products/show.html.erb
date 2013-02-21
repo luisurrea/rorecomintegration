@@ -24,7 +24,7 @@
           <%= f.label :quantity, 'Cantidad:' %>
           <%= f.select :quantity, CartItem::QUANTITIES %>
 
-        <div id='submit_add_to_cart' class="small radius button">Agregar al carro</div>
+        <div class='submit_add_to_cart small radius button'>Agregar al carro</div>
       <% end %>
     <% end %>
   </div>
@@ -47,15 +47,8 @@
       <div id='all-variants' class='dkBlueBox span-8'>
         <div  class='innerBox'>
           <% @product.variants.each_with_index do |variant, i| %>
-            <ul  id='variant_border_<%= i %>'
-                  class='variant_border last <%= 'selected_variant' if i == 0 %>  '
-                  data-variant='<%= variant.id %>' >
-                <div  id='variant_<%= i %>'
-                      class='variant_select' >
-                  <%= raw variant.primary_property.try(:property_name)  %>: <%= raw variant.sub_name %>
-                </div>
-              <%= number_to_currency variant.price %>
-              (Unidades disponibles: <%= variant.quantity_available %> )
+            <ul>               
+              Unidades disponibles: <%= variant.quantity_available %>
             </ul>
           <% end %>
         </div>
