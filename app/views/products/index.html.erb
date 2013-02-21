@@ -30,34 +30,45 @@
 				<%= will_paginate @products %>	
 	  </div>
 	  <%end%>
-	  
 	  <ol id='interesting_items-list'>
 	    <% @products.each_with_index do |product, i| %>
 	    	<li class='four columns' style="height: 200px; overflow: hidden;">
       		<div class="interesting_items-details">
-      			<%=link_to product.name, product_path(product) %></div>
-        		<div class="interesting_items-image">
-        			<%= link_to image_tag(product.featured_image(:small)), product_path(product), title: product.name %></div>
-          		<div class="interesting_items-details-price">
-          		<h3> <span class="price"> <%= number_to_currency product.price_range.first %>
-  	          	<% if product.price_range? %>
-    	            to <%= number_to_currency product.price_range.last %>
-      	      	<% end %></span></h3> 
-      	 		  
+      			<%=link_to product.name, product_path(product) %>
       		</div>
-      		</li>
-      	<% end %>	
-     </ol>
-      	
-    <%end%>
-    
-  </div>
+        	<div class="interesting_items-image">
+        			<%= link_to image_tag(product.featured_image(:small)), product_path(product), title: product.name %>
+        	</div>
+          <div class="interesting_items-details-price">
+          	 <%= number_to_currency product.price_range.first %>
+  	         <% if product.price_range? %>
+    	          to <%= number_to_currency product.price_range.last %>
+      	     <% end %> 
+      	     <br />
+      	     <% unless product.variants.empty?%>
+      		     <%= form_for  @cart_item, :as => :cart_item,
+                  :url  => shopping_cart_items_path(@cart_item),
+                  :html => { :id => 'new_cart_item' } do |f| %>
+        					<%= f.hidden_field :variant_id, :value => product.variants.first.try(:id) %>
+   						    <%= f.hidden_field :quantity, :value => 1 %>
+					        <div class='submit_add_to_cart small radius button'>Agregar al carro</div>
+      		     <% end %>
+      	     <%end%>
+      	 	</div>
+      	</li>
+      <% end %>	
+    </ol>
+  <%end%>
+	</div>
 </div>
-
 <div id="containerleftcont">
 	<%= render 'shared/main_product_tabs' %>
 </div>
-
+<% content_for :below_body do -%>
+  <script>
+    Hadean.Utility.registerOnLoadHandler(Hadean.Cart.NewForm.initialize());
+  </script>
+<% end %>
 
 <!--<div id='right_side_panel' class='span-6 last'>
   <div id='right_side_panel_promo' class='span-6 last'>
