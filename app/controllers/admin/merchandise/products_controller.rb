@@ -93,10 +93,9 @@ class Admin::Merchandise::ProductsController < Admin::BaseController
 
   def destroy
     @product = Product.find(params[:id])
-    @product.active = false
-    @product.save
-
-    redirect_to admin_merchandise_product_url(@product)
+    @product.destroy
+    flash[:notice] = "Producto eliminado"
+    redirect_to admin_merchandise_products_path
   end
 
   private
