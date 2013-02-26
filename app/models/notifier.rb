@@ -1,5 +1,5 @@
 class Notifier < ActionMailer::Base
-  default :from => "system@inoxdobrasil.com"
+  default :from => "info@inoxdobrasil.com"
 
   # Simple Welcome mailer
   # => CUSTOMIZE FOR YOUR OWN APP
