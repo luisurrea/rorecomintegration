@@ -7,7 +7,7 @@ Hadean.Utility = {
 
 Hadean.Cart = {
   NewForm : {
-    newFormId : '#new_cart_item',
+    newFormId : '.new_cart_item',
     addToCart : true,
 
     initialize      : function() {
