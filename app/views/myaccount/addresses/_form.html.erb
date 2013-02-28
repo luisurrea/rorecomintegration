@@ -30,8 +30,8 @@
     	<%= f.label :state_name %>
       <%= f.text_field :state_name, :class => 'span-3' %>
     <% end %>
-    <%= f.label :zip_code, 'Codigo Postal' %>
-    <%= f.text_field :zip_code, :class => 'span-2' %>
+    <!--<%= f.label :zip_code, 'Codigo Postal' %>-->
+    <%= f.hidden_field :zip_code, :value => 000000 %>
     <!--<%#= f.input :phone %>-->
     <div class="one column">
     <%= f.check_box :default %>

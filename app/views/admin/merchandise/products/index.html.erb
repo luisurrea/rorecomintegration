@@ -33,6 +33,7 @@
     <thead>
     <tr class='odd'>
         <th class='column1_header'><%= sortable "Nombre" %></th>
+        <th>SKU</th>
         <th>Activo</th>
         <th><%= 'Categoria' %></th>
         <th></th>
@@ -42,6 +43,11 @@
     <% @products.each do |product| %>
       <tr class='<%= cycle("odd", "")%>'>
         <td><%= link_to product.name, edit_admin_merchandise_product_path(product) %></td>
+        <td>
+        	<% product.variants.each do |variant|%>
+            -<%= variant.sku %>-
+            <% end %>
+        </td>
         <td><%=  product.available? ? 'Si' : 'No' %></td>
         <td><%=  product.product_type.name %></td>
         <td><%= link_to "Editar Variantes",  edit_admin_merchandise_multi_product_variant_path(product) %></td>

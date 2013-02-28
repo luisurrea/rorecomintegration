@@ -5,7 +5,8 @@ class Admin::Merchandise::ProductsController < Admin::BaseController
 
   def index
     params[:page] ||= 1
-    @products = Product.admin_grid(params).order(sort_column + " " + sort_direction).
+    @variants = Variant.all
+    @products = Product.admin_grid(params).order(sort_column + " " + sort_direction).includes(:variants).
                                               paginate(:per_page => 25, :page => params[:page].to_i)
     respond_to do |format|
       format.html
