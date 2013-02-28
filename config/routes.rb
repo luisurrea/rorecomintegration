@@ -52,6 +52,7 @@ Hadean::Application.routes.draw do
   end
 
   namespace :admin do
+    resources :staticpages
     resources :users
     resources :overviews, :only => [:index]
 

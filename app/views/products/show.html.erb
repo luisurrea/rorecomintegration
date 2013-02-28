@@ -32,7 +32,7 @@
       
     </div>
     <% if @product.variants.empty? %>
-      <h3><%= @product.name %> <span class="price">  <%= number_to_currency @product.price_range.first %>
+      <h3><%= @product.name %> <span class="price">  <%= number_to_currency(@product.price_range.first, :precision => 0, :separator => ".") %>
         <% if @product.price_range? %>
             to <%= number_to_currency @product.price_range.last %>
         <% end %></span></h3>
@@ -40,7 +40,7 @@
         Lo sentimos este producto no se encuentra disponible.
       </div>
     <% else %>
-      <h3><%= @product.name %><span class="price"> <%= number_to_currency @product.price_range.first %>
+      <h3><%= @product.name %><span class="price"> <%= number_to_currency(@product.price_range.first, :precision => 0, :separator => ".") %>
         <% if @product.price_range? %>
             to <%= number_to_currency @product.price_range.last %>
         <% end %></span> </h3>

@@ -39,14 +39,14 @@
       </thead>
       <% @order.order_items.each do |item| %>
         <tr class='<%= cycle("odd", "")%> '>
-          <td><%= item.variant.product.name %></td><td><%= number_to_currency item.price %></td><td><%= number_to_currency item.total %></td>
+          <td><%= item.variant.product.name %></td><td><%= number_to_currency(item.price, :precision => 0, :separator => ".") %></td><td><%= number_to_currency(item.total, :precision => 0, :separator => ".") %></td>
         </tr>
       <% end %>
       <tr class='odd'>
-        <td></td><td>Sub-total:</td><td><%= number_to_currency @order.sub_total %></td>
+        <td></td><td>Sub-total:</td><td><%= number_to_currency(@order.sub_total, :precision => 0, :separator => ".") %></td>
       </tr>
       <tr>
-        <td></td><td>Costos de envio:</td><td><%= number_to_currency @order.shipping_charges %></td>
+        <td></td><td>Costos de envio:</td><td><%= number_to_currency(@order.shipping_charges, :precision => 0, :separator => ".") %></td>
       </tr>
       <% if @order.coupon_amount > 0.0 %>
         <tr>
@@ -60,7 +60,7 @@
       <% end %>
       <tfoot>
         <tr class='even'>
-          <td></td><td>Total:</td><td><em><%= number_to_currency @order.total %></em></td>
+          <td></td><td>Total:</td><td><em><%= number_to_currency(@order.total, :precision => 0, :separator => ".") %></em></td>
         </tr>
       </tfoot>
     </table>
