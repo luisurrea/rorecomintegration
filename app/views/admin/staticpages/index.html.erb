@@ -4,6 +4,7 @@
   <div style="text-align:center">
     <%= link_to "Nueva pagina", new_admin_staticpage_path, :class => "radius button", :method => 'get' %>
    </div>
+<% end %>   
    <table>
     <thead>
     <tr class='odd'>
@@ -12,15 +13,10 @@
     </thead>
     <% @pages.each do |page| %>
       <tr class='<%= cycle("odd", "")%>'>
-        <td><%= link_to page.name, edit_staticpage_path(page) %></td>
-      <!--  <td><%=  product.available? ? 'Si' : 'No' %></td>
-        <td><%=  product.product_type.name %></td>
-        <td><%= link_to "Editar Variantes",  edit_admin_merchandise_multi_product_variant_path(product) %></td>
-        <td><%= link_to "ver",  admin_merchandise_product_path(product) %></td>
-        <td><%= link_to "borrar",  admin_merchandise_product_path(product), confirm: 'Esta seguro?', method: :delete %></td>-->
+        <td><%= link_to page.name, edit_admin_staticpage_path(page) %></td>
+        <td><%= link_to "borrar",  admin_staticpage_path(page), confirm: 'Esta seguro?', method: :delete %></td>
       </tr>
     <% end %>
   </table>
 
      
-<% end %>
