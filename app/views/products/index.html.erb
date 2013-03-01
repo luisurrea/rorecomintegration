@@ -32,7 +32,7 @@
 	  <%end%>
 	  <ol id='interesting_items-list'>
 	    <% @products.each_with_index do |product, i| %>
-	    	<li class='four columns' style="height: 200px; overflow: hidden;">
+	    	<li class='four columns' style="height: 240px; overflow: hidden;">
       		<div class="interesting_items-details">
       			<%=link_to product.name, product_path(product) %>
       		</div>

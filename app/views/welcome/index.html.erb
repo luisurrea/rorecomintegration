@@ -9,7 +9,7 @@
 		<div class="panel"><h5>Productos Destacados</h5></div>
 		<ol id='interesting_items-list'>
   		<% @featured_product.each do |pro, i| %>
-     	 <li class='four columns' style="height: 200px; overflow: hidden;">
+     	 <li class='four columns' style="height: 240px; overflow: hidden;">
           <div class='interesting_items-details'><%= pro.name %></div>
           <div class='interesting_items-image'>
             <%= link_to image_tag(pro.featured_image(:small)), product_path(pro), title: pro.name %>
