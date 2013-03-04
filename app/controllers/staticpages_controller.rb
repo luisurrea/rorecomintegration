@@ -3,6 +3,8 @@ class StaticpagesController < ApplicationController
   end
 
   def empresa
+    
+    @page = Staticpage.where('name = ?', 'Empresa')
   end
 
   def terms

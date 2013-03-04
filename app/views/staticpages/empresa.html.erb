@@ -1,32 +1,9 @@
 <div class="eleven columns centered">
 	<div class="panel"><h5>Empresa</h5></div>
 <div class="twelve column centered">
-	<h6>HISTORIA</h6>
-<p>
-Desde el año 2010 llevamos practicidad y la mejor calidad a los hogares colombianos; atentos a
-ofrecer el mejor servicio y los mejores precios, siempre.
-
-En nuestra tienda física (Calle 93 Nº 13-28) y ahora en nuestra tienda online, es posible encontrar
-productos Tramontina de diferentes segmentos: ollas y sartenes, cuchillos, cubiertos, jardinería,
-lavaplatos, herramientas y muebles. Productos originales y con el respaldo total de garantía.
-
-INOX DO BRASIL, conocida como “la tienda de Tramontina”, es sin duda, el lugar ideal para
-quien busca calidad, buen gusto y los mejores precios con la marca TRAMOTINA.
-</p>
-<h6>MISION</h6>
-
-<p> las necesidades de clientes y consumidores con productos Tramontina y atención
-diferenciados.</p>
-
-<h6>VISION</h6>
-<p>
-Ser reconocidos por la excelencia en el servicio y la variedad de productos Tramontina.</p>
-
-<h6> VALORES</h6>
-<ul>
-<li> Honestidad</li>
-<li> Dedicación</li>
-<li> Atención a los detalles</li>
-</ul>	
+	<% @page.each do |page| %>
+		<%= raw page.description %>
+		<%end%>
+	<br /><br />	
 </div>
 	</div>	    

@@ -45,7 +45,7 @@ class Admin::StaticpagesController < Admin::BaseController
 
     respond_to do |format|
       if @page.save
-        format.html { redirect_to @page, notice: 'Page was successfully created.' }
+        format.html { redirect_to admin_staticpages_url, notice: 'La pagina se creo correctamente.' }
         format.json { render json: @page, status: :created, location: @page }
       else
         format.html { render action: "new" }
@@ -61,7 +61,7 @@ class Admin::StaticpagesController < Admin::BaseController
 
     respond_to do |format|
       if @page.update_attributes(params[:staticpage])
-        format.html { redirect_to @page, notice: 'Page was successfully updated.' }
+        format.html { redirect_to admin_staticpages_url, notice: 'La pagina se actualizo correctamente.' }
         format.json { head :no_content }
       else
         format.html { render action: "edit" }
