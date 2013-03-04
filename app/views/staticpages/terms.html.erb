@@ -1,12 +1,13 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Store | Terminos y condiciones</title>
-  </head>
-  <body>
-    <h2>Terminos y condiciones</h2>
-    <p>
-      Aqui van los terminos y condiciones del sitio web
-    </p>
-  </body>
-</html>
+<% if @page.empty?%>
+		<div class="panel"><h5> No se ha cargado contenido a esta pagina</h5></div>
+<%else%>
+	<div class="eleven columns centered">
+		<% @page.each do |page| %>
+			<div class="panel"><h5><%=page.name%></h5></div>
+			<div class="twelve column centered">
+				<%= raw page.description %>
+			</div>
+		<%end%>
+	</div>	 
+	<br /><br />
+<%end%>

@@ -1,9 +1,19 @@
-<div class="eleven columns centered">
-	<div class="panel"><h5>Empresa</h5></div>
-<div class="twelve column centered">
-	<% @page.each do |page| %>
-		<%= raw page.description %>
+<% if @page.empty?%>
+		<div class="panel"><h5> No se ha cargado contenido a esta pagina</h5></div>
+<%else%>
+	<div class="eleven columns centered">
+		<% @page.each do |page| %>
+			<div class="panel"><h5><%=page.name%></h5></div>
+			<div class="twelve column centered">
+				<%= raw page.description %>
+			</div>
 		<%end%>
-	<br /><br />	
-</div>
-	</div>	    
+	</div>	 
+	<br /><br />
+<%end%>
+	
+	
+
+	
+
+	   

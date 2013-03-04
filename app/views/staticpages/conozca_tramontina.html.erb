@@ -1,43 +1,13 @@
-<div class="eleven columns centered">
-	<div class="panel"><h5>Conozca Tramontina</h5></div>
-<div class="twelve column centered">
-
-<p>
-Tramontina nació en 1911 como una pequeña ferretería en un terreno alquilado . Hoy, esta empresa
-brasileña, sobrepasa los 6 mil trabajadores y en sus 10 fábricas producen 17 mil artículos. La
-variedad y diversidad de productos permite que la marca está hoy presente en más de 120 países.
-
-La valoración de la consciencia social y el respeto por el medio ambiente son características fuertes
-que se reflejan en la preocupación por el bienestar y la calidad de vida de las comunidades donde
-están insertas.</p>
-<h5>Tramontina y el medio ambiente</h5>
-<h6>Selvas de producción</h6>
-<p> Consciente de que el mantenimiento de las selvas es fundamental para la conservación del medio
-ambiente Tramontina invierte en proyectos de selvas de producción que son sembradas con el
-objetivo específico de sacrificio, para atender a la demanda de la industria maderera, siendo una
-excelente alternativa para aliviar las presiones de consumo que amenazan a las selvas naturales.</p>
-
-<h6>Tratamiento de residuos sólidos</h6>
-<p>
-Los residuos sólidos generados por las empresas Tramontina situadas en la Sierra gaucha van
-a la Central de Residuos Industriales. El proceso de los residuos involucra chatarras, residuos
-peligrosos y no peligrosos. La chatarra reciclable es enviada a un seleccionador donde se selecciona
-y se coloca en sacos, de acuerdo con el tipo, y es destinada a futuras comercializaciones.
-
-Los residuos que puedan representar algún riesgo al medio ambiente son depositados en los rellenos
-sanitarios para Residuos Industriales Peligrosos, mientras que los que no presentan toxicidad son
-colocados en los rellenos sanitarios de Clase II. La construcción de los rellenos sanitarios se basa
-en proyectos de ingeniería para que no exista riesgo alguno para el medio ambiente. próximos 120
-años.</p>
-
-<h6> Sistema de retención de polvos de madera</h6>
-<p>En Tramontina, existen equipos especiales para promover la remoción de contaminantes de gases
-generados durante los innumerables procesos industriales. Éstos permiten tanto el tratamiento del
-aire antes de ser lanzado a la atmósfera como el reaprovechamiento del residuo.</p>
-<h6>Tratamiento de efluentes</h6>
-<p>Las unidades de Tramontina realizan el tratamiento de sus efluentes en estaciones propias. En
-la unidad Tramontina Farroupilha, toda el agua utilizada en el proceso industrial, sanitarios y
-lavadoras es tratada y después reaprovechada en el mismo proceso industrial, en la refrigeración de
-máquinas, la descarga de los baños y para regar jardines y limpiar los pisos.</p>
-</div>
-	</div>	    
+<% if @page.empty?%>
+		<div class="panel"><h5> No se ha cargado contenido a esta pagina</h5></div>
+<%else%>
+	<div class="eleven columns centered">
+		<% @page.each do |page| %>
+			<div class="panel"><h5><%=page.name%></h5></div>
+			<div class="twelve column centered">
+				<%= raw page.description %>
+			</div>
+		<%end%>
+	</div>	 
+	<br /><br />
+<%end%>  
