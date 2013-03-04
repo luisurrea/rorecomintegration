@@ -186,6 +186,7 @@ Hadean::Application.routes.draw do
   match '/empresa', to: 'staticpages#empresa'
   match '/terms', to: 'staticpages#terms'
   match '/conozca_tramontina', to:  'staticpages#conozca_tramontina'
+  match '/videos_y_recetas', to:  'staticpages#videos_y_recetas'
   match '/contacto', to: 'forms_pages#new', :as => 'contactmsgs', :via => :get
   match '/contacto', to: 'forms_pages#create', :as => 'contactmsgs', :via => :post
   match '/respuestapol', to: 'respuestapol#index', :via => :get

@@ -10,4 +10,7 @@ class StaticpagesController < ApplicationController
   def conozca_tramontina
     @page = Staticpage.where('name = ?', 'Conozca Tramontina')
   end
+  def videos_y_recetas
+    @page = Staticpage.where('name = ?', 'Videos y Recetas')
+  end
 end
