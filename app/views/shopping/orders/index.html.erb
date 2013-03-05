@@ -3,10 +3,7 @@
 <% end %>
 <div id='order-wrapper' class='span-24'>
   <div class='span-14'>
-  	
     <div class="panel"><h5>Resumen de la orden </h5></div>
-
- 
     <div class="row">
     <div class='six columns'style="border-style: dotted; border-color:#CCCCCC;">
       <h5>Direccion de envio</h5>
@@ -58,8 +55,7 @@
     </table>
     <div>
   </div>
-
-<%= form_tag('https://gateway2.pagosonline.net/apps/gateway/index.html') %>
+<%= form_tag('https://gateway.pagosonline.net/apps/gateway/index.html')  do %>
 <%= hidden_field_tag 'usuarioId', POLID.to_s %>
 <%= hidden_field_tag 'descripcion',  @order.order_items.first.variant.product.name %>
 <%= hidden_field_tag 'extra1', ''%>
@@ -69,10 +65,9 @@
 <%= hidden_field_tag 'iva', @order.get_iva %>
 <%= hidden_field_tag 'firma', @order.get_cadena %>
 <%= hidden_field_tag 'emailComprador', ''%>
-<!--<%= hidden_field_tag 'prueba', '1'%>-->
 <%= hidden_field_tag 'url_respuesta', 'http://inoxdobrasil.com.co/respuestapol'%>
 <%= image_submit_tag("logopol.png", :style => "float: right; margin-right: 25px; margin-bottom: 20px;")  %>
-    <% end %>
+<% end %>
   </div>
 </div>
 <div><%= image_tag('footer formas de pago-01.jpg') %></div>
