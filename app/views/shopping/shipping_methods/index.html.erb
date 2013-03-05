@@ -1,5 +1,5 @@
 <div class="panel">
-  <h5>Seleccione un metodo de envio</h5>
+  <h5>Envio de productos</h5>
 </div>
  <%= form_tag(shopping_shipping_method_path(session_order.id), :method => :put) do -%>
     <% @order_items.group_by(&:shipping_category_id).each do |shipping_category_id, items| %>
@@ -13,12 +13,9 @@
                 </div>
             </div>
           <% end %>
-          <h6>metodos disponibles:</h6>
-          <ul style="list-style-type: none">
-          <% items.first.shipping_rate_options(session_order.sub_total).each do |rate| %>
-            <li><%= radio_button_tag "shipping_category[#{shipping_category_id}]", rate.id %> <%= rate.name_rate_min %></li>
-          <% end %>
-          </ul>
+          <br /> <br />
+          <%= hidden_field_tag "shipping_category[#{@inoxmethod.shipping_category_id}]", @inoxmethod.id %> 
+          <p>Si la compra es superior a $30.000 El envio es gratuito, de lo contrario, tiene un valor de $5.000 adicional a la compra</p>
     <% end %>
     <%= submit_tag 'continuar', :class => 'radius button', :style => 'float:right;margin-bottom:20px;'%>
   <% end %>
