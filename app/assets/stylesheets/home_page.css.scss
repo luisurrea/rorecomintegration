@@ -24,6 +24,13 @@ ol#interesting_items-list {
     .interesting_items-image {
       height:110px;
       text-align: center;
+       line-height: 110px;
+       img {
+  
+  vertical-align: middle;
+  
+            }
+      
     }
   }
 }
