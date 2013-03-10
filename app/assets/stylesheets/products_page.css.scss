@@ -54,7 +54,15 @@ ol#interesting_items-list {
       text-align: center;
     }
     .interesting_items-image {
-      height:85px;
+      height:110px;
+      text-align: center;
+       line-height: 110px;
+       img {
+  
+  vertical-align: middle;
+  
+            }
+      
     }
   }
 }
