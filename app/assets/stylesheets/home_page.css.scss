@@ -22,6 +22,7 @@ ol#interesting_items-list {
       
     }
     .interesting_items-image {
+       img {display: table-cell; vertical-align: middle;}
       height:110px;
       text-align: center;
     }
