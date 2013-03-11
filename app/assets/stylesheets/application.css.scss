@@ -1,6 +1,16 @@
 //= require  main
 //= require  print
 
+.top-bar {
+    height: 57px;
+    line-height: 57px;    
+}
+.top-bar ul > li a:not(.button) {
+    height: 57px;
+    line-height: 57px;
+   }
+
+
 .body{
 	background:url(main_bg.jpg) no-repeat center fixed ;
 }
@@ -76,15 +86,15 @@ font-size:smaller;
 float:right;
 }
 #logo{
-width: 11%;
+width: 21%;
 float:left;	
 img{
-  margin-top:34%;
-  margin-left:3%; 
+ margin-top:18%;
+  
 }
 }
 #navbar{
-width: 89%;
+width: 79%;
 float:right;
 margin-top:16px;
 display:inline;

@@ -34,7 +34,7 @@
   <div class="row">
   	<div id ="logo">
           <div>
-            <%= image_tag('inox 100 x 40.jpg') %>
+            <%= image_tag('inox 100 x 40.png') %>
           </div>
         </div>
   <div id="navbar">
@@ -87,10 +87,10 @@
       <%end%>
         <%= form_for search_product, :html => {:class => 'search'} do %>
  				    <ul class="right">
-      		  <%= submit_tag 'Buscar', :class => 'small radius button inline right', :style => 'margin:8px 10px 0 0' %>
+      		  <%= submit_tag 'Buscar', :class => 'small radius button inline right', :style => 'margin:14px 10px 0 0' %>
       		  </ul>
       		  <ul class="right">       
-      		  <%= text_field_tag 'q', nil , :class => 'text inline left', :id => 'term', :style => 'margin: 6px 0 12px' %>
+      		  <%= text_field_tag 'q', nil , :class => 'text inline left', :id => 'term', :style => 'margin: 12px 0 12px' %>
       		  </ul>
     		<% end %>
     					
