@@ -4,11 +4,25 @@ class Admin::Merchandise::ProductsController < Admin::BaseController
   authorize_resource
 
   def index
-    params[:page] ||= 1
-    @products = Product.admin_grid(params).order(sort_column + " " + sort_direction).includes(:variants).
-                                              paginate(:per_page => 25, :page => params[:page].to_i)
-    respond_to do |format|
-      format.html
+    if params[:sku].present?
+      
+      params[:page] ||= 1
+      @variant = Variant.where('sku LIKE ?', params[:sku]+'%')
+      if @variant.empty?
+        @products = Product.where('name LIKE ?', params[:name]).
+                                                paginate(:per_page => 25, :page => params[:page].to_i)
+      else
+        @variant.each do |var|
+        @products = Product.where('id = ?', var.product_id).paginate(:per_page => 25, :page => params[:page].to_i)
+        end
+      end
+    else
+      params[:page] ||= 1
+      @products = Product.admin_grid(params).order(sort_column + " " + sort_direction).includes(:variants).
+                                                paginate(:per_page => 25, :page => params[:page].to_i)
+      respond_to do |format|
+        format.html
+      end
     end
   end
 
