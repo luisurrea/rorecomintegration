@@ -15,7 +15,8 @@
             <%= link_to image_tag(pro.featured_image(:small)), product_path(pro), title: pro.name %>
           </div>
          	<div class='interesting_items-details-price'>
-	           <%= number_to_currency(pro.price_range.first, :precision => 0, :separator => ".")  %>
+	           <%= number_to_currency(pro.price_range.first, :precision => 0, :separator => ".")  %><br />
+				<%= number_to_currency(pro.price_cost.first, :precision => 0, :separator => ".")  %>	           
   	         <% if pro.price_range? %>
     	         to <%= number_to_currency pro.price_range.last %>
       	     <% end %>

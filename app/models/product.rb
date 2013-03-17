@@ -137,6 +137,21 @@ class Product < ActiveRecord::Base
   #
   # @param [none]
   # @return [Array] [Low price, High price]
+  def price_cost
+    return @price_cost if @price_cost
+    return @price_cost = ['N/A', 'N/A'] if active_variants.empty?
+    @price_cost= active_variants.inject([active_variants.first.cost, active_variants.first.cost]) do |a, variant|
+      a[0] = variant.cost if variant.cost < a[0]
+      a[1] = variant.cost if variant.cost > a[1]
+      a
+    end
+  end
+  def price_cost?
+    !(price_cost.first == price_cost.last)
+  end
+  
+  
+  
   def price_range
     return @price_range if @price_range
     return @price_range = ['N/A', 'N/A'] if active_variants.empty?
