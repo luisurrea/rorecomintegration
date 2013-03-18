@@ -1,5 +1,5 @@
 class Notifier < ActionMailer::Base
-  default :from => "info@inoxdobrasil.com"
+  default :from => "info@inoxdobrasil.com.co"
 
   # Simple Welcome mailer
   # => CUSTOMIZE FOR YOUR OWN APP
@@ -36,6 +36,14 @@ class Notifier < ActionMailer::Base
     @site_name = 'site_name'
     mail(:to => order.email,
          :subject => "Confirmacion de la orden")
+  end
+  
+  def contact_message(message)
+    mail(:to => "info@inoxdobrasil.com.co",
+         :subject => message.subject) do |format|
+      format.text { render :text => "nombre cliente:  #{message.name} email cliente: #{message.email} mensaje cliente: #{message.body}" }
+      
+    end
   end
 
 end

@@ -2,7 +2,7 @@
   <%= stylesheet_link_tag 'shopping_cart_page.css' %>
 <% end %>
 <div class="panel">
-  <h5>Carrito</h5>
+  <h5>Carrito </h5>
 </div>
 <div id='cart-items-wrapper' class='items-wrapper span-18 last'>
   <%= form_for session_cart, :url => shopping_cart_item_path(session_cart), :as => :cart do |cart_form| %>
@@ -44,7 +44,7 @@
                           <% end %>
                         </tbody>
                       </table>
-                      <p>Si la compra es superior a $30.000 El envio es gratuito, de lo contrario, tiene un valor de $5.000 adicional a la compra</p>
+                      <h4>Si la compra es superior a $30.000 El envio es gratuito, de lo contrario, tiene un valor de $5.000 adicional a la compra</h4>
             </td>
           </tr>
           
@@ -73,7 +73,7 @@
               </table>
             </td>
           </tr>
-				<p>Si la compra es superior a $30.000 El envio es gratuito, de lo contrario, tiene un valor de $5.000 adicional a la compra</p>
+				<h4>Si la compra es superior a $30.000 El envio es gratuito, de lo contrario, tiene un valor de $5.000 adicional a la compra</h4>
         <% end %>
 
       </tbody>

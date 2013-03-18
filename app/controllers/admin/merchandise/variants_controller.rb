@@ -56,8 +56,7 @@ class Admin::Merchandise::VariantsController < Admin::BaseController
 
   def destroy
     @variant = Variant.find(params[:id])
-    @variant.deleted_at = Time.zone.now
-    @variant.save
+    @variant.destroy
 
     redirect_to admin_merchandise_product_variants_url(@variant.product)
   end

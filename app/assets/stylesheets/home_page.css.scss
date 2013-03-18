@@ -15,6 +15,15 @@ ol#interesting_items-list {
       height:40px;
       overflow:auto;
     }   
+    
+    .interesting_items-details-old_price {
+      text-align: center;
+      color: red;
+      font-weight: bold;
+      text-decoration:line-through;
+      
+    }
+       
       .interesting_items-details-price {
       text-align: center;
       color: #44a;

@@ -10,6 +10,7 @@ class Shopping::CartItemsController < Shopping::BaseController
   # POST /shopping/cart_items
   # POST /shopping/cart_items.xml
   def create
+    @test = params[:cart_item]
     @cart_item = get_new_cart_item
     session_cart.save if session_cart.new_record?
     qty = params[:cart_item][:quantity].to_i

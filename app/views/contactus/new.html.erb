@@ -1,0 +1,46 @@
+<div class="eleven columns centered">
+<div class="panel ">
+<h5>Contacto</h5>
+</div>
+<h5>Email: info@inoxdobrasil.com.co</h5>
+
+
+<div class="six columns centered">
+
+<%= form_for @message, :url => contacto_path do |form| %>
+<fieldset>
+	<% if @message.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@message.errors.count, "error") %> prohibited this message from being sent:</h2>
+
+      <ul>
+      <% @message.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+	<div class="twelve columns">
+	<p>
+		<%= label_tag 'Nombre' %>
+		<%= text_field_tag :name %>
+	</p>
+	<p>
+		<%= label_tag 'Direccion de correo electronico' %>
+		<%= text_field_tag :email %>
+	</p>
+	<p>
+		<%= label_tag 'Asunto' %>
+		<%= text_field_tag :subject %>
+	</p>
+	<p>
+		<%= label_tag 'Escriba su mensaje' %>
+		<%= text_area_tag :body %>
+	</p>
+	<%= submit_tag "Enviar", :class => 'button' %>
+	<br /><br />
+	</div>
+	</fieldset>
+<% end %>
+</div>
+</div>

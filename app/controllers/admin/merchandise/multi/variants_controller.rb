@@ -16,6 +16,13 @@ class Admin::Merchandise::Multi::VariantsController < Admin::BaseController
       render :action => :edit, :layout => 'admin_markup'
     end
   end
+  
+  def destroy
+    @variant = Variant.find(params[:id])
+    @variant.destroy
+
+    redirect_to admin_merchandise_product_variants_url(@variant.product)
+  end
   private
 
   def form_info
