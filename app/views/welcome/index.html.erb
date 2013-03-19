@@ -26,13 +26,7 @@
       	     <% end %>
       	     <br />
       	     <% unless pro.variants.empty?%>
-      		     <%= form_for  @cart_item, :as => :cart_item,
-                  :url  => shopping_cart_items_path(@cart_item),
-                  :html => { :id => 'new_cart_item' } do |f| %>
-        					<%= f.hidden_field :variant_id, :value => pro.variants.first.try(:id) %>
-   						    <%= f.hidden_field :quantity, :value => 1 %>
-					        <div class='submit_add_to_cart small radius button'>Agregar al carro</div>
-      		     <% end %>
+      		     <%= link_to 'Ir al producto',product_path(pro), :class => 'small radius button'%>
       	     <%end%>
           </div>
         </li>
