@@ -19,12 +19,12 @@
     <%= form_for  @cart_item, :as => :cart_item,
                   :url  => shopping_cart_items_path(@cart_item),
                   :html => { :id => 'new_cart_item' } do |f| %>
-        <%= f.hidden_field :variant_id, :value => @product.variants.first.try(:id) %>
+        <%= f.hidden_field :variant_id, :value => @product.variants.first.try(:id), :class => 'formvars' %>
       <% unless @product.variants.empty? %>
           <%= f.label :quantity, 'Cantidad:' %>
-          <%= f.select :quantity, CartItem::QUANTITIES %>
+          <%= f.select :quantity, CartItem::QUANTITIES, :class => 'formvars' %>
 
-        <div class='submit_add_to_cart small radius button'>Agregar al carro</div>
+        <div id= submit_add_to_cart ><%= submit_tag 'Agregar al carro', :id =>'submit_add_to_cart', :class => 'small radius button'%></div>
       <% end %>
     <% end %>
   </div>
