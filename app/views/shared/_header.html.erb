@@ -52,7 +52,7 @@
             <a class="active" href="/products">Productos</a>
             <ul class="dropdown">
               <% product_types.each do |pt_tab| %>
-    <li class="has-dropdown"><%=link_to pt_tab.name %>
+    <li class="has-dropdown"><%=link_to pt_tab.name, products_path(:product_type_id => pt_tab.id) %>
     <ul class="dropdown">
     <% pt_tab.children.each do |children| %>
 		      						<li><%=link_to children.name, products_path(:product_type_id => children.id) %> </li>

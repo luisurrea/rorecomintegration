@@ -16,10 +16,10 @@
           </div>
           <%unless pro.price_cost.first == 0 || pro.price_cost.first == 'N/A' %>
           <div class='interesting_items-details-old_price'>
-          <%= number_to_currency(pro.price_cost.first, :precision => 0, :separator => ".")  %>	<br />
+          De: <%= number_to_currency(pro.price_cost.first, :precision => 0, :separator => ".")  %>	<br />
           </div>
           <%end%>
-         	<div class='interesting_items-details-price'>
+         	<div class='interesting_items-details-price'><%unless pro.price_cost.first == 0 || pro.price_cost.first == 'N/A' %>Por: <%end%>         		
          		<%= number_to_currency(pro.price_range.first, :precision => 0, :separator => ".")  %>
 				     <% if pro.price_range? %>
     	         to <%= number_to_currency pro.price_range.last %>

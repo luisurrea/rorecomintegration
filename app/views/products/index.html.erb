@@ -60,7 +60,14 @@
     </ol>
   <%end%>
 	</div>
-	<%= will_paginate @products %>	
+	<div class="row"></div>
+	<% if params[:page].present?%>
+		<div class="eleven columns centered">
+		<div class="panel">
+				<%= will_paginate @products %>	
+	  </div>
+	  </div>
+	  <%end%>
 </div>
 <div id="containerleftcont">
 	<%= render 'shared/main_product_tabs' %>
