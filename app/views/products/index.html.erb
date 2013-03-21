@@ -51,7 +51,7 @@
                   	:html => { :id => 'new_cart_item' } do |f| %>
         					<%= f.hidden_field :variant_id, :value => product.variants.first.try(:id), :class => 'formvars' %>
    						    <%= f.hidden_field :quantity, :value => 1 , :class => 'formvars'%>
-					        <%= submit_tag 'Agregar al carro to Cart', :id =>'submit_add_to_cart', :class => 'small radius button'%>
+					        <%= submit_tag 'Agregar al carro', :id =>'submit_add_to_cart', :class => 'small radius button'%>
       		     <% end %>
       	     <%end%>
       	 	</div>
