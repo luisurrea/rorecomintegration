@@ -7,12 +7,33 @@ Hadean.Utility = {
 
 Hadean.Cart = {
   NewForm : {
-    newFormId : '.new_cart_item',
+    newFormId : '#new_cart_item',
     addToCart : true,
 
     initialize      : function() {
-      jQuery('.submit_add_to_cart').click( function() {
-          if (jQuery('#cart_item_variant_id').val() == '' ) { // Select to see if variant is selected in hidden field
+      jQuery('#submit_add_to_cart').click( function() {
+      	
+      	var data = {};
+      	
+      	jQuery.each(
+      		jQuery('#new_cart_item .formvars'),
+      		function(index,value)
+      		{
+      			data[index] = value;
+      		}
+      	);
+      	
+      	jQuery.ajax({
+      		url:'http://localhost:3000/shopping/cart_items',
+      		data:data,
+      		type:"POST",
+      		success:function(data)
+      		{}
+      	}).done(function( data ) {
+				alert( "Data Saved: ");
+				});;
+      	
+          /*if (jQuery('#cart_item_variant_id').val() == '' ) { // Select to see if variant is selected in hidden field
             alert('Please click on a specific item to add.');
           } else
           if (Hadean.Cart.NewForm.addToCart) {
@@ -21,7 +42,7 @@ Hadean.Cart = {
             jQuery(Hadean.Cart.NewForm.newFormId).submit();
             // We might want to submit as an ajax request. Then return the result to a light box.  (create an overlay on click)
 
-          }
+          }*/
         }
       )
       // This code is to change the color of the selected and non-selected variants
