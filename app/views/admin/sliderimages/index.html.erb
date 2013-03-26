@@ -1,0 +1,20 @@
+<h3>Slider - Imagenes</h3>
+
+<% content_for :sidemenu do %>
+  <div style="text-align:center">
+    <%= link_to "Nueva Imagen", new_admin_sliderimage_path, :class => "radius button", :method => 'get' %>
+   </div>
+<% end %>   
+   <table>
+    <thead>
+    <tr class='odd'>
+        <th class='column1_header'><%= "Nombre" %></th>
+    </tr>
+    </thead>
+    <% @images.each do |image| %>
+      <tr class='<%= cycle("odd", "")%>'>
+        <td><%= link_to image.name, edit_admin_sliderimage_path(image) %></td>
+        <td><%= link_to "borrar",  admin_sliderimage_path(image), confirm: 'Esta seguro?', method: :delete %></td>
+      </tr>
+    <% end %>
+  </table>

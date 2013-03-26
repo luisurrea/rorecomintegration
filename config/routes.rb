@@ -52,6 +52,7 @@ Hadean::Application.routes.draw do
   end
 
   namespace :admin do
+    resources :sliderimages, :only => [:new, :index, :create, :show, :edit, :update, :destroy]
     resources :staticpages, :only => [:new, :index, :create, :show, :edit, :update, :destroy] 
     resources :users
     resources :overviews, :only => [:index]

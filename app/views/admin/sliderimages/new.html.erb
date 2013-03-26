@@ -1,0 +1,6 @@
+<h3>Nueva imagen de slider</h3> <%= link_to 'Volver al listado', admin_sliderimages_path, :class => 'radius button', :style => "float:right; margin-top: -45px" %>
+
+<%= form_for @image, :url  => admin_sliderimages_path(@image) do |f| %>
+<%= render :partial => '/admin/sliderimages/form', :locals => {:f => f} %>
+ <%= f.submit "crear", :class  => "button" %>
+  <% end %>
