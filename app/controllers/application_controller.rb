@@ -10,6 +10,7 @@ class ApplicationController < ActionController::Base
                 :is_production_simulation,
                 :search_product,
                 :product_types,
+                :slider_images,
                 :myaccount_tab
 
   before_filter :secure_session
@@ -35,6 +36,10 @@ class ApplicationController < ActionController::Base
 
   def product_types
     @product_types ||= ProductType.roots
+  end
+  
+  def slider_images
+    @slider_images = Sliderimage.all
   end
 
   private

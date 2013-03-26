@@ -102,11 +102,13 @@
   </div>
   <!--end nav content -->
   <div class="row">
+  
+  	
+  
   <div id="featured">
-  	<%= image_tag("slider1.jpg", :alt => "logotramontina") %>
-  	<%= image_tag("slider2.jpg", :alt => "logotramontina") %>
-  	<%= image_tag("slider3.jpg", :alt => "logotramontina") %>
-  	<%= image_tag("slider4.jpg", :alt => "logotramontina") %>
+  		<% slider_images.each do |image|%>
+		  	<%= link_to image_tag(image.image_name) , image.image_link %>		  	
+  		<% end %>
   </div>
 	</div>
 </div>

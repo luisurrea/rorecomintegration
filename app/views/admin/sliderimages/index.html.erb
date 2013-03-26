@@ -13,7 +13,7 @@
     </thead>
     <% @images.each do |image| %>
       <tr class='<%= cycle("odd", "")%>'>
-        <td><%= link_to image.name, edit_admin_sliderimage_path(image) %></td>
+        <td><%= link_to image.image_name, edit_admin_sliderimage_path(image) %></td>
         <td><%= link_to "borrar",  admin_sliderimage_path(image), confirm: 'Esta seguro?', method: :delete %></td>
       </tr>
     <% end %>
