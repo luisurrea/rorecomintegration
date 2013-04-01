@@ -4,8 +4,8 @@
 
 <span style='color:<%= @product.active ? "#3A3" : "#C33" %>; float:right; margin-top: -45px'>
   <% if @product.available? %>
-    <%= link_to 'Activo', admin_merchandise_product_path(@product),
-                          :method => :delete,
+    <%= link_to 'Activo', deactivate_admin_merchandise_product_path(@product),
+                          :method => 'PUT',
                           :data => {:confirm => "Va a desactivar el producto, Esta seguro?"},
                           :class => 'button green-button' %>
   <% else %>

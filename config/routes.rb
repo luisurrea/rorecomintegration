@@ -172,7 +172,7 @@ Hadean::Application.routes.draw do
       resources :products do
         member do
           get :add_properties
-          put :activate
+          put :activate, :deactivate
         end
         resources :variants
       end

@@ -1,8 +1,6 @@
-<% content_for :head do -%>
+<% content_for :head do -%>  
   <%= stylesheet_link_tag 'signup.css' %>
-<% end %>
-<% content_for :bottom do -%>
-  <%= javascript_include_tag 'jquery.datePicker-2.1.2', 'datePickerInitialize' %>
+  <%= stylesheet_link_tag "http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" %>
 <% end %>
 <% if @user.errors.any? %>
   <div id="error_explanation" class='alert-box alert'>
@@ -27,7 +25,7 @@
          <%=form.label :email, 'Email*' %>
          <%= form.email_field :email, :autocomplete => 'off', :autocapitalize => 'off'  %>
          <%=form.label :birth_date, 'Fecha de nacimiento' %>
-         <%= form.text_field :birth_date, :class => 'eleven columns ui-yearpicker' %>
+         <%= form.text_field :birth_date, :class => 'eleven columns', :id => 'datepicker' %>
          <%=form.label :password, 'Contraseña' %>
          <%= form.password_field :password, :autocomplete => 'off', :autocapitalize => 'off'  %>
          <%=form.label :password_confirmation, 'Confirmar contraseña' %>

@@ -15,7 +15,7 @@
           <% end %>
           <br /> <br />
           <%= hidden_field_tag "shipping_category[#{@inoxmethod.shipping_category_id}]", @inoxmethod.id %> 
-          <p>Si la compra es superior a $30.000 El envio es gratuito, de lo contrario, tiene un valor de $5.000 adicional a la compra</p>
+          <p>El valor mínimo de compra es de $30.000. Envíos gratuitos a todo el país</p>
     <% end %>
     <%= submit_tag 'continuar', :class => 'radius button', :style => 'float:right;margin-bottom:20px;'%>
   <% end %>

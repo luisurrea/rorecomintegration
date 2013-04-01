@@ -25,3 +25,7 @@ $(document).ready(function($) {
         return false;
     });
 });
+
+$(function() {
+  $( "#datepicker" ).datepicker();
+});

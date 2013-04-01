@@ -1,5 +1,5 @@
 class Admin::Merchandise::ProductsController < Admin::BaseController
-  helper_method :sort_column, :sort_direction, :product_types
+  helper_method :sort_column, :sort_direction, :product_types, :deactivate
   respond_to :html, :json
   authorize_resource
 
@@ -103,6 +103,13 @@ class Admin::Merchandise::ProductsController < Admin::BaseController
       flash[:alert] = "Por favor agregue una descripcion antes de activarlo."
       redirect_to edit_admin_merchandise_products_description_url(@product)
     end
+  end
+
+  def deactivate
+    @product = Product.find(params[:id])
+    @product.active = false
+    @product.save
+    redirect_to admin_merchandise_product_url(@product)
   end
 
   def destroy
