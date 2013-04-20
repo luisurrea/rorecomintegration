@@ -27,5 +27,10 @@ $(document).ready(function($) {
 });
 
 $(function() {
-  $( "#datepicker" ).datepicker();
-});
+		$( "#datepicker" ).datepicker({
+			yearRange: '1910:2000',
+			changeMonth: true,
+			changeYear: true
+		});
+	});
+	
