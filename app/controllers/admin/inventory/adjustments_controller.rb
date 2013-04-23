@@ -4,9 +4,29 @@ class Admin::Inventory::AdjustmentsController < Admin::BaseController
   end
 
   def index
-    params[:page] ||= 1
-    params[:rows] ||= 20
-    @products = Product.paginate({:page => params[:page].to_i,:per_page => params[:rows].to_i})
+    if params[:name].present?
+        @products
+        params[:page] ||= 1
+        params[:rows] ||= 20
+        @products = Product.where('name LIKE ?', '%'+params[:name]+'%').
+                                              paginate(:per_page => 25, :page => params[:page].to_i)
+    
+    elsif params[:sku].present?
+       params[:page] ||= 1
+       @variant = Variant.where('sku LIKE ?', params[:sku]+'%')
+       if @variant.empty?
+          @products = Product.where('name LIKE ?', params[:name]).
+                                                paginate(:per_page => 25, :page => params[:page].to_i)
+       else
+          @variant.each do |var|
+            @products = Product.where('id = ?', var.product_id).paginate(:per_page => 25, :page => params[:page].to_i)
+          end
+       end
+    else    
+        params[:page] ||= 1
+        params[:rows] ||= 20
+        @products = Product.paginate({:page => params[:page].to_i,:per_page => params[:rows].to_i})
+    end    
   end
 
   def edit
