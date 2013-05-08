@@ -45,7 +45,7 @@ Hadean::Application.configure do
   :address              => "mail.inoxdobrasil.com.co",
   :port                 => 25,
   :domain               => 'inoxdobrasil.com.co',
-  :user_name            => 'info@inoxdobrasil.com.co',
+  :user_name            => 'mailer@inoxdobrasil.com.co',
   :password             => 'Eidb19213',
   :authentication       => :login,
   :enable_starttls_auto => false }
