@@ -2,14 +2,14 @@
 <% content_for :sidemenu do %>
 
   <div class='admin_filters'>
-    <%= form_tag admin_merchandise_products_path, :method => 'get', :id => "products_search" do %>
+    <%= form_tag admin_inventory_adjustments_path, :method => 'get', :id => "products_search" do %>
       <label>Nombre</label>
       <%= text_field_tag :name, params[:name] %>
-
+      <label>SKU</label>
+	  <%= text_field_tag :sku, params[:sku] %>
       <label>Categoria</label>
       <%= select_tag "product_type_id", options_from_collection_for_select(product_types, "id", "name"), :include_blank => true %>
-
-      <div style="text-align:center; margin-top: 15px">
+	  <div style="text-align:center; margin-top: 15px">
         <%= submit_tag "Buscar", :name => nil, :class => 'button red-button' %>
       </div>
       </p>
@@ -26,11 +26,17 @@
     <thead>
     <tr class='odd'>
       <th class='column1_header'>Nombre de producto</th>
+      <th >Sku</th>
+      <th >En Stock</th>
     </tr>
     </thead>
-    <% for product in @products %>
+    <% for @product in @products %>
       <tr class='<%= cycle("odd", "")%>'>
-        <td><%= link_to product.name, admin_inventory_adjustment_path(product) %></td>
+        <td><%= link_to @product.name, admin_inventory_adjustment_path(@product) %></td>
+        <% @product.variants.each do |variant| %>
+          <td><%= variant.sku %></td>
+      	  <td><%= link_to variant.inventory.count_on_hand, edit_admin_inventory_adjustment_path(variant) %></td>
+        <% end %>
       </tr>
     <% end %>
   </table>
