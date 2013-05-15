@@ -289,7 +289,7 @@ class Order < ActiveRecord::Base
   end
   def get_refventa
     self.refventa=nil
-    self.refventa=Time.now.to_formatted_s(:number)
+    self.refventa=Time.now.to_formatted_s(:number)+'000'+self.id.to_s
   end
   def get_cadena
     self.polcadena = Digest::MD5.hexdigest(POLKEY+"~"+POLID.to_s+"~"+self.get_refventa+"~"+self.total.to_s+"~"+POLMONEDA)
