@@ -8,7 +8,7 @@ class PolconfirmationController < ApplicationController
           flash[:alert] = 'no existe la orden'
         else
           redirect_to root_path  
-          flash[:alert] = @order.polid
+          flash[:alert] = @order
         end
         
       else 
