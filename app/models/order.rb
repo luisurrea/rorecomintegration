@@ -293,6 +293,7 @@ class Order < ActiveRecord::Base
   end
   def get_cadena
     self.polid=self.refventa
+    self.totalorder=self.total
     self.save
     self.polcadena = Digest::MD5.hexdigest(POLKEY+"~"+POLID.to_s+"~"+self.get_refventa+"~"+self.total.to_s+"~"+POLMONEDA)
   end

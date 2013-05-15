@@ -6,8 +6,8 @@ class PolconfirmationController < ApplicationController
         if @order.nil?
           redirect_to root        
         else 
-          if params[:firma]==Digest::MD5.hexdigest(POLKEY+"~"+POLID.to_s+"~"+@order.get_refventa+"~"+@order.total.to_s+"~"+POLMONEDA+"~"+params[:estado_pol])
-            
+          if params[:firma]==Digest::MD5.hexdigest(POLKEY+"~"+POLID.to_s+"~"+@order.polid+"~"+@order.totalorder.to_s+"~"+POLMONEDA+"~"+params[:estado_pol])
+            redirect_to 'http://google.com'
           end
         end
         
