@@ -3,7 +3,7 @@ class PolconfirmationController < ApplicationController
   def index
       if params[:firma]
         @order = Order.where('polid = ? ', params[:refVenta])
-        if @order.nil?
+        if @order.empty?
           redirect_to root        
           flash[:alert] = 'no existe la orden'
         else 
