@@ -15,6 +15,7 @@ class PolconfirmationController < ApplicationController
         
       else 
         redirect_to root_path
+        flash[:alert] = 'no llego parametro de firma'
       end
       
   end
