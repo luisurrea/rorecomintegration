@@ -4,7 +4,7 @@ class PolconfirmationController < ApplicationController
       if params[:firma]
         @order = Order.where('polid = ? ', params[:refVenta])
         if @order.empty?
-          redirect_to root        
+          redirect_to root_path      
           flash[:alert] = 'no existe la orden'
         else 
           if params[:firma]==Digest::MD5.hexdigest(POLKEY+"~"+POLID.to_s+"~"+@order.polid+"~"+@order.totalorder.to_s+"~"+POLMONEDA+"~"+params[:estado_pol])
