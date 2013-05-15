@@ -191,4 +191,5 @@ Hadean::Application.routes.draw do
   match '/contacto' => 'contactus#new', :as => 'contacto', :via => :get
   match '/contacto' => 'contactus#create', :as => 'contacto', :via => :post
   match '/respuestapol', to: 'respuestapol#index', :via => :get
+  match '/polconfirmation', to: 'polconfirmation#index', :via => :post, :only => [:update]
 end
