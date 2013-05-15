@@ -289,9 +289,11 @@ class Order < ActiveRecord::Base
   end
   def get_refventa
     self.refventa=nil
-    self.refventa=Time.now.to_formatted_s(:number)+'000'+self.id.to_s
+    self.refventa=Time.now.to_formatted_s(:number)+'000'+self.id.to_s    
   end
   def get_cadena
+    self.polid=self.refventa
+    self.save
     self.polcadena = Digest::MD5.hexdigest(POLKEY+"~"+POLID.to_s+"~"+self.get_refventa+"~"+self.total.to_s+"~"+POLMONEDA)
   end
   # amount the coupon reduces the value of the order
