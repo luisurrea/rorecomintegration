@@ -4,7 +4,7 @@ class PolconfirmationController < ApplicationController
       if params[:firma]
         @order = Order.find_by_polid(params[:refVenta])
         
-           @order.credited_amount = 12345
+           @order.order_complete!
            @order.save
            
            #flash[:alert] = 'las firmas coinciden'
