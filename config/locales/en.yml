@@ -2,7 +2,7 @@
 # See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  company:              'Tienda'
+  company:              'Inox do Brasil - Tramontina'
   hello:                'Hola'
   out_of_stock_notice:  'Lo sentimos este articulo esta agotado.'
   item_saved_for_later: 'El articulo sera guardado para despues.'
