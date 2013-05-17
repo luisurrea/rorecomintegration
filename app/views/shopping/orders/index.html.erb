@@ -64,7 +64,7 @@
 <%= hidden_field_tag 'refVenta', @order.get_refventa %>
 <%= hidden_field_tag 'iva', @order.get_iva %>
 <%= hidden_field_tag 'firma', @order.get_cadena %>
-<%= hidden_field_tag 'emailComprador', ''%>
+<%= hidden_field_tag 'emailComprador', @order.email%>
 <%= hidden_field_tag 'url_respuesta', 'http://inoxdobrasil.com.co/respuestapol'%>
 <%= image_submit_tag("logopol.png", :style => "float: right; margin-right: 25px; margin-bottom: 20px;")  %>
 <% end %>
