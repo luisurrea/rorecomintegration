@@ -1,22 +1,15 @@
 class PolconfirmationController < ApplicationController
   
   def index
-      if params[:firma]
+      if params[:ref_venta]
         @order = Order.find_by_polid(params[:refVenta])
-        
-           @order.order_complete!
-           @order.save
-           
-           #flash[:alert] = 'las firmas coinciden'
-           #else
-             #flash[:alert] = "No coinciden"
-        
-        
-        
-       
-        #flash[:alert] = 'no llego parametro de firma'
-      end
-      
+        if params[:firma]==Digest::MD5.hexdigest(POLKEY+"~"+POLID.to_s+"~"+@order.polid+"~"+@order.totalorder.to_s+"~"+POLMONEDA+"~"+params[:estado_pol])
+          @order.order_complete!
+          @order.save
+        end     
+      else
+        redirect_to root_path             
+      end      
   end
   
 end
