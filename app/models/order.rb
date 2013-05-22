@@ -203,7 +203,9 @@ class Order < ActiveRecord::Base
   def order_complete!
     self.state = 'complete'
     self.completed_at = Time.zone.now
-    update_inventory
+    if self.polstate == 'Transaccion aprobada'
+      update_inventory
+    end  
   end
 
   # This method will go to every order_item and calculate the total for that item.
