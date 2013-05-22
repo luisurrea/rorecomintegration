@@ -5,7 +5,8 @@ class PolconfirmationController < ApplicationController
         @order = Order.find_by_polid(params[:ref_venta])
         unless @order.nil?
           @order.order_complete!
-          @order.save
+          @order.shipped=true
+          @order.save          
         end     
       else
         redirect_to root_path             
