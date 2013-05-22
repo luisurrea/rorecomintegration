@@ -12,7 +12,6 @@ class CreateOrders < ActiveRecord::Migration
       t.boolean :active, :default => true, :null => false
       t.boolean :shipped, :default => false, :null => false
       t.integer :shipment_counter, :default => 0
-      t.string  :polid
       t.datetime :calculated_at
       t.datetime :completed_at
       
