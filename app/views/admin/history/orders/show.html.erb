@@ -31,12 +31,13 @@
         class='rounded-10 line_item_green '>
             <%= render :partial => '/shared/compact_address', :locals => {:shopping_address => @order.ship_address} %>
             <br>
-            <p><%= link_to 'Cambiar direccion', admin_history_order_addresses_path(@order), :class => 'button green' %> <br>
-            (This will not change the shipments that have already been placed)</p>
+            <p>
+            	<%= link_to 'Cambiar direccion', admin_history_order_addresses_path(@order), :class => 'button green' %> <br>
+            </p>
   </div>
 </div>
 
-<div class=' span-7 column '>
+<!--<div class=' span-7 column '>
   <b>Cargamentos:</b>
   <% @order.shipments.each do |shipment| %>
       <div  id='order-shipment-items'
@@ -79,5 +80,5 @@
                                 :class => 'button ' %>
     <% end %>
   </div>
-</div>
+</div>-->
 <%#= link_to 'Edit', edit_admin_history_order_path(@order) %>
