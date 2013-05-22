@@ -7,6 +7,7 @@
             Cliente:     <%= @order.name %><br/>
             Email:        <%= @order.email %><br/>
             Completa en: <%= @order.completed_at ? I18n.localize(@order.completed_at, :format => :us_time) : '' %><br/>
+            Transaccion PagosonLine:      <%= @order.polstate %><br/>
             <!--Enviada:      <%= @order.has_shipment? ? 'Yes' : 'No' %>--><br/>
   </div>
 </div>
