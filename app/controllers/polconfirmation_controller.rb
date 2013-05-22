@@ -4,10 +4,9 @@ class PolconfirmationController < ApplicationController
       if params[:ref_venta]
         @order = Order.find_by_polid(params[:ref_venta])
         unless @order.nil?
-          @estadopol=txstatus(params[:codigo_respuesta_pol], params[:estado_pol])
           @order.order_complete!
           @order.shipped=true
-          @order.polstate=@estadopol
+          @order.polstate = txstatus(params[:codigo_respuesta_pol], params[:estado_pol])
           @order.save          
         end     
       else
