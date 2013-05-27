@@ -107,7 +107,7 @@
   
   <div id="featured">
   		<% slider_images.each do |image|%>
-		  	<%= link_to image_tag(image.image_name) , image.image_link %>		  	
+		  	<%= link_to image_tag('slider/'+image.image_name) , image.image_link %>		  	
   		<% end %>
   </div>
 	</div>
