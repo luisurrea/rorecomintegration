@@ -45,7 +45,7 @@ class Shopping::BaseController < ApplicationController
 
   def find_or_create_order
     return @session_order if @session_order
-    if session[:order_id]
+    if session[:order_id] && current_user.orders != nil
       @session_order = current_user.orders.includes([ {:ship_address => :state},
                                                       {:bill_address => :state},
                                                       {:order_items =>
