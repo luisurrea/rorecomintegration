@@ -64,22 +64,39 @@ color:#fab300;
 background:url(logo-tramontina-99x20.png)no-repeat scroll right 0 transparent;
 position:absolute;
 font-size:smaller;
-margin: 2px 0 0 400px;
-padding: 10px 160px 10px 0;
+margin: 1px 0 0 365px;
+padding: 10px 152px 10px 0;
+}
+#fblink{
+background:url(logofb.png)no-repeat scroll right 0 transparent;
+position:absolute;
+margin: -10px 0 0 835px;
+padding: 10px 52px 45px 0;
+}
+#twtlink{
+background:url(logotwt.png)no-repeat scroll right 0 transparent;
+position:absolute;
+margin: -10px 0 0 890px;
+padding: 10px 52px 45px 0;
 }
 #cartitems{
 font-size:smaller;
 float:right;
-padding-top:9px;
-margin: 1px 5px 0 5px;
+padding-top:12px;
+margin: 1px 105px 0 2px;
 }
 #cart{
 background:url(cart.jpg)no-repeat scroll left 0 transparent;
 font-size:smaller;
 float:right;
 height:20px;
-margin: 4px 0 0 25px;
-padding: 6px 0 0 30px;
+margin: 4px 0 0 2px;
+padding: 9px 0 0 22px;
+}
+#fblogo
+{
+  float:right;
+  
 }
 #logbtns{
 font-size:smaller;
