@@ -70,7 +70,7 @@ class Admin::UsersController < Admin::BaseController
   private
 
   def form_info
-    @all_roles = Role.all
+    @all_roles = Role.find([1,2])
     @states    = ['inactive', 'active', 'canceled']
   end
 
