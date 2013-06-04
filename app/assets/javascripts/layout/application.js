@@ -27,6 +27,7 @@ $(function() {
   });
 
   $('form a.remove_child').live('click', function() {
+  	$(this).attr('style','color:red');
     var hidden_field = $(this).prev('input[type=hidden]')[0];
     if(hidden_field) {
       hidden_field.value = '1';
