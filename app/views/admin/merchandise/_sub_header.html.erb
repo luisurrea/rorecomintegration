@@ -3,6 +3,7 @@
 
     <ul>
       <!-- <li> <%#= link_to 'Brand',         edit_admin_merchandise_brand_path(@product.brand) %> </li> -->
+      	<li> <%= link_to 'Ver Producto',     admin_merchandise_product_path(@product) %> </li>
         <li>
           <%= link_to 'Descripcion',
                       edit_admin_merchandise_products_description_path(@product),
@@ -13,7 +14,6 @@
                       edit_admin_merchandise_images_product_path(@product),
                       :style => "#{@product.images.size == 0 ? 'color:#EF2255;' : ''}" %>
         </li>
-        <li> <%= link_to 'Producto',     admin_merchandise_product_path(@product) %> </li>
         <!--<li> <%= link_to 'Propiedades',
                           edit_admin_merchandise_changes_product_property_path(@product.id),
                           :style => "#{@product.properties.size == 0 ? 'color:#EF2255;' : ''}" %> </li>-->
