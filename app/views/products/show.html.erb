@@ -12,7 +12,16 @@
   <div class='span-1<%=@product.variants.empty? ? '9' : '8' %> float-left last'>
     <div class='imageproduct'>
     	<ul data-clearing>
+    		
+    		<%if @product.images.size > 1 %>
+    		
+	    		<%@product.images.each do |image|%>
+	    		<li><%= link_to image_tag(image.photo.url(:small)), image.photo.url(:large)  %></li>
+	    		
+	    		<%end%>
+	    	<%else%>	
        <li><%= link_to image_tag(@product.featured_image(:product)), @product.featured_image(:large) %></li><br/>
+       <%end%>
       </ul>
       
       <div class='addtocart'>
