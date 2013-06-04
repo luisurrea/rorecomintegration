@@ -29,7 +29,7 @@
   <label>Meta Descripcion</label>
   <p><%= @product.meta_description %></p>
 
-  <label>Tipo de producto</label>
+  <label>Categoria</label>
   <p><%= @product.product_type.name %></p>
 
   <label>Categoria de envio</label>
@@ -48,7 +48,7 @@
   <legend>Variantes</legend>
 
   <% if @product.variants.size == 0 %>
-    <p>No hay variantes creadas. <%= link_to 'Create some variants?', edit_admin_merchandise_multi_product_variant_path(@product) %></p>
+    <p>No hay variantes creadas. <%= link_to 'Crear Variantes', edit_admin_merchandise_multi_product_variant_path(@product) %></p>
   <% else %>
     <p><%= link_to 'Editar Variantes', edit_admin_merchandise_multi_product_variant_path(@product) %></p>
     <table>
