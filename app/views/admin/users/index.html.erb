@@ -1,4 +1,4 @@
-<h3>Usuarios</h3>
+<h3>Usuarios - Total: <%= @users.count%></h3>
 
 <% content_for :sidemenu do %>
   <div style="text-align:center">
@@ -34,6 +34,7 @@
       <th><%= sortable "Apellido" %></th>
       <th><%= sortable "email" %></th>
       <th>Estado</th>
+      <th>Creado en</th>
     </tr>
     </thead>
     <% @users.each do |user| %>
@@ -42,6 +43,7 @@
         <td><%= user.last_name %></td>
         <td><%= user.email %></td>
         <td><%= user.state %></td>
+        <td><%= user.created_at %></td>
       </tr>
     <% end %>
   </table>
