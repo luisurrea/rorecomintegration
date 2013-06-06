@@ -1,8 +1,8 @@
 class PolconfirmationController < ApplicationController
   
   def index
-      if params[:ref_venta]
-        @order = Order.find_by_polid(params[:ref_venta])
+      @order = Order.find_by_polid(params[:ref_venta])
+      if params[:firma].casecmp Digest::MD5.hexdigest(POLKEY+"~"+POLID.to_s+"~"+@order.polid+"~"+@order.totalorder.to_s+"0~"+POLMONEDA+"~"+params[:estado_pol]) == 0
         unless @order.nil?
           @order.polstate = txstatus(params[:codigo_respuesta_pol], params[:estado_pol])
           @order.order_complete!
