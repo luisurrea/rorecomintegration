@@ -485,7 +485,7 @@ class Order < ActiveRecord::Base
                                                                       params[:show_all] == 'true'
     grid = grid.where("orders.shipment_counter = ?", 0)             if params[:shipped].present? && params[:shipped] == 'true'
     grid = grid.where("orders.shipment_counter > ?", 0)            if params[:shipped].present? && params[:shipped] == 'false'
-    grid = grid.where("orders.completed_at IS NOT NULL")
+    #grid = grid.where("orders.completed_at IS NOT NULL")
     grid = grid.where("orders.number LIKE ?", "#{params[:number]}%")  if params[:number].present?
     grid = grid.where("orders.email LIKE ?", "#{params[:email]}%")    if params[:email].present?
     grid = grid.order("#{params[:sidx]} #{params[:sord]}").paginate(:page => params[:page].to_i, :per_page => params[:rows].to_i)

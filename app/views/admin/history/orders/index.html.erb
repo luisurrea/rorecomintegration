@@ -5,8 +5,10 @@
     <thead>
       <tr class='odd'>
         <th class='column1_header'>Numero</th>
+        <th>Estado</th>
         <th>Nombre</th>
         <th>Email</th>
+        <th>Estado POL</th>
         <th>Completa en</th>
         <!--<th>Enviada</th>-->
       </tr>
@@ -15,8 +17,10 @@
   <% @orders.each do |order| %>
     <tr class='<%= cycle("odd", "")%>'>
       <td><%= link_to order.number, admin_history_order_path(order) %></td>
+      <td><%= order.state %></td>
       <td><%= order.name %></td>
       <td><%= order.email %></td>
+      <td><%= order.polstate %></td>
       <td><%= order.completed_at %></td>
       <!--<td><%= order.has_shipment?.to_s %></td>-->
     </tr>
