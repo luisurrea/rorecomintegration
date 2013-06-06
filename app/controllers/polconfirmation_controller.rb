@@ -2,9 +2,9 @@ class PolconfirmationController < ApplicationController
   
   def index
       @order = Order.find_by_polid(params[:ref_venta])
-      if params[:ref_venta]#.casecmp Digest::MD5.hexdigest(POLKEY+"~"+POLID.to_s+"~"+@order.polid+"~"+@order.totalorder.to_s+"0~"+POLMONEDA+"~"+params[:estado_pol]) == 0
+      if params[:firma].eql? Digest::MD5.hexdigest(POLKEY+"~"+POLID.to_s+"~"+@order.polid+"~"+@order.totalorder.to_s+"0~"+POLMONEDA+"~"+params[:estado_pol]).upcase
         unless @order.nil?
-          @order.polid = Digest::MD5.hexdigest(POLKEY+"~"+POLID.to_s+"~"+@order.polid+"~"+@order.totalorder.to_s+"0~"+POLMONEDA+"~"+params[:estado_pol])
+          @order.polid = Digest::MD5.hexdigest(POLKEY+"~"+POLID.to_s+"~"+@order.polid+"~"+@order.totalorder.to_s+"0~"+POLMONEDA+"~"+params[:estado_pol]).upcase
           @order.polstate = params[:firma]
           @order.order_complete!
           @order.shipped=true
