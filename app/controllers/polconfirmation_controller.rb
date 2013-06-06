@@ -5,7 +5,7 @@ class PolconfirmationController < ApplicationController
         @order = Order.find_by_polid(params[:ref_venta])
         unless @order.nil?
           if params[:firma].eql? Digest::MD5.hexdigest(POLKEY+"~"+POLID.to_s+"~"+@order.polid+"~"+@order.totalorder.to_s+"0~"+POLMONEDA+"~"+params[:estado_pol]).upcase
-            if params[:estado_pol].eql? 4
+            if params[:estado_pol].eql? '4'
               @order.polstate = txstatus(params[:codigo_respuesta_pol], params[:estado_pol])
               @order.order_complete!
               @order.shipped=true
