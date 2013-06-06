@@ -1,5 +1,27 @@
 <h3>Ordenes</h3>
 
+<% content_for :sidemenu do %>
+
+  <div class='admin_filters'>
+    <%= form_tag admin_history_orders_path, :method => 'get', :id => "products_search" do %>
+      <label>Estado Orden</label>
+      <%= select_tag "state", "<option>in_progress</option><option>complete</option>".html_safe , :include_blank => true %>
+      <label>Estado POL</label>
+      <%= select_tag "polstate", "<option>Transaccion aprobada</option><option>Pendiente, Por favor revisar si el debito fue realizado en el Banco</option><option>Transaccion en proceso de validacion</option><option>Transaccion rechazada</option><option>Transaccion fallida</option><option>Transaccion rechazada por la entidad</option>".html_safe , :include_blank => true %>
+
+      <div style="text-align:center; margin-top: 15px">
+        <%= submit_tag "Buscar", :name => nil, :class => 'button red-button' %>
+      </div>
+      </p>
+      <div id="order_hidden">
+        <%= hidden_field_tag :direction, params[:direction] %>
+        <%= hidden_field_tag :sort, params[:sort] %>
+      </div>
+    <% end %>
+    <div class='clearfix'></div>
+  </div>
+<% end %>
+
 <div class="history_orders">
   <table>
     <thead>
