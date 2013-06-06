@@ -1,14 +1,20 @@
 class PolconfirmationController < ApplicationController
   
   def index
-      @order = Order.find_by_polid(params[:ref_venta])
-      if params[:firma].eql? Digest::MD5.hexdigest(POLKEY+"~"+POLID.to_s+"~"+@order.polid+"~"+@order.totalorder.to_s+"0~"+POLMONEDA+"~"+params[:estado_pol]).upcase
+      if params[:ref_venta]
+        @order = Order.find_by_polid(params[:ref_venta])
         unless @order.nil?
-          @order.polid = Digest::MD5.hexdigest(POLKEY+"~"+POLID.to_s+"~"+@order.polid+"~"+@order.totalorder.to_s+"0~"+POLMONEDA+"~"+params[:estado_pol]).upcase
-          @order.polstate = params[:firma]
-          @order.order_complete!
-          @order.shipped=true
-          @order.save          
+          if params[:firma].eql? Digest::MD5.hexdigest(POLKEY+"~"+POLID.to_s+"~"+@order.polid+"~"+@order.totalorder.to_s+"0~"+POLMONEDA+"~"+params[:estado_pol]).upcase
+            if params[:estado_pol]==4
+              @order.polstate = txstatus(params[:codigo_respuesta_pol], params[:estado_pol])
+              @order.order_complete!
+              @order.shipped=true
+              @order.save           
+            else
+              @order.polstate = txstatus(params[:codigo_respuesta_pol], params[:estado_pol])
+              @order.save
+            end      
+          end
         end     
       else
         redirect_to root_path             
