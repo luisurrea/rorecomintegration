@@ -3,6 +3,7 @@ class Admin::UsersController < Admin::BaseController
 
   def index
    # @users = User.find( :all)
+    @active_users = User.where("state LIKE 'active'")
     authorize! :view_users, current_user
     params[:page] ||= 1
     # @users = User.admin_grid(params)

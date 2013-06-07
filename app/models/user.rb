@@ -347,7 +347,7 @@ class User < ActiveRecord::Base
   # @param [Optional params]
   # @return [ Array[User] ]
   def self.admin_grid(params = {})
-    grid = self
+    grid = self.where("state LIKE 'active'")
     grid = grid.includes(:roles)
     grid = grid.where("users.first_name LIKE ?", "%#{params[:first_name]}%") if params[:first_name].present?
     grid = grid.where("users.last_name LIKE ?",  "%#{params[:last_name]}%")  if params[:last_name].present?
