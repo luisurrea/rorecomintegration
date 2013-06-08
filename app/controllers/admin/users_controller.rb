@@ -72,7 +72,7 @@ class Admin::UsersController < Admin::BaseController
 
   def form_info
     @all_roles = Role.find([1,2])
-    @shopping_addresses = current_user.shipping_addresses
+    @shopping_addresses = @user.shipping_addresses
     @states    = ['inactive', 'active', 'canceled']
   end
 
