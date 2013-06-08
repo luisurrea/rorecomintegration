@@ -40,8 +40,9 @@ class Notifier < ActionMailer::Base
   
   def contact_message(message)
     mail(:to => "luanur@hotmail.com",
-         :subject => message.subject) do |format|
+         :subject => 'formulario de contacto sitio Inox do Brasil') do |format|
       format.text { render :text => "nombre cliente:  #{message.name} email cliente: #{message.email} mensaje cliente: #{message.body}" }
+      format.html { render :text => "<h6>Nuevo mensaje de </h6> #{message.name} <br/> email cliente: #{message.email} <br/> mensaje cliente: #{message.body}" }
       
     end
   end
