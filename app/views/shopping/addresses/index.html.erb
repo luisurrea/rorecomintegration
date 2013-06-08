@@ -25,7 +25,7 @@
     <%= link_to 'Order Summary', shopping_orders_path, :class => 'button green' %>
   <% end %>
 </div>
-  <h5>..o cree una nueva direccion</h5>
+  <h5>cree una nueva direccion</h5>
 <br />
 <%= form_for @shopping_address, :url => shopping_addresses_path do |address_form| %>
   <%= render :partial =>  'form', :locals => {:f => address_form}  %>

@@ -18,22 +18,23 @@
 	<div id="signup" class='six columns centered'>
     <%= form_for @user, :url => customer_registrations_path(@user)  do |form| %>
       <fieldset>
-         <%=form.label :first_name, 'Nombre*' %>
+         <%=form.label :first_name, 'Nombre *' %>
          <%= form.text_field :first_name %>
-         <%=form.label :last_name, 'Apellido' %>
+         <%=form.label :last_name, 'Apellido *' %>
          <%= form.text_field :last_name %>
-         <%=form.label :email, 'Email*' %>
+         <%=form.label :email, 'Email *' %>
          <%= form.email_field :email, :autocomplete => 'off', :autocapitalize => 'off'  %>
          <%=form.label :birth_date, 'Fecha de nacimiento' %>
          <%= form.text_field :birth_date, :class => 'eleven columns', :id => 'datepicker' %>
-         <%=form.label :password, 'Contraseña' %>
+         <%=form.label :password, 'Contraseña *' %>
          <%= form.password_field :password, :autocomplete => 'off', :autocapitalize => 'off'  %>
-         <%=form.label :password_confirmation, 'Confirmar contraseña' %>
+         <%=form.label :password_confirmation, 'Confirmar contraseña *' %>
          <%= form.password_field :password_confirmation, :autocomplete => 'off', :autocapitalize => 'off'  %>
          <%#= form.buttons do %>
          <%= form.submit "Registrese", :class => 'small button' %>
       <%# end %>
       </fieldset>
     <% end %>
+    <span style="color: red">* Requerido.</span>
   </div>
 </div>

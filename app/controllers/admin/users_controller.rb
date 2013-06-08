@@ -43,7 +43,7 @@ class Admin::UsersController < Admin::BaseController
   end
 
   def edit
-    @user = User.includes(:roles).find(params[:id])
+    @user = User.includes(:roles, :addresses).find(params[:id])
     authorize! :create_users, current_user
     form_info
   end
@@ -72,6 +72,7 @@ class Admin::UsersController < Admin::BaseController
 
   def form_info
     @all_roles = Role.find([1,2])
+    @shopping_addresses = current_user.shipping_addresses
     @states    = ['inactive', 'active', 'canceled']
   end
 

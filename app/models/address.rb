@@ -44,6 +44,7 @@ class Address < ActiveRecord::Base
   #validates :state_name,  :presence => true,  :if => Proc.new { |address| address.state_id.blank?   }
   validates :zip_code,    :presence => true,       :length => { :maximum => 12 }
   #validates :phone_id,    :presence => true
+  validates :alternative_phone,    :presence => true
   before_validation :sanitize_data
 
   #accepts_nested_attributes_for :phones

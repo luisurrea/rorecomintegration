@@ -16,7 +16,7 @@
      <%= f.text_field :last_name, :class => 'span-3' %>
      <%= f.label :address1, 'Direccion *' %>
      <%= f.text_field :address1 %><br/>
-     <%= f.label :alternative_phone, 'Telefono de contacto' %>
+     <%= f.label :alternative_phone, 'Telefono de contacto **' %>
      <%= f.text_field :alternative_phone %>
      <% if Settings.require_state_in_address %>
      	 <%= f.label    :state_id, "Departamento *" %>
@@ -42,4 +42,7 @@
      <div class="actions prepend-1">
     	 <%= submit_tag 'Crear direccion', :class => 'button ar-red-small-button' %>
      </div>
+     <br /><br />
+     <span style="color: red">* Requerido.</span> <br />
+     <span style="color: red">** El telefono de contacto es de vital importancia para asegurar el envio de la mercancia.</span>
 </div>

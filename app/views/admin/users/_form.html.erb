@@ -38,6 +38,22 @@
     </ul>
   </fieldset>
 <% end %>
+
+<% if  @shopping_addresses.empty? %>
+<% else %>
+	<fieldset>
+	<legend>Direccion del usuario</legend>	
+	<div id='shopping_addresses_selections' class='span-24 last'>
+  <% @shopping_addresses.each do |shopping_address| %>
+    <div class='four columns' style="border-style:solid; border-color:#CCCCCC; border-width: 1px; margin-bottom: 10px;">
+      <br />
+      <%= render :partial => '/shared/compact_address', :locals => {:shopping_address => shopping_address} %>
+     	<br />
+    </div>    
+  <% end %>
+  </fieldset>
+<% end %>
+
 <fieldset>
   <legend>Roles de Usuario</legend>
   <% @all_roles.each do |role| %>
@@ -48,3 +64,13 @@
     </div>
   <% end %>
 </fieldset>
+
+
+
+
+
+
+
+
+
+

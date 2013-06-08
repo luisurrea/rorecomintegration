@@ -22,21 +22,22 @@
   <% end %>
 	<div class="twelve columns">
 	<p>
-		<%= form.label :name, 'Nombre' %>
+		<%= form.label :name, 'Nombre *' %>
 		<%= form.text_field :name %>
 	</p>
 	<p>
-		<%= form.label :email, 'Direccion de correo electronico' %>
+		<%= form.label :email, 'Direccion de correo electronico *' %>
 		<%= form.text_field :email %>
 	</p>
 	<p>
-		<%= form.label :body, 'Escriba su mensaje' %>
+		<%= form.label :body, 'Escriba su mensaje *' %>
 		<%= form.text_area :body %>
 	</p>
 	<%= form.submit "Enviar", :class => 'button' %>
 	<br /><br />
 	</div>
 	</fieldset>
+	<span style="color: red">* Requerido.</span>
 <% end %>
 </div>
 </div>
