@@ -1,10 +1,10 @@
 class ContactusController < ApplicationController
   def new
-    @message = ContactMessage.new
+    @message = Contactus.new
   end
 
   def create
-    @message = ContactMessage.new(params[:message])
+    @message = Contactus.new(params[:contactus])
     
     if @message.valid?
       Notifier.contact_message(@message).deliver

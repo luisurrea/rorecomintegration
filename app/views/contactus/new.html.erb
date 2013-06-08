@@ -7,7 +7,7 @@
 
 <div class="six columns centered">
 
-<%= form_for @message, :url => contacto_path do |form| %>
+<%= form_for @message, :url => contacto_path(@message) do |form| %>
 <fieldset>
 	<% if @message.errors.any? %>
     <div id="error_explanation">
@@ -22,22 +22,22 @@
   <% end %>
 	<div class="twelve columns">
 	<p>
-		<%= label_tag 'Nombre' %>
-		<%= text_field_tag :name %>
+		<%= form.label :name, 'Nombre' %>
+		<%= form.text_field :name %>
 	</p>
 	<p>
-		<%= label_tag 'Direccion de correo electronico' %>
-		<%= text_field_tag :email %>
+		<%= form.label :email, 'Direccion de correo electronico' %>
+		<%= form.text_field :email %>
 	</p>
 	<p>
-		<%= label_tag 'Asunto' %>
-		<%= text_field_tag :subject %>
+		<%= form.label :subject, 'Asunto' %>
+		<%= form.text_field :subject %>
 	</p>
 	<p>
-		<%= label_tag 'Escriba su mensaje' %>
-		<%= text_area_tag :body %>
+		<%= form.label :body, 'Escriba su mensaje' %>
+		<%= form.text_area :body %>
 	</p>
-	<%= submit_tag "Enviar", :class => 'button' %>
+	<%= form.submit "Enviar", :class => 'button' %>
 	<br /><br />
 	</div>
 	</fieldset>
