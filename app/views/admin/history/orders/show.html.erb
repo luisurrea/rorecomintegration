@@ -15,12 +15,12 @@
 <% if @order.order_items.size > 0 %>
 
   <div class=' span-8 column'>
-  <b>Items</b>
+  <b>Items - sku</b>
     <div  id='order-items'
           class=' rounded-10 line_item_blue '>
 
             <% @order.order_items.each do |item| %>
-              <%= item.variant.product_name %> <%= number_to_currency item.total %><br/>
+              <%= item.variant.product_name %> - <%= item.variant.sku %> <%= number_to_currency item.total %><br/>
             <% end %>
     </div>
   </div>
