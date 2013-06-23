@@ -1,6 +1,7 @@
 Hadean::Application.configure do
   # Settings specified here will take precedence over those in config/environment.rb
 
+  
   # Raise exception on mass assignment protection for Active Record models
   config.active_record.mass_assignment_sanitizer = :strict
 
@@ -23,7 +24,7 @@ Hadean::Application.configure do
   config.assets.debug = true
 
   # Show full error reports and disable caching
-  config.consider_all_requests_local       = true
+  config.consider_all_requests_local       = false
   #config.action_view.debug_rjs             = true
   config.action_controller.perform_caching = true
 
