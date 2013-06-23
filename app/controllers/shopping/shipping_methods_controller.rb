@@ -40,7 +40,7 @@ class Shopping::ShippingMethodsController < Shopping::BaseController
     end
     respond_to do |format|
       if all_selected
-        format.html { redirect_to(shopping_orders_url, :notice => I18n.t('shipping_method_updated')) }
+        format.html { redirect_to(shopping_orders_url) }
         format.xml  { head :ok }
       else
         format.html { redirect_to( shopping_shipping_methods_url, :notice => I18n.t('all_shipping_methods_must_be_selected')) }
