@@ -41,6 +41,11 @@ class ApplicationController < ActionController::Base
   
   def all_product_types
     @all_product_types = ProductType.all
+    @all_product_types.each do |pt|
+      unless pt.parent_id.nil?
+        pt.name="- "+pt.name
+      end
+    end
   end
   
   def slider_images
