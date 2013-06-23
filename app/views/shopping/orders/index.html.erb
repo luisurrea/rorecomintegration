@@ -70,8 +70,8 @@
 <%if @order.total > 30000 %>
 	<%= image_submit_tag("logopol.png", :style => "float: right; margin-right: 25px; margin-bottom: 20px;")  %>
 <%else%>
-	<%= link_to 'Seguir comprando', root_path, :style => "float: right; margin-right: 25px; margin-bottom: 20px; color:red;" , :class=> 'small radius button' %>
-	<%= label :low_price_notice, "Su compra aun no puede ser procesada por ser inferior a $30.000", :style => "float: right; margin-right: 10px;"  %>
+	<%= link_to 'Seguir comprando', root_path, :style => "float: right; margin-right: 25px; margin-bottom: 20px;" , :class=> 'small radius button' %>
+	<%= label :low_price_notice, "Su compra aun no puede ser procesada por ser inferior a $30.000", :style => "float: right; margin-right: 10px; color:red;"  %>
 <%end%>
 <% end %>
   </div>
