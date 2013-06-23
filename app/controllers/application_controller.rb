@@ -10,6 +10,7 @@ class ApplicationController < ActionController::Base
                 :is_production_simulation,
                 :search_product,
                 :product_types,
+                :all_product_types,
                 :slider_images,
                 :myaccount_tab
 
@@ -36,6 +37,10 @@ class ApplicationController < ActionController::Base
 
   def product_types
     @product_types ||= ProductType.roots
+  end
+  
+  def all_product_types
+    @all_product_types = ProductType.all
   end
   
   def slider_images

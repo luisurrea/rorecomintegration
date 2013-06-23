@@ -5,15 +5,19 @@ class Admin::Inventory::AdjustmentsController < Admin::BaseController
 
   def index
     if params[:name].present?
-        @products
         params[:page] ||= 1
         params[:rows] ||= 20
         @products = Product.where('name LIKE ?', '%'+params[:name]+'%').
                                               paginate(:per_page => 25, :page => params[:page].to_i)
+    elsif params[:product_type_id].present?
+        params[:page] ||= 1
+        params[:rows] ||= 20
+        @products = Product.where('product_type_id LIKE ?', params[:product_type_id]).
+                                              paginate(:per_page => 25, :page => params[:page].to_i)
     
     elsif params[:sku].present?
        params[:page] ||= 1
-       @variant = Variant.where('sku LIKE ?', params[:sku]+'%')
+       @variant = Variant.where('sku LIKE ?', '%'+params[:sku]+'%')
        if @variant.empty?
           @products = Product.where('name LIKE ?', params[:name]).
                                                 paginate(:per_page => 25, :page => params[:page].to_i)
