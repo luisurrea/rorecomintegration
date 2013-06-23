@@ -1,6 +1,6 @@
 <% if @user.errors.any? %>
   <div id="error_explanation">
-    <h2><%= pluralize(@user.errors.count, "error") %> prohibited this password_reset from being saved:</h2>
+    <h6><%= pluralize(@user.errors.count, "error") %> No fue posible restablecer la contraseña:</h6>
 
     <ul>
     <% @user.errors.full_messages.each do |msg| %>
@@ -11,16 +11,16 @@
 <% end %>
 
   <div>
-    Please enter your new password.
+    Por favor ingrese la nueva contraseña.
   </div>
 
   <div class="field">
-    <%= f.label :password %><br />
+    <%= f.label :password, "Contraseña" %><br />
     <%= f.password_field :password %>
   </div>
 
   <div class="field">
-    <%= f.label :password_confirmation %><br />
+    <%= f.label :password_confirmation, "Confirmar contraseña" %><br />
     <%= f.password_field :password_confirmation %>
   </div>
 
