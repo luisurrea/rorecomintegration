@@ -11,7 +11,7 @@ class Customer::PasswordResetsController < ApplicationController
         @user = User.find_by_email(params[:user][:email])
         if @user
           @user.deliver_password_reset_instructions!
-          flash[:notice] = 'Instructions to reset your password have been emailed.'
+          flash[:notice] = 'Las instrucciones para restablecer la contraseña fueron enviadas a su direccion de correo.'
           render :template => '/customer/password_resets/confirmation'
         else
           @user = User.new
@@ -29,8 +29,8 @@ class Customer::PasswordResetsController < ApplicationController
       @user.password_confirmation = params[:user][:password_confirmation]
       if @user.save
         #@user.activate!
-        flash[:notice] = 'Your password has been reset'
-        redirect_to login_url
+        flash[:notice] = 'su contraseña fue restablecida.'
+        redirect_to root_path
       else
         render :action => :edit
       end
@@ -40,7 +40,7 @@ class Customer::PasswordResetsController < ApplicationController
 
     def load_user_using_perishable_token
       @user = User.find_by_perishable_token( params[:id])
-      flash[:notice] = 'The link you used in no longer valid.  Click the password reset link to get a new link to reset your password.'
+      flash[:notice] = 'Este enlace no funcionara mas, si pierde sus datos tiene que restablecer su contraseña nuevamente.'
       redirect_to login_url and return unless @user
     end
 
