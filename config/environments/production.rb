@@ -20,6 +20,7 @@ Hadean::Application.configure do
 
   config.assets.precompile += %w( *.js )
   config.assets.precompile += %w( *.css )
+  config.assets.precompile += %w[*.png *.jpg *.jpeg *.gif] 
   
   # Full error reports are disabled and caching is turned on
   config.consider_all_requests_local       = false
