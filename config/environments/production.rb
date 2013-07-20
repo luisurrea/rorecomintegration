@@ -19,32 +19,8 @@ Hadean::Application.configure do
   # config.assets.precompile += %w( *.css *.js )
 
   config.assets.precompile += %w( *.js )
-  config.assets.precompile += [ 'admin.css',
-                                'autocomplete.css',
-                                'chosen.css',
-                                'generic_dialog.css',
-                                'home_page.css',
-                                'ie.css',
-                                'ie6.css',
-                                'login.css',
-                                'main.css',
-                                'markdown.css',
-                                'outfits.css',
-                                'print.css',
-                                'product_page.css',
-                                'products_page.css',
-                                'screen.css',
-                                'shopping_cart_page.css',
-                                'signup.css',
-                                'sprite.css',
-                                'store_credits.css',
-                                'stylist_admin.css',
-                                'stylist_cart.css',
-                                'tables.css',
-                                'cupertino/jquery-ui-1.8.12.custom.css',
-                                'modstyles.css',
-                                'scaffold.css']
-
+  config.assets.precompile += %w( *.css )
+  
   # Full error reports are disabled and caching is turned on
   config.consider_all_requests_local       = false
   config.action_controller.perform_caching = true
@@ -76,7 +52,21 @@ Hadean::Application.configure do
   # Enable serving of images, stylesheets, and javascripts from an asset server
   # config.action_controller.asset_host = "http://assets.example.com"
 
+  config.action_mailer.raise_delivery_errors = true
   config.action_mailer.default_url_options = { :host => 'inoxdobrasil.com.co' }
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+  :address              => "mail.inoxdobrasil.com.co",
+  :port                 => 25,
+  :domain               => 'inoxdobrasil.com.co',
+  :user_name            => 'mailer@inoxdobrasil.com.co',
+  :password             => 'Eidb19213',
+  :authentication       => :login,
+  :enable_starttls_auto => false }
+  
+  POLID = Settings.pol.polid
+  POLKEY = Settings.pol.polkey
+  POLMONEDA = Settings.pol.moneda
   # Disable delivery errors, bad email addresses will be ignored
   # config.action_mailer.raise_delivery_errors = false
 
